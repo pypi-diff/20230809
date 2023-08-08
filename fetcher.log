@@ -877,3 +877,60 @@
 [2023-08-09 00:46:01] INFO root fetch - processPackages [ddqla]: Remove: archive file [/home/abi/fetcher/tmp/ddqla-0.1.25.tar.gz]
 [2023-08-09 00:46:01] INFO root fetch - main [MainThread]: End processing [ddqla]: success
 [2023-08-09 00:46:01] INFO root fetch - main [MainThread]: Store serial: [19228300]
+[2023-08-09 00:51:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19228300]
+[2023-08-09 00:51:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-09 00:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polsartools
+[2023-08-09 00:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterlab-sql-editor
+[2023-08-09 00:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llm-repl
+[2023-08-09 00:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: s2vit
+[2023-08-09 00:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modular-rl
+[2023-08-09 00:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: firexapp
+[2023-08-09 00:51:09] INFO root fetch - processPackages [jupyterlab-sql-editor]: New version: [0.1.71a4] Old Version: [0.1.71a2]
+[2023-08-09 00:51:09] INFO root fetch - processPackages [firexapp]: New version: [5.3.2] Old Version: [5.3.1]
+[2023-08-09 00:51:09] INFO root fetch - processPackages [jupyterlab-sql-editor]: Downloading https://files.pythonhosted.org/packages/4e/11/ada18b2605749d607ff61068bddc031883a13e86cf551a650d225cc3ca81/jupyterlab_sql_editor-0.1.71a2.tar.gz
+[2023-08-09 00:51:09] INFO root fetch - processPackages [s2vit]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-09 00:51:09] INFO root fetch - processPackages [polsartools]: New version: [0.3] Old Version: [0.2]
+[2023-08-09 00:51:09] INFO root fetch - processPackages [llm-repl]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-09 00:51:09] INFO root fetch - processPackages [firexapp]: Downloading https://files.pythonhosted.org/packages/62/4a/14202f02326029919e97890e454198789256fc7660914a7341e4a5a9d0ea/firexapp-5.3.1.tar.gz
+[2023-08-09 00:51:09] INFO root fetch - processPackages [modular-rl]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-08-09 00:51:10] INFO root fetch - processPackages [modular-rl]: Downloading https://files.pythonhosted.org/packages/c1/c2/b1727a9f0dd0045e91a259c8a573c7b4cb79d1224fffaf5ce82e6bd875b6/modular_rl-0.4.1.tar.gz
+[2023-08-09 00:51:10] INFO root fetch - processPackages [polsartools]: Downloading https://files.pythonhosted.org/packages/93/f1/e61341f23c0813365e313cba794a5bfde89dd828d83a85e2025e1632babc/polsartools-0.2.tar.gz
+[2023-08-09 00:51:10] INFO root fetch - processPackages [s2vit]: Downloading https://files.pythonhosted.org/packages/b4/9c/15fa3ca30d5ec72d54ca9a3cf03cb15d6010c5e095d0ab7efdf9aa4c3fc1/s2vit-0.1.0.tar.gz
+[2023-08-09 00:51:10] INFO root fetch - processPackages [llm-repl]: Downloading https://files.pythonhosted.org/packages/69/e6/47f6fa1800f5d5845b00a725cbcd9e7d3ca909e3dce7ad5f5c5ed66e1dce/llm-repl-0.0.1.tar.gz
+[2023-08-09 00:51:10] INFO root fetch - processPackages [firexapp]: Downloading https://files.pythonhosted.org/packages/53/3a/f28e6e7b4af6c993e7631ded8560df6d399d025ef612f442e5a233297150/firexapp-5.3.2.tar.gz
+[2023-08-09 00:51:10] INFO root fetch - processPackages [jupyterlab-sql-editor]: Downloading https://files.pythonhosted.org/packages/e2/7a/49452eac74c5e979fa3250ddc0812d819572a936f2666edecf500c0ca710/jupyterlab_sql_editor-0.1.71a4.tar.gz
+[2023-08-09 00:51:10] INFO root fetch - processPackages [firexapp]: executing diffoscope
+[2023-08-09 00:51:10] INFO root fetch - processPackages [firexapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firexapp-5.3.1.tar.gz tmp/firexapp-5.3.2.tar.gz --markdown 20230809/f/firexapp/5.3.1-5.3.2/diff.md --exclude *.pyd
+[2023-08-09 00:51:10] INFO root fetch - processPackages [modular-rl]: Downloading https://files.pythonhosted.org/packages/d0/0e/05d10300b533ea5dd824f272fa50d0e343b238c0651821e1ca6b6421f731/modular_rl-0.4.2.tar.gz
+[2023-08-09 00:51:10] INFO root fetch - processPackages [polsartools]: Downloading https://files.pythonhosted.org/packages/29/58/82f2af4127070fb00667659c044a53c1205ca12e00a5e68d1987e07e7f73/polsartools-0.3.tar.gz
+[2023-08-09 00:51:10] INFO root fetch - processPackages [llm-repl]: Downloading https://files.pythonhosted.org/packages/e4/78/b801396164a8f2500b262f99f6a913349297904c0cc3b776455d66a3ed64/llm-repl-0.0.2.tar.gz
+[2023-08-09 00:51:10] INFO root fetch - processPackages [s2vit]: Downloading https://files.pythonhosted.org/packages/d2/39/8d4749187d7babdc76f50519b68837219317656beb290535b6e4a59c4e36/s2vit-0.2.0.tar.gz
+[2023-08-09 00:51:10] INFO root fetch - processPackages [modular-rl]: executing diffoscope
+[2023-08-09 00:51:10] INFO root fetch - processPackages [modular-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modular_rl-0.4.1.tar.gz tmp/modular_rl-0.4.2.tar.gz --markdown 20230809/m/modular-rl/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-08-09 00:51:10] INFO root fetch - processPackages [polsartools]: executing diffoscope
+[2023-08-09 00:51:10] INFO root fetch - processPackages [polsartools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polsartools-0.2.tar.gz tmp/polsartools-0.3.tar.gz --markdown 20230809/p/polsartools/0.2-0.3/diff.md --exclude *.pyd
+[2023-08-09 00:51:10] INFO root fetch - processPackages [llm-repl]: executing diffoscope
+[2023-08-09 00:51:10] INFO root fetch - processPackages [llm-repl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-repl-0.0.1.tar.gz tmp/llm-repl-0.0.2.tar.gz --markdown 20230809/l/llm-repl/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-09 00:51:10] INFO root fetch - processPackages [s2vit]: executing diffoscope
+[2023-08-09 00:51:10] INFO root fetch - processPackages [s2vit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2vit-0.1.0.tar.gz tmp/s2vit-0.2.0.tar.gz --markdown 20230809/s/s2vit/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-09 00:51:11] INFO root fetch - processPackages [jupyterlab-sql-editor]: executing diffoscope
+[2023-08-09 00:51:11] INFO root fetch - processPackages [jupyterlab-sql-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_sql_editor-0.1.71a2.tar.gz tmp/jupyterlab_sql_editor-0.1.71a4.tar.gz --markdown 20230809/j/jupyterlab-sql-editor/0.1.71a2-0.1.71a4/diff.md --exclude *.pyd
+[2023-08-09 00:51:11] INFO root fetch - processPackages [firexapp]: Remove: archive file [/home/abi/fetcher/tmp/firexapp-5.3.1.tar.gz]
+[2023-08-09 00:51:11] INFO root fetch - processPackages [firexapp]: Remove: archive file [/home/abi/fetcher/tmp/firexapp-5.3.2.tar.gz]
+[2023-08-09 00:51:11] INFO root fetch - main [MainThread]: End processing [firexapp]: success
+[2023-08-09 00:51:12] INFO root fetch - processPackages [s2vit]: Remove: archive file [/home/abi/fetcher/tmp/s2vit-0.1.0.tar.gz]
+[2023-08-09 00:51:12] INFO root fetch - processPackages [s2vit]: Remove: archive file [/home/abi/fetcher/tmp/s2vit-0.2.0.tar.gz]
+[2023-08-09 00:51:12] INFO root fetch - main [MainThread]: End processing [s2vit]: success
+[2023-08-09 00:51:12] INFO root fetch - processPackages [llm-repl]: Remove: archive file [/home/abi/fetcher/tmp/llm-repl-0.0.1.tar.gz]
+[2023-08-09 00:51:12] INFO root fetch - processPackages [llm-repl]: Remove: archive file [/home/abi/fetcher/tmp/llm-repl-0.0.2.tar.gz]
+[2023-08-09 00:51:12] INFO root fetch - main [MainThread]: End processing [llm-repl]: success
+[2023-08-09 00:51:12] INFO root fetch - processPackages [modular-rl]: Remove: archive file [/home/abi/fetcher/tmp/modular_rl-0.4.1.tar.gz]
+[2023-08-09 00:51:12] INFO root fetch - processPackages [modular-rl]: Remove: archive file [/home/abi/fetcher/tmp/modular_rl-0.4.2.tar.gz]
+[2023-08-09 00:51:12] INFO root fetch - main [MainThread]: End processing [modular-rl]: success
+[2023-08-09 00:51:12] INFO root fetch - processPackages [polsartools]: Remove: archive file [/home/abi/fetcher/tmp/polsartools-0.2.tar.gz]
+[2023-08-09 00:51:12] INFO root fetch - processPackages [polsartools]: Remove: archive file [/home/abi/fetcher/tmp/polsartools-0.3.tar.gz]
+[2023-08-09 00:51:12] INFO root fetch - main [MainThread]: End processing [polsartools]: success
+[2023-08-09 00:51:12] INFO root fetch - processPackages [jupyterlab-sql-editor]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_sql_editor-0.1.71a2.tar.gz]
+[2023-08-09 00:51:12] INFO root fetch - processPackages [jupyterlab-sql-editor]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_sql_editor-0.1.71a4.tar.gz]
+[2023-08-09 00:51:12] INFO root fetch - main [MainThread]: End processing [jupyterlab-sql-editor]: success
+[2023-08-09 00:51:12] INFO root fetch - main [MainThread]: Store serial: [19228319]
