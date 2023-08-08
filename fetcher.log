@@ -523,3 +523,91 @@
 [2023-08-09 00:19:55] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.8.dev554952119-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-08-09 00:19:55] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
 [2023-08-09 00:19:55] INFO root fetch - main [MainThread]: Store serial: [19228097]
+[2023-08-09 00:25:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19228097]
+[2023-08-09 00:25:07] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-09 00:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thatway
+[2023-08-09 00:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: couchbase
+[2023-08-09 00:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: honeypots
+[2023-08-09 00:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gretel-client
+[2023-08-09 00:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smart-app-framework
+[2023-08-09 00:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gravlax
+[2023-08-09 00:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: returnn
+[2023-08-09 00:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: remotior-sensus
+[2023-08-09 00:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: multiparlog
+[2023-08-09 00:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: emmet-core
+[2023-08-09 00:25:08] INFO root fetch - processPackages [smart-app-framework]: New version: [2.3.0rc3] Old Version: [2.3.0rc2]
+[2023-08-09 00:25:08] INFO root fetch - processPackages [thatway]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-08-09 00:25:08] INFO root fetch - processPackages [remotior-sensus]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-09 00:25:08] INFO root fetch - processPackages [honeypots]: New version: [0.9] Old Version: [0.8]
+[2023-08-09 00:25:08] INFO root fetch - processPackages [gretel-client]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-09 00:25:08] INFO root fetch - processPackages [multiparlog]: New version: [1.0.3] Old Version: [1.0.0]
+[2023-08-09 00:25:08] WARNING root fetch - processPackages [gravlax]: Skipping, unable to determine old version
+[2023-08-09 00:25:08] INFO root fetch - processPackages [gravlax]: Start processing: emmet-builders
+[2023-08-09 00:25:08] INFO root fetch - main [MainThread]: End processing [gravlax] error
+[2023-08-09 00:25:08] INFO root fetch - processPackages [couchbase]: New version: [4.1.7rc1] Old Version: [4.1.7]
+[2023-08-09 00:25:08] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/2d/82/4f0f8be3b8f3c4f00b90027ff3c32958918221be17a5ad7c3cf298d4af04/remotior_sensus-0.0.8.tar.gz
+[2023-08-09 00:25:08] INFO root fetch - processPackages [smart-app-framework]: Downloading https://files.pythonhosted.org/packages/bd/ef/8ed9cbe68cdb28c3188d0bf29bc114517f1abe586a0d302bfb26ce120589/smart_app_framework-2.3.0rc2-py3-none-any.whl
+[2023-08-09 00:25:08] INFO root fetch - processPackages [emmet-core]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-09 00:25:08] INFO root fetch - processPackages [returnn]: New version: [1.20230808.235536] Old Version: [1.20230804.10414]
+[2023-08-09 00:25:08] INFO root fetch - processPackages [thatway]: Downloading https://files.pythonhosted.org/packages/cb/d1/99e9add2a9f25aa752e856cd1eeae8bf2c761f4f8658963674922306d35c/thatway-0.5.0.tar.gz
+[2023-08-09 00:25:08] INFO root fetch - processPackages [honeypots]: Downloading https://files.pythonhosted.org/packages/0e/0e/9ad415b1237e1527a13d7363414a7929f7bfa883de9cfac85572358a0499/honeypots-0.8.tar.gz
+[2023-08-09 00:25:08] INFO root fetch - processPackages [emmet-builders]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-09 00:25:08] INFO root fetch - processPackages [multiparlog]: Downloading https://files.pythonhosted.org/packages/15/42/ab245f46977beb5ad1780e3c45fb3c698d5138ada35f8e8f85d23fc297c4/multiparlog-1.0.0.tar.gz
+[2023-08-09 00:25:08] INFO root fetch - processPackages [gretel-client]: Downloading https://files.pythonhosted.org/packages/e5/5d/8a847bf48b60125db05cd6355d7daadcb9591a064a9b0ffa21bbd8f6aaf9/gretel-client-0.9.2.tar.gz
+[2023-08-09 00:25:08] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/a9/1e/71c386c40c944451737bb85e4b908f3826275243de15feca8ceb38fc1fb0/returnn-1.20230804.10414.tar.gz
+[2023-08-09 00:25:08] INFO root fetch - processPackages [emmet-core]: Downloading https://files.pythonhosted.org/packages/79/85/be17b500afc3d15c1ca6b73b0cf8b7564ecc06d89b27d59ca86581efa254/emmet-core-0.9.2.tar.gz
+[2023-08-09 00:25:08] INFO root fetch - processPackages [couchbase]: Downloading https://files.pythonhosted.org/packages/4e/55/aaaaf9368a63cbe4e2ed79a8700b2157829554be68ad362e2b413fbe68d6/couchbase-4.1.7.tar.gz
+[2023-08-09 00:25:08] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/e4/c8/0c6054910848b2651da24ecb17a3d9ab9a62b4c844a98797ec686eaac17b/remotior_sensus-0.0.9.tar.gz
+[2023-08-09 00:25:08] INFO root fetch - processPackages [honeypots]: Downloading https://files.pythonhosted.org/packages/e9/9e/62dd59d98b3e0d1fe3e1c3194bb240bcc96ba1c3ef38e40dbb4a57392d0f/honeypots-0.9.tar.gz
+[2023-08-09 00:25:08] WARNING root fetch - processPackages [gretel-client]: Skipping package: exceeds size limit 30354563>=10485760
+[2023-08-09 00:25:08] INFO root fetch - main [MainThread]: End processing [gretel-client] error
+[2023-08-09 00:25:08] INFO root fetch - processPackages [smart-app-framework]: Downloading https://files.pythonhosted.org/packages/67/e2/6d85c640113c24925a94e83578f1df2c6b2790ba40a28ff8e31370e3d8a2/smart_app_framework-2.3.0rc3-py3-none-any.whl
+[2023-08-09 00:25:08] INFO root fetch - processPackages [thatway]: Downloading https://files.pythonhosted.org/packages/11/d3/62d771db295bd3ccb3b476f4270c9ee17a70b2333367d59d3541969c712a/thatway-0.5.1.tar.gz
+[2023-08-09 00:25:08] INFO root fetch - processPackages [emmet-builders]: Downloading https://files.pythonhosted.org/packages/b3/9f/ec08c5daefc1dab5587b18b933f8845a69362d5e4f4cd605e3028250efa8/emmet-builders-0.9.2.tar.gz
+[2023-08-09 00:25:08] WARNING root fetch - processPackages [couchbase]: Skipping package: exceeds size limit 10813300>=10485760
+[2023-08-09 00:25:08] INFO root fetch - main [MainThread]: End processing [couchbase] error
+[2023-08-09 00:25:08] INFO root fetch - processPackages [remotior-sensus]: executing diffoscope
+[2023-08-09 00:25:08] INFO root fetch - processPackages [remotior-sensus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotior_sensus-0.0.8.tar.gz tmp/remotior_sensus-0.0.9.tar.gz --markdown 20230809/r/remotior-sensus/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-09 00:25:08] INFO root fetch - processPackages [multiparlog]: Downloading https://files.pythonhosted.org/packages/dd/3d/d915fb5dfcdf6943d781141e9dc5a02810a13ee85a5f33b801b953c9fb88/multiparlog-1.0.3.tar.gz
+[2023-08-09 00:25:08] INFO root fetch - processPackages [thatway]: executing diffoscope
+[2023-08-09 00:25:08] INFO root fetch - processPackages [thatway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thatway-0.5.0.tar.gz tmp/thatway-0.5.1.tar.gz --markdown 20230809/t/thatway/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-08-09 00:25:08] INFO root fetch - processPackages [smart-app-framework]: executing diffoscope
+[2023-08-09 00:25:08] INFO root fetch - processPackages [smart-app-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart_app_framework-2.3.0rc2-py3-none-any.whl.zip tmp/smart_app_framework-2.3.0rc3-py3-none-any.whl.zip --markdown 20230809/s/smart-app-framework/2.3.0rc2-2.3.0rc3/diff.md --exclude *.pyd
+[2023-08-09 00:25:09] INFO root fetch - processPackages [honeypots]: executing diffoscope
+[2023-08-09 00:25:09] INFO root fetch - processPackages [honeypots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeypots-0.8.tar.gz tmp/honeypots-0.9.tar.gz --markdown 20230809/h/honeypots/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-09 00:25:09] INFO root fetch - processPackages [multiparlog]: executing diffoscope
+[2023-08-09 00:25:09] INFO root fetch - processPackages [multiparlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiparlog-1.0.0.tar.gz tmp/multiparlog-1.0.3.tar.gz --markdown 20230809/m/multiparlog/1.0.0-1.0.3/diff.md --exclude *.pyd
+[2023-08-09 00:25:09] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/8d/b1/a322a945a0cd2fb1b74c3a939c655f8b12e9e39a9f8187fee2440ac9ea21/returnn-1.20230808.235536.tar.gz
+[2023-08-09 00:25:09] INFO root fetch - processPackages [emmet-core]: Downloading https://files.pythonhosted.org/packages/a8/71/fb3a5816288c941fd4a8039c02a612bdb6b1e002843cb9c029f1a4210aaa/emmet-core-0.9.3.tar.gz
+[2023-08-09 00:25:09] INFO root fetch - processPackages [emmet-builders]: Downloading https://files.pythonhosted.org/packages/d3/8a/c73672eb055bc5323b006090ad1112b6027d2d5cbbe46b35eaa33b3924be/emmet-builders-0.9.3.tar.gz
+[2023-08-09 00:25:09] INFO root fetch - processPackages [emmet-core]: executing diffoscope
+[2023-08-09 00:25:09] INFO root fetch - processPackages [emmet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-core-0.9.2.tar.gz tmp/emmet-core-0.9.3.tar.gz --markdown 20230809/e/emmet-core/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-09 00:25:09] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-08-09 00:25:09] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230804.10414.tar.gz tmp/returnn-1.20230808.235536.tar.gz --markdown 20230809/r/returnn/1.20230804.10414-1.20230808.235536/diff.md --exclude *.pyd
+[2023-08-09 00:25:09] INFO root fetch - processPackages [emmet-builders]: executing diffoscope
+[2023-08-09 00:25:09] INFO root fetch - processPackages [emmet-builders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-builders-0.9.2.tar.gz tmp/emmet-builders-0.9.3.tar.gz --markdown 20230809/e/emmet-builders/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-09 00:25:10] INFO root fetch - processPackages [thatway]: Remove: archive file [/home/abi/fetcher/tmp/thatway-0.5.0.tar.gz]
+[2023-08-09 00:25:10] INFO root fetch - processPackages [thatway]: Remove: archive file [/home/abi/fetcher/tmp/thatway-0.5.1.tar.gz]
+[2023-08-09 00:25:10] INFO root fetch - main [MainThread]: End processing [thatway]: success
+[2023-08-09 00:25:10] INFO root fetch - processPackages [multiparlog]: Remove: archive file [/home/abi/fetcher/tmp/multiparlog-1.0.0.tar.gz]
+[2023-08-09 00:25:10] INFO root fetch - processPackages [multiparlog]: Remove: archive file [/home/abi/fetcher/tmp/multiparlog-1.0.3.tar.gz]
+[2023-08-09 00:25:10] INFO root fetch - main [MainThread]: End processing [multiparlog]: success
+[2023-08-09 00:25:10] INFO root fetch - processPackages [honeypots]: Remove: archive file [/home/abi/fetcher/tmp/honeypots-0.8.tar.gz]
+[2023-08-09 00:25:10] INFO root fetch - processPackages [honeypots]: Remove: archive file [/home/abi/fetcher/tmp/honeypots-0.9.tar.gz]
+[2023-08-09 00:25:10] INFO root fetch - main [MainThread]: End processing [honeypots]: success
+[2023-08-09 00:25:10] INFO root fetch - processPackages [emmet-builders]: Remove: archive file [/home/abi/fetcher/tmp/emmet-builders-0.9.2.tar.gz]
+[2023-08-09 00:25:10] INFO root fetch - processPackages [emmet-builders]: Remove: archive file [/home/abi/fetcher/tmp/emmet-builders-0.9.3.tar.gz]
+[2023-08-09 00:25:10] INFO root fetch - main [MainThread]: End processing [emmet-builders]: success
+[2023-08-09 00:25:10] INFO root fetch - processPackages [emmet-core]: Remove: archive file [/home/abi/fetcher/tmp/emmet-core-0.9.2.tar.gz]
+[2023-08-09 00:25:10] INFO root fetch - processPackages [emmet-core]: Remove: archive file [/home/abi/fetcher/tmp/emmet-core-0.9.3.tar.gz]
+[2023-08-09 00:25:10] INFO root fetch - main [MainThread]: End processing [emmet-core]: success
+[2023-08-09 00:25:10] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.8.tar.gz]
+[2023-08-09 00:25:10] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.9.tar.gz]
+[2023-08-09 00:25:10] INFO root fetch - main [MainThread]: End processing [remotior-sensus]: success
+[2023-08-09 00:25:11] INFO root fetch - processPackages [smart-app-framework]: Remove: archive file [/home/abi/fetcher/tmp/smart_app_framework-2.3.0rc2-py3-none-any.whl.zip]
+[2023-08-09 00:25:11] INFO root fetch - processPackages [smart-app-framework]: Remove: archive file [/home/abi/fetcher/tmp/smart_app_framework-2.3.0rc3-py3-none-any.whl.zip]
+[2023-08-09 00:25:11] INFO root fetch - main [MainThread]: End processing [smart-app-framework]: success
+[2023-08-09 00:25:12] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230804.10414.tar.gz]
+[2023-08-09 00:25:12] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230808.235536.tar.gz]
+[2023-08-09 00:25:12] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-08-09 00:25:12] INFO root fetch - main [MainThread]: Store serial: [19228168]
