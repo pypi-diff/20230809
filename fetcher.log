@@ -83,3 +83,177 @@
 [2023-08-09 00:01:22] INFO root fetch - processPackages [phylum]: Remove: archive file [/home/abi/fetcher/tmp/phylum-0.9.1.tar.gz]
 [2023-08-09 00:01:22] INFO root fetch - main [MainThread]: End processing [phylum]: success
 [2023-08-09 00:01:22] INFO root fetch - main [MainThread]: Store serial: [19227901]
+[2023-08-09 00:06:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19227901]
+[2023-08-09 00:06:31] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-08-09 00:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: symphony-ui
+[2023-08-09 00:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: symphony-binary-confusion-matrix
+[2023-08-09 00:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: symphony-data-map
+[2023-08-09 00:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zaber-motion-bindings-windows
+[2023-08-09 00:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: IMCtermite
+[2023-08-09 00:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zaber-motion-bindings-linux
+[2023-08-09 00:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smart-app-framework
+[2023-08-09 00:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: symphony-duplicates
+[2023-08-09 00:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zaber-motion-bindings-darwin
+[2023-08-09 00:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zaber-motion
+[2023-08-09 00:06:31] INFO root fetch - processPackages [symphony-binary-confusion-matrix]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-09 00:06:31] INFO root fetch - processPackages [symphony-data-map]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-09 00:06:31] INFO root fetch - processPackages [IMCtermite]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-08-09 00:06:31] INFO root fetch - processPackages [symphony-duplicates]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-09 00:06:31] INFO root fetch - processPackages [symphony-ui]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-09 00:06:31] INFO root fetch - processPackages [zaber-motion-bindings-linux]: New version: [4.2.5] Old Version: [4.2.4]
+[2023-08-09 00:06:31] INFO root fetch - processPackages [zaber-motion-bindings-darwin]: New version: [4.2.5] Old Version: [4.2.4]
+[2023-08-09 00:06:31] INFO root fetch - processPackages [zaber-motion-bindings-windows]: New version: [4.2.5] Old Version: [4.2.4]
+[2023-08-09 00:06:31] INFO root fetch - processPackages [zaber-motion]: New version: [4.2.5] Old Version: [4.2.4]
+[2023-08-09 00:06:31] INFO root fetch - processPackages [smart-app-framework]: New version: [2.3.0rc3] Old Version: [2.3.0rc2]
+[2023-08-09 00:06:31] INFO root fetch - processPackages [symphony-data-map]: Downloading https://files.pythonhosted.org/packages/74/64/ba386bca940b0719e9c4853d5912050d36a4b630f58c5d991ce9debf813a/symphony_data_map-1.0.1.tar.gz
+[2023-08-09 00:06:31] INFO root fetch - processPackages [IMCtermite]: Downloading https://files.pythonhosted.org/packages/31/fa/4a4bedf3ee7d5256e92e1a7d8db8e3799799bb00cfaf61e4efd577800baf/IMCtermite-2.0.7.tar.gz
+[2023-08-09 00:06:31] INFO root fetch - processPackages [symphony-binary-confusion-matrix]: Downloading https://files.pythonhosted.org/packages/67/60/6c46751aac60bbabed298234d9fe87c875f8431b9ce7d2dac5c2f4571adb/symphony_binary_confusion_matrix-1.0.1.tar.gz
+[2023-08-09 00:06:31] INFO root fetch - processPackages [symphony-ui]: Downloading https://files.pythonhosted.org/packages/1c/80/2b5efd5dd4c3afcd36e5882e8b1751c94c0211abc4616bcf1419aa1efe1d/symphony_ui-1.0.0.tar.gz
+[2023-08-09 00:06:31] INFO root fetch - processPackages [zaber-motion-bindings-linux]: Downloading https://files.pythonhosted.org/packages/07/1e/35dbe33703ff1e989d99b5f5e6753a52acec19796cb8353f0b0d4d375b70/zaber_motion_bindings_linux-4.2.4.tar.gz
+[2023-08-09 00:06:31] INFO root fetch - processPackages [zaber-motion]: Downloading https://files.pythonhosted.org/packages/75/d8/2b36fc52db204fc6780cb10cecc9256e73cd39cb62e954611a3742a39618/zaber_motion-4.2.4.tar.gz
+[2023-08-09 00:06:31] INFO root fetch - processPackages [zaber-motion-bindings-windows]: Downloading https://files.pythonhosted.org/packages/ff/ed/16704c0133e71d061b612a986a4bba1be86f798b2415f715b40e5c0948a6/zaber_motion_bindings_windows-4.2.4.tar.gz
+[2023-08-09 00:06:31] INFO root fetch - processPackages [zaber-motion-bindings-darwin]: Downloading https://files.pythonhosted.org/packages/3c/3a/8f80aeabe370a69b0369c8443f8989a96e395812eebb21932fff631f9492/zaber_motion_bindings_darwin-4.2.4.tar.gz
+[2023-08-09 00:06:31] INFO root fetch - processPackages [symphony-duplicates]: Downloading https://files.pythonhosted.org/packages/14/fe/b7b1cb5891a40a28c782ff7b900b29b08e43a2f71d2d8c001857c1d60e83/symphony_duplicates-1.0.1.tar.gz
+[2023-08-09 00:06:32] INFO root fetch - processPackages [smart-app-framework]: Downloading https://files.pythonhosted.org/packages/bd/ef/8ed9cbe68cdb28c3188d0bf29bc114517f1abe586a0d302bfb26ce120589/smart_app_framework-2.3.0rc2-py3-none-any.whl
+[2023-08-09 00:06:32] WARNING root fetch - processPackages [zaber-motion-bindings-linux]: Skipping package: exceeds size limit 37873933>=10485760
+[2023-08-09 00:06:32] INFO root fetch - processPackages [zaber-motion-bindings-linux]: Start processing: symphony-fairvis
+[2023-08-09 00:06:32] INFO root fetch - main [MainThread]: End processing [zaber-motion-bindings-linux] error
+[2023-08-09 00:06:32] WARNING root fetch - processPackages [zaber-motion-bindings-darwin]: Skipping package: exceeds size limit 21000936>=10485760
+[2023-08-09 00:06:32] WARNING root fetch - processPackages [zaber-motion-bindings-windows]: Skipping package: exceeds size limit 18881097>=10485760
+[2023-08-09 00:06:32] INFO root fetch - processPackages [zaber-motion-bindings-darwin]: Start processing: symphony-familiarity
+[2023-08-09 00:06:32] INFO root fetch - processPackages [zaber-motion-bindings-windows]: Start processing: symphony-hierarchical-confusion-matrix
+[2023-08-09 00:06:32] INFO root fetch - main [MainThread]: End processing [zaber-motion-bindings-darwin] error
+[2023-08-09 00:06:32] INFO root fetch - main [MainThread]: End processing [zaber-motion-bindings-windows] error
+[2023-08-09 00:06:32] INFO root fetch - processPackages [symphony-fairvis]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-09 00:06:32] INFO root fetch - processPackages [IMCtermite]: Downloading https://files.pythonhosted.org/packages/ed/6b/5fdc026a2bdd323c00b021392981e58540a96129b297440532306687b10d/IMCtermite-2.0.8.tar.gz
+[2023-08-09 00:06:32] INFO root fetch - processPackages [symphony-hierarchical-confusion-matrix]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-09 00:06:32] INFO root fetch - processPackages [symphony-familiarity]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-09 00:06:32] INFO root fetch - processPackages [zaber-motion]: Downloading https://files.pythonhosted.org/packages/e2/98/96f94255cfd7bfe219d281068d544af421f7f08194acb232bbe7bb6ea831/zaber_motion-4.2.5.tar.gz
+[2023-08-09 00:06:32] INFO root fetch - processPackages [smart-app-framework]: Downloading https://files.pythonhosted.org/packages/67/e2/6d85c640113c24925a94e83578f1df2c6b2790ba40a28ff8e31370e3d8a2/smart_app_framework-2.3.0rc3-py3-none-any.whl
+[2023-08-09 00:06:32] INFO root fetch - processPackages [symphony-fairvis]: Downloading https://files.pythonhosted.org/packages/1a/9c/6f285ee1f691c9e2ac1e953ebeffc007f83f3a30751bed11041746cf1b85/symphony_fairvis-1.0.1.tar.gz
+[2023-08-09 00:06:32] INFO root fetch - processPackages [IMCtermite]: executing diffoscope
+[2023-08-09 00:06:32] INFO root fetch - processPackages [IMCtermite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IMCtermite-2.0.7.tar.gz tmp/IMCtermite-2.0.8.tar.gz --markdown 20230809/I/IMCtermite/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-08-09 00:06:32] INFO root fetch - processPackages [symphony-hierarchical-confusion-matrix]: Downloading https://files.pythonhosted.org/packages/df/09/d92f659bcc9f3d99cc0025f1e9fda58e525625b1767240d6444564102c8c/symphony_hierarchical_confusion_matrix-1.0.1.tar.gz
+[2023-08-09 00:06:32] INFO root fetch - processPackages [symphony-familiarity]: Downloading https://files.pythonhosted.org/packages/38/e7/072115b64e7838d27ecd745c3cc60824f8897932b0760593ea850272fb88/symphony_familiarity-1.0.1.tar.gz
+[2023-08-09 00:06:32] INFO root fetch - processPackages [symphony-binary-confusion-matrix]: Downloading https://files.pythonhosted.org/packages/b3/18/f7fe36e0932ae00fa61eddfc6e746139afc697ec39c4c87a75545d3b5248/symphony_binary_confusion_matrix-1.0.2.tar.gz
+[2023-08-09 00:06:32] INFO root fetch - processPackages [smart-app-framework]: executing diffoscope
+[2023-08-09 00:06:32] INFO root fetch - processPackages [smart-app-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart_app_framework-2.3.0rc2-py3-none-any.whl.zip tmp/smart_app_framework-2.3.0rc3-py3-none-any.whl.zip --markdown 20230809/s/smart-app-framework/2.3.0rc2-2.3.0rc3/diff.md --exclude *.pyd
+[2023-08-09 00:06:32] INFO root fetch - processPackages [zaber-motion]: executing diffoscope
+[2023-08-09 00:06:32] INFO root fetch - processPackages [zaber-motion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaber_motion-4.2.4.tar.gz tmp/zaber_motion-4.2.5.tar.gz --markdown 20230809/z/zaber-motion/4.2.4-4.2.5/diff.md --exclude *.pyd
+[2023-08-09 00:06:32] INFO root fetch - processPackages [symphony-data-map]: Downloading https://files.pythonhosted.org/packages/6d/63/8a8b02b000c353ff80ee830459c9f90f01c2fdca4a0d8e5247f41e8b4496/symphony_data_map-1.0.2.tar.gz
+[2023-08-09 00:06:32] INFO root fetch - processPackages [symphony-ui]: Downloading https://files.pythonhosted.org/packages/86/dd/d131db9af653fa70a6f65a039535dd36d66b69b2b1d4a6e4c72497ba9cf9/symphony_ui-1.0.1.tar.gz
+[2023-08-09 00:06:32] INFO root fetch - processPackages [symphony-duplicates]: Downloading https://files.pythonhosted.org/packages/eb/2a/b62a2651a173d671be393c854c30c1f813145fe1f5fcbae82beed1761b45/symphony_duplicates-1.0.2.tar.gz
+[2023-08-09 00:06:33] INFO root fetch - processPackages [symphony-binary-confusion-matrix]: executing diffoscope
+[2023-08-09 00:06:33] INFO root fetch - processPackages [symphony-binary-confusion-matrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symphony_binary_confusion_matrix-1.0.1.tar.gz tmp/symphony_binary_confusion_matrix-1.0.2.tar.gz --markdown 20230809/s/symphony-binary-confusion-matrix/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-09 00:06:33] INFO root fetch - processPackages [symphony-hierarchical-confusion-matrix]: Downloading https://files.pythonhosted.org/packages/e5/d0/ebc05512f3af557a927c4461ca6dd241589e47f02ff45a8aebbd57047494/symphony_hierarchical_confusion_matrix-1.0.2.tar.gz
+[2023-08-09 00:06:33] INFO root fetch - processPackages [symphony-ui]: executing diffoscope
+[2023-08-09 00:06:33] INFO root fetch - processPackages [symphony-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symphony_ui-1.0.0.tar.gz tmp/symphony_ui-1.0.1.tar.gz --markdown 20230809/s/symphony-ui/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-09 00:06:33] INFO root fetch - processPackages [symphony-data-map]: executing diffoscope
+[2023-08-09 00:06:33] INFO root fetch - processPackages [symphony-data-map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symphony_data_map-1.0.1.tar.gz tmp/symphony_data_map-1.0.2.tar.gz --markdown 20230809/s/symphony-data-map/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-09 00:06:33] INFO root fetch - processPackages [symphony-fairvis]: Downloading https://files.pythonhosted.org/packages/d7/cb/4fe297628446e4edbc4c31a4356d19743cde93991fa36a6b4ae5ddb437a2/symphony_fairvis-1.0.2.tar.gz
+[2023-08-09 00:06:33] INFO root fetch - processPackages [symphony-familiarity]: Downloading https://files.pythonhosted.org/packages/0d/00/aa1d7d6b4bbe5a0da9512060738c7d366298e3b6a490512d4b4d536d7281/symphony_familiarity-1.0.2.tar.gz
+[2023-08-09 00:06:33] INFO root fetch - processPackages [symphony-duplicates]: executing diffoscope
+[2023-08-09 00:06:33] INFO root fetch - processPackages [symphony-duplicates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symphony_duplicates-1.0.1.tar.gz tmp/symphony_duplicates-1.0.2.tar.gz --markdown 20230809/s/symphony-duplicates/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-09 00:06:33] INFO root fetch - processPackages [symphony-hierarchical-confusion-matrix]: executing diffoscope
+[2023-08-09 00:06:33] INFO root fetch - processPackages [symphony-hierarchical-confusion-matrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symphony_hierarchical_confusion_matrix-1.0.1.tar.gz tmp/symphony_hierarchical_confusion_matrix-1.0.2.tar.gz --markdown 20230809/s/symphony-hierarchical-confusion-matrix/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-09 00:06:33] INFO root fetch - processPackages [symphony-familiarity]: executing diffoscope
+[2023-08-09 00:06:33] INFO root fetch - processPackages [symphony-familiarity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symphony_familiarity-1.0.1.tar.gz tmp/symphony_familiarity-1.0.2.tar.gz --markdown 20230809/s/symphony-familiarity/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-09 00:06:33] INFO root fetch - processPackages [IMCtermite]: Remove: archive file [/home/abi/fetcher/tmp/IMCtermite-2.0.7.tar.gz]
+[2023-08-09 00:06:33] INFO root fetch - processPackages [IMCtermite]: Remove: archive file [/home/abi/fetcher/tmp/IMCtermite-2.0.8.tar.gz]
+[2023-08-09 00:06:33] INFO root fetch - processPackages [IMCtermite]: Start processing: symphony-list
+[2023-08-09 00:06:33] INFO root fetch - main [MainThread]: End processing [IMCtermite]: success
+[2023-08-09 00:06:34] INFO root fetch - processPackages [symphony-list]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-09 00:06:34] INFO root fetch - processPackages [symphony-list]: Downloading https://files.pythonhosted.org/packages/73/09/78199850d27b1d56bbe01d27f89a254cfe6d1cb2c332f659e62c1212a27c/symphony_list-1.0.1.tar.gz
+[2023-08-09 00:06:34] INFO root fetch - processPackages [symphony-fairvis]: executing diffoscope
+[2023-08-09 00:06:34] INFO root fetch - processPackages [symphony-fairvis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symphony_fairvis-1.0.1.tar.gz tmp/symphony_fairvis-1.0.2.tar.gz --markdown 20230809/s/symphony-fairvis/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-09 00:06:35] INFO root fetch - processPackages [zaber-motion]: Remove: archive file [/home/abi/fetcher/tmp/zaber_motion-4.2.4.tar.gz]
+[2023-08-09 00:06:35] INFO root fetch - processPackages [symphony-list]: Downloading https://files.pythonhosted.org/packages/a0/b3/ec7ceaecd40198ed10dcca3a89df83f11d1a309cfa2129d6dc69ad1d486b/symphony_list-1.0.2.tar.gz
+[2023-08-09 00:06:35] INFO root fetch - processPackages [zaber-motion]: Remove: archive file [/home/abi/fetcher/tmp/zaber_motion-4.2.5.tar.gz]
+[2023-08-09 00:06:35] INFO root fetch - processPackages [zaber-motion]: Start processing: symphony-markdown
+[2023-08-09 00:06:35] INFO root fetch - main [MainThread]: End processing [zaber-motion]: success
+[2023-08-09 00:06:35] INFO root fetch - processPackages [symphony-markdown]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-09 00:06:35] INFO root fetch - processPackages [symphony-markdown]: Downloading https://files.pythonhosted.org/packages/47/91/5397dc4df9185dcd041c0edd5a33a6972833b2ae49dcdc7e442c84e20ac1/symphony_markdown-1.0.1.tar.gz
+[2023-08-09 00:06:35] INFO root fetch - processPackages [smart-app-framework]: Remove: archive file [/home/abi/fetcher/tmp/smart_app_framework-2.3.0rc2-py3-none-any.whl.zip]
+[2023-08-09 00:06:35] INFO root fetch - processPackages [smart-app-framework]: Remove: archive file [/home/abi/fetcher/tmp/smart_app_framework-2.3.0rc3-py3-none-any.whl.zip]
+[2023-08-09 00:06:35] INFO root fetch - processPackages [smart-app-framework]: Start processing: ellar-jwt
+[2023-08-09 00:06:35] INFO root fetch - main [MainThread]: End processing [smart-app-framework]: success
+[2023-08-09 00:06:35] INFO root fetch - processPackages [symphony-list]: executing diffoscope
+[2023-08-09 00:06:35] INFO root fetch - processPackages [symphony-list]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symphony_list-1.0.1.tar.gz tmp/symphony_list-1.0.2.tar.gz --markdown 20230809/s/symphony-list/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-09 00:06:35] WARNING root fetch - processPackages [ellar-jwt]: Skipping, unable to determine old version
+[2023-08-09 00:06:35] INFO root fetch - processPackages [ellar-jwt]: Start processing: symphony-scatterplot
+[2023-08-09 00:06:35] INFO root fetch - main [MainThread]: End processing [ellar-jwt] error
+[2023-08-09 00:06:36] INFO root fetch - processPackages [symphony-markdown]: Downloading https://files.pythonhosted.org/packages/85/3f/3e2c7809fa59e49d411562e04b94948827cfaefe7a536ef51f8d121b79e4/symphony_markdown-1.0.2.tar.gz
+[2023-08-09 00:06:36] INFO root fetch - processPackages [symphony-scatterplot]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-09 00:06:36] INFO root fetch - processPackages [symphony-scatterplot]: Downloading https://files.pythonhosted.org/packages/a9/0b/175d572b3d9b8ce71cf042f7016f2a6c621f9cba5056a858df6b6dedbee7/symphony_scatterplot-1.0.1.tar.gz
+[2023-08-09 00:06:36] INFO root fetch - processPackages [symphony-markdown]: executing diffoscope
+[2023-08-09 00:06:36] INFO root fetch - processPackages [symphony-markdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symphony_markdown-1.0.1.tar.gz tmp/symphony_markdown-1.0.2.tar.gz --markdown 20230809/s/symphony-markdown/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-09 00:06:37] INFO root fetch - processPackages [symphony-scatterplot]: Downloading https://files.pythonhosted.org/packages/47/26/4b2979d85a921ddaf49e6c7dc9a90b8dcfc88afc6bfc0dfc5e353897463d/symphony_scatterplot-1.0.2.tar.gz
+[2023-08-09 00:06:38] INFO root fetch - processPackages [symphony-scatterplot]: executing diffoscope
+[2023-08-09 00:06:38] INFO root fetch - processPackages [symphony-scatterplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symphony_scatterplot-1.0.1.tar.gz tmp/symphony_scatterplot-1.0.2.tar.gz --markdown 20230809/s/symphony-scatterplot/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-09 00:06:47] INFO root fetch - processPackages [symphony-hierarchical-confusion-matrix]: Remove: archive file [/home/abi/fetcher/tmp/symphony_hierarchical_confusion_matrix-1.0.1.tar.gz]
+[2023-08-09 00:06:47] INFO root fetch - processPackages [symphony-hierarchical-confusion-matrix]: Remove: archive file [/home/abi/fetcher/tmp/symphony_hierarchical_confusion_matrix-1.0.2.tar.gz]
+[2023-08-09 00:06:47] INFO root fetch - processPackages [symphony-hierarchical-confusion-matrix]: Start processing: symphony-summary
+[2023-08-09 00:06:47] INFO root fetch - main [MainThread]: End processing [symphony-hierarchical-confusion-matrix]: success
+[2023-08-09 00:06:47] INFO root fetch - processPackages [symphony-summary]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-09 00:06:47] INFO root fetch - processPackages [symphony-summary]: Downloading https://files.pythonhosted.org/packages/44/45/bc4c99ab427d41dcc8e61068321512f403e85a8add849deb61cdfe7fdd89/symphony_summary-1.0.1.tar.gz
+[2023-08-09 00:06:48] INFO root fetch - processPackages [symphony-summary]: Downloading https://files.pythonhosted.org/packages/61/95/d6bbb5f28b76f1cd517e605476dcb0e7953b4ddd93f4b3df75854b208c29/symphony_summary-1.0.2.tar.gz
+[2023-08-09 00:06:49] INFO root fetch - processPackages [symphony-summary]: executing diffoscope
+[2023-08-09 00:06:49] INFO root fetch - processPackages [symphony-summary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symphony_summary-1.0.1.tar.gz tmp/symphony_summary-1.0.2.tar.gz --markdown 20230809/s/symphony-summary/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-09 00:06:55] INFO root fetch - processPackages [symphony-duplicates]: Remove: archive file [/home/abi/fetcher/tmp/symphony_duplicates-1.0.1.tar.gz]
+[2023-08-09 00:06:55] INFO root fetch - processPackages [symphony-duplicates]: Remove: archive file [/home/abi/fetcher/tmp/symphony_duplicates-1.0.2.tar.gz]
+[2023-08-09 00:06:55] INFO root fetch - processPackages [symphony-duplicates]: Start processing: symphony-vega
+[2023-08-09 00:06:55] INFO root fetch - main [MainThread]: End processing [symphony-duplicates]: success
+[2023-08-09 00:06:55] INFO root fetch - processPackages [symphony-vega]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-09 00:06:55] INFO root fetch - processPackages [symphony-list]: Remove: archive file [/home/abi/fetcher/tmp/symphony_list-1.0.1.tar.gz]
+[2023-08-09 00:06:55] INFO root fetch - processPackages [symphony-list]: Remove: archive file [/home/abi/fetcher/tmp/symphony_list-1.0.2.tar.gz]
+[2023-08-09 00:06:55] INFO root fetch - processPackages [symphony-list]: Start processing: mp-api
+[2023-08-09 00:06:55] INFO root fetch - main [MainThread]: End processing [symphony-list]: success
+[2023-08-09 00:06:55] INFO root fetch - processPackages [symphony-vega]: Downloading https://files.pythonhosted.org/packages/55/dc/3f3d44b5bc5f95e14258c59216630d322e7da5819004d70a5f01e084cea0/symphony_vega-1.0.1.tar.gz
+[2023-08-09 00:06:55] INFO root fetch - processPackages [mp-api]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-09 00:06:56] INFO root fetch - processPackages [mp-api]: Downloading https://files.pythonhosted.org/packages/d0/3b/c0f76330b2f702efab6d6b22672c31c3a367b6d2af4b70db241a553c0097/mp-api-0.9.0.tar.gz
+[2023-08-09 00:06:56] INFO root fetch - processPackages [symphony-vega]: Downloading https://files.pythonhosted.org/packages/9e/c1/de2637ec74828d8de9797b820a58c7e5fc18af405750ad03fbf7c72554e2/symphony_vega-1.0.2.tar.gz
+[2023-08-09 00:06:57] INFO root fetch - processPackages [mp-api]: Downloading https://files.pythonhosted.org/packages/6c/0e/759b93c4da8606f9bb1b3db9c592fb1b8eeaddcd0f0b6a2d901b6889bc2f/mp-api-0.9.1.tar.gz
+[2023-08-09 00:06:57] INFO root fetch - processPackages [mp-api]: executing diffoscope
+[2023-08-09 00:06:57] INFO root fetch - processPackages [mp-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mp-api-0.9.0.tar.gz tmp/mp-api-0.9.1.tar.gz --markdown 20230809/m/mp-api/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-09 00:06:58] INFO root fetch - processPackages [symphony-vega]: executing diffoscope
+[2023-08-09 00:06:58] INFO root fetch - processPackages [symphony-vega]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symphony_vega-1.0.1.tar.gz tmp/symphony_vega-1.0.2.tar.gz --markdown 20230809/s/symphony-vega/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-09 00:07:01] INFO root fetch - processPackages [mp-api]: Remove: archive file [/home/abi/fetcher/tmp/mp-api-0.9.0.tar.gz]
+[2023-08-09 00:07:01] INFO root fetch - processPackages [mp-api]: Remove: archive file [/home/abi/fetcher/tmp/mp-api-0.9.1.tar.gz]
+[2023-08-09 00:07:01] INFO root fetch - processPackages [mp-api]: Start processing: computing-toolbox
+[2023-08-09 00:07:01] INFO root fetch - main [MainThread]: End processing [mp-api]: success
+[2023-08-09 00:07:01] INFO root fetch - processPackages [computing-toolbox]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-09 00:07:01] INFO root fetch - processPackages [symphony-binary-confusion-matrix]: Remove: archive file [/home/abi/fetcher/tmp/symphony_binary_confusion_matrix-1.0.1.tar.gz]
+[2023-08-09 00:07:01] INFO root fetch - processPackages [symphony-binary-confusion-matrix]: Remove: archive file [/home/abi/fetcher/tmp/symphony_binary_confusion_matrix-1.0.2.tar.gz]
+[2023-08-09 00:07:01] INFO root fetch - main [MainThread]: End processing [symphony-binary-confusion-matrix]: success
+[2023-08-09 00:07:01] INFO root fetch - processPackages [computing-toolbox]: Downloading https://files.pythonhosted.org/packages/59/4a/aa069dac0d9714d2b112cf9a0ebb9a083269c0c511d234ac0885cedf0877/computing-toolbox-1.0.0.tar.gz
+[2023-08-09 00:07:01] INFO root fetch - processPackages [computing-toolbox]: Downloading https://files.pythonhosted.org/packages/f2/8e/1bed8b8e0b1782a73709a1a045616f5d480e60a82b7027004980f3afe48c/computing-toolbox-1.0.1.tar.gz
+[2023-08-09 00:07:02] INFO root fetch - processPackages [computing-toolbox]: executing diffoscope
+[2023-08-09 00:07:02] INFO root fetch - processPackages [computing-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/computing-toolbox-1.0.0.tar.gz tmp/computing-toolbox-1.0.1.tar.gz --markdown 20230809/c/computing-toolbox/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-09 00:07:02] INFO root fetch - processPackages [symphony-markdown]: Remove: archive file [/home/abi/fetcher/tmp/symphony_markdown-1.0.1.tar.gz]
+[2023-08-09 00:07:02] INFO root fetch - processPackages [symphony-markdown]: Remove: archive file [/home/abi/fetcher/tmp/symphony_markdown-1.0.2.tar.gz]
+[2023-08-09 00:07:02] INFO root fetch - main [MainThread]: End processing [symphony-markdown]: success
+[2023-08-09 00:07:03] INFO root fetch - processPackages [computing-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/computing-toolbox-1.0.0.tar.gz]
+[2023-08-09 00:07:03] INFO root fetch - processPackages [computing-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/computing-toolbox-1.0.1.tar.gz]
+[2023-08-09 00:07:03] INFO root fetch - main [MainThread]: End processing [computing-toolbox]: success
+[2023-08-09 00:07:09] INFO root fetch - processPackages [symphony-scatterplot]: Remove: archive file [/home/abi/fetcher/tmp/symphony_scatterplot-1.0.1.tar.gz]
+[2023-08-09 00:07:09] INFO root fetch - processPackages [symphony-scatterplot]: Remove: archive file [/home/abi/fetcher/tmp/symphony_scatterplot-1.0.2.tar.gz]
+[2023-08-09 00:07:09] INFO root fetch - main [MainThread]: End processing [symphony-scatterplot]: success
+[2023-08-09 00:07:10] INFO root fetch - processPackages [symphony-ui]: Remove: archive file [/home/abi/fetcher/tmp/symphony_ui-1.0.0.tar.gz]
+[2023-08-09 00:07:10] INFO root fetch - processPackages [symphony-ui]: Remove: archive file [/home/abi/fetcher/tmp/symphony_ui-1.0.1.tar.gz]
+[2023-08-09 00:07:10] INFO root fetch - main [MainThread]: End processing [symphony-ui]: success
+[2023-08-09 00:07:10] INFO root fetch - processPackages [symphony-data-map]: Remove: archive file [/home/abi/fetcher/tmp/symphony_data_map-1.0.1.tar.gz]
+[2023-08-09 00:07:10] INFO root fetch - processPackages [symphony-data-map]: Remove: archive file [/home/abi/fetcher/tmp/symphony_data_map-1.0.2.tar.gz]
+[2023-08-09 00:07:10] INFO root fetch - main [MainThread]: End processing [symphony-data-map]: success
+[2023-08-09 00:07:12] INFO root fetch - processPackages [symphony-fairvis]: Remove: archive file [/home/abi/fetcher/tmp/symphony_fairvis-1.0.1.tar.gz]
+[2023-08-09 00:07:12] INFO root fetch - processPackages [symphony-fairvis]: Remove: archive file [/home/abi/fetcher/tmp/symphony_fairvis-1.0.2.tar.gz]
+[2023-08-09 00:07:12] INFO root fetch - main [MainThread]: End processing [symphony-fairvis]: success
+[2023-08-09 00:07:20] INFO root fetch - processPackages [symphony-familiarity]: Remove: archive file [/home/abi/fetcher/tmp/symphony_familiarity-1.0.1.tar.gz]
+[2023-08-09 00:07:20] INFO root fetch - processPackages [symphony-familiarity]: Remove: archive file [/home/abi/fetcher/tmp/symphony_familiarity-1.0.2.tar.gz]
+[2023-08-09 00:07:20] INFO root fetch - main [MainThread]: End processing [symphony-familiarity]: success
+[2023-08-09 00:07:28] INFO root fetch - processPackages [symphony-vega]: Remove: archive file [/home/abi/fetcher/tmp/symphony_vega-1.0.1.tar.gz]
+[2023-08-09 00:07:28] INFO root fetch - processPackages [symphony-vega]: Remove: archive file [/home/abi/fetcher/tmp/symphony_vega-1.0.2.tar.gz]
+[2023-08-09 00:07:28] INFO root fetch - main [MainThread]: End processing [symphony-vega]: success
+[2023-08-09 00:07:30] INFO root fetch - processPackages [symphony-summary]: Remove: archive file [/home/abi/fetcher/tmp/symphony_summary-1.0.1.tar.gz]
+[2023-08-09 00:07:30] INFO root fetch - processPackages [symphony-summary]: Remove: archive file [/home/abi/fetcher/tmp/symphony_summary-1.0.2.tar.gz]
+[2023-08-09 00:07:30] INFO root fetch - main [MainThread]: End processing [symphony-summary]: success
+[2023-08-09 00:07:30] INFO root fetch - main [MainThread]: Store serial: [19227986]
