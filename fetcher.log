@@ -686,3 +686,114 @@
 [2023-08-09 00:30:26] INFO root fetch - processPackages [python-flint]: Remove: archive file [/home/abi/fetcher/tmp/python_flint-0.4.0-cp310-cp310-win_amd64.whl.zip]
 [2023-08-09 00:30:26] INFO root fetch - main [MainThread]: End processing [python-flint]: success
 [2023-08-09 00:30:26] INFO root fetch - main [MainThread]: Store serial: [19228207]
+[2023-08-09 00:35:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19228207]
+[2023-08-09 00:35:35] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-09 00:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zatca-csr-generator
+[2023-08-09 00:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snitch-protos
+[2023-08-09 00:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phonon-gas-model
+[2023-08-09 00:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azure-eventhub
+[2023-08-09 00:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reflex
+[2023-08-09 00:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MLTF
+[2023-08-09 00:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: foursight
+[2023-08-09 00:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dep2req
+[2023-08-09 00:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yak-server
+[2023-08-09 00:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-08-09 00:35:36] WARNING root fetch - processPackages [phonon-gas-model]: Skipping, unable to determine old version
+[2023-08-09 00:35:36] INFO root fetch - processPackages [phonon-gas-model]: Start processing: django-nested-modals
+[2023-08-09 00:35:36] INFO root fetch - main [MainThread]: End processing [phonon-gas-model] error
+[2023-08-09 00:35:36] INFO root fetch - processPackages [yak-server]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-09 00:35:36] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.424] Old Version: [0.3.423]
+[2023-08-09 00:35:36] WARNING root fetch - processPackages [zatca-csr-generator]: Skipping, unable to determine old version
+[2023-08-09 00:35:36] INFO root fetch - processPackages [zatca-csr-generator]: Start processing: WormholeSort
+[2023-08-09 00:35:36] INFO root fetch - main [MainThread]: End processing [zatca-csr-generator] error
+[2023-08-09 00:35:36] WARNING root fetch - processPackages [dep2req]: Skipping, unable to determine old version
+[2023-08-09 00:35:36] INFO root fetch - processPackages [dep2req]: Start processing: tensorboard
+[2023-08-09 00:35:36] INFO root fetch - main [MainThread]: End processing [dep2req] error
+[2023-08-09 00:35:36] INFO root fetch - processPackages [MLTF]: New version: [0.1.1] Old Version: [0.1]
+[2023-08-09 00:35:36] INFO root fetch - processPackages [snitch-protos]: New version: [0.0.59] Old Version: [0.0.58]
+[2023-08-09 00:35:36] INFO root fetch - processPackages [reflex]: New version: [0.2.4a1] Old Version: [0.2.3a9]
+[2023-08-09 00:35:36] INFO root fetch - processPackages [azure-eventhub]: New version: [5.9.0b3] Old Version: [5.9.0b2]
+[2023-08-09 00:35:36] INFO root fetch - processPackages [foursight]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-08-09 00:35:36] INFO root fetch - processPackages [yak-server]: Downloading https://files.pythonhosted.org/packages/0d/76/2e5fe6504ef5f417050b6485dac180ad25cecfa80778abe342394e98f9e2/yak_server-0.8.0.tar.gz
+[2023-08-09 00:35:36] INFO root fetch - processPackages [django-nested-modals]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-09 00:35:36] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/90/68/3666953cd0b7e7daddd599bdf6fa08ed9922cf965e9eb7e1a6d1ed0eb343/pepperize.cdk-ses-smtp-credentials-0.3.423.tar.gz
+[2023-08-09 00:35:36] INFO root fetch - processPackages [WormholeSort]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-09 00:35:36] INFO root fetch - processPackages [snitch-protos]: Downloading https://files.pythonhosted.org/packages/a5/84/2c0889bf71804e6313e70e9f7ba3eb2440f1166810c7521c5ffd3c9b2108/snitch-protos-0.0.58.tar.gz
+[2023-08-09 00:35:36] INFO root fetch - processPackages [tensorboard]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-08-09 00:35:36] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/f4/18/e1f64aa18d999281a5355bb9d9077afd0fcc062d1c995d448f37696d76fd/foursight-3.6.2.tar.gz
+[2023-08-09 00:35:36] INFO root fetch - processPackages [MLTF]: Downloading https://files.pythonhosted.org/packages/d9/53/de1737577bfe023d90b6cca7572caa35afcc9063e1aa2212312ccc0bb997/MLTF-0.1.tar.gz
+[2023-08-09 00:35:36] INFO root fetch - processPackages [azure-eventhub]: Downloading https://files.pythonhosted.org/packages/b5/93/fd6b50fde793e0c754ce685acbf13c6b089de7eb082371bfdc1815237054/azure-eventhub-5.9.0b2.zip
+[2023-08-09 00:35:36] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/38/d2/0b6288ac028b0fbbc547f8eceab27fd5e8e6f31b8922c92a739099af840c/reflex-0.2.3a9.tar.gz
+[2023-08-09 00:35:36] INFO root fetch - processPackages [django-nested-modals]: Downloading https://files.pythonhosted.org/packages/40/7e/9718d29e77b9ed488f1c02d4575e3b54c2599bf3c7818f330798e0e27e28/django-nested-modals-0.0.8.tar.gz
+[2023-08-09 00:35:36] INFO root fetch - processPackages [yak-server]: Downloading https://files.pythonhosted.org/packages/a8/9c/2c24e63d8e257166f9c81bccd1fcaeb239352636957a046a3c7edae03504/yak_server-0.9.0.tar.gz
+[2023-08-09 00:35:36] INFO root fetch - processPackages [WormholeSort]: Downloading https://files.pythonhosted.org/packages/cd/51/4b970616d6bdad091044a2456195ed41c3d6aa56dd68380e4cfc40938e65/WormholeSort-1.0.0.tar.gz
+[2023-08-09 00:35:36] INFO root fetch - processPackages [tensorboard]: Downloading https://files.pythonhosted.org/packages/69/80/a3abccc4ea941c36741751206e40e619afe28652cf76f74cfa4c3e4248ba/tensorboard-2.9.0-py3-none-any.whl
+[2023-08-09 00:35:36] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/82/40/3ee837084358da55c92f042e5d7dcd41fce9fe29ed805d4ad99fb4eed4e5/pepperize.cdk-ses-smtp-credentials-0.3.424.tar.gz
+[2023-08-09 00:35:36] INFO root fetch - processPackages [yak-server]: executing diffoscope
+[2023-08-09 00:35:36] INFO root fetch - processPackages [yak-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yak_server-0.8.0.tar.gz tmp/yak_server-0.9.0.tar.gz --markdown 20230809/y/yak-server/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-09 00:35:37] INFO root fetch - processPackages [snitch-protos]: Downloading https://files.pythonhosted.org/packages/ef/8c/793c1944f0d8b3056410bfefaf392c405334634d91a782af29dfe3e56d82/snitch-protos-0.0.59.tar.gz
+[2023-08-09 00:35:37] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/c2/fc/dec29c54206f1a83ebabdd48f8a66013661105b59aa48971447ac0e5b1d8/foursight-3.6.3.tar.gz
+[2023-08-09 00:35:37] INFO root fetch - processPackages [MLTF]: Downloading https://files.pythonhosted.org/packages/26/82/8685c1cc51c43d9ddb0a43cfe8b7a6c3977945996fb9caa5afc89f706903/MLTF-0.1.1.tar.gz
+[2023-08-09 00:35:37] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-08-09 00:35:37] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.423.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.424.tar.gz --markdown 20230809/p/pepperize.cdk-ses-smtp-credentials/0.3.423-0.3.424/diff.md --exclude *.pyd
+[2023-08-09 00:35:37] INFO root fetch - processPackages [MLTF]: executing diffoscope
+[2023-08-09 00:35:37] INFO root fetch - processPackages [MLTF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MLTF-0.1.tar.gz tmp/MLTF-0.1.1.tar.gz --markdown 20230809/M/MLTF/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-08-09 00:35:37] INFO root fetch - processPackages [azure-eventhub]: Downloading https://files.pythonhosted.org/packages/0e/db/be90c07d11c0535de1fe2d0eb4c74933ec1c714bffbd144e76fc07f109dc/azure-eventhub-5.9.0b3.zip
+[2023-08-09 00:35:37] INFO root fetch - processPackages [snitch-protos]: executing diffoscope
+[2023-08-09 00:35:37] INFO root fetch - processPackages [WormholeSort]: Downloading https://files.pythonhosted.org/packages/df/8d/dc7610749c1662e942fa36cc45d44bc4c6854085bac02c3473d45e34ae66/WormholeSort-1.0.1.tar.gz
+[2023-08-09 00:35:37] INFO root fetch - processPackages [snitch-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snitch-protos-0.0.58.tar.gz tmp/snitch-protos-0.0.59.tar.gz --markdown 20230809/s/snitch-protos/0.0.58-0.0.59/diff.md --exclude *.pyd
+[2023-08-09 00:35:37] INFO root fetch - processPackages [django-nested-modals]: Downloading https://files.pythonhosted.org/packages/80/56/fb90e568ee7b409510b109e89123d0b8aaca9dffb24d222574e2b361fc64/django-nested-modals-0.0.9.tar.gz
+[2023-08-09 00:35:37] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-08-09 00:35:37] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.6.2.tar.gz tmp/foursight-3.6.3.tar.gz --markdown 20230809/f/foursight/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-08-09 00:35:37] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/72/5f/0c56c7e3c744a0d148e38ced7ca13ba70d69350acc4556526cf0da215a33/reflex-0.2.4a1.tar.gz
+[2023-08-09 00:35:37] INFO root fetch - processPackages [azure-eventhub]: executing diffoscope
+[2023-08-09 00:35:37] INFO root fetch - processPackages [azure-eventhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-eventhub-5.9.0b2.zip tmp/azure-eventhub-5.9.0b3.zip --markdown 20230809/a/azure-eventhub/5.9.0b2-5.9.0b3/diff.md --exclude *.pyd
+[2023-08-09 00:35:37] INFO root fetch - processPackages [WormholeSort]: executing diffoscope
+[2023-08-09 00:35:37] INFO root fetch - processPackages [WormholeSort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WormholeSort-1.0.0.tar.gz tmp/WormholeSort-1.0.1.tar.gz --markdown 20230809/W/WormholeSort/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-09 00:35:37] INFO root fetch - processPackages [django-nested-modals]: executing diffoscope
+[2023-08-09 00:35:37] INFO root fetch - processPackages [django-nested-modals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-nested-modals-0.0.8.tar.gz tmp/django-nested-modals-0.0.9.tar.gz --markdown 20230809/d/django-nested-modals/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-09 00:35:37] INFO root fetch - processPackages [tensorboard]: Downloading https://files.pythonhosted.org/packages/ee/0d/23812e6ce63b3d87c39bc9fee83e28c499052fa83fddddd7daea21a6d620/tensorboard-2.9.1-py3-none-any.whl
+[2023-08-09 00:35:37] INFO root fetch - processPackages [reflex]: executing diffoscope
+[2023-08-09 00:35:37] INFO root fetch - processPackages [reflex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex-0.2.3a9.tar.gz tmp/reflex-0.2.4a1.tar.gz --markdown 20230809/r/reflex/0.2.3a9-0.2.4a1/diff.md --exclude *.pyd
+[2023-08-09 00:35:37] INFO root fetch - processPackages [tensorboard]: executing diffoscope
+[2023-08-09 00:35:37] INFO root fetch - processPackages [tensorboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorboard-2.9.0-py3-none-any.whl.zip tmp/tensorboard-2.9.1-py3-none-any.whl.zip --markdown 20230809/t/tensorboard/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-08-09 00:35:38] INFO root fetch - processPackages [yak-server]: Remove: archive file [/home/abi/fetcher/tmp/yak_server-0.8.0.tar.gz]
+[2023-08-09 00:35:38] INFO root fetch - processPackages [yak-server]: Remove: archive file [/home/abi/fetcher/tmp/yak_server-0.9.0.tar.gz]
+[2023-08-09 00:35:38] INFO root fetch - processPackages [yak-server]: Start processing: ofcli
+[2023-08-09 00:35:38] INFO root fetch - main [MainThread]: End processing [yak-server]: success
+[2023-08-09 00:35:38] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.423.tar.gz]
+[2023-08-09 00:35:38] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.424.tar.gz]
+[2023-08-09 00:35:38] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-08-09 00:35:38] INFO root fetch - processPackages [ofcli]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-08-09 00:35:38] INFO root fetch - processPackages [MLTF]: Remove: archive file [/home/abi/fetcher/tmp/MLTF-0.1.tar.gz]
+[2023-08-09 00:35:38] INFO root fetch - processPackages [MLTF]: Remove: archive file [/home/abi/fetcher/tmp/MLTF-0.1.1.tar.gz]
+[2023-08-09 00:35:38] INFO root fetch - main [MainThread]: End processing [MLTF]: success
+[2023-08-09 00:35:38] INFO root fetch - processPackages [snitch-protos]: Remove: archive file [/home/abi/fetcher/tmp/snitch-protos-0.0.58.tar.gz]
+[2023-08-09 00:35:38] INFO root fetch - processPackages [snitch-protos]: Remove: archive file [/home/abi/fetcher/tmp/snitch-protos-0.0.59.tar.gz]
+[2023-08-09 00:35:38] INFO root fetch - main [MainThread]: End processing [snitch-protos]: success
+[2023-08-09 00:35:38] INFO root fetch - processPackages [ofcli]: Downloading https://files.pythonhosted.org/packages/3b/3e/8b0b8ac4b3bd1b9e806533ff31601f4d5baa24d394ad2257cad4f6f56027/ofcli-0.2.0.tar.gz
+[2023-08-09 00:35:39] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.6.2.tar.gz]
+[2023-08-09 00:35:39] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.6.3.tar.gz]
+[2023-08-09 00:35:39] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-08-09 00:35:39] INFO root fetch - processPackages [WormholeSort]: Remove: archive file [/home/abi/fetcher/tmp/WormholeSort-1.0.0.tar.gz]
+[2023-08-09 00:35:39] INFO root fetch - processPackages [WormholeSort]: Remove: archive file [/home/abi/fetcher/tmp/WormholeSort-1.0.1.tar.gz]
+[2023-08-09 00:35:39] INFO root fetch - main [MainThread]: End processing [WormholeSort]: success
+[2023-08-09 00:35:39] INFO root fetch - processPackages [ofcli]: Downloading https://files.pythonhosted.org/packages/e7/1a/14f12ad35a9feb480d0f587e9c1b43e394cf7d76ffc588dbbf69e1a8047d/ofcli-0.3.0.tar.gz
+[2023-08-09 00:35:39] INFO root fetch - processPackages [ofcli]: executing diffoscope
+[2023-08-09 00:35:39] INFO root fetch - processPackages [ofcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofcli-0.2.0.tar.gz tmp/ofcli-0.3.0.tar.gz --markdown 20230809/o/ofcli/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-08-09 00:35:39] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.2.3a9.tar.gz]
+[2023-08-09 00:35:39] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.2.4a1.tar.gz]
+[2023-08-09 00:35:39] INFO root fetch - main [MainThread]: End processing [reflex]: success
+[2023-08-09 00:35:39] INFO root fetch - processPackages [django-nested-modals]: Remove: archive file [/home/abi/fetcher/tmp/django-nested-modals-0.0.8.tar.gz]
+[2023-08-09 00:35:39] INFO root fetch - processPackages [django-nested-modals]: Remove: archive file [/home/abi/fetcher/tmp/django-nested-modals-0.0.9.tar.gz]
+[2023-08-09 00:35:39] INFO root fetch - main [MainThread]: End processing [django-nested-modals]: success
+[2023-08-09 00:35:39] INFO root fetch - processPackages [azure-eventhub]: Remove: archive file [/home/abi/fetcher/tmp/azure-eventhub-5.9.0b2.zip]
+[2023-08-09 00:35:39] INFO root fetch - processPackages [azure-eventhub]: Remove: archive file [/home/abi/fetcher/tmp/azure-eventhub-5.9.0b3.zip]
+[2023-08-09 00:35:39] INFO root fetch - main [MainThread]: End processing [azure-eventhub]: success
+[2023-08-09 00:35:40] INFO root fetch - processPackages [ofcli]: Remove: archive file [/home/abi/fetcher/tmp/ofcli-0.2.0.tar.gz]
+[2023-08-09 00:35:40] INFO root fetch - processPackages [ofcli]: Remove: archive file [/home/abi/fetcher/tmp/ofcli-0.3.0.tar.gz]
+[2023-08-09 00:35:40] INFO root fetch - main [MainThread]: End processing [ofcli]: success
+[2023-08-09 00:35:40] INFO root fetch - processPackages [tensorboard]: Remove: archive file [/home/abi/fetcher/tmp/tensorboard-2.9.0-py3-none-any.whl.zip]
+[2023-08-09 00:35:40] INFO root fetch - processPackages [tensorboard]: Remove: archive file [/home/abi/fetcher/tmp/tensorboard-2.9.1-py3-none-any.whl.zip]
+[2023-08-09 00:35:40] INFO root fetch - main [MainThread]: End processing [tensorboard]: success
+[2023-08-09 00:35:40] INFO root fetch - main [MainThread]: Store serial: [19228267]
