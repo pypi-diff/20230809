@@ -934,3 +934,96 @@
 [2023-08-09 00:51:12] INFO root fetch - processPackages [jupyterlab-sql-editor]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_sql_editor-0.1.71a4.tar.gz]
 [2023-08-09 00:51:12] INFO root fetch - main [MainThread]: End processing [jupyterlab-sql-editor]: success
 [2023-08-09 00:51:12] INFO root fetch - main [MainThread]: Store serial: [19228319]
+[2023-08-09 00:56:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19228319]
+[2023-08-09 00:56:21] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-09 00:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clvm-tools-rs
+[2023-08-09 00:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djangocms-fomantic-ui
+[2023-08-09 00:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PartSeg
+[2023-08-09 00:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ol-concourse
+[2023-08-09 00:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RepoDynamics
+[2023-08-09 00:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oceanum
+[2023-08-09 00:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: np-workflows
+[2023-08-09 00:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ba-az-types
+[2023-08-09 00:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: m-json-db
+[2023-08-09 00:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lkml2cube
+[2023-08-09 00:56:21] INFO root fetch - processPackages [djangocms-fomantic-ui]: New version: [0.0.2b2] Old Version: [0.0.2b1]
+[2023-08-09 00:56:21] INFO root fetch - processPackages [RepoDynamics]: New version: [0.0.0.dev4] Old Version: [0.0.0.dev3]
+[2023-08-09 00:56:21] INFO root fetch - processPackages [np-workflows]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-08-09 00:56:21] INFO root fetch - processPackages [ol-concourse]: New version: [0.5.0] Old Version: [0.4.4]
+[2023-08-09 00:56:21] INFO root fetch - processPackages [djangocms-fomantic-ui]: Downloading https://files.pythonhosted.org/packages/44/90/4a655935975388ec939652bb5941b987f3d7627e671a7d0699c5a7bca932/djangocms_fomantic_ui-0.0.2b1.tar.gz
+[2023-08-09 00:56:21] INFO root fetch - processPackages [RepoDynamics]: Downloading https://files.pythonhosted.org/packages/e7/e3/0a47468468ec7fefc62bb9158730e051426c562bf3cf2bfc45565e0aa105/RepoDynamics-0.0.0.dev3.tar.gz
+[2023-08-09 00:56:21] INFO root fetch - processPackages [clvm-tools-rs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-09 00:56:21] WARNING root fetch - processPackages [m-json-db]: Skipping, unable to determine old version
+[2023-08-09 00:56:21] INFO root fetch - processPackages [m-json-db]: Start processing: jupyter-ai
+[2023-08-09 00:56:21] INFO root fetch - main [MainThread]: End processing [m-json-db] error
+[2023-08-09 00:56:21] WARNING root fetch - processPackages [ba-az-types]: Skipping, unable to determine old version
+[2023-08-09 00:56:21] INFO root fetch - processPackages [ba-az-types]: Start processing: jupyter-ai-magics
+[2023-08-09 00:56:21] INFO root fetch - main [MainThread]: End processing [ba-az-types] error
+[2023-08-09 00:56:21] INFO root fetch - processPackages [oceanum]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-08-09 00:56:21] WARNING root fetch - processPackages [lkml2cube]: Skipping, unable to determine old version
+[2023-08-09 00:56:21] INFO root fetch - main [MainThread]: End processing [lkml2cube] error
+[2023-08-09 00:56:21] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/79/f0/0fa25095ad07ad1bd48cf6fba3816492415511c013c514a468b3d474f59c/np_workflows-1.6.8.tar.gz
+[2023-08-09 00:56:21] INFO root fetch - processPackages [PartSeg]: New version: [0.9b2] Old Version: [0.9b1]
+[2023-08-09 00:56:21] INFO root fetch - processPackages [jupyter-ai]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-08-09 00:56:21] INFO root fetch - processPackages [jupyter-ai-magics]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-08-09 00:56:21] INFO root fetch - processPackages [ol-concourse]: Downloading https://files.pythonhosted.org/packages/6f/2e/b6449972665aba7fb347dd69ca47d69c383fbcda5d511afcbce150cc4aeb/ol-concourse-0.4.4.tar.gz
+[2023-08-09 00:56:22] INFO root fetch - processPackages [oceanum]: Downloading https://files.pythonhosted.org/packages/cb/3c/2dec88e7d77ffb28375661765313eecbc3d643973c28e0a003f8aa36c6c6/oceanum-0.8.3.tar.gz
+[2023-08-09 00:56:22] INFO root fetch - processPackages [clvm-tools-rs]: Downloading https://files.pythonhosted.org/packages/38/80/25c677d096f069dfef39bf142e51981573fc3c10bdd85ab94c4ff86313aa/clvm_tools_rs-0.1.8-cp37-abi3-win_amd64.whl
+[2023-08-09 00:56:22] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/22/99/1d9bd467267c7857762e4b9683759e82d21a0e8fc1b3850ae9710f4f7866/np_workflows-1.6.9.tar.gz
+[2023-08-09 00:56:22] INFO root fetch - processPackages [PartSeg]: Downloading https://files.pythonhosted.org/packages/f8/dc/b44aabe6b685e5fa2c30a54c627357b1392f3c2bca2e00f08b38ad9967da/PartSeg-0.9b1.tar.gz
+[2023-08-09 00:56:22] INFO root fetch - processPackages [jupyter-ai]: Downloading https://files.pythonhosted.org/packages/d9/1d/e6351a165b99f5f6cee3137a72b2c3c04249c55a1465f12efb91c5ca6bc0/jupyter_ai-2.0.0.tar.gz
+[2023-08-09 00:56:22] INFO root fetch - processPackages [np-workflows]: executing diffoscope
+[2023-08-09 00:56:22] INFO root fetch - processPackages [np-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_workflows-1.6.8.tar.gz tmp/np_workflows-1.6.9.tar.gz --markdown 20230809/n/np-workflows/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-08-09 00:56:22] INFO root fetch - processPackages [jupyter-ai-magics]: Downloading https://files.pythonhosted.org/packages/1e/4a/71dacf8e52b25bc34271a111c5130ca37c58524fbcc667949575eb865f5a/jupyter_ai_magics-2.0.0.tar.gz
+[2023-08-09 00:56:22] INFO root fetch - processPackages [djangocms-fomantic-ui]: Downloading https://files.pythonhosted.org/packages/5d/8f/e33b0b852e9877958728e182156405b13aa2a1af20306d4adedb9f1f7956/djangocms_fomantic_ui-0.0.2b2.tar.gz
+[2023-08-09 00:56:22] INFO root fetch - processPackages [RepoDynamics]: Downloading https://files.pythonhosted.org/packages/a2/65/c4a71dc66ecdedccfadd25310bb787da9f4589080b546d9015e81bff4d4d/RepoDynamics-0.0.0.dev4.tar.gz
+[2023-08-09 00:56:22] INFO root fetch - processPackages [ol-concourse]: Downloading https://files.pythonhosted.org/packages/d6/18/1fc2719afe84653b4421a38b72e9103894e8e1eff7b82fdacc314cfe2463/ol-concourse-0.5.0.tar.gz
+[2023-08-09 00:56:22] INFO root fetch - processPackages [RepoDynamics]: executing diffoscope
+[2023-08-09 00:56:22] INFO root fetch - processPackages [RepoDynamics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RepoDynamics-0.0.0.dev3.tar.gz tmp/RepoDynamics-0.0.0.dev4.tar.gz --markdown 20230809/R/RepoDynamics/0.0.0.dev3-0.0.0.dev4/diff.md --exclude *.pyd
+[2023-08-09 00:56:22] INFO root fetch - processPackages [oceanum]: Downloading https://files.pythonhosted.org/packages/c1/41/d7d196efeaee298254fff37a932edda3fde3b1be0ea62fbb9676fdb9cebe/oceanum-0.9.0.tar.gz
+[2023-08-09 00:56:22] INFO root fetch - processPackages [clvm-tools-rs]: Downloading https://files.pythonhosted.org/packages/73/ba/94a5717bd4b68c38b422a6e11ac1c939ff40489b6339a5bd164750beb150/clvm_tools_rs-0.1.9-cp37-abi3-win_amd64.whl
+[2023-08-09 00:56:22] INFO root fetch - processPackages [jupyter-ai-magics]: Downloading https://files.pythonhosted.org/packages/47/7c/2831371c98a0c97e1fadba891440b0178f6d2e6c1f11fb052945489ee2f9/jupyter_ai_magics-2.0.1.tar.gz
+[2023-08-09 00:56:22] INFO root fetch - processPackages [ol-concourse]: executing diffoscope
+[2023-08-09 00:56:22] INFO root fetch - processPackages [ol-concourse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ol-concourse-0.4.4.tar.gz tmp/ol-concourse-0.5.0.tar.gz --markdown 20230809/o/ol-concourse/0.4.4-0.5.0/diff.md --exclude *.pyd
+[2023-08-09 00:56:22] INFO root fetch - processPackages [jupyter-ai]: Downloading https://files.pythonhosted.org/packages/af/4f/98d5b4d7764c517415ebf0f84c1eda26ad2c91788ddfeb04fce8a5e74d2e/jupyter_ai-2.0.1.tar.gz
+[2023-08-09 00:56:22] INFO root fetch - processPackages [djangocms-fomantic-ui]: executing diffoscope
+[2023-08-09 00:56:22] INFO root fetch - processPackages [djangocms-fomantic-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms_fomantic_ui-0.0.2b1.tar.gz tmp/djangocms_fomantic_ui-0.0.2b2.tar.gz --markdown 20230809/d/djangocms-fomantic-ui/0.0.2b1-0.0.2b2/diff.md --exclude *.pyd
+[2023-08-09 00:56:22] INFO root fetch - processPackages [clvm-tools-rs]: executing diffoscope
+[2023-08-09 00:56:22] INFO root fetch - processPackages [clvm-tools-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clvm_tools_rs-0.1.8-cp37-abi3-win_amd64.whl.zip tmp/clvm_tools_rs-0.1.9-cp37-abi3-win_amd64.whl.zip --markdown 20230809/c/clvm-tools-rs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-09 00:56:22] INFO root fetch - processPackages [jupyter-ai-magics]: executing diffoscope
+[2023-08-09 00:56:22] INFO root fetch - processPackages [jupyter-ai-magics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_ai_magics-2.0.0.tar.gz tmp/jupyter_ai_magics-2.0.1.tar.gz --markdown 20230809/j/jupyter-ai-magics/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-08-09 00:56:23] INFO root fetch - processPackages [oceanum]: executing diffoscope
+[2023-08-09 00:56:23] INFO root fetch - processPackages [oceanum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceanum-0.8.3.tar.gz tmp/oceanum-0.9.0.tar.gz --markdown 20230809/o/oceanum/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-08-09 00:56:23] INFO root fetch - processPackages [jupyter-ai]: executing diffoscope
+[2023-08-09 00:56:23] INFO root fetch - processPackages [jupyter-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_ai-2.0.0.tar.gz tmp/jupyter_ai-2.0.1.tar.gz --markdown 20230809/j/jupyter-ai/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-08-09 00:56:23] INFO root fetch - processPackages [PartSeg]: Downloading https://files.pythonhosted.org/packages/2a/dd/169d2cf477f98bbfa1eaddae85efce5403fb8c710d2897a0b050329a0fbc/PartSeg-0.9b2.tar.gz
+[2023-08-09 00:56:23] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.8.tar.gz]
+[2023-08-09 00:56:23] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.9.tar.gz]
+[2023-08-09 00:56:23] INFO root fetch - main [MainThread]: End processing [np-workflows]: success
+[2023-08-09 00:56:23] INFO root fetch - processPackages [RepoDynamics]: Remove: archive file [/home/abi/fetcher/tmp/RepoDynamics-0.0.0.dev3.tar.gz]
+[2023-08-09 00:56:23] INFO root fetch - processPackages [RepoDynamics]: Remove: archive file [/home/abi/fetcher/tmp/RepoDynamics-0.0.0.dev4.tar.gz]
+[2023-08-09 00:56:23] INFO root fetch - main [MainThread]: End processing [RepoDynamics]: success
+[2023-08-09 00:56:24] INFO root fetch - processPackages [clvm-tools-rs]: Remove: archive file [/home/abi/fetcher/tmp/clvm_tools_rs-0.1.8-cp37-abi3-win_amd64.whl.zip]
+[2023-08-09 00:56:24] INFO root fetch - processPackages [clvm-tools-rs]: Remove: archive file [/home/abi/fetcher/tmp/clvm_tools_rs-0.1.9-cp37-abi3-win_amd64.whl.zip]
+[2023-08-09 00:56:24] INFO root fetch - main [MainThread]: End processing [clvm-tools-rs]: success
+[2023-08-09 00:56:24] INFO root fetch - processPackages [ol-concourse]: Remove: archive file [/home/abi/fetcher/tmp/ol-concourse-0.4.4.tar.gz]
+[2023-08-09 00:56:24] INFO root fetch - processPackages [ol-concourse]: Remove: archive file [/home/abi/fetcher/tmp/ol-concourse-0.5.0.tar.gz]
+[2023-08-09 00:56:24] INFO root fetch - main [MainThread]: End processing [ol-concourse]: success
+[2023-08-09 00:56:24] INFO root fetch - processPackages [jupyter-ai-magics]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai_magics-2.0.0.tar.gz]
+[2023-08-09 00:56:24] INFO root fetch - processPackages [jupyter-ai-magics]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai_magics-2.0.1.tar.gz]
+[2023-08-09 00:56:24] INFO root fetch - main [MainThread]: End processing [jupyter-ai-magics]: success
+[2023-08-09 00:56:24] INFO root fetch - processPackages [djangocms-fomantic-ui]: Remove: archive file [/home/abi/fetcher/tmp/djangocms_fomantic_ui-0.0.2b1.tar.gz]
+[2023-08-09 00:56:24] INFO root fetch - processPackages [djangocms-fomantic-ui]: Remove: archive file [/home/abi/fetcher/tmp/djangocms_fomantic_ui-0.0.2b2.tar.gz]
+[2023-08-09 00:56:24] INFO root fetch - main [MainThread]: End processing [djangocms-fomantic-ui]: success
+[2023-08-09 00:56:24] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.8.3.tar.gz]
+[2023-08-09 00:56:24] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.9.0.tar.gz]
+[2023-08-09 00:56:24] INFO root fetch - main [MainThread]: End processing [oceanum]: success
+[2023-08-09 00:56:24] INFO root fetch - processPackages [PartSeg]: executing diffoscope
+[2023-08-09 00:56:24] INFO root fetch - processPackages [PartSeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PartSeg-0.9b1.tar.gz tmp/PartSeg-0.9b2.tar.gz --markdown 20230809/P/PartSeg/0.9b1-0.9b2/diff.md --exclude *.pyd
+[2023-08-09 00:56:27] INFO root fetch - processPackages [PartSeg]: Remove: archive file [/home/abi/fetcher/tmp/PartSeg-0.9b1.tar.gz]
+[2023-08-09 00:56:27] INFO root fetch - processPackages [PartSeg]: Remove: archive file [/home/abi/fetcher/tmp/PartSeg-0.9b2.tar.gz]
+[2023-08-09 00:56:27] INFO root fetch - main [MainThread]: End processing [PartSeg]: success
+[2023-08-09 00:56:30] INFO root fetch - processPackages [jupyter-ai]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai-2.0.0.tar.gz]
+[2023-08-09 00:56:30] INFO root fetch - processPackages [jupyter-ai]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai-2.0.1.tar.gz]
+[2023-08-09 00:56:30] INFO root fetch - main [MainThread]: End processing [jupyter-ai]: success
+[2023-08-09 00:56:30] INFO root fetch - main [MainThread]: Store serial: [19228363]
