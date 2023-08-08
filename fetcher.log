@@ -1106,3 +1106,48 @@
 [2023-08-09 01:06:53] INFO root fetch - processPackages [protobuf]: Remove: archive file [/home/abi/fetcher/tmp/protobuf-4.24.0rc3.tar.gz]
 [2023-08-09 01:06:53] INFO root fetch - main [MainThread]: End processing [protobuf]: success
 [2023-08-09 01:06:53] INFO root fetch - main [MainThread]: Store serial: [19228432]
+[2023-08-09 01:11:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19228432]
+[2023-08-09 01:12:02] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-09 01:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wedne
+[2023-08-09 01:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cropnet
+[2023-08-09 01:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: incidentsBugDSI
+[2023-08-09 01:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RepoDynamics
+[2023-08-09 01:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbxs
+[2023-08-09 01:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aamp-app
+[2023-08-09 01:12:02] INFO root fetch - processPackages [cropnet]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-09 01:12:02] WARNING root fetch - processPackages [incidentsBugDSI]: Skipping, unable to determine old version
+[2023-08-09 01:12:02] INFO root fetch - main [MainThread]: End processing [incidentsBugDSI] error
+[2023-08-09 01:12:02] INFO root fetch - processPackages [RepoDynamics]: New version: [0.0.0.dev5] Old Version: [0.0.0.dev4]
+[2023-08-09 01:12:02] INFO root fetch - processPackages [RepoDynamics]: Downloading https://files.pythonhosted.org/packages/a2/65/c4a71dc66ecdedccfadd25310bb787da9f4589080b546d9015e81bff4d4d/RepoDynamics-0.0.0.dev4.tar.gz
+[2023-08-09 01:12:02] INFO root fetch - processPackages [dbxs]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-09 01:12:02] INFO root fetch - processPackages [wedne]: New version: [1.1.0] Old Version: [1.0.5]
+[2023-08-09 01:12:02] WARNING root fetch - processPackages [aamp-app]: Skipping, unable to determine old version
+[2023-08-09 01:12:02] INFO root fetch - main [MainThread]: End processing [aamp-app] error
+[2023-08-09 01:12:02] INFO root fetch - processPackages [wedne]: Downloading https://files.pythonhosted.org/packages/dc/b7/632ed3ba91cfa1f17f017a3dd964b9d0d5640560e7a88a0b32f43c13b552/wedne-1.0.5.tar.gz
+[2023-08-09 01:12:02] INFO root fetch - processPackages [cropnet]: Downloading https://files.pythonhosted.org/packages/38/b6/457c6267bc8e61e0edd0b4b5f06cfac595450b3a36adfe796c6b07055a95/cropnet-0.1.7.tar.gz
+[2023-08-09 01:12:02] INFO root fetch - processPackages [dbxs]: Downloading https://files.pythonhosted.org/packages/3f/1f/f45e73e97ec2a2394bca53c9549c538af58b4e460cab97d277a1829f8596/dbxs-0.0.1.tar.gz
+[2023-08-09 01:12:03] INFO root fetch - processPackages [RepoDynamics]: Downloading https://files.pythonhosted.org/packages/15/58/c721934ff59fc4bf1ec495b86e63b38dfcab77d4da444e0c7fa7bd46d318/RepoDynamics-0.0.0.dev5.tar.gz
+[2023-08-09 01:12:03] INFO root fetch - processPackages [wedne]: Downloading https://files.pythonhosted.org/packages/a1/ac/26bfaa15cc319a8e81856fb3020ff0cf5a1f804bbef588d12e692cf76e62/wedne-1.1.0.tar.gz
+[2023-08-09 01:12:03] INFO root fetch - processPackages [cropnet]: Downloading https://files.pythonhosted.org/packages/70/cb/da58115f4228c8e151b9039114c5006dec30df930291b243471b8c7cd997/cropnet-0.1.8.tar.gz
+[2023-08-09 01:12:03] INFO root fetch - processPackages [RepoDynamics]: executing diffoscope
+[2023-08-09 01:12:03] INFO root fetch - processPackages [RepoDynamics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RepoDynamics-0.0.0.dev4.tar.gz tmp/RepoDynamics-0.0.0.dev5.tar.gz --markdown 20230809/R/RepoDynamics/0.0.0.dev4-0.0.0.dev5/diff.md --exclude *.pyd
+[2023-08-09 01:12:03] INFO root fetch - processPackages [dbxs]: Downloading https://files.pythonhosted.org/packages/2d/7b/23a10a0dcffb606e183116061f11fed857896a490ceb90d09d1ce0f5f6b5/dbxs-0.0.2.tar.gz
+[2023-08-09 01:12:03] INFO root fetch - processPackages [wedne]: executing diffoscope
+[2023-08-09 01:12:03] INFO root fetch - processPackages [wedne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wedne-1.0.5.tar.gz tmp/wedne-1.1.0.tar.gz --markdown 20230809/w/wedne/1.0.5-1.1.0/diff.md --exclude *.pyd
+[2023-08-09 01:12:03] INFO root fetch - processPackages [cropnet]: executing diffoscope
+[2023-08-09 01:12:03] INFO root fetch - processPackages [cropnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cropnet-0.1.7.tar.gz tmp/cropnet-0.1.8.tar.gz --markdown 20230809/c/cropnet/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-09 01:12:03] INFO root fetch - processPackages [dbxs]: executing diffoscope
+[2023-08-09 01:12:03] INFO root fetch - processPackages [dbxs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbxs-0.0.1.tar.gz tmp/dbxs-0.0.2.tar.gz --markdown 20230809/d/dbxs/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-09 01:12:04] INFO root fetch - processPackages [RepoDynamics]: Remove: archive file [/home/abi/fetcher/tmp/RepoDynamics-0.0.0.dev4.tar.gz]
+[2023-08-09 01:12:04] INFO root fetch - processPackages [RepoDynamics]: Remove: archive file [/home/abi/fetcher/tmp/RepoDynamics-0.0.0.dev5.tar.gz]
+[2023-08-09 01:12:04] INFO root fetch - main [MainThread]: End processing [RepoDynamics]: success
+[2023-08-09 01:12:04] INFO root fetch - processPackages [cropnet]: Remove: archive file [/home/abi/fetcher/tmp/cropnet-0.1.7.tar.gz]
+[2023-08-09 01:12:04] INFO root fetch - processPackages [cropnet]: Remove: archive file [/home/abi/fetcher/tmp/cropnet-0.1.8.tar.gz]
+[2023-08-09 01:12:04] INFO root fetch - main [MainThread]: End processing [cropnet]: success
+[2023-08-09 01:12:04] INFO root fetch - processPackages [dbxs]: Remove: archive file [/home/abi/fetcher/tmp/dbxs-0.0.1.tar.gz]
+[2023-08-09 01:12:04] INFO root fetch - processPackages [dbxs]: Remove: archive file [/home/abi/fetcher/tmp/dbxs-0.0.2.tar.gz]
+[2023-08-09 01:12:04] INFO root fetch - main [MainThread]: End processing [dbxs]: success
+[2023-08-09 01:12:04] INFO root fetch - processPackages [wedne]: Remove: archive file [/home/abi/fetcher/tmp/wedne-1.0.5.tar.gz]
+[2023-08-09 01:12:04] INFO root fetch - processPackages [wedne]: Remove: archive file [/home/abi/fetcher/tmp/wedne-1.1.0.tar.gz]
+[2023-08-09 01:12:04] INFO root fetch - main [MainThread]: End processing [wedne]: success
+[2023-08-09 01:12:04] INFO root fetch - main [MainThread]: Store serial: [19228452]
