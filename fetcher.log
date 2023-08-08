@@ -1340,3 +1340,110 @@
 [2023-08-09 01:22:49] INFO root fetch - processPackages [fern-merge]: Remove: archive file [/home/abi/fetcher/tmp/fern_merge-0.2.3.tar.gz]
 [2023-08-09 01:22:49] INFO root fetch - main [MainThread]: End processing [fern-merge]: success
 [2023-08-09 01:22:49] INFO root fetch - main [MainThread]: Store serial: [19228536]
+[2023-08-09 01:27:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19228536]
+[2023-08-09 01:27:57] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-09 01:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ursactl
+[2023-08-09 01:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autogluon.bench
+[2023-08-09 01:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djangocms-fomantic-ui
+[2023-08-09 01:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: localeet
+[2023-08-09 01:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: specsim
+[2023-08-09 01:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simfire
+[2023-08-09 01:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sphinx-api-sidebar
+[2023-08-09 01:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nvidia-tao-deploy
+[2023-08-09 01:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: RepoDynamics
+[2023-08-09 01:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: runpod
+[2023-08-09 01:27:58] INFO root fetch - processPackages [RepoDynamics]: New version: [0.0.0.dev6] Old Version: [0.0.0.dev5]
+[2023-08-09 01:27:58] INFO root fetch - processPackages [djangocms-fomantic-ui]: New version: [0.0.2b4] Old Version: [0.0.2b3]
+[2023-08-09 01:27:58] INFO root fetch - processPackages [simfire]: New version: [1.4.39] Old Version: [1.4.38]
+[2023-08-09 01:27:58] INFO root fetch - processPackages [specsim]: New version: [0.9] Old Version: [0.8]
+[2023-08-09 01:27:58] INFO root fetch - processPackages [RepoDynamics]: Downloading https://files.pythonhosted.org/packages/15/58/c721934ff59fc4bf1ec495b86e63b38dfcab77d4da444e0c7fa7bd46d318/RepoDynamics-0.0.0.dev5.tar.gz
+[2023-08-09 01:27:58] INFO root fetch - processPackages [autogluon.bench]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-09 01:27:58] INFO root fetch - processPackages [sphinx-api-sidebar]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-08-09 01:27:58] INFO root fetch - processPackages [djangocms-fomantic-ui]: Downloading https://files.pythonhosted.org/packages/26/1e/9511a4f6de7f2f97f35e583dc79d5b1a7ca1a04fb0c5d6fbafc8ee47d8aa/djangocms_fomantic_ui-0.0.2b3.tar.gz
+[2023-08-09 01:27:58] INFO root fetch - processPackages [localeet]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-09 01:27:58] INFO root fetch - processPackages [ursactl]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-08-09 01:27:58] INFO root fetch - processPackages [nvidia-tao-deploy]: New version: [5.0.0.390.dev0] Old Version: [4.0.0.1]
+[2023-08-09 01:27:58] INFO root fetch - processPackages [simfire]: Downloading https://files.pythonhosted.org/packages/c7/31/6a0dea15344153454792879c6592c4e70059c81ed9cbe395c358c4e71b35/simfire-1.4.38.tar.gz
+[2023-08-09 01:27:58] INFO root fetch - processPackages [runpod]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-08-09 01:27:58] INFO root fetch - processPackages [localeet]: Downloading https://files.pythonhosted.org/packages/b2/ec/832ffd12b9c87780307c33b095a60ec3be0bf44f25a48ea4db4ad03b92e6/localeet-0.1.6.tar.gz
+[2023-08-09 01:27:58] INFO root fetch - processPackages [specsim]: Downloading https://files.pythonhosted.org/packages/27/00/eddc6c367d66aa2931032675e990c4ae07c7f14e7bc961ae01da1fcb9dd7/specsim-0.8.tar.gz
+[2023-08-09 01:27:58] INFO root fetch - processPackages [sphinx-api-sidebar]: Downloading https://files.pythonhosted.org/packages/41/70/af8ee1a838ebe40810c35a8b98ee1b1077107033895ffcd2346fca69630d/sphinx_api_sidebar-0.2.0.tar.gz
+[2023-08-09 01:27:58] INFO root fetch - processPackages [autogluon.bench]: Downloading https://files.pythonhosted.org/packages/79/08/d1b440e86a9dcf77415d275184784f080ec3909fc34ea67d4b514954310a/autogluon.bench-0.2.1.tar.gz
+[2023-08-09 01:27:58] INFO root fetch - processPackages [nvidia-tao-deploy]: Downloading https://files.pythonhosted.org/packages/8d/c0/ea40e51a038357bc93a640d9ac2064b2b62a3c42a71830695893e405645d/nvidia_tao_deploy-4.0.0.1-py3-none-any.whl
+[2023-08-09 01:27:58] INFO root fetch - processPackages [runpod]: Downloading https://files.pythonhosted.org/packages/eb/03/062289446536be11ba35a2f550dd046ddbb523dde2a677bc0f4e11107756/runpod-1.0.1.tar.gz
+[2023-08-09 01:27:58] INFO root fetch - processPackages [ursactl]: Downloading https://files.pythonhosted.org/packages/ec/c3/b9a719de15e3f50e48fe7b20b00a4d31a872edd9a0459abfb517ed6577ff/ursactl-0.6.0.tar.gz
+[2023-08-09 01:27:58] INFO root fetch - processPackages [simfire]: Downloading https://files.pythonhosted.org/packages/51/55/1a8d876a7e3712039abb553983fca1ab2f8ad8c66874a88d22ef97c016cc/simfire-1.4.39.tar.gz
+[2023-08-09 01:27:58] INFO root fetch - processPackages [RepoDynamics]: Downloading https://files.pythonhosted.org/packages/fc/f4/d7d12b838eed5e9991e445183a57118d7402a13cafe0e64227129068a495/RepoDynamics-0.0.0.dev6.tar.gz
+[2023-08-09 01:27:58] ERROR root fetch - processPackages [djangocms-fomantic-ui]: Unable to fetch info: No such project/version 'djangocms-fomantic-ui' 0.0.2b4
+[2023-08-09 01:27:58] INFO root fetch - processPackages [djangocms-fomantic-ui]: Start processing: turbo-docs
+[2023-08-09 01:27:58] INFO root fetch - main [MainThread]: End processing [djangocms-fomantic-ui] error
+[2023-08-09 01:27:59] INFO root fetch - processPackages [RepoDynamics]: executing diffoscope
+[2023-08-09 01:27:59] INFO root fetch - processPackages [RepoDynamics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RepoDynamics-0.0.0.dev5.tar.gz tmp/RepoDynamics-0.0.0.dev6.tar.gz --markdown 20230809/R/RepoDynamics/0.0.0.dev5-0.0.0.dev6/diff.md --exclude *.pyd
+[2023-08-09 01:27:59] INFO root fetch - processPackages [localeet]: Downloading https://files.pythonhosted.org/packages/07/2b/9a3f7f36201b27c5aa72ba561ec5fea46115652dc302fb87e870af9de7f4/localeet-0.1.7.tar.gz
+[2023-08-09 01:27:59] INFO root fetch - processPackages [simfire]: executing diffoscope
+[2023-08-09 01:27:59] INFO root fetch - processPackages [simfire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simfire-1.4.38.tar.gz tmp/simfire-1.4.39.tar.gz --markdown 20230809/s/simfire/1.4.38-1.4.39/diff.md --exclude *.pyd
+[2023-08-09 01:27:59] INFO root fetch - processPackages [autogluon.bench]: Downloading https://files.pythonhosted.org/packages/8c/64/5c32bb76374357a4da49c00b7d26ba262ffb6dc04146f0b90829b5645966/autogluon.bench-0.2.2.tar.gz
+[2023-08-09 01:27:59] INFO root fetch - processPackages [sphinx-api-sidebar]: Downloading https://files.pythonhosted.org/packages/9b/9e/e2cda01b08d5ff6dc647352bf60a94b6ce155d2f83960194ec8dc48c33d6/sphinx_api_sidebar-0.3.0.tar.gz
+[2023-08-09 01:27:59] INFO root fetch - processPackages [turbo-docs]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-08-09 01:27:59] INFO root fetch - processPackages [ursactl]: Downloading https://files.pythonhosted.org/packages/a5/f8/c31b1682d3677fa40bc9c024cda722ac9b75c70ed096c5d461f08d0e98a5/ursactl-0.7.0.tar.gz
+[2023-08-09 01:27:59] INFO root fetch - processPackages [localeet]: executing diffoscope
+[2023-08-09 01:27:59] INFO root fetch - processPackages [localeet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localeet-0.1.6.tar.gz tmp/localeet-0.1.7.tar.gz --markdown 20230809/l/localeet/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-09 01:27:59] INFO root fetch - processPackages [runpod]: Downloading https://files.pythonhosted.org/packages/ad/1b/1b5f5d36504183e5e467151a53a70fea7b240f0b9ddcae4235a9f7423903/runpod-1.1.0.tar.gz
+[2023-08-09 01:27:59] INFO root fetch - processPackages [turbo-docs]: Downloading https://files.pythonhosted.org/packages/17/61/78acffdb3d4cf97a54b28f773cd208ff646e8e9a0f01407617743aaa6b52/turbo_docs-1.0.5.tar.gz
+[2023-08-09 01:27:59] INFO root fetch - processPackages [autogluon.bench]: executing diffoscope
+[2023-08-09 01:27:59] INFO root fetch - processPackages [autogluon.bench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.bench-0.2.1.tar.gz tmp/autogluon.bench-0.2.2.tar.gz --markdown 20230809/a/autogluon.bench/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-09 01:27:59] INFO root fetch - processPackages [sphinx-api-sidebar]: executing diffoscope
+[2023-08-09 01:27:59] INFO root fetch - processPackages [sphinx-api-sidebar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_api_sidebar-0.2.0.tar.gz tmp/sphinx_api_sidebar-0.3.0.tar.gz --markdown 20230809/s/sphinx-api-sidebar/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-08-09 01:27:59] INFO root fetch - processPackages [specsim]: Downloading https://files.pythonhosted.org/packages/9d/7f/78220c5a42e0a8d90857b06625a9c52be1733f9c11b80858a008e1859681/specsim-0.9.tar.gz
+[2023-08-09 01:27:59] INFO root fetch - processPackages [ursactl]: executing diffoscope
+[2023-08-09 01:27:59] INFO root fetch - processPackages [ursactl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ursactl-0.6.0.tar.gz tmp/ursactl-0.7.0.tar.gz --markdown 20230809/u/ursactl/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-08-09 01:27:59] INFO root fetch - processPackages [runpod]: executing diffoscope
+[2023-08-09 01:27:59] INFO root fetch - processPackages [runpod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runpod-1.0.1.tar.gz tmp/runpod-1.1.0.tar.gz --markdown 20230809/r/runpod/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-08-09 01:27:59] INFO root fetch - processPackages [turbo-docs]: Downloading https://files.pythonhosted.org/packages/9f/39/578d33a2431fa86dfe8a3f4792c3dfb63eb47aab23144a7921a8c49850b5/turbo_docs-1.0.6.tar.gz
+[2023-08-09 01:27:59] INFO root fetch - processPackages [nvidia-tao-deploy]: Downloading https://files.pythonhosted.org/packages/2a/07/1d0b999d13ec4ae66da9a43a4f201009424f2f97841aa1bdb64a3910bd2f/nvidia_tao_deploy-5.0.0.390.dev0-py3-none-any.whl
+[2023-08-09 01:27:59] INFO root fetch - processPackages [turbo-docs]: executing diffoscope
+[2023-08-09 01:27:59] INFO root fetch - processPackages [turbo-docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbo_docs-1.0.5.tar.gz tmp/turbo_docs-1.0.6.tar.gz --markdown 20230809/t/turbo-docs/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-08-09 01:27:59] INFO root fetch - processPackages [specsim]: executing diffoscope
+[2023-08-09 01:27:59] INFO root fetch - processPackages [specsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specsim-0.8.tar.gz tmp/specsim-0.9.tar.gz --markdown 20230809/s/specsim/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-09 01:27:59] INFO root fetch - processPackages [nvidia-tao-deploy]: executing diffoscope
+[2023-08-09 01:27:59] INFO root fetch - processPackages [nvidia-tao-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_tao_deploy-4.0.0.1-py3-none-any.whl.zip tmp/nvidia_tao_deploy-5.0.0.390.dev0-py3-none-any.whl.zip --markdown 20230809/n/nvidia-tao-deploy/4.0.0.1-5.0.0.390.dev0/diff.md --exclude *.pyd
+[2023-08-09 01:28:00] INFO root fetch - processPackages [RepoDynamics]: Remove: archive file [/home/abi/fetcher/tmp/RepoDynamics-0.0.0.dev5.tar.gz]
+[2023-08-09 01:28:00] INFO root fetch - processPackages [RepoDynamics]: Remove: archive file [/home/abi/fetcher/tmp/RepoDynamics-0.0.0.dev6.tar.gz]
+[2023-08-09 01:28:00] INFO root fetch - processPackages [RepoDynamics]: Start processing: sf-hamilton
+[2023-08-09 01:28:00] INFO root fetch - main [MainThread]: End processing [RepoDynamics]: success
+[2023-08-09 01:28:00] INFO root fetch - processPackages [sf-hamilton]: New version: [1.9.0rc0] Old Version: [1.9.0]
+[2023-08-09 01:28:00] INFO root fetch - processPackages [sf-hamilton]: Downloading https://files.pythonhosted.org/packages/d4/83/0202dcc740cf2448539aeb1ff959afb2dcb25e6b450e1ef9cca750253bda/sf-hamilton-1.9.0.tar.gz
+[2023-08-09 01:28:00] INFO root fetch - processPackages [simfire]: Remove: archive file [/home/abi/fetcher/tmp/simfire-1.4.38.tar.gz]
+[2023-08-09 01:28:00] INFO root fetch - processPackages [simfire]: Remove: archive file [/home/abi/fetcher/tmp/simfire-1.4.39.tar.gz]
+[2023-08-09 01:28:00] INFO root fetch - main [MainThread]: End processing [simfire]: success
+[2023-08-09 01:28:00] INFO root fetch - processPackages [sf-hamilton]: Downloading https://files.pythonhosted.org/packages/0e/64/cbed9bd614006aa69c7944b12cf92ee3daa8c7cf116669988c00b6e00ce7/sf-hamilton-1.9.0rc0.tar.gz
+[2023-08-09 01:28:00] INFO root fetch - processPackages [localeet]: Remove: archive file [/home/abi/fetcher/tmp/localeet-0.1.6.tar.gz]
+[2023-08-09 01:28:00] INFO root fetch - processPackages [localeet]: Remove: archive file [/home/abi/fetcher/tmp/localeet-0.1.7.tar.gz]
+[2023-08-09 01:28:00] INFO root fetch - main [MainThread]: End processing [localeet]: success
+[2023-08-09 01:28:00] INFO root fetch - processPackages [sphinx-api-sidebar]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_api_sidebar-0.2.0.tar.gz]
+[2023-08-09 01:28:00] INFO root fetch - processPackages [sphinx-api-sidebar]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_api_sidebar-0.3.0.tar.gz]
+[2023-08-09 01:28:00] INFO root fetch - main [MainThread]: End processing [sphinx-api-sidebar]: success
+[2023-08-09 01:28:01] INFO root fetch - processPackages [sf-hamilton]: executing diffoscope
+[2023-08-09 01:28:01] INFO root fetch - processPackages [sf-hamilton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sf-hamilton-1.9.0.tar.gz tmp/sf-hamilton-1.9.0rc0.tar.gz --markdown 20230809/s/sf-hamilton/1.9.0-1.9.0rc0/diff.md --exclude *.pyd
+[2023-08-09 01:28:01] INFO root fetch - processPackages [turbo-docs]: Remove: archive file [/home/abi/fetcher/tmp/turbo_docs-1.0.5.tar.gz]
+[2023-08-09 01:28:01] INFO root fetch - processPackages [turbo-docs]: Remove: archive file [/home/abi/fetcher/tmp/turbo_docs-1.0.6.tar.gz]
+[2023-08-09 01:28:01] INFO root fetch - main [MainThread]: End processing [turbo-docs]: success
+[2023-08-09 01:28:01] INFO root fetch - processPackages [ursactl]: Remove: archive file [/home/abi/fetcher/tmp/ursactl-0.6.0.tar.gz]
+[2023-08-09 01:28:01] INFO root fetch - processPackages [ursactl]: Remove: archive file [/home/abi/fetcher/tmp/ursactl-0.7.0.tar.gz]
+[2023-08-09 01:28:01] INFO root fetch - main [MainThread]: End processing [ursactl]: success
+[2023-08-09 01:28:01] INFO root fetch - processPackages [runpod]: Remove: archive file [/home/abi/fetcher/tmp/runpod-1.0.1.tar.gz]
+[2023-08-09 01:28:01] INFO root fetch - processPackages [runpod]: Remove: archive file [/home/abi/fetcher/tmp/runpod-1.1.0.tar.gz]
+[2023-08-09 01:28:01] INFO root fetch - main [MainThread]: End processing [runpod]: success
+[2023-08-09 01:28:01] INFO root fetch - processPackages [autogluon.bench]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.bench-0.2.1.tar.gz]
+[2023-08-09 01:28:01] INFO root fetch - processPackages [autogluon.bench]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.bench-0.2.2.tar.gz]
+[2023-08-09 01:28:01] INFO root fetch - main [MainThread]: End processing [autogluon.bench]: success
+[2023-08-09 01:28:01] INFO root fetch - processPackages [specsim]: Remove: archive file [/home/abi/fetcher/tmp/specsim-0.8.tar.gz]
+[2023-08-09 01:28:01] INFO root fetch - processPackages [specsim]: Remove: archive file [/home/abi/fetcher/tmp/specsim-0.9.tar.gz]
+[2023-08-09 01:28:01] INFO root fetch - main [MainThread]: End processing [specsim]: success
+[2023-08-09 01:28:02] INFO root fetch - processPackages [sf-hamilton]: Remove: archive file [/home/abi/fetcher/tmp/sf-hamilton-1.9.0.tar.gz]
+[2023-08-09 01:28:02] INFO root fetch - processPackages [sf-hamilton]: Remove: archive file [/home/abi/fetcher/tmp/sf-hamilton-1.9.0rc0.tar.gz]
+[2023-08-09 01:28:02] INFO root fetch - main [MainThread]: End processing [sf-hamilton]: success
+[2023-08-09 01:28:08] INFO root fetch - processPackages [nvidia-tao-deploy]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_tao_deploy-4.0.0.1-py3-none-any.whl.zip]
+[2023-08-09 01:28:08] INFO root fetch - processPackages [nvidia-tao-deploy]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_tao_deploy-5.0.0.390.dev0-py3-none-any.whl.zip]
+[2023-08-09 01:28:08] INFO root fetch - main [MainThread]: End processing [nvidia-tao-deploy]: success
+[2023-08-09 01:28:08] INFO root fetch - main [MainThread]: Store serial: [19228586]
