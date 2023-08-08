@@ -797,3 +797,24 @@
 [2023-08-09 00:35:40] INFO root fetch - processPackages [tensorboard]: Remove: archive file [/home/abi/fetcher/tmp/tensorboard-2.9.1-py3-none-any.whl.zip]
 [2023-08-09 00:35:40] INFO root fetch - main [MainThread]: End processing [tensorboard]: success
 [2023-08-09 00:35:40] INFO root fetch - main [MainThread]: Store serial: [19228267]
+[2023-08-09 00:40:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19228267]
+[2023-08-09 00:40:49] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-08-09 00:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grapdb
+[2023-08-09 00:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybet
+[2023-08-09 00:40:49] INFO root fetch - processPackages [grapdb]: New version: [0.9] Old Version: [0.8]
+[2023-08-09 00:40:49] INFO root fetch - processPackages [pybet]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-08-09 00:40:49] INFO root fetch - processPackages [grapdb]: Downloading https://files.pythonhosted.org/packages/42/c2/82165f14af2ec4db08aae609b361ff7dd429df0953c465a904491f75fd65/grapdb-0.8.tar.gz
+[2023-08-09 00:40:49] INFO root fetch - processPackages [pybet]: Downloading https://files.pythonhosted.org/packages/d1/00/1adf5d9f9eb5350643d3681cca66104917856502dc116ecfac3398ae2d1d/pybet-0.7.0.tar.gz
+[2023-08-09 00:40:49] INFO root fetch - processPackages [grapdb]: Downloading https://files.pythonhosted.org/packages/78/c2/31c09a0330b4cf6c4fed41859f57d1e4c1bf533ac5dcdb4ad06097ba491c/grapdb-0.9.tar.gz
+[2023-08-09 00:40:49] INFO root fetch - processPackages [pybet]: Downloading https://files.pythonhosted.org/packages/b9/52/fba5de9435fe783364ac566f51c5515dd65c9b7df3283e9d831f0ff5fe2e/pybet-0.7.1.tar.gz
+[2023-08-09 00:40:49] INFO root fetch - processPackages [grapdb]: executing diffoscope
+[2023-08-09 00:40:49] INFO root fetch - processPackages [grapdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grapdb-0.8.tar.gz tmp/grapdb-0.9.tar.gz --markdown 20230809/g/grapdb/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-09 00:40:49] INFO root fetch - processPackages [pybet]: executing diffoscope
+[2023-08-09 00:40:49] INFO root fetch - processPackages [pybet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybet-0.7.0.tar.gz tmp/pybet-0.7.1.tar.gz --markdown 20230809/p/pybet/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-08-09 00:40:50] INFO root fetch - processPackages [grapdb]: Remove: archive file [/home/abi/fetcher/tmp/grapdb-0.8.tar.gz]
+[2023-08-09 00:40:50] INFO root fetch - processPackages [grapdb]: Remove: archive file [/home/abi/fetcher/tmp/grapdb-0.9.tar.gz]
+[2023-08-09 00:40:50] INFO root fetch - main [MainThread]: End processing [grapdb]: success
+[2023-08-09 00:40:50] INFO root fetch - processPackages [pybet]: Remove: archive file [/home/abi/fetcher/tmp/pybet-0.7.0.tar.gz]
+[2023-08-09 00:40:50] INFO root fetch - processPackages [pybet]: Remove: archive file [/home/abi/fetcher/tmp/pybet-0.7.1.tar.gz]
+[2023-08-09 00:40:50] INFO root fetch - main [MainThread]: End processing [pybet]: success
+[2023-08-09 00:40:50] INFO root fetch - main [MainThread]: Store serial: [19228277]
