@@ -818,3 +818,62 @@
 [2023-08-09 00:40:50] INFO root fetch - processPackages [pybet]: Remove: archive file [/home/abi/fetcher/tmp/pybet-0.7.1.tar.gz]
 [2023-08-09 00:40:50] INFO root fetch - main [MainThread]: End processing [pybet]: success
 [2023-08-09 00:40:50] INFO root fetch - main [MainThread]: Store serial: [19228277]
+[2023-08-09 00:45:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19228277]
+[2023-08-09 00:45:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-09 00:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gracy
+[2023-08-09 00:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ddqla
+[2023-08-09 00:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: medussa
+[2023-08-09 00:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: djangocms-fomantic-ui
+[2023-08-09 00:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-08-09 00:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: meilisearch-python-async
+[2023-08-09 00:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dep2req
+[2023-08-09 00:45:59] INFO root fetch - processPackages [djangocms-fomantic-ui]: New version: [0.0.2b1] Old Version: [0.0.1]
+[2023-08-09 00:45:59] WARNING root fetch - processPackages [dep2req]: Skipping, unable to determine old version
+[2023-08-09 00:45:59] INFO root fetch - main [MainThread]: End processing [dep2req] error
+[2023-08-09 00:45:59] INFO root fetch - processPackages [meilisearch-python-async]: New version: [1.5.0] Old Version: [1.4.8]
+[2023-08-09 00:45:59] INFO root fetch - processPackages [gracy]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-08-09 00:45:59] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.425] Old Version: [0.3.424]
+[2023-08-09 00:45:59] INFO root fetch - processPackages [medussa]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-08-09 00:45:59] INFO root fetch - processPackages [ddqla]: New version: [0.1.25] Old Version: [0.1.23]
+[2023-08-09 00:45:59] INFO root fetch - processPackages [djangocms-fomantic-ui]: Downloading https://files.pythonhosted.org/packages/31/7b/21bd5e231d1cc192b8612fad0309da4676c0e823d1d213375115aedd34b6/djangocms_fomantic_ui-0.0.1.tar.gz
+[2023-08-09 00:45:59] INFO root fetch - processPackages [gracy]: Downloading https://files.pythonhosted.org/packages/cd/1f/c880607a2c92ea7edf79b474fe69127bf700211792b250de5688cc0f35c4/gracy-1.9.0.tar.gz
+[2023-08-09 00:45:59] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/82/40/3ee837084358da55c92f042e5d7dcd41fce9fe29ed805d4ad99fb4eed4e5/pepperize.cdk-ses-smtp-credentials-0.3.424.tar.gz
+[2023-08-09 00:45:59] INFO root fetch - processPackages [meilisearch-python-async]: Downloading https://files.pythonhosted.org/packages/ac/e8/33003df15c16157b1c9653ec62c5ab8d91f0fbbd255b796463cdc67f6f72/meilisearch_python_async-1.4.8.tar.gz
+[2023-08-09 00:45:59] WARNING root fetch - processPackages [medussa]: fallback to get urls: [2.0.1]
+[2023-08-09 00:45:59] INFO root fetch - processPackages [ddqla]: Downloading https://files.pythonhosted.org/packages/ba/a3/46b8cf6f705236f3dfb148d00a21a028d96eb935766c549f73fdf857fb82/ddqla-0.1.23.tar.gz
+[2023-08-09 00:45:59] WARNING root fetch - processPackages [medussa]: None
+[2023-08-09 00:45:59] INFO root fetch - processPackages [djangocms-fomantic-ui]: Downloading https://files.pythonhosted.org/packages/44/90/4a655935975388ec939652bb5941b987f3d7627e671a7d0699c5a7bca932/djangocms_fomantic_ui-0.0.2b1.tar.gz
+[2023-08-09 00:45:59] INFO root fetch - processPackages [gracy]: Downloading https://files.pythonhosted.org/packages/1e/6f/ce2bfb2b73be0d267e60d390c02a83bd9ad556c22357258727c677517895/gracy-1.9.1.tar.gz
+[2023-08-09 00:45:59] WARNING root fetch - processPackages [medussa]: None
+[2023-08-09 00:45:59] WARNING root fetch - processPackages [medussa]: unable to get url for both version [2.0.1]
+[2023-08-09 00:45:59] WARNING root fetch - processPackages [medussa]: None
+[2023-08-09 00:45:59] INFO root fetch - main [MainThread]: End processing [medussa] error
+[2023-08-09 00:45:59] INFO root fetch - processPackages [djangocms-fomantic-ui]: executing diffoscope
+[2023-08-09 00:45:59] INFO root fetch - processPackages [djangocms-fomantic-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms_fomantic_ui-0.0.1.tar.gz tmp/djangocms_fomantic_ui-0.0.2b1.tar.gz --markdown 20230809/d/djangocms-fomantic-ui/0.0.1-0.0.2b1/diff.md --exclude *.pyd
+[2023-08-09 00:45:59] INFO root fetch - processPackages [gracy]: executing diffoscope
+[2023-08-09 00:45:59] INFO root fetch - processPackages [gracy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gracy-1.9.0.tar.gz tmp/gracy-1.9.1.tar.gz --markdown 20230809/g/gracy/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-08-09 00:45:59] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/a3/8e/2c1a9003d823025b139d3d323eccbe5a58289510d588b98738ce2165fa8e/pepperize.cdk-ses-smtp-credentials-0.3.425.tar.gz
+[2023-08-09 00:45:59] INFO root fetch - processPackages [meilisearch-python-async]: Downloading https://files.pythonhosted.org/packages/1b/14/b0d39dbcb2103b717fef15930055aba1193210df73139232abe2d702e8a4/meilisearch_python_async-1.5.0.tar.gz
+[2023-08-09 00:45:59] INFO root fetch - processPackages [ddqla]: Downloading https://files.pythonhosted.org/packages/fb/b7/983a648f79fa3aba9ff35bcb4005a5993ea07146fbec239fc394ba131b15/ddqla-0.1.25.tar.gz
+[2023-08-09 00:46:00] INFO root fetch - processPackages [meilisearch-python-async]: executing diffoscope
+[2023-08-09 00:46:00] INFO root fetch - processPackages [meilisearch-python-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meilisearch_python_async-1.4.8.tar.gz tmp/meilisearch_python_async-1.5.0.tar.gz --markdown 20230809/m/meilisearch-python-async/1.4.8-1.5.0/diff.md --exclude *.pyd
+[2023-08-09 00:46:00] INFO root fetch - processPackages [ddqla]: executing diffoscope
+[2023-08-09 00:46:00] INFO root fetch - processPackages [ddqla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddqla-0.1.23.tar.gz tmp/ddqla-0.1.25.tar.gz --markdown 20230809/d/ddqla/0.1.23-0.1.25/diff.md --exclude *.pyd
+[2023-08-09 00:46:00] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-08-09 00:46:00] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.424.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.425.tar.gz --markdown 20230809/p/pepperize.cdk-ses-smtp-credentials/0.3.424-0.3.425/diff.md --exclude *.pyd
+[2023-08-09 00:46:00] INFO root fetch - processPackages [djangocms-fomantic-ui]: Remove: archive file [/home/abi/fetcher/tmp/djangocms_fomantic_ui-0.0.1.tar.gz]
+[2023-08-09 00:46:00] INFO root fetch - processPackages [djangocms-fomantic-ui]: Remove: archive file [/home/abi/fetcher/tmp/djangocms_fomantic_ui-0.0.2b1.tar.gz]
+[2023-08-09 00:46:00] INFO root fetch - main [MainThread]: End processing [djangocms-fomantic-ui]: success
+[2023-08-09 00:46:00] INFO root fetch - processPackages [gracy]: Remove: archive file [/home/abi/fetcher/tmp/gracy-1.9.0.tar.gz]
+[2023-08-09 00:46:00] INFO root fetch - processPackages [gracy]: Remove: archive file [/home/abi/fetcher/tmp/gracy-1.9.1.tar.gz]
+[2023-08-09 00:46:00] INFO root fetch - main [MainThread]: End processing [gracy]: success
+[2023-08-09 00:46:01] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.424.tar.gz]
+[2023-08-09 00:46:01] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.425.tar.gz]
+[2023-08-09 00:46:01] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-08-09 00:46:01] INFO root fetch - processPackages [meilisearch-python-async]: Remove: archive file [/home/abi/fetcher/tmp/meilisearch_python_async-1.4.8.tar.gz]
+[2023-08-09 00:46:01] INFO root fetch - processPackages [meilisearch-python-async]: Remove: archive file [/home/abi/fetcher/tmp/meilisearch_python_async-1.5.0.tar.gz]
+[2023-08-09 00:46:01] INFO root fetch - main [MainThread]: End processing [meilisearch-python-async]: success
+[2023-08-09 00:46:01] INFO root fetch - processPackages [ddqla]: Remove: archive file [/home/abi/fetcher/tmp/ddqla-0.1.23.tar.gz]
+[2023-08-09 00:46:01] INFO root fetch - processPackages [ddqla]: Remove: archive file [/home/abi/fetcher/tmp/ddqla-0.1.25.tar.gz]
+[2023-08-09 00:46:01] INFO root fetch - main [MainThread]: End processing [ddqla]: success
+[2023-08-09 00:46:01] INFO root fetch - main [MainThread]: Store serial: [19228300]
