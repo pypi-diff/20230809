@@ -1151,3 +1151,135 @@
 [2023-08-09 01:12:04] INFO root fetch - processPackages [wedne]: Remove: archive file [/home/abi/fetcher/tmp/wedne-1.1.0.tar.gz]
 [2023-08-09 01:12:04] INFO root fetch - main [MainThread]: End processing [wedne]: success
 [2023-08-09 01:12:04] INFO root fetch - main [MainThread]: Store serial: [19228452]
+[2023-08-09 01:17:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19228452]
+[2023-08-09 01:17:12] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-09 01:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quivr
+[2023-08-09 01:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyter-ai
+[2023-08-09 01:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coiled
+[2023-08-09 01:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyter-ai-magics
+[2023-08-09 01:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: klayout
+[2023-08-09 01:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wedne
+[2023-08-09 01:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: litellm
+[2023-08-09 01:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tqdm
+[2023-08-09 01:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: anitube-ua-lib
+[2023-08-09 01:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Janex
+[2023-08-09 01:17:12] INFO root fetch - processPackages [wedne]: New version: [1.1.0] Old Version: [1.0.5]
+[2023-08-09 01:17:13] INFO root fetch - processPackages [jupyter-ai-magics]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-08-09 01:17:13] INFO root fetch - processPackages [litellm]: New version: [0.1.362] Old Version: [0.1.361]
+[2023-08-09 01:17:13] INFO root fetch - processPackages [jupyter-ai]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-08-09 01:17:13] INFO root fetch - processPackages [coiled]: New version: [0.9.9.dev3] Old Version: [0.9.9.dev2]
+[2023-08-09 01:17:13] INFO root fetch - processPackages [tqdm]: New version: [4.9.0] Old Version: [4.8.4]
+[2023-08-09 01:17:13] INFO root fetch - processPackages [wedne]: Downloading https://files.pythonhosted.org/packages/dc/b7/632ed3ba91cfa1f17f017a3dd964b9d0d5640560e7a88a0b32f43c13b552/wedne-1.0.5.tar.gz
+[2023-08-09 01:17:13] INFO root fetch - processPackages [quivr]: New version: [0.6.1] Old Version: [0.6.0rc2]
+[2023-08-09 01:17:13] WARNING root fetch - processPackages [anitube-ua-lib]: Skipping, unable to determine old version
+[2023-08-09 01:17:13] INFO root fetch - processPackages [anitube-ua-lib]: Start processing: hydroloader
+[2023-08-09 01:17:13] INFO root fetch - main [MainThread]: End processing [anitube-ua-lib] error
+[2023-08-09 01:17:13] INFO root fetch - processPackages [klayout]: New version: [0.28.post1] Old Version: [0.28.9.post2]
+[2023-08-09 01:17:13] INFO root fetch - processPackages [Janex]: New version: [0.0.9] Old Version: [0.0.8b0]
+[2023-08-09 01:17:13] INFO root fetch - processPackages [jupyter-ai]: Downloading https://files.pythonhosted.org/packages/d9/1d/e6351a165b99f5f6cee3137a72b2c3c04249c55a1465f12efb91c5ca6bc0/jupyter_ai-2.0.0.tar.gz
+[2023-08-09 01:17:13] INFO root fetch - processPackages [jupyter-ai-magics]: Downloading https://files.pythonhosted.org/packages/1e/4a/71dacf8e52b25bc34271a111c5130ca37c58524fbcc667949575eb865f5a/jupyter_ai_magics-2.0.0.tar.gz
+[2023-08-09 01:17:13] INFO root fetch - processPackages [hydroloader]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-09 01:17:13] INFO root fetch - processPackages [quivr]: Downloading https://files.pythonhosted.org/packages/8b/93/2abe76f8b6b1da9114ae824e2b458e41499898c2c4c0dabf0977c8a098ed/quivr-0.6.0rc2.tar.gz
+[2023-08-09 01:17:13] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/d0/b9/c657386d4318e01d3fe4d8f765c066097ce0d875ab555a70285e72825aa1/coiled-0.9.9.dev2.tar.gz
+[2023-08-09 01:17:13] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/cc/a3/8d81b10242ca0b95285eac3dd7e7ed6319a9cc6378b9571a9b2a353af621/litellm-0.1.361.tar.gz
+[2023-08-09 01:17:13] INFO root fetch - processPackages [tqdm]: Downloading https://files.pythonhosted.org/packages/64/5b/cc47ee68389ebf815ad6e2f7fe70449d0c1b02d91f01852551e3946c955e/tqdm-4.8.4.zip
+[2023-08-09 01:17:13] INFO root fetch - processPackages [wedne]: Downloading https://files.pythonhosted.org/packages/a1/ac/26bfaa15cc319a8e81856fb3020ff0cf5a1f804bbef588d12e692cf76e62/wedne-1.1.0.tar.gz
+[2023-08-09 01:17:13] INFO root fetch - processPackages [klayout]: Downloading https://files.pythonhosted.org/packages/2d/c6/66650e9f98faef8848bc3b0e6cf4ed2edb50d74e03233967689b28a39fea/klayout-0.28.9.post2.tar.gz
+[2023-08-09 01:17:13] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/ad/9b/02e3075181cb89ca28ef6d7eac669469d8be57e9f6888e74a0598d03bd22/Janex-0.0.8b0.tar.gz
+[2023-08-09 01:17:13] INFO root fetch - processPackages [hydroloader]: Downloading https://files.pythonhosted.org/packages/75/65/590830bca3c2de6a9b8e9c7b32844d1df71b85427a3b9122c69113e7b07c/hydroloader-0.1.8.tar.gz
+[2023-08-09 01:17:13] INFO root fetch - processPackages [jupyter-ai-magics]: Downloading https://files.pythonhosted.org/packages/47/7c/2831371c98a0c97e1fadba891440b0178f6d2e6c1f11fb052945489ee2f9/jupyter_ai_magics-2.0.1.tar.gz
+[2023-08-09 01:17:13] INFO root fetch - processPackages [jupyter-ai]: Downloading https://files.pythonhosted.org/packages/af/4f/98d5b4d7764c517415ebf0f84c1eda26ad2c91788ddfeb04fce8a5e74d2e/jupyter_ai-2.0.1.tar.gz
+[2023-08-09 01:17:13] INFO root fetch - processPackages [wedne]: executing diffoscope
+[2023-08-09 01:17:13] INFO root fetch - processPackages [wedne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wedne-1.0.5.tar.gz tmp/wedne-1.1.0.tar.gz --markdown 20230809/w/wedne/1.0.5-1.1.0/diff.md --exclude *.pyd
+[2023-08-09 01:17:13] INFO root fetch - processPackages [jupyter-ai-magics]: executing diffoscope
+[2023-08-09 01:17:13] INFO root fetch - processPackages [jupyter-ai-magics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_ai_magics-2.0.0.tar.gz tmp/jupyter_ai_magics-2.0.1.tar.gz --markdown 20230809/j/jupyter-ai-magics/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-08-09 01:17:13] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8c/e6/29a45589b3cccfb78fc9fe0354b9ed3d8b3265ec4078b979664bc2bd1c1d/coiled-0.9.9.dev3.tar.gz
+[2023-08-09 01:17:13] INFO root fetch - processPackages [jupyter-ai]: executing diffoscope
+[2023-08-09 01:17:13] INFO root fetch - processPackages [jupyter-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_ai-2.0.0.tar.gz tmp/jupyter_ai-2.0.1.tar.gz --markdown 20230809/j/jupyter-ai/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-08-09 01:17:13] INFO root fetch - processPackages [quivr]: Downloading https://files.pythonhosted.org/packages/f8/f7/1c06c298b5348c1e5057a2028942d734f23d088bc4a84c212e956076c7c0/quivr-0.6.1.tar.gz
+[2023-08-09 01:17:13] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/6f/90/cb6db03d7be02c727e91145c48a01df181217ad976bb7815332b736ff31e/litellm-0.1.362.tar.gz
+[2023-08-09 01:17:13] INFO root fetch - processPackages [tqdm]: Downloading https://files.pythonhosted.org/packages/7b/df/9471473daf56be8f04d9bc65755c4fc0ddc78c622758782bbf03a4d53d43/tqdm-4.9.0.zip
+[2023-08-09 01:17:14] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/40/e1/132b211480dc634919c04b591850f6164665441cdbd516ef4c1b946c6f18/Janex-0.0.9.tar.gz
+[2023-08-09 01:17:14] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-08-09 01:17:14] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.9.9.dev2.tar.gz tmp/coiled-0.9.9.dev3.tar.gz --markdown 20230809/c/coiled/0.9.9.dev2-0.9.9.dev3/diff.md --exclude *.pyd
+[2023-08-09 01:17:14] INFO root fetch - processPackages [quivr]: executing diffoscope
+[2023-08-09 01:17:14] INFO root fetch - processPackages [quivr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quivr-0.6.0rc2.tar.gz tmp/quivr-0.6.1.tar.gz --markdown 20230809/q/quivr/0.6.0rc2-0.6.1/diff.md --exclude *.pyd
+[2023-08-09 01:17:14] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-08-09 01:17:14] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.361.tar.gz tmp/litellm-0.1.362.tar.gz --markdown 20230809/l/litellm/0.1.361-0.1.362/diff.md --exclude *.pyd
+[2023-08-09 01:17:14] INFO root fetch - processPackages [hydroloader]: Downloading https://files.pythonhosted.org/packages/19/5f/ff192f37cd4a4ac6179d4902c8a4d695cccef4dfcd62c2ed85bf8661eeb3/hydroloader-0.1.9.tar.gz
+[2023-08-09 01:17:14] INFO root fetch - processPackages [Janex]: executing diffoscope
+[2023-08-09 01:17:14] INFO root fetch - processPackages [Janex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Janex-0.0.8b0.tar.gz tmp/Janex-0.0.9.tar.gz --markdown 20230809/J/Janex/0.0.8b0-0.0.9/diff.md --exclude *.pyd
+[2023-08-09 01:17:14] INFO root fetch - processPackages [tqdm]: executing diffoscope
+[2023-08-09 01:17:14] INFO root fetch - processPackages [tqdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tqdm-4.8.4.zip tmp/tqdm-4.9.0.zip --markdown 20230809/t/tqdm/4.8.4-4.9.0/diff.md --exclude *.pyd
+[2023-08-09 01:17:14] INFO root fetch - processPackages [hydroloader]: executing diffoscope
+[2023-08-09 01:17:14] INFO root fetch - processPackages [hydroloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydroloader-0.1.8.tar.gz tmp/hydroloader-0.1.9.tar.gz --markdown 20230809/h/hydroloader/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-09 01:17:14] INFO root fetch - processPackages [klayout]: Downloading https://files.pythonhosted.org/packages/24/6d/942ebb901e7e6a1fe55a2953fda5080fac8835ccceeed4731995694b7076/klayout-0.28.post1.tar.gz
+[2023-08-09 01:17:14] INFO root fetch - processPackages [klayout]: executing diffoscope
+[2023-08-09 01:17:14] INFO root fetch - processPackages [klayout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klayout-0.28.9.post2.tar.gz tmp/klayout-0.28.post1.tar.gz --markdown 20230809/k/klayout/0.28.9.post2-0.28.post1/diff.md --exclude *.pyd
+[2023-08-09 01:17:14] INFO root fetch - processPackages [wedne]: Remove: archive file [/home/abi/fetcher/tmp/wedne-1.0.5.tar.gz]
+[2023-08-09 01:17:14] INFO root fetch - processPackages [wedne]: Remove: archive file [/home/abi/fetcher/tmp/wedne-1.1.0.tar.gz]
+[2023-08-09 01:17:14] INFO root fetch - processPackages [wedne]: Start processing: llm-blocks
+[2023-08-09 01:17:14] INFO root fetch - main [MainThread]: End processing [wedne]: success
+[2023-08-09 01:17:15] INFO root fetch - processPackages [llm-blocks]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-08-09 01:17:15] INFO root fetch - processPackages [jupyter-ai-magics]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai_magics-2.0.0.tar.gz]
+[2023-08-09 01:17:15] INFO root fetch - processPackages [jupyter-ai-magics]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai_magics-2.0.1.tar.gz]
+[2023-08-09 01:17:15] INFO root fetch - processPackages [jupyter-ai-magics]: Start processing: globus-compute-common
+[2023-08-09 01:17:15] INFO root fetch - main [MainThread]: End processing [jupyter-ai-magics]: success
+[2023-08-09 01:17:15] INFO root fetch - processPackages [globus-compute-common]: New version: [0.3.0a1] Old Version: [0.2.0]
+[2023-08-09 01:17:15] INFO root fetch - processPackages [llm-blocks]: Downloading https://files.pythonhosted.org/packages/4a/37/0d5700161163cf11bd5d218856890763e991c4d8a687c87f81634284be85/llm-blocks-0.2.5.tar.gz
+[2023-08-09 01:17:15] INFO root fetch - processPackages [globus-compute-common]: Downloading https://files.pythonhosted.org/packages/df/29/d64124e1ba1c6f78e7f09732c02eb36b2b0dffc0799b5c9e40d00d9eaa32/globus-compute-common-0.2.0.tar.gz
+[2023-08-09 01:17:15] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.8b0.tar.gz]
+[2023-08-09 01:17:15] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.9.tar.gz]
+[2023-08-09 01:17:15] INFO root fetch - processPackages [Janex]: Start processing: sphinx-versioning
+[2023-08-09 01:17:15] INFO root fetch - main [MainThread]: End processing [Janex]: success
+[2023-08-09 01:17:15] INFO root fetch - processPackages [sphinx-versioning]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-09 01:17:15] INFO root fetch - processPackages [globus-compute-common]: Downloading https://files.pythonhosted.org/packages/de/41/e08fd959c64574d05700ced43d15954e72392f4d636bb3e042beba460c91/globus-compute-common-0.3.0a1.tar.gz
+[2023-08-09 01:17:15] INFO root fetch - processPackages [llm-blocks]: Downloading https://files.pythonhosted.org/packages/a2/27/dfa20041dc56309a72c7379e62040fd98586400cbe95f48ddb5c831fefc2/llm-blocks-0.2.6.tar.gz
+[2023-08-09 01:17:15] INFO root fetch - processPackages [globus-compute-common]: executing diffoscope
+[2023-08-09 01:17:15] INFO root fetch - processPackages [globus-compute-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/globus-compute-common-0.2.0.tar.gz tmp/globus-compute-common-0.3.0a1.tar.gz --markdown 20230809/g/globus-compute-common/0.2.0-0.3.0a1/diff.md --exclude *.pyd
+[2023-08-09 01:17:15] INFO root fetch - processPackages [quivr]: Remove: archive file [/home/abi/fetcher/tmp/quivr-0.6.0rc2.tar.gz]
+[2023-08-09 01:17:15] INFO root fetch - processPackages [quivr]: Remove: archive file [/home/abi/fetcher/tmp/quivr-0.6.1.tar.gz]
+[2023-08-09 01:17:15] INFO root fetch - processPackages [quivr]: Start processing: Janex
+[2023-08-09 01:17:15] INFO root fetch - main [MainThread]: End processing [quivr]: success
+[2023-08-09 01:17:15] INFO root fetch - processPackages [Janex]: New version: [0.0.9] Old Version: [0.0.8b0]
+[2023-08-09 01:17:15] INFO root fetch - processPackages [sphinx-versioning]: Downloading https://files.pythonhosted.org/packages/6a/a0/fba7c1ca7164242da926014af40768c360e7b4d314f249f942753ea295ec/sphinx-versioning-0.0.2.tar.gz
+[2023-08-09 01:17:15] INFO root fetch - processPackages [hydroloader]: Remove: archive file [/home/abi/fetcher/tmp/hydroloader-0.1.8.tar.gz]
+[2023-08-09 01:17:15] INFO root fetch - processPackages [hydroloader]: Remove: archive file [/home/abi/fetcher/tmp/hydroloader-0.1.9.tar.gz]
+[2023-08-09 01:17:15] INFO root fetch - main [MainThread]: End processing [hydroloader]: success
+[2023-08-09 01:17:15] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.9.dev2.tar.gz]
+[2023-08-09 01:17:15] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.9.dev3.tar.gz]
+[2023-08-09 01:17:15] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-08-09 01:17:15] INFO root fetch - processPackages [llm-blocks]: executing diffoscope
+[2023-08-09 01:17:15] INFO root fetch - processPackages [llm-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-blocks-0.2.5.tar.gz tmp/llm-blocks-0.2.6.tar.gz --markdown 20230809/l/llm-blocks/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-08-09 01:17:15] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.361.tar.gz]
+[2023-08-09 01:17:15] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.362.tar.gz]
+[2023-08-09 01:17:15] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-08-09 01:17:15] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/ad/9b/02e3075181cb89ca28ef6d7eac669469d8be57e9f6888e74a0598d03bd22/Janex-0.0.8b0.tar.gz
+[2023-08-09 01:17:16] INFO root fetch - processPackages [tqdm]: Remove: archive file [/home/abi/fetcher/tmp/tqdm-4.8.4.zip]
+[2023-08-09 01:17:16] INFO root fetch - processPackages [tqdm]: Remove: archive file [/home/abi/fetcher/tmp/tqdm-4.9.0.zip]
+[2023-08-09 01:17:16] INFO root fetch - main [MainThread]: End processing [tqdm]: success
+[2023-08-09 01:17:16] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/40/e1/132b211480dc634919c04b591850f6164665441cdbd516ef4c1b946c6f18/Janex-0.0.9.tar.gz
+[2023-08-09 01:17:16] INFO root fetch - processPackages [Janex]: executing diffoscope
+[2023-08-09 01:17:16] INFO root fetch - processPackages [Janex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Janex-0.0.8b0.tar.gz tmp/Janex-0.0.9.tar.gz --markdown 20230809/J/Janex/0.0.8b0-0.0.9/diff.md --exclude *.pyd
+[2023-08-09 01:17:16] INFO root fetch - processPackages [sphinx-versioning]: Downloading https://files.pythonhosted.org/packages/69/e0/e1368ba73def8fca6a7b6981e8f080cd88227fcc84d9dd7ea59399706521/sphinx-versioning-0.0.3.tar.gz
+[2023-08-09 01:17:16] INFO root fetch - processPackages [sphinx-versioning]: executing diffoscope
+[2023-08-09 01:17:16] INFO root fetch - processPackages [sphinx-versioning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-versioning-0.0.2.tar.gz tmp/sphinx-versioning-0.0.3.tar.gz --markdown 20230809/s/sphinx-versioning/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-09 01:17:17] INFO root fetch - processPackages [globus-compute-common]: Remove: archive file [/home/abi/fetcher/tmp/globus-compute-common-0.2.0.tar.gz]
+[2023-08-09 01:17:17] INFO root fetch - processPackages [globus-compute-common]: Remove: archive file [/home/abi/fetcher/tmp/globus-compute-common-0.3.0a1.tar.gz]
+[2023-08-09 01:17:17] INFO root fetch - main [MainThread]: End processing [globus-compute-common]: success
+[2023-08-09 01:17:17] INFO root fetch - processPackages [llm-blocks]: Remove: archive file [/home/abi/fetcher/tmp/llm-blocks-0.2.5.tar.gz]
+[2023-08-09 01:17:17] INFO root fetch - processPackages [llm-blocks]: Remove: archive file [/home/abi/fetcher/tmp/llm-blocks-0.2.6.tar.gz]
+[2023-08-09 01:17:17] INFO root fetch - main [MainThread]: End processing [llm-blocks]: success
+[2023-08-09 01:17:17] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.8b0.tar.gz]
+[2023-08-09 01:17:17] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.9.tar.gz]
+[2023-08-09 01:17:17] INFO root fetch - main [MainThread]: End processing [Janex]: success
+[2023-08-09 01:17:17] INFO root fetch - processPackages [sphinx-versioning]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-versioning-0.0.2.tar.gz]
+[2023-08-09 01:17:17] INFO root fetch - processPackages [sphinx-versioning]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-versioning-0.0.3.tar.gz]
+[2023-08-09 01:17:17] INFO root fetch - main [MainThread]: End processing [sphinx-versioning]: success
+[2023-08-09 01:17:22] INFO root fetch - processPackages [jupyter-ai]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai-2.0.0.tar.gz]
+[2023-08-09 01:17:22] INFO root fetch - processPackages [jupyter-ai]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai-2.0.1.tar.gz]
+[2023-08-09 01:17:22] INFO root fetch - main [MainThread]: End processing [jupyter-ai]: success
+[2023-08-09 01:17:30] INFO root fetch - processPackages [klayout]: Remove: archive file [/home/abi/fetcher/tmp/klayout-0.28.9.post2.tar.gz]
+[2023-08-09 01:17:30] INFO root fetch - processPackages [klayout]: Remove: archive file [/home/abi/fetcher/tmp/klayout-0.28.post1.tar.gz]
+[2023-08-09 01:17:30] INFO root fetch - main [MainThread]: End processing [klayout]: success
+[2023-08-09 01:17:30] INFO root fetch - main [MainThread]: Store serial: [19228517]
