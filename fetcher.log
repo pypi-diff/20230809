@@ -1552,3 +1552,96 @@
 [2023-08-09 01:38:32] INFO root fetch - processPackages [hyperscan]: Remove: archive file [/home/abi/fetcher/tmp/hyperscan-0.5.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-08-09 01:38:32] INFO root fetch - main [MainThread]: End processing [hyperscan]: success
 [2023-08-09 01:38:32] INFO root fetch - main [MainThread]: Store serial: [19228630]
+[2023-08-09 01:43:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19228630]
+[2023-08-09 01:43:41] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-09 01:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Flask-Lib
+[2023-08-09 01:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openpmd-beamphysics
+[2023-08-09 01:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oszsave
+[2023-08-09 01:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: m-json-db
+[2023-08-09 01:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cellxgene-census
+[2023-08-09 01:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-github
+[2023-08-09 01:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pip-tools
+[2023-08-09 01:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bitpay
+[2023-08-09 01:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rattail
+[2023-08-09 01:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Tailbone
+[2023-08-09 01:43:41] INFO root fetch - processPackages [m-json-db]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-09 01:43:41] INFO root fetch - processPackages [openpmd-beamphysics]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-08-09 01:43:41] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-09 01:43:41] INFO root fetch - processPackages [oszsave]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-08-09 01:43:41] INFO root fetch - processPackages [Flask-Lib]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-08-09 01:43:41] INFO root fetch - processPackages [m-json-db]: Downloading https://files.pythonhosted.org/packages/fb/29/8e8924c7e9409b68eff1b05ddbe76517931d450ccb08682e2097df06e4a3/m_json_db-0.1.0.tar.gz
+[2023-08-09 01:43:41] INFO root fetch - processPackages [cellxgene-census]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-08-09 01:43:41] INFO root fetch - processPackages [bitpay]: New version: [4.0.0] Old Version: [3.4.2203]
+[2023-08-09 01:43:41] INFO root fetch - processPackages [Tailbone]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-09 01:43:41] INFO root fetch - processPackages [pip-tools]: New version: [7.3.0] Old Version: [7.2.0]
+[2023-08-09 01:43:41] INFO root fetch - processPackages [rattail]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-08-09 01:43:41] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-08-09 01:43:42] INFO root fetch - processPackages [Flask-Lib]: Downloading https://files.pythonhosted.org/packages/b1/df/fb20365c030ad6fc427e390c8f24c4a93d79b29210f40c4f294e1e4a69c3/Flask-Lib-0.2.1.tar.gz
+[2023-08-09 01:43:42] INFO root fetch - processPackages [openpmd-beamphysics]: Downloading https://files.pythonhosted.org/packages/46/a0/49df1beb9045c65cf8371c774c7d487b3cb2579517d8c590352095462a48/openpmd-beamphysics-0.7.8.tar.gz
+[2023-08-09 01:43:42] INFO root fetch - processPackages [oszsave]: Downloading https://files.pythonhosted.org/packages/d4/83/300df3b4ad3e6e5cecbb8739c5dc1a2c91475c567fdaa2af0ee865b2bf76/oszsave-1.2.0.tar.gz
+[2023-08-09 01:43:42] INFO root fetch - processPackages [cellxgene-census]: Downloading https://files.pythonhosted.org/packages/38/c8/756c4aedbfb004aa817ee5450d13be8d000e87cc8e10a1c54bb0a2695f22/cellxgene_census-1.5.0.tar.gz
+[2023-08-09 01:43:42] INFO root fetch - processPackages [bitpay]: Downloading https://files.pythonhosted.org/packages/19/ed/38ca8203f52083e549bc7007bfeafde98fd7928bbd1f0a534c3d0e48d246/bitpay-3.4.2203.tar.gz
+[2023-08-09 01:43:42] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/50/6f/b63e04f1e618b1f4d976e29b2185f60ed7b310a1fc1dfe6f8ae2a503598a/Tailbone-0.9.8.tar.gz
+[2023-08-09 01:43:42] INFO root fetch - processPackages [pip-tools]: Downloading https://files.pythonhosted.org/packages/b9/c3/1aaa83575efca3cdd2a237d2371a7179af66a3e39f3922df4b657e607f03/pip-tools-7.2.0.tar.gz
+[2023-08-09 01:43:42] INFO root fetch - processPackages [rattail]: Downloading https://files.pythonhosted.org/packages/8a/ab/1d0b66effa702be7aef6de038a0b9a0727d9d4053df5c56aa1ee5b1d9b45/rattail-0.9.98.tar.gz
+[2023-08-09 01:43:42] INFO root fetch - processPackages [m-json-db]: Downloading https://files.pythonhosted.org/packages/88/14/fe6a053edbaa4e0472b56bd66d11072dbd49684fae5c009f3d9006afc33b/m_json_db-0.1.1.tar.gz
+[2023-08-09 01:43:42] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-08-09 01:43:42] INFO root fetch - processPackages [m-json-db]: executing diffoscope
+[2023-08-09 01:43:42] INFO root fetch - processPackages [m-json-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m_json_db-0.1.0.tar.gz tmp/m_json_db-0.1.1.tar.gz --markdown 20230809/m/m-json-db/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-09 01:43:42] INFO root fetch - processPackages [Flask-Lib]: Downloading https://files.pythonhosted.org/packages/35/45/10e460b98caa190ee1ccea5aa948ecc99b4547a2746bf0e98646b4a05dd1/Flask-Lib-0.2.3.tar.gz
+[2023-08-09 01:43:42] INFO root fetch - processPackages [oszsave]: Downloading https://files.pythonhosted.org/packages/15/7c/904ae0caa0de9e257cd6c0fe9452ba90413a9a232c9a0cf978f143f6a083/oszsave-1.3.0.tar.gz
+[2023-08-09 01:43:42] INFO root fetch - processPackages [openpmd-beamphysics]: Downloading https://files.pythonhosted.org/packages/6a/7b/bee8fb339f5764314839141cd336fa7737314813bebb9cf69fcdc7026fb6/openpmd-beamphysics-0.7.9.tar.gz
+[2023-08-09 01:43:42] INFO root fetch - processPackages [bitpay]: Downloading https://files.pythonhosted.org/packages/83/55/b789122e895b32812a6d80700a8999a5773108c3dad37af773de4b7a5d42/bitpay-4.0.0.tar.gz
+[2023-08-09 01:43:42] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-08-09 01:43:42] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230809/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-09 01:43:42] INFO root fetch - processPackages [cellxgene-census]: Downloading https://files.pythonhosted.org/packages/9a/3b/3635c28d4f3212c704a0afc9c0802315bf4b34cb79c3c1fb4ca5b947531d/cellxgene_census-1.5.1.tar.gz
+[2023-08-09 01:43:42] INFO root fetch - processPackages [Flask-Lib]: executing diffoscope
+[2023-08-09 01:43:42] INFO root fetch - processPackages [Flask-Lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-Lib-0.2.1.tar.gz tmp/Flask-Lib-0.2.3.tar.gz --markdown 20230809/F/Flask-Lib/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-08-09 01:43:42] INFO root fetch - processPackages [pip-tools]: Downloading https://files.pythonhosted.org/packages/fd/01/f0055058a86a888f32ac794fa68d5a25c2d2f7a3e8181474b711faaa2145/pip-tools-7.3.0.tar.gz
+[2023-08-09 01:43:42] INFO root fetch - processPackages [openpmd-beamphysics]: executing diffoscope
+[2023-08-09 01:43:42] INFO root fetch - processPackages [openpmd-beamphysics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openpmd-beamphysics-0.7.8.tar.gz tmp/openpmd-beamphysics-0.7.9.tar.gz --markdown 20230809/o/openpmd-beamphysics/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-08-09 01:43:42] INFO root fetch - processPackages [bitpay]: executing diffoscope
+[2023-08-09 01:43:42] INFO root fetch - processPackages [bitpay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitpay-3.4.2203.tar.gz tmp/bitpay-4.0.0.tar.gz --markdown 20230809/b/bitpay/3.4.2203-4.0.0/diff.md --exclude *.pyd
+[2023-08-09 01:43:42] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/d0/d1/c2f74adc6b3442dc7514c806d0eb884cf730fe17792970c620291f5a53a0/Tailbone-0.9.9.tar.gz
+[2023-08-09 01:43:42] INFO root fetch - processPackages [oszsave]: executing diffoscope
+[2023-08-09 01:43:42] INFO root fetch - processPackages [oszsave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oszsave-1.2.0.tar.gz tmp/oszsave-1.3.0.tar.gz --markdown 20230809/o/oszsave/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-08-09 01:43:42] INFO root fetch - processPackages [cellxgene-census]: executing diffoscope
+[2023-08-09 01:43:42] INFO root fetch - processPackages [cellxgene-census]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellxgene_census-1.5.0.tar.gz tmp/cellxgene_census-1.5.1.tar.gz --markdown 20230809/c/cellxgene-census/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-08-09 01:43:42] INFO root fetch - processPackages [rattail]: Downloading https://files.pythonhosted.org/packages/1e/c3/79e6d80f4a830a425f80fae7cf7f242293341bfd63e5d6f25421dfd44465/rattail-0.9.99.tar.gz
+[2023-08-09 01:43:42] INFO root fetch - processPackages [pip-tools]: executing diffoscope
+[2023-08-09 01:43:42] INFO root fetch - processPackages [pip-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip-tools-7.2.0.tar.gz tmp/pip-tools-7.3.0.tar.gz --markdown 20230809/p/pip-tools/7.2.0-7.3.0/diff.md --exclude *.pyd
+[2023-08-09 01:43:43] INFO root fetch - processPackages [Tailbone]: executing diffoscope
+[2023-08-09 01:43:43] INFO root fetch - processPackages [Tailbone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Tailbone-0.9.8.tar.gz tmp/Tailbone-0.9.9.tar.gz --markdown 20230809/T/Tailbone/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-09 01:43:43] INFO root fetch - processPackages [rattail]: executing diffoscope
+[2023-08-09 01:43:43] INFO root fetch - processPackages [rattail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rattail-0.9.98.tar.gz tmp/rattail-0.9.99.tar.gz --markdown 20230809/r/rattail/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-08-09 01:43:43] INFO root fetch - processPackages [m-json-db]: Remove: archive file [/home/abi/fetcher/tmp/m_json_db-0.1.0.tar.gz]
+[2023-08-09 01:43:43] INFO root fetch - processPackages [m-json-db]: Remove: archive file [/home/abi/fetcher/tmp/m_json_db-0.1.1.tar.gz]
+[2023-08-09 01:43:43] INFO root fetch - main [MainThread]: End processing [m-json-db]: success
+[2023-08-09 01:43:44] INFO root fetch - processPackages [Flask-Lib]: Remove: archive file [/home/abi/fetcher/tmp/Flask-Lib-0.2.1.tar.gz]
+[2023-08-09 01:43:44] INFO root fetch - processPackages [Flask-Lib]: Remove: archive file [/home/abi/fetcher/tmp/Flask-Lib-0.2.3.tar.gz]
+[2023-08-09 01:43:44] INFO root fetch - main [MainThread]: End processing [Flask-Lib]: success
+[2023-08-09 01:43:44] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-08-09 01:43:44] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-08-09 01:43:44] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-08-09 01:43:44] INFO root fetch - processPackages [oszsave]: Remove: archive file [/home/abi/fetcher/tmp/oszsave-1.2.0.tar.gz]
+[2023-08-09 01:43:44] INFO root fetch - processPackages [oszsave]: Remove: archive file [/home/abi/fetcher/tmp/oszsave-1.3.0.tar.gz]
+[2023-08-09 01:43:44] INFO root fetch - main [MainThread]: End processing [oszsave]: success
+[2023-08-09 01:43:44] INFO root fetch - processPackages [openpmd-beamphysics]: Remove: archive file [/home/abi/fetcher/tmp/openpmd-beamphysics-0.7.8.tar.gz]
+[2023-08-09 01:43:44] INFO root fetch - processPackages [openpmd-beamphysics]: Remove: archive file [/home/abi/fetcher/tmp/openpmd-beamphysics-0.7.9.tar.gz]
+[2023-08-09 01:43:44] INFO root fetch - main [MainThread]: End processing [openpmd-beamphysics]: success
+[2023-08-09 01:43:44] INFO root fetch - processPackages [cellxgene-census]: Remove: archive file [/home/abi/fetcher/tmp/cellxgene_census-1.5.0.tar.gz]
+[2023-08-09 01:43:44] INFO root fetch - processPackages [cellxgene-census]: Remove: archive file [/home/abi/fetcher/tmp/cellxgene_census-1.5.1.tar.gz]
+[2023-08-09 01:43:44] INFO root fetch - main [MainThread]: End processing [cellxgene-census]: success
+[2023-08-09 01:43:44] INFO root fetch - processPackages [pip-tools]: Remove: archive file [/home/abi/fetcher/tmp/pip-tools-7.2.0.tar.gz]
+[2023-08-09 01:43:44] INFO root fetch - processPackages [pip-tools]: Remove: archive file [/home/abi/fetcher/tmp/pip-tools-7.3.0.tar.gz]
+[2023-08-09 01:43:44] INFO root fetch - main [MainThread]: End processing [pip-tools]: success
+[2023-08-09 01:43:45] INFO root fetch - processPackages [bitpay]: Remove: archive file [/home/abi/fetcher/tmp/bitpay-3.4.2203.tar.gz]
+[2023-08-09 01:43:45] INFO root fetch - processPackages [bitpay]: Remove: archive file [/home/abi/fetcher/tmp/bitpay-4.0.0.tar.gz]
+[2023-08-09 01:43:45] INFO root fetch - main [MainThread]: End processing [bitpay]: success
+[2023-08-09 01:43:46] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/Tailbone-0.9.8.tar.gz]
+[2023-08-09 01:43:46] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/Tailbone-0.9.9.tar.gz]
+[2023-08-09 01:43:46] INFO root fetch - main [MainThread]: End processing [Tailbone]: success
+[2023-08-09 01:43:46] INFO root fetch - processPackages [rattail]: Remove: archive file [/home/abi/fetcher/tmp/rattail-0.9.98.tar.gz]
+[2023-08-09 01:43:46] INFO root fetch - processPackages [rattail]: Remove: archive file [/home/abi/fetcher/tmp/rattail-0.9.99.tar.gz]
+[2023-08-09 01:43:46] INFO root fetch - main [MainThread]: End processing [rattail]: success
+[2023-08-09 01:43:46] INFO root fetch - main [MainThread]: Store serial: [19228662]
