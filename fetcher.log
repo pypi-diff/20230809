@@ -1058,3 +1058,51 @@
 [2023-08-09 01:01:41] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230808.tar.gz]
 [2023-08-09 01:01:41] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
 [2023-08-09 01:01:41] INFO root fetch - main [MainThread]: Store serial: [19228380]
+[2023-08-09 01:06:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19228380]
+[2023-08-09 01:06:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-09 01:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmnt-cu101
+[2023-08-09 01:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmnt
+[2023-08-09 01:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djangocms-fomantic-ui
+[2023-08-09 01:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: markitup
+[2023-08-09 01:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: protobuf
+[2023-08-09 01:06:50] INFO root fetch - processPackages [markitup]: New version: [0.0.0.dev3] Old Version: [0.0.0.dev2]
+[2023-08-09 01:06:50] INFO root fetch - processPackages [djangocms-fomantic-ui]: New version: [0.0.2b3] Old Version: [0.0.2b2]
+[2023-08-09 01:06:50] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230807] Old Version: [0.7.0b20230806]
+[2023-08-09 01:06:50] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230807] Old Version: [0.7.0b20230806]
+[2023-08-09 01:06:50] INFO root fetch - processPackages [djangocms-fomantic-ui]: Downloading https://files.pythonhosted.org/packages/5d/8f/e33b0b852e9877958728e182156405b13aa2a1af20306d4adedb9f1f7956/djangocms_fomantic_ui-0.0.2b2.tar.gz
+[2023-08-09 01:06:50] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/ba/bd/d98e79503f7f5f01c61e56db3ea40d4f541b6aebbd67ee467a5fe3d36985/tmnt-cu101-0.7.0b20230806.tar.gz
+[2023-08-09 01:06:50] INFO root fetch - processPackages [protobuf]: New version: [4.24.0rc3] Old Version: [4.24.0rc2]
+[2023-08-09 01:06:50] INFO root fetch - processPackages [markitup]: Downloading https://files.pythonhosted.org/packages/71/25/05bc0cb28188ee1054d1aceb96fe0ccc243c0d73b16f76d1125863d8c225/markitup-0.0.0.dev2.tar.gz
+[2023-08-09 01:06:50] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/d1/7d/a20dfc3e8fa64a3caa86011124aa31cad1377c9458653b3121f5b8588bbe/tmnt-0.7.0b20230806.tar.gz
+[2023-08-09 01:06:50] INFO root fetch - processPackages [protobuf]: Downloading https://files.pythonhosted.org/packages/bd/1b/e4018103184e814315652405cd1f1da0a22c714adff3c84128ca53d1919c/protobuf-4.24.0rc2.tar.gz
+[2023-08-09 01:06:51] INFO root fetch - processPackages [djangocms-fomantic-ui]: Downloading https://files.pythonhosted.org/packages/26/1e/9511a4f6de7f2f97f35e583dc79d5b1a7ca1a04fb0c5d6fbafc8ee47d8aa/djangocms_fomantic_ui-0.0.2b3.tar.gz
+[2023-08-09 01:06:51] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/1a/33/da4dc947342860942d95bb01592749e86085659cd2bd8f6303feca654ed9/tmnt-cu101-0.7.0b20230807.tar.gz
+[2023-08-09 01:06:51] INFO root fetch - processPackages [markitup]: Downloading https://files.pythonhosted.org/packages/13/a7/664c76c611fbcecd70a75385ae50cb0719988de00e6e4adf917e602527b7/markitup-0.0.0.dev3.tar.gz
+[2023-08-09 01:06:51] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/78/46/298c1adc8b4ff7cf25e75e2b1e80cfece15254fff2627799556773dc4d69/tmnt-0.7.0b20230807.tar.gz
+[2023-08-09 01:06:51] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-08-09 01:06:51] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230806.tar.gz tmp/tmnt-cu101-0.7.0b20230807.tar.gz --markdown 20230809/t/tmnt-cu101/0.7.0b20230806-0.7.0b20230807/diff.md --exclude *.pyd
+[2023-08-09 01:06:51] INFO root fetch - processPackages [markitup]: executing diffoscope
+[2023-08-09 01:06:51] INFO root fetch - processPackages [markitup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markitup-0.0.0.dev2.tar.gz tmp/markitup-0.0.0.dev3.tar.gz --markdown 20230809/m/markitup/0.0.0.dev2-0.0.0.dev3/diff.md --exclude *.pyd
+[2023-08-09 01:06:51] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-08-09 01:06:51] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230806.tar.gz tmp/tmnt-0.7.0b20230807.tar.gz --markdown 20230809/t/tmnt/0.7.0b20230806-0.7.0b20230807/diff.md --exclude *.pyd
+[2023-08-09 01:06:51] INFO root fetch - processPackages [protobuf]: Downloading https://files.pythonhosted.org/packages/94/38/277f4d967abb9fa6ae53f5e2123c1cb15e86e28a0fa70e188692c3c4b4d1/protobuf-4.24.0rc3.tar.gz
+[2023-08-09 01:06:51] INFO root fetch - processPackages [djangocms-fomantic-ui]: executing diffoscope
+[2023-08-09 01:06:51] INFO root fetch - processPackages [djangocms-fomantic-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms_fomantic_ui-0.0.2b2.tar.gz tmp/djangocms_fomantic_ui-0.0.2b3.tar.gz --markdown 20230809/d/djangocms-fomantic-ui/0.0.2b2-0.0.2b3/diff.md --exclude *.pyd
+[2023-08-09 01:06:51] INFO root fetch - processPackages [protobuf]: executing diffoscope
+[2023-08-09 01:06:51] INFO root fetch - processPackages [protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protobuf-4.24.0rc2.tar.gz tmp/protobuf-4.24.0rc3.tar.gz --markdown 20230809/p/protobuf/4.24.0rc2-4.24.0rc3/diff.md --exclude *.pyd
+[2023-08-09 01:06:52] INFO root fetch - processPackages [markitup]: Remove: archive file [/home/abi/fetcher/tmp/markitup-0.0.0.dev2.tar.gz]
+[2023-08-09 01:06:52] INFO root fetch - processPackages [markitup]: Remove: archive file [/home/abi/fetcher/tmp/markitup-0.0.0.dev3.tar.gz]
+[2023-08-09 01:06:52] INFO root fetch - main [MainThread]: End processing [markitup]: success
+[2023-08-09 01:06:52] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230806.tar.gz]
+[2023-08-09 01:06:52] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230807.tar.gz]
+[2023-08-09 01:06:52] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-08-09 01:06:52] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230806.tar.gz]
+[2023-08-09 01:06:52] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230807.tar.gz]
+[2023-08-09 01:06:52] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-08-09 01:06:53] INFO root fetch - processPackages [djangocms-fomantic-ui]: Remove: archive file [/home/abi/fetcher/tmp/djangocms_fomantic_ui-0.0.2b2.tar.gz]
+[2023-08-09 01:06:53] INFO root fetch - processPackages [djangocms-fomantic-ui]: Remove: archive file [/home/abi/fetcher/tmp/djangocms_fomantic_ui-0.0.2b3.tar.gz]
+[2023-08-09 01:06:53] INFO root fetch - main [MainThread]: End processing [djangocms-fomantic-ui]: success
+[2023-08-09 01:06:53] INFO root fetch - processPackages [protobuf]: Remove: archive file [/home/abi/fetcher/tmp/protobuf-4.24.0rc2.tar.gz]
+[2023-08-09 01:06:53] INFO root fetch - processPackages [protobuf]: Remove: archive file [/home/abi/fetcher/tmp/protobuf-4.24.0rc3.tar.gz]
+[2023-08-09 01:06:53] INFO root fetch - main [MainThread]: End processing [protobuf]: success
+[2023-08-09 01:06:53] INFO root fetch - main [MainThread]: Store serial: [19228432]
