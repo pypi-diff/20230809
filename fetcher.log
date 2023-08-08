@@ -1283,3 +1283,60 @@
 [2023-08-09 01:17:30] INFO root fetch - processPackages [klayout]: Remove: archive file [/home/abi/fetcher/tmp/klayout-0.28.post1.tar.gz]
 [2023-08-09 01:17:30] INFO root fetch - main [MainThread]: End processing [klayout]: success
 [2023-08-09 01:17:30] INFO root fetch - main [MainThread]: Store serial: [19228517]
+[2023-08-09 01:22:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19228517]
+[2023-08-09 01:22:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-09 01:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Janex
+[2023-08-09 01:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: minto
+[2023-08-09 01:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sparkpipelineframework
+[2023-08-09 01:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygrb-lc
+[2023-08-09 01:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fern-merge
+[2023-08-09 01:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mpzinke
+[2023-08-09 01:22:40] INFO root fetch - processPackages [Janex]: New version: [0.0.9] Old Version: [0.0.8b0]
+[2023-08-09 01:22:40] INFO root fetch - processPackages [sparkpipelineframework]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-09 01:22:40] INFO root fetch - processPackages [pygrb-lc]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-09 01:22:40] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/ad/9b/02e3075181cb89ca28ef6d7eac669469d8be57e9f6888e74a0598d03bd22/Janex-0.0.8b0.tar.gz
+[2023-08-09 01:22:40] INFO root fetch - processPackages [fern-merge]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-08-09 01:22:40] INFO root fetch - processPackages [mpzinke]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-09 01:22:40] INFO root fetch - processPackages [minto]: New version: [0.6.1] Old Version: [0.6.0rc1]
+[2023-08-09 01:22:40] INFO root fetch - processPackages [sparkpipelineframework]: Downloading https://files.pythonhosted.org/packages/3d/fa/3e08b2f10d000fdf155b4cd13d8eff184aebe669f7c3ae2d74a9de28c473/sparkpipelineframework-1.0.98.tar.gz
+[2023-08-09 01:22:40] INFO root fetch - processPackages [mpzinke]: Downloading https://files.pythonhosted.org/packages/3a/2f/1869e8b334751e699dc689b9538eb9016bef0799aaf8d66d986aec8df1b7/mpzinke-0.0.2.tar.gz
+[2023-08-09 01:22:40] INFO root fetch - processPackages [pygrb-lc]: Downloading https://files.pythonhosted.org/packages/95/54/a25bafdafd05e0cc17057f73fe345d6f177681260255335b1a1c70c3d6c6/pygrb_lc-0.1.7.tar.gz
+[2023-08-09 01:22:40] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/40/e1/132b211480dc634919c04b591850f6164665441cdbd516ef4c1b946c6f18/Janex-0.0.9.tar.gz
+[2023-08-09 01:22:40] INFO root fetch - processPackages [fern-merge]: Downloading https://files.pythonhosted.org/packages/23/a9/e755d437b635aaecbc5c1b8cd2d03ca78189b308dcf1ab1dd73c373fadc4/fern_merge-0.2.2.tar.gz
+[2023-08-09 01:22:40] INFO root fetch - processPackages [minto]: Downloading https://files.pythonhosted.org/packages/c8/82/99a81166a6bb016f8377bbcd4bc39a82e77fdccc25e8bfdc1de73ffe06a9/minto-0.6.0rc1.tar.gz
+[2023-08-09 01:22:40] INFO root fetch - processPackages [Janex]: executing diffoscope
+[2023-08-09 01:22:40] INFO root fetch - processPackages [Janex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Janex-0.0.8b0.tar.gz tmp/Janex-0.0.9.tar.gz --markdown 20230809/J/Janex/0.0.8b0-0.0.9/diff.md --exclude *.pyd
+[2023-08-09 01:22:41] INFO root fetch - processPackages [mpzinke]: Downloading https://files.pythonhosted.org/packages/8c/92/57bd7ea2ddac2a75bf12f39790df48a2c174984535bc4a66b8ba71fe31b5/mpzinke-0.0.3.tar.gz
+[2023-08-09 01:22:41] INFO root fetch - processPackages [pygrb-lc]: Downloading https://files.pythonhosted.org/packages/ae/09/fb842d92d5cc3b542e555970d40d4ef820b8d96237d6587a9499f0ae44f9/pygrb_lc-0.1.8.tar.gz
+[2023-08-09 01:22:41] INFO root fetch - processPackages [sparkpipelineframework]: Downloading https://files.pythonhosted.org/packages/ed/e9/5708be80e63dcc98716549cd991b88c536e6028a551e0fea36d6fbb67d3e/sparkpipelineframework-1.0.99.tar.gz
+[2023-08-09 01:22:41] INFO root fetch - processPackages [pygrb-lc]: executing diffoscope
+[2023-08-09 01:22:41] INFO root fetch - processPackages [pygrb-lc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygrb_lc-0.1.7.tar.gz tmp/pygrb_lc-0.1.8.tar.gz --markdown 20230809/p/pygrb-lc/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-09 01:22:41] INFO root fetch - processPackages [fern-merge]: Downloading https://files.pythonhosted.org/packages/4d/3a/81b86473708baedb8e90c087a78525c90f0753ec91a8e53db882bcf6836f/fern_merge-0.2.3.tar.gz
+[2023-08-09 01:22:41] INFO root fetch - processPackages [mpzinke]: executing diffoscope
+[2023-08-09 01:22:41] INFO root fetch - processPackages [mpzinke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpzinke-0.0.2.tar.gz tmp/mpzinke-0.0.3.tar.gz --markdown 20230809/m/mpzinke/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-09 01:22:41] INFO root fetch - processPackages [sparkpipelineframework]: executing diffoscope
+[2023-08-09 01:22:41] INFO root fetch - processPackages [sparkpipelineframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkpipelineframework-1.0.98.tar.gz tmp/sparkpipelineframework-1.0.99.tar.gz --markdown 20230809/s/sparkpipelineframework/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-09 01:22:41] INFO root fetch - processPackages [fern-merge]: executing diffoscope
+[2023-08-09 01:22:41] INFO root fetch - processPackages [fern-merge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_merge-0.2.2.tar.gz tmp/fern_merge-0.2.3.tar.gz --markdown 20230809/f/fern-merge/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-08-09 01:22:41] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.8b0.tar.gz]
+[2023-08-09 01:22:41] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.9.tar.gz]
+[2023-08-09 01:22:41] INFO root fetch - main [MainThread]: End processing [Janex]: success
+[2023-08-09 01:22:42] INFO root fetch - processPackages [mpzinke]: Remove: archive file [/home/abi/fetcher/tmp/mpzinke-0.0.2.tar.gz]
+[2023-08-09 01:22:42] INFO root fetch - processPackages [mpzinke]: Remove: archive file [/home/abi/fetcher/tmp/mpzinke-0.0.3.tar.gz]
+[2023-08-09 01:22:42] INFO root fetch - main [MainThread]: End processing [mpzinke]: success
+[2023-08-09 01:22:42] INFO root fetch - processPackages [pygrb-lc]: Remove: archive file [/home/abi/fetcher/tmp/pygrb_lc-0.1.7.tar.gz]
+[2023-08-09 01:22:42] INFO root fetch - processPackages [pygrb-lc]: Remove: archive file [/home/abi/fetcher/tmp/pygrb_lc-0.1.8.tar.gz]
+[2023-08-09 01:22:42] INFO root fetch - main [MainThread]: End processing [pygrb-lc]: success
+[2023-08-09 01:22:42] INFO root fetch - processPackages [minto]: Downloading https://files.pythonhosted.org/packages/6d/09/70a2816e7f1d3be2eb5c3a6e49834516772d1d6f84a8f5b8c91e00b98bdb/minto-0.6.1.tar.gz
+[2023-08-09 01:22:42] INFO root fetch - processPackages [minto]: executing diffoscope
+[2023-08-09 01:22:42] INFO root fetch - processPackages [minto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minto-0.6.0rc1.tar.gz tmp/minto-0.6.1.tar.gz --markdown 20230809/m/minto/0.6.0rc1-0.6.1/diff.md --exclude *.pyd
+[2023-08-09 01:22:43] INFO root fetch - processPackages [sparkpipelineframework]: Remove: archive file [/home/abi/fetcher/tmp/sparkpipelineframework-1.0.98.tar.gz]
+[2023-08-09 01:22:43] INFO root fetch - processPackages [sparkpipelineframework]: Remove: archive file [/home/abi/fetcher/tmp/sparkpipelineframework-1.0.99.tar.gz]
+[2023-08-09 01:22:43] INFO root fetch - main [MainThread]: End processing [sparkpipelineframework]: success
+[2023-08-09 01:22:48] INFO root fetch - processPackages [minto]: Remove: archive file [/home/abi/fetcher/tmp/minto-0.6.0rc1.tar.gz]
+[2023-08-09 01:22:48] INFO root fetch - processPackages [minto]: Remove: archive file [/home/abi/fetcher/tmp/minto-0.6.1.tar.gz]
+[2023-08-09 01:22:48] INFO root fetch - main [MainThread]: End processing [minto]: success
+[2023-08-09 01:22:49] INFO root fetch - processPackages [fern-merge]: Remove: archive file [/home/abi/fetcher/tmp/fern_merge-0.2.2.tar.gz]
+[2023-08-09 01:22:49] INFO root fetch - processPackages [fern-merge]: Remove: archive file [/home/abi/fetcher/tmp/fern_merge-0.2.3.tar.gz]
+[2023-08-09 01:22:49] INFO root fetch - main [MainThread]: End processing [fern-merge]: success
+[2023-08-09 01:22:49] INFO root fetch - main [MainThread]: Store serial: [19228536]
