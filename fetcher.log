@@ -1486,3 +1486,69 @@
 [2023-08-09 01:33:21] INFO root fetch - processPackages [iambic-core]: Remove: archive file [/home/abi/fetcher/tmp/iambic_core-0.9.8.tar.gz]
 [2023-08-09 01:33:21] INFO root fetch - main [MainThread]: End processing [iambic-core]: success
 [2023-08-09 01:33:21] INFO root fetch - main [MainThread]: Store serial: [19228597]
+[2023-08-09 01:38:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19228597]
+[2023-08-09 01:38:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-09 01:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-github
+[2023-08-09 01:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fcm-mpmath
+[2023-08-09 01:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hullermeier
+[2023-08-09 01:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyperscan
+[2023-08-09 01:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bareunpy
+[2023-08-09 01:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: m-json-db
+[2023-08-09 01:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: whatstk
+[2023-08-09 01:38:29] INFO root fetch - processPackages [hullermeier]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-09 01:38:29] INFO root fetch - processPackages [fcm-mpmath]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-09 01:38:30] INFO root fetch - processPackages [hullermeier]: Downloading https://files.pythonhosted.org/packages/5d/1b/77394b8d69426ded52942cf9f14f015b5d7acaf625761fd4550d3aa48a24/hullermeier-0.1.0.tar.gz
+[2023-08-09 01:38:30] INFO root fetch - processPackages [fcm-mpmath]: Downloading https://files.pythonhosted.org/packages/45/c0/b189e497fec9333d0bcd914db0eb6966aec43deb55ac463748ae408f0fe9/fcm_mpmath-0.1.1.tar.gz
+[2023-08-09 01:38:30] INFO root fetch - processPackages [m-json-db]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-09 01:38:30] INFO root fetch - processPackages [bareunpy]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-08-09 01:38:30] INFO root fetch - processPackages [hyperscan]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-08-09 01:38:30] INFO root fetch - processPackages [whatstk]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-08-09 01:38:30] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-09 01:38:30] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-08-09 01:38:30] INFO root fetch - processPackages [bareunpy]: Downloading https://files.pythonhosted.org/packages/f5/c0/b8ab532e55d777516b8e9919e84fb38cfb20e862fe6b754f6473707840fb/bareunpy-1.6.2.tar.gz
+[2023-08-09 01:38:30] INFO root fetch - processPackages [hullermeier]: Downloading https://files.pythonhosted.org/packages/d9/82/17d38994c5ecb341d18f9047b55dcf3df0cc7e97fc754e16f051bfa3f7f6/hullermeier-0.1.1.tar.gz
+[2023-08-09 01:38:30] INFO root fetch - processPackages [m-json-db]: Downloading https://files.pythonhosted.org/packages/fb/29/8e8924c7e9409b68eff1b05ddbe76517931d450ccb08682e2097df06e4a3/m_json_db-0.1.0.tar.gz
+[2023-08-09 01:38:30] INFO root fetch - processPackages [whatstk]: Downloading https://files.pythonhosted.org/packages/40/a4/0c0d3d5ff90c803c1b5b2e9449b51c368a48a40b9dd9e6201fdc05f9fd9a/whatstk-0.6.0.tar.gz
+[2023-08-09 01:38:30] INFO root fetch - processPackages [hyperscan]: Downloading https://files.pythonhosted.org/packages/6a/cd/4d5812cc00a48e560623fbab234c1b85eed86ee47336145f77a99669fe0b/hyperscan-0.4.0.tar.gz
+[2023-08-09 01:38:30] INFO root fetch - processPackages [hullermeier]: executing diffoscope
+[2023-08-09 01:38:30] INFO root fetch - processPackages [hullermeier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hullermeier-0.1.0.tar.gz tmp/hullermeier-0.1.1.tar.gz --markdown 20230809/h/hullermeier/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-09 01:38:30] INFO root fetch - processPackages [fcm-mpmath]: Downloading https://files.pythonhosted.org/packages/04/51/ed03d0b1d3c4b3be292962c1c098c5371a6b1b919fefacd9b53dceab519f/fcm_mpmath-0.1.2.tar.gz
+[2023-08-09 01:38:30] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-08-09 01:38:30] INFO root fetch - processPackages [bareunpy]: Downloading https://files.pythonhosted.org/packages/4d/60/474a4cb47c86d594d4a36e3cb37ad9d5bc8bf396a2f6f87fa286f4655a10/bareunpy-1.6.3.tar.gz
+[2023-08-09 01:38:30] INFO root fetch - processPackages [fcm-mpmath]: executing diffoscope
+[2023-08-09 01:38:30] INFO root fetch - processPackages [fcm-mpmath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fcm_mpmath-0.1.1.tar.gz tmp/fcm_mpmath-0.1.2.tar.gz --markdown 20230809/f/fcm-mpmath/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-09 01:38:30] INFO root fetch - processPackages [m-json-db]: Downloading https://files.pythonhosted.org/packages/88/14/fe6a053edbaa4e0472b56bd66d11072dbd49684fae5c009f3d9006afc33b/m_json_db-0.1.1.tar.gz
+[2023-08-09 01:38:30] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-08-09 01:38:30] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230809/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-09 01:38:30] INFO root fetch - processPackages [whatstk]: Downloading https://files.pythonhosted.org/packages/14/63/0298028387901db5c9d359ee203b7118932fcfd2be8c1c529826ca01e324/whatstk-0.6.1.tar.gz
+[2023-08-09 01:38:30] INFO root fetch - processPackages [bareunpy]: executing diffoscope
+[2023-08-09 01:38:30] INFO root fetch - processPackages [bareunpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bareunpy-1.6.2.tar.gz tmp/bareunpy-1.6.3.tar.gz --markdown 20230809/b/bareunpy/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-08-09 01:38:30] INFO root fetch - processPackages [hyperscan]: Downloading https://files.pythonhosted.org/packages/f9/dd/bb89d36f8343d9fe640669eb44efcd4455840d9b2c015f4b10540ba25b0c/hyperscan-0.5.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-09 01:38:30] INFO root fetch - processPackages [m-json-db]: executing diffoscope
+[2023-08-09 01:38:30] INFO root fetch - processPackages [m-json-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m_json_db-0.1.0.tar.gz tmp/m_json_db-0.1.1.tar.gz --markdown 20230809/m/m-json-db/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-09 01:38:30] INFO root fetch - processPackages [whatstk]: executing diffoscope
+[2023-08-09 01:38:30] INFO root fetch - processPackages [whatstk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whatstk-0.6.0.tar.gz tmp/whatstk-0.6.1.tar.gz --markdown 20230809/w/whatstk/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-08-09 01:38:31] INFO root fetch - processPackages [hullermeier]: Remove: archive file [/home/abi/fetcher/tmp/hullermeier-0.1.0.tar.gz]
+[2023-08-09 01:38:31] INFO root fetch - processPackages [hullermeier]: Remove: archive file [/home/abi/fetcher/tmp/hullermeier-0.1.1.tar.gz]
+[2023-08-09 01:38:31] INFO root fetch - main [MainThread]: End processing [hullermeier]: success
+[2023-08-09 01:38:31] INFO root fetch - processPackages [fcm-mpmath]: Remove: archive file [/home/abi/fetcher/tmp/fcm_mpmath-0.1.1.tar.gz]
+[2023-08-09 01:38:31] INFO root fetch - processPackages [fcm-mpmath]: Remove: archive file [/home/abi/fetcher/tmp/fcm_mpmath-0.1.2.tar.gz]
+[2023-08-09 01:38:31] INFO root fetch - main [MainThread]: End processing [fcm-mpmath]: success
+[2023-08-09 01:38:31] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-08-09 01:38:31] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-08-09 01:38:31] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-08-09 01:38:31] INFO root fetch - processPackages [m-json-db]: Remove: archive file [/home/abi/fetcher/tmp/m_json_db-0.1.0.tar.gz]
+[2023-08-09 01:38:31] INFO root fetch - processPackages [m-json-db]: Remove: archive file [/home/abi/fetcher/tmp/m_json_db-0.1.1.tar.gz]
+[2023-08-09 01:38:31] INFO root fetch - main [MainThread]: End processing [m-json-db]: success
+[2023-08-09 01:38:31] INFO root fetch - processPackages [hyperscan]: executing diffoscope
+[2023-08-09 01:38:31] INFO root fetch - processPackages [hyperscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperscan-0.4.0.tar.gz tmp/hyperscan-0.5.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230809/h/hyperscan/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-08-09 01:38:32] INFO root fetch - processPackages [bareunpy]: Remove: archive file [/home/abi/fetcher/tmp/bareunpy-1.6.2.tar.gz]
+[2023-08-09 01:38:32] INFO root fetch - processPackages [bareunpy]: Remove: archive file [/home/abi/fetcher/tmp/bareunpy-1.6.3.tar.gz]
+[2023-08-09 01:38:32] INFO root fetch - main [MainThread]: End processing [bareunpy]: success
+[2023-08-09 01:38:32] INFO root fetch - processPackages [whatstk]: Remove: archive file [/home/abi/fetcher/tmp/whatstk-0.6.0.tar.gz]
+[2023-08-09 01:38:32] INFO root fetch - processPackages [whatstk]: Remove: archive file [/home/abi/fetcher/tmp/whatstk-0.6.1.tar.gz]
+[2023-08-09 01:38:32] INFO root fetch - main [MainThread]: End processing [whatstk]: success
+[2023-08-09 01:38:32] INFO root fetch - processPackages [hyperscan]: Remove: archive file [/home/abi/fetcher/tmp/hyperscan-0.4.0.tar.gz]
+[2023-08-09 01:38:32] INFO root fetch - processPackages [hyperscan]: Remove: archive file [/home/abi/fetcher/tmp/hyperscan-0.5.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-09 01:38:32] INFO root fetch - main [MainThread]: End processing [hyperscan]: success
+[2023-08-09 01:38:32] INFO root fetch - main [MainThread]: Store serial: [19228630]
