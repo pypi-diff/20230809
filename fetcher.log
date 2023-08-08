@@ -257,3 +257,155 @@
 [2023-08-09 00:07:30] INFO root fetch - processPackages [symphony-summary]: Remove: archive file [/home/abi/fetcher/tmp/symphony_summary-1.0.2.tar.gz]
 [2023-08-09 00:07:30] INFO root fetch - main [MainThread]: End processing [symphony-summary]: success
 [2023-08-09 00:07:30] INFO root fetch - main [MainThread]: Store serial: [19227986]
+[2023-08-09 00:14:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19227986]
+[2023-08-09 00:14:35] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-08-09 00:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pkscreener
+[2023-08-09 00:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nirwals
+[2023-08-09 00:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fhirstarter
+[2023-08-09 00:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azure-ai-formrecognizer
+[2023-08-09 00:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hydromap
+[2023-08-09 00:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gssnng
+[2023-08-09 00:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: remotior-sensus
+[2023-08-09 00:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fitter
+[2023-08-09 00:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jacktrade
+[2023-08-09 00:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyLandslide
+[2023-08-09 00:14:35] INFO root fetch - processPackages [PyLandslide]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-08-09 00:14:35] INFO root fetch - processPackages [jacktrade]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-08-09 00:14:35] INFO root fetch - processPackages [pkscreener]: New version: [0.4.20230808.18] Old Version: [0.4.20230805.17]
+[2023-08-09 00:14:35] INFO root fetch - processPackages [azure-ai-formrecognizer]: New version: [3.3.0b1] Old Version: [3.3.0]
+[2023-08-09 00:14:35] INFO root fetch - processPackages [fhirstarter]: New version: [1.0.0] Old Version: [0.13.9]
+[2023-08-09 00:14:35] INFO root fetch - processPackages [gssnng]: New version: [0.4.2] Old Version: [0.2.6.2]
+[2023-08-09 00:14:35] INFO root fetch - processPackages [jacktrade]: Downloading https://files.pythonhosted.org/packages/f8/a5/6ce5f366d32bdebc4bb877ef43643c1ce51fb185f02f1cbd47c809520142/jacktrade-0.1.2.tar.gz
+[2023-08-09 00:14:35] WARNING root fetch - processPackages [hydromap]: Skipping, unable to determine old version
+[2023-08-09 00:14:35] INFO root fetch - processPackages [hydromap]: Start processing: hearthstone-data
+[2023-08-09 00:14:35] INFO root fetch - main [MainThread]: End processing [hydromap] error
+[2023-08-09 00:14:35] INFO root fetch - processPackages [nirwals]: New version: [0.0.5] Old Version: [0.0.1]
+[2023-08-09 00:14:35] INFO root fetch - processPackages [fitter]: New version: [1.6.0] Old Version: [1.5.2]
+[2023-08-09 00:14:35] INFO root fetch - processPackages [remotior-sensus]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-09 00:14:35] INFO root fetch - processPackages [hearthstone-data]: New version: [95431.1] Old Version: [93849.1]
+[2023-08-09 00:14:35] INFO root fetch - processPackages [PyLandslide]: Downloading https://files.pythonhosted.org/packages/4d/64/669cc2c8de58b9c354923c206d2b67916804c65f2dcc342fae51891e3c1d/PyLandslide-0.0.5.tar.gz
+[2023-08-09 00:14:35] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/e2/8f/55f9a5230cdb59cd424a89503a2a064a85d105ab12f140ceac2ed739a4e0/pkscreener-0.4.20230805.17.tar.gz
+[2023-08-09 00:14:35] INFO root fetch - processPackages [azure-ai-formrecognizer]: Downloading https://files.pythonhosted.org/packages/9b/81/3db645f0ac28ddbef658086cb8df6fdb16698f7559be819ad01237c24639/azure-ai-formrecognizer-3.3.0.zip
+[2023-08-09 00:14:35] INFO root fetch - processPackages [fhirstarter]: Downloading https://files.pythonhosted.org/packages/4b/fd/3ecfaa95861100f53e42c1e8fe630196f70d10fec6acb548d7ac50c32928/fhirstarter-0.13.9.tar.gz
+[2023-08-09 00:14:36] INFO root fetch - processPackages [nirwals]: Downloading https://files.pythonhosted.org/packages/4f/01/ac22ae0540a6410912b9553853802acfcfc7ee54e5b52cd24d4409e607b4/nirwals-0.0.1.tar.gz
+[2023-08-09 00:14:36] INFO root fetch - processPackages [gssnng]: Downloading https://files.pythonhosted.org/packages/be/2a/31c4d2c5602b26937fe681dcd8b67f16a8caa1d7293b20d5c7236abceb42/gssnng-0.2.6.2.tar.gz
+[2023-08-09 00:14:36] INFO root fetch - processPackages [fitter]: Downloading https://files.pythonhosted.org/packages/bf/c0/bc4e8cfb8c2713fb7b46a4ff227bf049bc521506ff02ccfff5cb4471d039/fitter-1.5.2.tar.gz
+[2023-08-09 00:14:36] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/2d/82/4f0f8be3b8f3c4f00b90027ff3c32958918221be17a5ad7c3cf298d4af04/remotior_sensus-0.0.8.tar.gz
+[2023-08-09 00:14:36] INFO root fetch - processPackages [hearthstone-data]: Downloading https://files.pythonhosted.org/packages/1a/44/1cb20e8bc14aefd26e671bade62b6a741594351391784f21fb5385d4cd6a/hearthstone_data-93849.1.tar.gz
+[2023-08-09 00:14:36] INFO root fetch - processPackages [jacktrade]: Downloading https://files.pythonhosted.org/packages/60/9c/df6b67571ba44411b1cf11ec105bb67eaab980d23c38bd822b36805421c3/jacktrade-0.2.0.tar.gz
+[2023-08-09 00:14:36] INFO root fetch - processPackages [jacktrade]: executing diffoscope
+[2023-08-09 00:14:36] INFO root fetch - processPackages [jacktrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jacktrade-0.1.2.tar.gz tmp/jacktrade-0.2.0.tar.gz --markdown 20230809/j/jacktrade/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-08-09 00:14:36] INFO root fetch - processPackages [PyLandslide]: Downloading https://files.pythonhosted.org/packages/a4/9f/bdd3b89785646635005a0092be02fefa64b3f3a13baa2e5489747542c5de/PyLandslide-0.0.7.tar.gz
+[2023-08-09 00:14:36] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/bd/c9/3486577acb20dfb4c27a2abc70a988a6385b10e45bb888d205877d78e100/pkscreener-0.4.20230808.18.tar.gz
+[2023-08-09 00:14:36] INFO root fetch - processPackages [azure-ai-formrecognizer]: Downloading https://files.pythonhosted.org/packages/1d/33/f46bf39a8714317604d7065068b1b0f0eaac1a7c1d366fb80f5d47617049/azure-ai-formrecognizer-3.3.0b1.zip
+[2023-08-09 00:14:36] INFO root fetch - processPackages [fitter]: Downloading https://files.pythonhosted.org/packages/72/9f/0d0a2b1e1a9d1c7145f13c4a57a491e2cff853160c36b56d4252886e4d57/fitter-1.6.0.tar.gz
+[2023-08-09 00:14:36] INFO root fetch - processPackages [nirwals]: Downloading https://files.pythonhosted.org/packages/4d/12/79f7a57e1f34af2cacba3b856df27c7c5f5335267ac5b8101947027fa403/nirwals-0.0.5.tar.gz
+[2023-08-09 00:14:36] INFO root fetch - processPackages [PyLandslide]: executing diffoscope
+[2023-08-09 00:14:36] INFO root fetch - processPackages [PyLandslide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyLandslide-0.0.5.tar.gz tmp/PyLandslide-0.0.7.tar.gz --markdown 20230809/P/PyLandslide/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-08-09 00:14:36] INFO root fetch - processPackages [fhirstarter]: Downloading https://files.pythonhosted.org/packages/42/14/d77cf2f3fc5bcb4d879cd64a725f512d5d0b74fbbb9e9bc4651dae474b2f/fhirstarter-1.0.0.tar.gz
+[2023-08-09 00:14:36] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2023-08-09 00:14:36] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.4.20230805.17.tar.gz tmp/pkscreener-0.4.20230808.18.tar.gz --markdown 20230809/p/pkscreener/0.4.20230805.17-0.4.20230808.18/diff.md --exclude *.pyd
+[2023-08-09 00:14:36] INFO root fetch - processPackages [gssnng]: Downloading https://files.pythonhosted.org/packages/e0/b2/665155ee08a1225c077f3457db4f3a1804a02f148a48c36f15dd9a5712c8/gssnng-0.4.2.tar.gz
+[2023-08-09 00:14:36] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/e4/c8/0c6054910848b2651da24ecb17a3d9ab9a62b4c844a98797ec686eaac17b/remotior_sensus-0.0.9.tar.gz
+[2023-08-09 00:14:36] INFO root fetch - processPackages [hearthstone-data]: Downloading https://files.pythonhosted.org/packages/75/07/ae8721c5e7f122730842bbaa36b121d3ff5d598d4dfe37e2809b41ac9f2c/hearthstone_data-95431.1.tar.gz
+[2023-08-09 00:14:36] INFO root fetch - processPackages [nirwals]: executing diffoscope
+[2023-08-09 00:14:36] INFO root fetch - processPackages [nirwals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nirwals-0.0.1.tar.gz tmp/nirwals-0.0.5.tar.gz --markdown 20230809/n/nirwals/0.0.1-0.0.5/diff.md --exclude *.pyd
+[2023-08-09 00:14:36] INFO root fetch - processPackages [azure-ai-formrecognizer]: executing diffoscope
+[2023-08-09 00:14:36] INFO root fetch - processPackages [azure-ai-formrecognizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-ai-formrecognizer-3.3.0.zip tmp/azure-ai-formrecognizer-3.3.0b1.zip --markdown 20230809/a/azure-ai-formrecognizer/3.3.0-3.3.0b1/diff.md --exclude *.pyd
+[2023-08-09 00:14:36] INFO root fetch - processPackages [fitter]: executing diffoscope
+[2023-08-09 00:14:36] INFO root fetch - processPackages [fitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fitter-1.5.2.tar.gz tmp/fitter-1.6.0.tar.gz --markdown 20230809/f/fitter/1.5.2-1.6.0/diff.md --exclude *.pyd
+[2023-08-09 00:14:36] INFO root fetch - processPackages [gssnng]: executing diffoscope
+[2023-08-09 00:14:36] INFO root fetch - processPackages [gssnng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gssnng-0.2.6.2.tar.gz tmp/gssnng-0.4.2.tar.gz --markdown 20230809/g/gssnng/0.2.6.2-0.4.2/diff.md --exclude *.pyd
+[2023-08-09 00:14:36] INFO root fetch - processPackages [remotior-sensus]: executing diffoscope
+[2023-08-09 00:14:36] INFO root fetch - processPackages [remotior-sensus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotior_sensus-0.0.8.tar.gz tmp/remotior_sensus-0.0.9.tar.gz --markdown 20230809/r/remotior-sensus/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-09 00:14:36] INFO root fetch - processPackages [fhirstarter]: executing diffoscope
+[2023-08-09 00:14:36] INFO root fetch - processPackages [fhirstarter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fhirstarter-0.13.9.tar.gz tmp/fhirstarter-1.0.0.tar.gz --markdown 20230809/f/fhirstarter/0.13.9-1.0.0/diff.md --exclude *.pyd
+[2023-08-09 00:14:36] INFO root fetch - processPackages [hearthstone-data]: executing diffoscope
+[2023-08-09 00:14:36] INFO root fetch - processPackages [hearthstone-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hearthstone_data-93849.1.tar.gz tmp/hearthstone_data-95431.1.tar.gz --markdown 20230809/h/hearthstone-data/93849.1-95431.1/diff.md --exclude *.pyd
+[2023-08-09 00:14:37] INFO root fetch - processPackages [jacktrade]: Remove: archive file [/home/abi/fetcher/tmp/jacktrade-0.1.2.tar.gz]
+[2023-08-09 00:14:37] INFO root fetch - processPackages [jacktrade]: Remove: archive file [/home/abi/fetcher/tmp/jacktrade-0.2.0.tar.gz]
+[2023-08-09 00:14:37] INFO root fetch - processPackages [jacktrade]: Start processing: openmsitoolbox
+[2023-08-09 00:14:37] INFO root fetch - main [MainThread]: End processing [jacktrade]: success
+[2023-08-09 00:14:37] WARNING root fetch - processPackages [openmsitoolbox]: Skipping, unable to determine old version
+[2023-08-09 00:14:37] INFO root fetch - processPackages [openmsitoolbox]: Start processing: certora-cli-alpha-master
+[2023-08-09 00:14:37] INFO root fetch - main [MainThread]: End processing [openmsitoolbox] error
+[2023-08-09 00:14:38] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230808.9.46.187596] Old Version: [20230808.8.53.742853]
+[2023-08-09 00:14:38] INFO root fetch - processPackages [PyLandslide]: Remove: archive file [/home/abi/fetcher/tmp/PyLandslide-0.0.5.tar.gz]
+[2023-08-09 00:14:38] INFO root fetch - processPackages [PyLandslide]: Remove: archive file [/home/abi/fetcher/tmp/PyLandslide-0.0.7.tar.gz]
+[2023-08-09 00:14:38] INFO root fetch - processPackages [PyLandslide]: Start processing: flowtask
+[2023-08-09 00:14:38] INFO root fetch - main [MainThread]: End processing [PyLandslide]: success
+[2023-08-09 00:14:38] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/32/9b/ef28a513b2a99201ef02cb95f7a35dc139cacb2f331f9ea320f7ff15c7eb/certora-cli-alpha-master-20230808.8.53.742853.tar.gz
+[2023-08-09 00:14:38] INFO root fetch - processPackages [flowtask]: New version: [4.6.9] Old Version: [4.6.8]
+[2023-08-09 00:14:38] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37845655>=10485760
+[2023-08-09 00:14:38] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: pypx
+[2023-08-09 00:14:38] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-08-09 00:14:38] INFO root fetch - processPackages [pypx]: New version: [3.8.2] Old Version: [3.8.0]
+[2023-08-09 00:14:38] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/63/ab/78faf204718d237fa289d666094f027e862dceef381c83a677801fbcf1e6/flowtask-4.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-09 00:14:38] INFO root fetch - processPackages [pypx]: Downloading https://files.pythonhosted.org/packages/4c/d6/d340ead9f438d5429a22a977b6390d5209ac9dba3615e15802f11cda6658/pypx-3.8.0.tar.gz
+[2023-08-09 00:14:38] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.4.20230805.17.tar.gz]
+[2023-08-09 00:14:38] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.4.20230808.18.tar.gz]
+[2023-08-09 00:14:38] INFO root fetch - processPackages [pkscreener]: Start processing: jupyterlab-sql-editor
+[2023-08-09 00:14:38] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2023-08-09 00:14:38] INFO root fetch - processPackages [hearthstone-data]: Remove: archive file [/home/abi/fetcher/tmp/hearthstone_data-93849.1.tar.gz]
+[2023-08-09 00:14:38] INFO root fetch - processPackages [hearthstone-data]: Remove: archive file [/home/abi/fetcher/tmp/hearthstone_data-95431.1.tar.gz]
+[2023-08-09 00:14:38] INFO root fetch - processPackages [hearthstone-data]: Start processing: llmx
+[2023-08-09 00:14:38] INFO root fetch - main [MainThread]: End processing [hearthstone-data]: success
+[2023-08-09 00:14:38] INFO root fetch - processPackages [nirwals]: Remove: archive file [/home/abi/fetcher/tmp/nirwals-0.0.1.tar.gz]
+[2023-08-09 00:14:38] INFO root fetch - processPackages [nirwals]: Remove: archive file [/home/abi/fetcher/tmp/nirwals-0.0.5.tar.gz]
+[2023-08-09 00:14:38] INFO root fetch - processPackages [nirwals]: Start processing: phonon-gas-model
+[2023-08-09 00:14:38] INFO root fetch - main [MainThread]: End processing [nirwals]: success
+[2023-08-09 00:14:38] INFO root fetch - processPackages [fitter]: Remove: archive file [/home/abi/fetcher/tmp/fitter-1.5.2.tar.gz]
+[2023-08-09 00:14:38] INFO root fetch - processPackages [fitter]: Remove: archive file [/home/abi/fetcher/tmp/fitter-1.6.0.tar.gz]
+[2023-08-09 00:14:38] INFO root fetch - processPackages [fitter]: Start processing: mbp
+[2023-08-09 00:14:38] INFO root fetch - main [MainThread]: End processing [fitter]: success
+[2023-08-09 00:14:38] INFO root fetch - processPackages [jupyterlab-sql-editor]: New version: [0.1.71a2] Old Version: [0.1.71a1]
+[2023-08-09 00:14:38] INFO root fetch - processPackages [pypx]: Downloading https://files.pythonhosted.org/packages/3c/0f/5b720034cfe7f06a283ec364228424818820441848ea1cb88b9b66c57564/pypx-3.8.2.tar.gz
+[2023-08-09 00:14:38] INFO root fetch - processPackages [gssnng]: Remove: archive file [/home/abi/fetcher/tmp/gssnng-0.2.6.2.tar.gz]
+[2023-08-09 00:14:38] INFO root fetch - processPackages [gssnng]: Remove: archive file [/home/abi/fetcher/tmp/gssnng-0.4.2.tar.gz]
+[2023-08-09 00:14:38] INFO root fetch - main [MainThread]: End processing [gssnng]: success
+[2023-08-09 00:14:38] INFO root fetch - processPackages [mbp]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-08-09 00:14:38] INFO root fetch - processPackages [llmx]: New version: [0.0.7a0] Old Version: [0.0.6a0]
+[2023-08-09 00:14:38] INFO root fetch - processPackages [jupyterlab-sql-editor]: Downloading https://files.pythonhosted.org/packages/61/06/02af884403c714b265c4f7178bbacee76770c34971bad2ee7d20c96a5023/jupyterlab_sql_editor-0.1.71a1.tar.gz
+[2023-08-09 00:14:38] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/ae/51/a881383f282924b19bfe6f2f38ecc597b5b96ab0e9a15fd062186e9134cf/flowtask-4.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-09 00:14:38] WARNING root fetch - processPackages [phonon-gas-model]: Skipping, unable to determine old version
+[2023-08-09 00:14:38] INFO root fetch - main [MainThread]: End processing [phonon-gas-model] error
+[2023-08-09 00:14:38] INFO root fetch - processPackages [mbp]: Downloading https://files.pythonhosted.org/packages/3c/e1/9032e34f9afe0d7c045dae1859544911f91cd6e188dad59b0f21e20d8c01/mbp-1.5.8.tar.gz
+[2023-08-09 00:14:38] INFO root fetch - processPackages [pypx]: executing diffoscope
+[2023-08-09 00:14:38] INFO root fetch - processPackages [pypx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypx-3.8.0.tar.gz tmp/pypx-3.8.2.tar.gz --markdown 20230809/p/pypx/3.8.0-3.8.2/diff.md --exclude *.pyd
+[2023-08-09 00:14:38] INFO root fetch - processPackages [fhirstarter]: Remove: archive file [/home/abi/fetcher/tmp/fhirstarter-0.13.9.tar.gz]
+[2023-08-09 00:14:38] INFO root fetch - processPackages [fhirstarter]: Remove: archive file [/home/abi/fetcher/tmp/fhirstarter-1.0.0.tar.gz]
+[2023-08-09 00:14:38] INFO root fetch - main [MainThread]: End processing [fhirstarter]: success
+[2023-08-09 00:14:39] INFO root fetch - processPackages [llmx]: Downloading https://files.pythonhosted.org/packages/37/83/88181aeb9182835c415675ad63e4e3f25db7cf32626ec8b5ed0925617a14/llmx-0.0.6a0.tar.gz
+[2023-08-09 00:14:39] INFO root fetch - processPackages [mbp]: Downloading https://files.pythonhosted.org/packages/ae/86/38ea7d4f60bb356337d6ccad391a9b0dc4df071eabac63465e3ee568e3b2/mbp-1.5.9.tar.gz
+[2023-08-09 00:14:39] INFO root fetch - processPackages [jupyterlab-sql-editor]: Downloading https://files.pythonhosted.org/packages/4e/11/ada18b2605749d607ff61068bddc031883a13e86cf551a650d225cc3ca81/jupyterlab_sql_editor-0.1.71a2.tar.gz
+[2023-08-09 00:14:39] INFO root fetch - processPackages [flowtask]: executing diffoscope
+[2023-08-09 00:14:39] INFO root fetch - processPackages [flowtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowtask-4.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/flowtask-4.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230809/f/flowtask/4.6.8-4.6.9/diff.md --exclude *.pyd
+[2023-08-09 00:14:39] INFO root fetch - processPackages [mbp]: executing diffoscope
+[2023-08-09 00:14:39] INFO root fetch - processPackages [mbp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbp-1.5.8.tar.gz tmp/mbp-1.5.9.tar.gz --markdown 20230809/m/mbp/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-08-09 00:14:39] INFO root fetch - processPackages [jupyterlab-sql-editor]: executing diffoscope
+[2023-08-09 00:14:39] INFO root fetch - processPackages [jupyterlab-sql-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_sql_editor-0.1.71a1.tar.gz tmp/jupyterlab_sql_editor-0.1.71a2.tar.gz --markdown 20230809/j/jupyterlab-sql-editor/0.1.71a1-0.1.71a2/diff.md --exclude *.pyd
+[2023-08-09 00:14:39] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.8.tar.gz]
+[2023-08-09 00:14:39] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.9.tar.gz]
+[2023-08-09 00:14:39] INFO root fetch - main [MainThread]: End processing [remotior-sensus]: success
+[2023-08-09 00:14:39] INFO root fetch - processPackages [llmx]: Downloading https://files.pythonhosted.org/packages/45/26/040b6b9e1ae5995ab91bf2157ca65f8c2d37bb891cb1b86214035d2615c4/llmx-0.0.7a0.tar.gz
+[2023-08-09 00:14:39] INFO root fetch - processPackages [llmx]: executing diffoscope
+[2023-08-09 00:14:39] INFO root fetch - processPackages [llmx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmx-0.0.6a0.tar.gz tmp/llmx-0.0.7a0.tar.gz --markdown 20230809/l/llmx/0.0.6a0-0.0.7a0/diff.md --exclude *.pyd
+[2023-08-09 00:14:40] INFO root fetch - processPackages [pypx]: Remove: archive file [/home/abi/fetcher/tmp/pypx-3.8.0.tar.gz]
+[2023-08-09 00:14:40] INFO root fetch - processPackages [pypx]: Remove: archive file [/home/abi/fetcher/tmp/pypx-3.8.2.tar.gz]
+[2023-08-09 00:14:40] INFO root fetch - main [MainThread]: End processing [pypx]: success
+[2023-08-09 00:14:40] INFO root fetch - processPackages [mbp]: Remove: archive file [/home/abi/fetcher/tmp/mbp-1.5.8.tar.gz]
+[2023-08-09 00:14:40] INFO root fetch - processPackages [mbp]: Remove: archive file [/home/abi/fetcher/tmp/mbp-1.5.9.tar.gz]
+[2023-08-09 00:14:40] INFO root fetch - main [MainThread]: End processing [mbp]: success
+[2023-08-09 00:14:40] INFO root fetch - processPackages [llmx]: Remove: archive file [/home/abi/fetcher/tmp/llmx-0.0.6a0.tar.gz]
+[2023-08-09 00:14:40] INFO root fetch - processPackages [llmx]: Remove: archive file [/home/abi/fetcher/tmp/llmx-0.0.7a0.tar.gz]
+[2023-08-09 00:14:40] INFO root fetch - main [MainThread]: End processing [llmx]: success
+[2023-08-09 00:14:40] INFO root fetch - processPackages [jupyterlab-sql-editor]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_sql_editor-0.1.71a1.tar.gz]
+[2023-08-09 00:14:40] INFO root fetch - processPackages [jupyterlab-sql-editor]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_sql_editor-0.1.71a2.tar.gz]
+[2023-08-09 00:14:40] INFO root fetch - main [MainThread]: End processing [jupyterlab-sql-editor]: success
+[2023-08-09 00:14:41] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-09 00:14:41] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-09 00:14:41] INFO root fetch - main [MainThread]: End processing [flowtask]: success
+[2023-08-09 00:14:41] INFO root fetch - processPackages [azure-ai-formrecognizer]: Remove: archive file [/home/abi/fetcher/tmp/azure-ai-formrecognizer-3.3.0.zip]
+[2023-08-09 00:14:41] INFO root fetch - processPackages [azure-ai-formrecognizer]: Remove: archive file [/home/abi/fetcher/tmp/azure-ai-formrecognizer-3.3.0b1.zip]
+[2023-08-09 00:14:41] INFO root fetch - main [MainThread]: End processing [azure-ai-formrecognizer]: success
+[2023-08-09 00:14:41] INFO root fetch - main [MainThread]: Store serial: [19228049]
