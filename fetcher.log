@@ -611,3 +611,78 @@
 [2023-08-09 00:25:12] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230808.235536.tar.gz]
 [2023-08-09 00:25:12] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-08-09 00:25:12] INFO root fetch - main [MainThread]: Store serial: [19228168]
+[2023-08-09 00:30:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19228168]
+[2023-08-09 00:30:20] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-09 00:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emmet-api
+[2023-08-09 00:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pcdr
+[2023-08-09 00:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-flint
+[2023-08-09 00:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moderne-visualizations-misc
+[2023-08-09 00:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kerberos-auth-proxy
+[2023-08-09 00:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clera
+[2023-08-09 00:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cropnet
+[2023-08-09 00:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grapdb
+[2023-08-09 00:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: WormholeSort
+[2023-08-09 00:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zatca-csr-generator
+[2023-08-09 00:30:20] INFO root fetch - processPackages [moderne-visualizations-misc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-09 00:30:20] INFO root fetch - processPackages [cropnet]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-09 00:30:21] INFO root fetch - processPackages [clera]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-08-09 00:30:21] INFO root fetch - processPackages [kerberos-auth-proxy]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-08-09 00:30:21] WARNING root fetch - processPackages [WormholeSort]: Skipping, unable to determine old version
+[2023-08-09 00:30:21] INFO root fetch - main [MainThread]: End processing [WormholeSort] error
+[2023-08-09 00:30:21] WARNING root fetch - processPackages [pcdr]: Skipping, unable to determine old version
+[2023-08-09 00:30:21] INFO root fetch - main [MainThread]: End processing [pcdr] error
+[2023-08-09 00:30:21] INFO root fetch - processPackages [python-flint]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-08-09 00:30:21] WARNING root fetch - processPackages [zatca-csr-generator]: Skipping, unable to determine old version
+[2023-08-09 00:30:21] INFO root fetch - main [MainThread]: End processing [zatca-csr-generator] error
+[2023-08-09 00:30:21] INFO root fetch - processPackages [moderne-visualizations-misc]: Downloading https://files.pythonhosted.org/packages/bc/6f/4263bca1d812e7dae4451ff2f027cb3ffafec635a4e9b2627f8d6650cbd6/moderne_visualizations_misc-0.1.8.tar.gz
+[2023-08-09 00:30:21] INFO root fetch - processPackages [cropnet]: Downloading https://files.pythonhosted.org/packages/b6/c9/74869bcb843693f6f2e6da2a9ab19e6042ac9d761367ffad7ad1622c954c/cropnet-0.1.6.tar.gz
+[2023-08-09 00:30:21] INFO root fetch - processPackages [grapdb]: New version: [0.9] Old Version: [0.8]
+[2023-08-09 00:30:21] INFO root fetch - processPackages [emmet-api]: New version: [0.64.0] Old Version: [0.63.1]
+[2023-08-09 00:30:21] INFO root fetch - processPackages [clera]: Downloading https://files.pythonhosted.org/packages/b6/ca/9f21e6aaa08c7e5be3d26e4c0add67a3bc2a552fff5b58f310f90dd40cc7/clera-0.1.2.tar.gz
+[2023-08-09 00:30:21] INFO root fetch - processPackages [kerberos-auth-proxy]: Downloading https://files.pythonhosted.org/packages/ba/64/3f7ff5699440cec4862be5818793fe4c25a46426ccc81212688b110d2944/kerberos_auth_proxy-0.1.0a1.tar.gz
+[2023-08-09 00:30:21] INFO root fetch - processPackages [cropnet]: Downloading https://files.pythonhosted.org/packages/38/b6/457c6267bc8e61e0edd0b4b5f06cfac595450b3a36adfe796c6b07055a95/cropnet-0.1.7.tar.gz
+[2023-08-09 00:30:21] INFO root fetch - processPackages [python-flint]: Downloading https://files.pythonhosted.org/packages/5f/4b/c6f87eaceb84d1a17080e1d09c0312724aad79f8c1d3cc97273ff2f6b339/python-flint-0.3.0.tar.gz
+[2023-08-09 00:30:21] INFO root fetch - processPackages [moderne-visualizations-misc]: Downloading https://files.pythonhosted.org/packages/34/32/528a5e18cb25868dcad90492d4d0ddd89399aa872c92d27599e98db2e52d/moderne_visualizations_misc-0.1.9.tar.gz
+[2023-08-09 00:30:21] INFO root fetch - processPackages [emmet-api]: Downloading https://files.pythonhosted.org/packages/b0/90/3eac3789a6daa05d5e5651346c66374dba36b0ff871d87ff821ad575acef/emmet-api-0.63.1.tar.gz
+[2023-08-09 00:30:21] INFO root fetch - processPackages [grapdb]: Downloading https://files.pythonhosted.org/packages/42/c2/82165f14af2ec4db08aae609b361ff7dd429df0953c465a904491f75fd65/grapdb-0.8.tar.gz
+[2023-08-09 00:30:21] INFO root fetch - processPackages [cropnet]: executing diffoscope
+[2023-08-09 00:30:21] INFO root fetch - processPackages [cropnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cropnet-0.1.6.tar.gz tmp/cropnet-0.1.7.tar.gz --markdown 20230809/c/cropnet/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-09 00:30:21] INFO root fetch - processPackages [moderne-visualizations-misc]: executing diffoscope
+[2023-08-09 00:30:21] INFO root fetch - processPackages [moderne-visualizations-misc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moderne_visualizations_misc-0.1.8.tar.gz tmp/moderne_visualizations_misc-0.1.9.tar.gz --markdown 20230809/m/moderne-visualizations-misc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-09 00:30:21] INFO root fetch - processPackages [clera]: Downloading https://files.pythonhosted.org/packages/46/f8/301a52f6fc2dacbe30c3931a84e343408a991cdacd2c36648f11ec241778/clera-0.2.0.tar.gz
+[2023-08-09 00:30:21] INFO root fetch - processPackages [kerberos-auth-proxy]: Downloading https://files.pythonhosted.org/packages/3e/08/641edf9f2251925f8a7f0d5a9f77eaeb3e2c0f2bfa56c308b4880dffa147/kerberos_auth_proxy-0.1.0a2.tar.gz
+[2023-08-09 00:30:21] INFO root fetch - processPackages [python-flint]: Downloading https://files.pythonhosted.org/packages/67/c6/c0356236400579c6a6b4245cf6fa4ab9877cfc7b070ebe54ea7cacc9664b/python_flint-0.4.0-cp310-cp310-win_amd64.whl
+[2023-08-09 00:30:21] INFO root fetch - processPackages [emmet-api]: Downloading https://files.pythonhosted.org/packages/dc/b0/2377ff8909bde3e41409ab13d02c305d2c9e9309aef2912ede5cbd7926de/emmet-api-0.64.0.tar.gz
+[2023-08-09 00:30:21] INFO root fetch - processPackages [kerberos-auth-proxy]: executing diffoscope
+[2023-08-09 00:30:21] INFO root fetch - processPackages [kerberos-auth-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kerberos_auth_proxy-0.1.0a1.tar.gz tmp/kerberos_auth_proxy-0.1.0a2.tar.gz --markdown 20230809/k/kerberos-auth-proxy/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-08-09 00:30:22] INFO root fetch - processPackages [grapdb]: Downloading https://files.pythonhosted.org/packages/78/c2/31c09a0330b4cf6c4fed41859f57d1e4c1bf533ac5dcdb4ad06097ba491c/grapdb-0.9.tar.gz
+[2023-08-09 00:30:22] INFO root fetch - processPackages [emmet-api]: executing diffoscope
+[2023-08-09 00:30:22] INFO root fetch - processPackages [emmet-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-api-0.63.1.tar.gz tmp/emmet-api-0.64.0.tar.gz --markdown 20230809/e/emmet-api/0.63.1-0.64.0/diff.md --exclude *.pyd
+[2023-08-09 00:30:22] INFO root fetch - processPackages [grapdb]: executing diffoscope
+[2023-08-09 00:30:22] INFO root fetch - processPackages [grapdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grapdb-0.8.tar.gz tmp/grapdb-0.9.tar.gz --markdown 20230809/g/grapdb/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-09 00:30:22] INFO root fetch - processPackages [clera]: executing diffoscope
+[2023-08-09 00:30:22] INFO root fetch - processPackages [clera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clera-0.1.2.tar.gz tmp/clera-0.2.0.tar.gz --markdown 20230809/c/clera/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-08-09 00:30:22] INFO root fetch - processPackages [cropnet]: Remove: archive file [/home/abi/fetcher/tmp/cropnet-0.1.6.tar.gz]
+[2023-08-09 00:30:22] INFO root fetch - processPackages [cropnet]: Remove: archive file [/home/abi/fetcher/tmp/cropnet-0.1.7.tar.gz]
+[2023-08-09 00:30:22] INFO root fetch - main [MainThread]: End processing [cropnet]: success
+[2023-08-09 00:30:22] INFO root fetch - processPackages [moderne-visualizations-misc]: Remove: archive file [/home/abi/fetcher/tmp/moderne_visualizations_misc-0.1.8.tar.gz]
+[2023-08-09 00:30:22] INFO root fetch - processPackages [moderne-visualizations-misc]: Remove: archive file [/home/abi/fetcher/tmp/moderne_visualizations_misc-0.1.9.tar.gz]
+[2023-08-09 00:30:22] INFO root fetch - main [MainThread]: End processing [moderne-visualizations-misc]: success
+[2023-08-09 00:30:22] INFO root fetch - processPackages [kerberos-auth-proxy]: Remove: archive file [/home/abi/fetcher/tmp/kerberos_auth_proxy-0.1.0a1.tar.gz]
+[2023-08-09 00:30:22] INFO root fetch - processPackages [kerberos-auth-proxy]: Remove: archive file [/home/abi/fetcher/tmp/kerberos_auth_proxy-0.1.0a2.tar.gz]
+[2023-08-09 00:30:22] INFO root fetch - main [MainThread]: End processing [kerberos-auth-proxy]: success
+[2023-08-09 00:30:23] INFO root fetch - processPackages [grapdb]: Remove: archive file [/home/abi/fetcher/tmp/grapdb-0.8.tar.gz]
+[2023-08-09 00:30:23] INFO root fetch - processPackages [grapdb]: Remove: archive file [/home/abi/fetcher/tmp/grapdb-0.9.tar.gz]
+[2023-08-09 00:30:23] INFO root fetch - main [MainThread]: End processing [grapdb]: success
+[2023-08-09 00:30:23] INFO root fetch - processPackages [clera]: Remove: archive file [/home/abi/fetcher/tmp/clera-0.1.2.tar.gz]
+[2023-08-09 00:30:23] INFO root fetch - processPackages [clera]: Remove: archive file [/home/abi/fetcher/tmp/clera-0.2.0.tar.gz]
+[2023-08-09 00:30:23] INFO root fetch - main [MainThread]: End processing [clera]: success
+[2023-08-09 00:30:23] INFO root fetch - processPackages [emmet-api]: Remove: archive file [/home/abi/fetcher/tmp/emmet-api-0.63.1.tar.gz]
+[2023-08-09 00:30:23] INFO root fetch - processPackages [emmet-api]: Remove: archive file [/home/abi/fetcher/tmp/emmet-api-0.64.0.tar.gz]
+[2023-08-09 00:30:23] INFO root fetch - main [MainThread]: End processing [emmet-api]: success
+[2023-08-09 00:30:25] INFO root fetch - processPackages [python-flint]: executing diffoscope
+[2023-08-09 00:30:25] INFO root fetch - processPackages [python-flint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-flint-0.3.0.tar.gz tmp/python_flint-0.4.0-cp310-cp310-win_amd64.whl.zip --markdown 20230809/p/python-flint/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-08-09 00:30:26] INFO root fetch - processPackages [python-flint]: Remove: archive file [/home/abi/fetcher/tmp/python-flint-0.3.0.tar.gz]
+[2023-08-09 00:30:26] INFO root fetch - processPackages [python-flint]: Remove: archive file [/home/abi/fetcher/tmp/python_flint-0.4.0-cp310-cp310-win_amd64.whl.zip]
+[2023-08-09 00:30:26] INFO root fetch - main [MainThread]: End processing [python-flint]: success
+[2023-08-09 00:30:26] INFO root fetch - main [MainThread]: Store serial: [19228207]
