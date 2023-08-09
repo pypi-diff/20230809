@@ -9754,3 +9754,60 @@
 [2023-08-09 04:29:58] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230809.tar.gz]
 [2023-08-09 04:29:58] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-08-09 04:29:58] INFO root fetch - main [MainThread]: Store serial: [19231866]
+[2023-08-09 04:35:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19231866]
+[2023-08-09 04:35:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-09 04:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aifactory
+[2023-08-09 04:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: minswap-py
+[2023-08-09 04:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: whyshift
+[2023-08-09 04:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyatp
+[2023-08-09 04:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gammarer.aws-ec2-auto-scaling-instance-running-scheduler
+[2023-08-09 04:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robotframework-requestspro
+[2023-08-09 04:35:13] INFO root fetch - processPackages [robotframework-requestspro]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-08-09 04:35:13] INFO root fetch - processPackages [whyshift]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-09 04:35:13] INFO root fetch - processPackages [pyatp]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-08-09 04:35:13] INFO root fetch - processPackages [minswap-py]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-08-09 04:35:13] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-09 04:35:13] INFO root fetch - processPackages [aifactory]: New version: [1.8.6] Old Version: [1.8.5]
+[2023-08-09 04:35:13] INFO root fetch - processPackages [whyshift]: Downloading https://files.pythonhosted.org/packages/c7/21/a83562a251d7631263ba55637b41722d3de690d737b6345b211a56c41ddc/whyshift-0.0.4.tar.gz
+[2023-08-09 04:35:13] INFO root fetch - processPackages [aifactory]: Downloading https://files.pythonhosted.org/packages/f4/27/69b4a7094372588ff6f86da681bb4776bc6434ff1b128666a43525f41e4c/aifactory-1.8.5.tar.gz
+[2023-08-09 04:35:13] INFO root fetch - processPackages [robotframework-requestspro]: Downloading https://files.pythonhosted.org/packages/f0/e5/5b109335444e72b2e1f01c06c27ea3c568f2f8d4fa97719fedc7ada0ecee/robotframework-requestspro-1.2.8.tar.gz
+[2023-08-09 04:35:13] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: Downloading https://files.pythonhosted.org/packages/93/84/4067ea4481549b7f420d637936e6efb78134391463b766a240838509d391/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.8.tar.gz
+[2023-08-09 04:35:13] INFO root fetch - processPackages [pyatp]: Downloading https://files.pythonhosted.org/packages/ad/18/8f69e58686f0f3e426d5f8db9dcaa98fa7f9bbf83d0b2686656a6a3c7c82/pyatp-1.2.0.tar.gz
+[2023-08-09 04:35:13] INFO root fetch - processPackages [minswap-py]: Downloading https://files.pythonhosted.org/packages/1d/88/aeec7c1a69548c0d6c220727e28755c8c8ac464b8d9d96c354fec24efc7b/minswap_py-0.2.1.tar.gz
+[2023-08-09 04:35:13] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: Downloading https://files.pythonhosted.org/packages/38/d0/1d35005ade384b85a5f579fd776e14751c92bc2807bb079f49b075794485/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.9.tar.gz
+[2023-08-09 04:35:13] INFO root fetch - processPackages [whyshift]: Downloading https://files.pythonhosted.org/packages/39/8b/dd10917c611ab2d3c5d148c2ed9c4d14402dd3f0047f6ac899ce9dfbeb52/whyshift-0.0.5.tar.gz
+[2023-08-09 04:35:13] INFO root fetch - processPackages [aifactory]: Downloading https://files.pythonhosted.org/packages/cc/71/f739a0461d8e9617af3226b7ac56c85ef299930efbf0b4d98350115b6ce6/aifactory-1.8.6.tar.gz
+[2023-08-09 04:35:14] INFO root fetch - processPackages [minswap-py]: Downloading https://files.pythonhosted.org/packages/d7/ca/4d193db2102bb9c9b2495aaa1f08dde12c7300b184be4651e3f5cdd8281f/minswap_py-0.3.0.tar.gz
+[2023-08-09 04:35:14] INFO root fetch - processPackages [robotframework-requestspro]: Downloading https://files.pythonhosted.org/packages/53/5a/1ca59dc5012ddf429d53f655f192e4a00b221594b55331ef22042391de37/robotframework-requestspro-1.2.9.tar.gz
+[2023-08-09 04:35:14] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: executing diffoscope
+[2023-08-09 04:35:14] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.8.tar.gz tmp/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.9.tar.gz --markdown 20230809/g/gammarer.aws-ec2-auto-scaling-instance-running-scheduler/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-09 04:35:14] INFO root fetch - processPackages [whyshift]: executing diffoscope
+[2023-08-09 04:35:14] INFO root fetch - processPackages [whyshift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whyshift-0.0.4.tar.gz tmp/whyshift-0.0.5.tar.gz --markdown 20230809/w/whyshift/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-09 04:35:14] INFO root fetch - processPackages [aifactory]: executing diffoscope
+[2023-08-09 04:35:14] INFO root fetch - processPackages [aifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aifactory-1.8.5.tar.gz tmp/aifactory-1.8.6.tar.gz --markdown 20230809/a/aifactory/1.8.5-1.8.6/diff.md --exclude *.pyd
+[2023-08-09 04:35:14] INFO root fetch - processPackages [minswap-py]: executing diffoscope
+[2023-08-09 04:35:14] INFO root fetch - processPackages [minswap-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minswap_py-0.2.1.tar.gz tmp/minswap_py-0.3.0.tar.gz --markdown 20230809/m/minswap-py/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-08-09 04:35:14] INFO root fetch - processPackages [robotframework-requestspro]: executing diffoscope
+[2023-08-09 04:35:14] INFO root fetch - processPackages [robotframework-requestspro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-requestspro-1.2.8.tar.gz tmp/robotframework-requestspro-1.2.9.tar.gz --markdown 20230809/r/robotframework-requestspro/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-08-09 04:35:15] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.8.tar.gz]
+[2023-08-09 04:35:15] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.9.tar.gz]
+[2023-08-09 04:35:15] INFO root fetch - main [MainThread]: End processing [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: success
+[2023-08-09 04:35:15] INFO root fetch - processPackages [aifactory]: Remove: archive file [/home/abi/fetcher/tmp/aifactory-1.8.5.tar.gz]
+[2023-08-09 04:35:15] INFO root fetch - processPackages [aifactory]: Remove: archive file [/home/abi/fetcher/tmp/aifactory-1.8.6.tar.gz]
+[2023-08-09 04:35:15] INFO root fetch - main [MainThread]: End processing [aifactory]: success
+[2023-08-09 04:35:15] INFO root fetch - processPackages [pyatp]: Downloading https://files.pythonhosted.org/packages/73/af/2c4c247b8b53145e47ff0b0c931f7666f74e74b56b803def04cf414497f9/pyatp-1.2.1.tar.gz
+[2023-08-09 04:35:15] INFO root fetch - processPackages [minswap-py]: Remove: archive file [/home/abi/fetcher/tmp/minswap_py-0.2.1.tar.gz]
+[2023-08-09 04:35:15] INFO root fetch - processPackages [minswap-py]: Remove: archive file [/home/abi/fetcher/tmp/minswap_py-0.3.0.tar.gz]
+[2023-08-09 04:35:15] INFO root fetch - main [MainThread]: End processing [minswap-py]: success
+[2023-08-09 04:35:15] INFO root fetch - processPackages [robotframework-requestspro]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-requestspro-1.2.8.tar.gz]
+[2023-08-09 04:35:15] INFO root fetch - processPackages [robotframework-requestspro]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-requestspro-1.2.9.tar.gz]
+[2023-08-09 04:35:15] INFO root fetch - main [MainThread]: End processing [robotframework-requestspro]: success
+[2023-08-09 04:35:15] INFO root fetch - processPackages [whyshift]: Remove: archive file [/home/abi/fetcher/tmp/whyshift-0.0.4.tar.gz]
+[2023-08-09 04:35:15] INFO root fetch - processPackages [whyshift]: Remove: archive file [/home/abi/fetcher/tmp/whyshift-0.0.5.tar.gz]
+[2023-08-09 04:35:15] INFO root fetch - main [MainThread]: End processing [whyshift]: success
+[2023-08-09 04:35:16] INFO root fetch - processPackages [pyatp]: executing diffoscope
+[2023-08-09 04:35:16] INFO root fetch - processPackages [pyatp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatp-1.2.0.tar.gz tmp/pyatp-1.2.1.tar.gz --markdown 20230809/p/pyatp/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-08-09 04:35:19] INFO root fetch - processPackages [pyatp]: Remove: archive file [/home/abi/fetcher/tmp/pyatp-1.2.0.tar.gz]
+[2023-08-09 04:35:19] INFO root fetch - processPackages [pyatp]: Remove: archive file [/home/abi/fetcher/tmp/pyatp-1.2.1.tar.gz]
+[2023-08-09 04:35:19] INFO root fetch - main [MainThread]: End processing [pyatp]: success
+[2023-08-09 04:35:19] INFO root fetch - main [MainThread]: Store serial: [19231889]
