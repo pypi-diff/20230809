@@ -9391,3 +9391,57 @@
 [2023-08-09 03:58:45] INFO root fetch - processPackages [inhandtest]: Remove: archive file [/home/abi/fetcher/tmp/inhandtest-0.0.64.tar.gz]
 [2023-08-09 03:58:45] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
 [2023-08-09 03:58:45] INFO root fetch - main [MainThread]: Store serial: [19231665]
+[2023-08-09 04:03:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19231665]
+[2023-08-09 04:03:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-09 04:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyenphase
+[2023-08-09 04:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tidy-tweet
+[2023-08-09 04:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cap6635
+[2023-08-09 04:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rot13-bruteforce
+[2023-08-09 04:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gw-eccentricity
+[2023-08-09 04:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: halmos
+[2023-08-09 04:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quao
+[2023-08-09 04:03:53] WARNING root fetch - processPackages [cap6635]: Skipping, unable to determine old version
+[2023-08-09 04:03:53] INFO root fetch - main [MainThread]: End processing [cap6635] error
+[2023-08-09 04:03:53] INFO root fetch - processPackages [quao]: New version: [0.4.0.9] Old Version: [0.4.0.8]
+[2023-08-09 04:03:53] INFO root fetch - processPackages [halmos]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-09 04:03:53] WARNING root fetch - processPackages [rot13-bruteforce]: Skipping, unable to determine old version
+[2023-08-09 04:03:53] INFO root fetch - main [MainThread]: End processing [rot13-bruteforce] error
+[2023-08-09 04:03:53] INFO root fetch - processPackages [gw-eccentricity]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-09 04:03:53] INFO root fetch - processPackages [tidy-tweet]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-08-09 04:03:53] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/06/bf/f9aa0065003c9f548af0c94b1a2ff8fe5faa735debed7c20a624922b87af/quao-0.4.0.8-py3-none-any.whl
+[2023-08-09 04:03:53] INFO root fetch - processPackages [pyenphase]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-08-09 04:03:53] INFO root fetch - processPackages [halmos]: Downloading https://files.pythonhosted.org/packages/e8/16/f43b9f8299ffa645391a4e1706ad166fa654bbd5c39ca8a5386df1b04c07/halmos-0.1.1.tar.gz
+[2023-08-09 04:03:53] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/ab/3c/cb3e0fc5b144858c61a1674ec5e0f2558b729af001a61b97fcf7438baf57/pyenphase-1.2.1.tar.gz
+[2023-08-09 04:03:53] INFO root fetch - processPackages [tidy-tweet]: Downloading https://files.pythonhosted.org/packages/7c/b0/488f43e0e6e241940f2edd8f7ece693d7bc310e7c5c4a1b08bb601d0fda7/tidy_tweet-1.0.0b1.tar.gz
+[2023-08-09 04:03:53] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/15/ce/fdedb65f96e76c805b9c649dfcde71a2c2fdca40b7ac8e1ae8ba09ab928f/quao-0.4.0.9-py3-none-any.whl
+[2023-08-09 04:03:54] INFO root fetch - processPackages [gw-eccentricity]: Downloading https://files.pythonhosted.org/packages/2f/a9/82f71b5f67d56944de3b54108d795acd5eacfba63e51d3e78e8c479a7565/gw_eccentricity-1.0.2.tar.gz
+[2023-08-09 04:03:54] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-08-09 04:03:54] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.4.0.8-py3-none-any.whl.zip tmp/quao-0.4.0.9-py3-none-any.whl.zip --markdown 20230809/q/quao/0.4.0.8-0.4.0.9/diff.md --exclude *.pyd
+[2023-08-09 04:03:54] INFO root fetch - processPackages [halmos]: Downloading https://files.pythonhosted.org/packages/2d/b0/9c82a3635203358d1caa633d32f08cb075e8bc64ccbbd4ab6c9e789e42cf/halmos-0.1.2.tar.gz
+[2023-08-09 04:03:54] INFO root fetch - processPackages [tidy-tweet]: Downloading https://files.pythonhosted.org/packages/15/7c/0526bd87c9990079ecf4d485217516d0aba32c22ec4641424687430aa885/tidy_tweet-1.0.0b2.tar.gz
+[2023-08-09 04:03:54] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/19/74/e04db1e11cf59b28f65c5d97d74fbbce62de740b07a21e2f3e7c15e40981/pyenphase-1.2.2.tar.gz
+[2023-08-09 04:03:54] INFO root fetch - processPackages [halmos]: executing diffoscope
+[2023-08-09 04:03:54] INFO root fetch - processPackages [halmos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halmos-0.1.1.tar.gz tmp/halmos-0.1.2.tar.gz --markdown 20230809/h/halmos/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-09 04:03:54] INFO root fetch - processPackages [gw-eccentricity]: Downloading https://files.pythonhosted.org/packages/e8/32/2ce9b2d4163ee195ec83af84be74625fbd9b0b6b7b1a5eedf366d168d8b7/gw_eccentricity-1.0.3.tar.gz
+[2023-08-09 04:03:54] INFO root fetch - processPackages [tidy-tweet]: executing diffoscope
+[2023-08-09 04:03:54] INFO root fetch - processPackages [tidy-tweet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidy_tweet-1.0.0b1.tar.gz tmp/tidy_tweet-1.0.0b2.tar.gz --markdown 20230809/t/tidy-tweet/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-08-09 04:03:54] INFO root fetch - processPackages [pyenphase]: executing diffoscope
+[2023-08-09 04:03:54] INFO root fetch - processPackages [pyenphase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyenphase-1.2.1.tar.gz tmp/pyenphase-1.2.2.tar.gz --markdown 20230809/p/pyenphase/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-08-09 04:03:54] INFO root fetch - processPackages [gw-eccentricity]: executing diffoscope
+[2023-08-09 04:03:54] INFO root fetch - processPackages [gw-eccentricity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gw_eccentricity-1.0.2.tar.gz tmp/gw_eccentricity-1.0.3.tar.gz --markdown 20230809/g/gw-eccentricity/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-09 04:03:55] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.4.0.8-py3-none-any.whl.zip]
+[2023-08-09 04:03:55] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.4.0.9-py3-none-any.whl.zip]
+[2023-08-09 04:03:55] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-08-09 04:03:55] INFO root fetch - processPackages [tidy-tweet]: Remove: archive file [/home/abi/fetcher/tmp/tidy_tweet-1.0.0b1.tar.gz]
+[2023-08-09 04:03:55] INFO root fetch - processPackages [tidy-tweet]: Remove: archive file [/home/abi/fetcher/tmp/tidy_tweet-1.0.0b2.tar.gz]
+[2023-08-09 04:03:55] INFO root fetch - main [MainThread]: End processing [tidy-tweet]: success
+[2023-08-09 04:03:55] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-1.2.1.tar.gz]
+[2023-08-09 04:03:55] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-1.2.2.tar.gz]
+[2023-08-09 04:03:55] INFO root fetch - main [MainThread]: End processing [pyenphase]: success
+[2023-08-09 04:03:55] INFO root fetch - processPackages [gw-eccentricity]: Remove: archive file [/home/abi/fetcher/tmp/gw_eccentricity-1.0.2.tar.gz]
+[2023-08-09 04:03:55] INFO root fetch - processPackages [gw-eccentricity]: Remove: archive file [/home/abi/fetcher/tmp/gw_eccentricity-1.0.3.tar.gz]
+[2023-08-09 04:03:55] INFO root fetch - main [MainThread]: End processing [gw-eccentricity]: success
+[2023-08-09 04:03:55] INFO root fetch - processPackages [halmos]: Remove: archive file [/home/abi/fetcher/tmp/halmos-0.1.1.tar.gz]
+[2023-08-09 04:03:55] INFO root fetch - processPackages [halmos]: Remove: archive file [/home/abi/fetcher/tmp/halmos-0.1.2.tar.gz]
+[2023-08-09 04:03:55] INFO root fetch - main [MainThread]: End processing [halmos]: success
+[2023-08-09 04:03:55] INFO root fetch - main [MainThread]: Store serial: [19231695]
