@@ -9327,3 +9327,67 @@
 [2023-08-09 03:53:34] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-0.6.3-cp39-cp39-musllinux_1_1_x86_64.whl.zip]
 [2023-08-09 03:53:34] INFO root fetch - main [MainThread]: End processing [cntracer]: success
 [2023-08-09 03:53:34] INFO root fetch - main [MainThread]: Store serial: [19231622]
+[2023-08-09 03:58:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19231622]
+[2023-08-09 03:58:42] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-09 03:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: argai
+[2023-08-09 03:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SQLAlchemyExample
+[2023-08-09 03:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: launchable
+[2023-08-09 03:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lmo
+[2023-08-09 03:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inhandtest
+[2023-08-09 03:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aespark
+[2023-08-09 03:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quao
+[2023-08-09 03:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: argai
+[2023-08-09 03:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aifactory
+[2023-08-09 03:58:42] WARNING root fetch - processPackages [argai]: Skipping, unable to determine old version
+[2023-08-09 03:58:42] INFO root fetch - main [MainThread]: End processing [argai] error
+[2023-08-09 03:58:42] INFO root fetch - processPackages [SQLAlchemyExample]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-09 03:58:42] INFO root fetch - processPackages [aespark]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-09 03:58:42] INFO root fetch - processPackages [quao]: New version: [0.4.0.9] Old Version: [0.4.0.8]
+[2023-08-09 03:58:42] WARNING root fetch - processPackages [argai]: Skipping, unable to determine old version
+[2023-08-09 03:58:42] INFO root fetch - main [MainThread]: End processing [argai] error
+[2023-08-09 03:58:42] INFO root fetch - processPackages [launchable]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-08-09 03:58:42] INFO root fetch - processPackages [lmo]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-09 03:58:42] INFO root fetch - processPackages [inhandtest]: New version: [0.0.64] Old Version: [0.0.63]
+[2023-08-09 03:58:42] INFO root fetch - processPackages [SQLAlchemyExample]: Downloading https://files.pythonhosted.org/packages/55/90/959c6696c1bd54325124c8ad66368a8ec75dc623cd59ccd7b87152420fdd/SQLAlchemyExample-0.1.8.tar.gz
+[2023-08-09 03:58:43] INFO root fetch - processPackages [launchable]: Downloading https://files.pythonhosted.org/packages/2e/04/2169ed764cf3f5aadb8a30fda8dc6ede383388a7e3a7a47ed77123c89ddc/launchable-1.8.0.tar.gz
+[2023-08-09 03:58:43] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/06/bf/f9aa0065003c9f548af0c94b1a2ff8fe5faa735debed7c20a624922b87af/quao-0.4.0.8-py3-none-any.whl
+[2023-08-09 03:58:43] INFO root fetch - processPackages [aifactory]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-08-09 03:58:43] WARNING root fetch - processPackages [launchable]: Skipping package: exceeds size limit 18312374>=10485760
+[2023-08-09 03:58:43] INFO root fetch - main [MainThread]: End processing [launchable] error
+[2023-08-09 03:58:43] INFO root fetch - processPackages [lmo]: Downloading https://files.pythonhosted.org/packages/d6/e2/5bc8d7628be56a90ebc787a2a1c6abcb70cfe44c72d3d9994f37605a3ee4/lmo-0.8.0.tar.gz
+[2023-08-09 03:58:43] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/00/c1/45e0a35adf93a0565c0dffa862758e9de5bd5cc9ffe2f4b0692cabe39713/inhandtest-0.0.63.tar.gz
+[2023-08-09 03:58:43] INFO root fetch - processPackages [aespark]: Downloading https://files.pythonhosted.org/packages/77/76/175d9a115e6422fe29b8feff5fa373fb8b2551625e1f05a47eb8b34ab544/aespark-0.0.8.tar.gz
+[2023-08-09 03:58:43] INFO root fetch - processPackages [SQLAlchemyExample]: Downloading https://files.pythonhosted.org/packages/99/86/69c08e1e10888eef50706dff5bb2ab77784d49f027fe33ee1245041e8e3f/SQLAlchemyExample-0.1.9.tar.gz
+[2023-08-09 03:58:43] INFO root fetch - processPackages [aifactory]: Downloading https://files.pythonhosted.org/packages/c2/87/c443ecc73c30ca280e04e367c84f113def36ad569b38a05e82c69618c684/aifactory-1.8.1.tar.gz
+[2023-08-09 03:58:43] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/15/ce/fdedb65f96e76c805b9c649dfcde71a2c2fdca40b7ac8e1ae8ba09ab928f/quao-0.4.0.9-py3-none-any.whl
+[2023-08-09 03:58:43] INFO root fetch - processPackages [SQLAlchemyExample]: executing diffoscope
+[2023-08-09 03:58:43] INFO root fetch - processPackages [SQLAlchemyExample]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SQLAlchemyExample-0.1.8.tar.gz tmp/SQLAlchemyExample-0.1.9.tar.gz --markdown 20230809/S/SQLAlchemyExample/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-09 03:58:43] WARNING root fetch - processPackages [aespark]: Skipping package: exceeds size limit 11777401>=10485760
+[2023-08-09 03:58:43] INFO root fetch - main [MainThread]: End processing [aespark] error
+[2023-08-09 03:58:43] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-08-09 03:58:43] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.4.0.8-py3-none-any.whl.zip tmp/quao-0.4.0.9-py3-none-any.whl.zip --markdown 20230809/q/quao/0.4.0.8-0.4.0.9/diff.md --exclude *.pyd
+[2023-08-09 03:58:43] INFO root fetch - processPackages [lmo]: Downloading https://files.pythonhosted.org/packages/c2/4a/98a3d3c554bd23ffc2f4925cf7fae10b27787a307d494a598a574c81d953/lmo-0.9.0.tar.gz
+[2023-08-09 03:58:43] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/ae/a4/cd931b6eeea0eebe1b6e304b589111499d46d7db25f6925f022220e390b5/inhandtest-0.0.64.tar.gz
+[2023-08-09 03:58:43] INFO root fetch - processPackages [aifactory]: Downloading https://files.pythonhosted.org/packages/8c/79/93c8a25fb79d2495286c68ff4942e981f18b0cad17ba5f54fe5b923dd12e/aifactory-1.8.2.tar.gz
+[2023-08-09 03:58:43] INFO root fetch - processPackages [lmo]: executing diffoscope
+[2023-08-09 03:58:43] INFO root fetch - processPackages [lmo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmo-0.8.0.tar.gz tmp/lmo-0.9.0.tar.gz --markdown 20230809/l/lmo/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-09 03:58:43] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2023-08-09 03:58:43] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.63.tar.gz tmp/inhandtest-0.0.64.tar.gz --markdown 20230809/i/inhandtest/0.0.63-0.0.64/diff.md --exclude *.pyd
+[2023-08-09 03:58:43] INFO root fetch - processPackages [aifactory]: executing diffoscope
+[2023-08-09 03:58:43] INFO root fetch - processPackages [aifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aifactory-1.8.1.tar.gz tmp/aifactory-1.8.2.tar.gz --markdown 20230809/a/aifactory/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-08-09 03:58:44] INFO root fetch - processPackages [SQLAlchemyExample]: Remove: archive file [/home/abi/fetcher/tmp/SQLAlchemyExample-0.1.8.tar.gz]
+[2023-08-09 03:58:44] INFO root fetch - processPackages [SQLAlchemyExample]: Remove: archive file [/home/abi/fetcher/tmp/SQLAlchemyExample-0.1.9.tar.gz]
+[2023-08-09 03:58:44] INFO root fetch - main [MainThread]: End processing [SQLAlchemyExample]: success
+[2023-08-09 03:58:44] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.4.0.8-py3-none-any.whl.zip]
+[2023-08-09 03:58:44] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.4.0.9-py3-none-any.whl.zip]
+[2023-08-09 03:58:44] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-08-09 03:58:44] INFO root fetch - processPackages [lmo]: Remove: archive file [/home/abi/fetcher/tmp/lmo-0.8.0.tar.gz]
+[2023-08-09 03:58:44] INFO root fetch - processPackages [lmo]: Remove: archive file [/home/abi/fetcher/tmp/lmo-0.9.0.tar.gz]
+[2023-08-09 03:58:44] INFO root fetch - main [MainThread]: End processing [lmo]: success
+[2023-08-09 03:58:44] INFO root fetch - processPackages [aifactory]: Remove: archive file [/home/abi/fetcher/tmp/aifactory-1.8.1.tar.gz]
+[2023-08-09 03:58:44] INFO root fetch - processPackages [aifactory]: Remove: archive file [/home/abi/fetcher/tmp/aifactory-1.8.2.tar.gz]
+[2023-08-09 03:58:44] INFO root fetch - main [MainThread]: End processing [aifactory]: success
+[2023-08-09 03:58:45] INFO root fetch - processPackages [inhandtest]: Remove: archive file [/home/abi/fetcher/tmp/inhandtest-0.0.63.tar.gz]
+[2023-08-09 03:58:45] INFO root fetch - processPackages [inhandtest]: Remove: archive file [/home/abi/fetcher/tmp/inhandtest-0.0.64.tar.gz]
+[2023-08-09 03:58:45] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2023-08-09 03:58:45] INFO root fetch - main [MainThread]: Store serial: [19231665]
