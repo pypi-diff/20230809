@@ -11439,3 +11439,182 @@
 [2023-08-09 06:24:53] INFO root fetch - processPackages [survey-report-generator]: Remove: archive file [/home/abi/fetcher/tmp/survey_report_generator-0.0.9.tar.gz]
 [2023-08-09 06:24:53] INFO root fetch - main [MainThread]: End processing [survey-report-generator]: success
 [2023-08-09 06:24:53] INFO root fetch - main [MainThread]: Store serial: [19232626]
+[2023-08-09 06:29:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19232626]
+[2023-08-09 06:30:02] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-08-09 06:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-jx3
+[2023-08-09 06:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: survey-report-generator
+[2023-08-09 06:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seleniumbase
+[2023-08-09 06:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rmrentryutils
+[2023-08-09 06:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: selenium-base
+[2023-08-09 06:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pitrix
+[2023-08-09 06:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytest-sbase
+[2023-08-09 06:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyimporters-csv
+[2023-08-09 06:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: inviz
+[2023-08-09 06:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyimporters-plugins
+[2023-08-09 06:30:02] INFO root fetch - processPackages [survey-report-generator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-09 06:30:02] INFO root fetch - processPackages [inviz]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-09 06:30:02] INFO root fetch - processPackages [pyimporters-plugins]: New version: [0.4.99] Old Version: [0.4.97]
+[2023-08-09 06:30:02] INFO root fetch - processPackages [nonebot-plugin-jx3]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-08-09 06:30:02] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-08-09 06:30:02] INFO root fetch - processPackages [survey-report-generator]: Downloading https://files.pythonhosted.org/packages/1f/f6/26fd1fc02c4f3a86772075a03e77f3cffb4f26de41e30bc9d7f7a57d304b/survey_report_generator-0.0.8.tar.gz
+[2023-08-09 06:30:02] WARNING root fetch - processPackages [pitrix]: Skipping, unable to determine old version
+[2023-08-09 06:30:02] INFO root fetch - processPackages [pitrix]: Start processing: s3kv
+[2023-08-09 06:30:02] INFO root fetch - main [MainThread]: End processing [pitrix] error
+[2023-08-09 06:30:02] WARNING root fetch - processPackages [rmrentryutils]: Skipping, unable to determine old version
+[2023-08-09 06:30:02] INFO root fetch - processPackages [rmrentryutils]: Start processing: pytest-seleniumbase
+[2023-08-09 06:30:02] INFO root fetch - main [MainThread]: End processing [rmrentryutils] error
+[2023-08-09 06:30:02] INFO root fetch - processPackages [inviz]: Downloading https://files.pythonhosted.org/packages/41/3a/c4787504614c7006e022bbffa36c7acb08d9e7b02d1ad75c040e779b6138/inviz-0.3.0.tar.gz
+[2023-08-09 06:30:03] INFO root fetch - processPackages [selenium-base]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-08-09 06:30:03] INFO root fetch - processPackages [pytest-sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-08-09 06:30:03] INFO root fetch - processPackages [seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-08-09 06:30:03] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-08-09 06:30:03] INFO root fetch - processPackages [nonebot-plugin-jx3]: Downloading https://files.pythonhosted.org/packages/93/ee/137040232064e70aae10a278ca47f88670ba1b775baad0e842c3573837c4/nonebot_plugin_jx3-0.5.6.tar.gz
+[2023-08-09 06:30:03] INFO root fetch - processPackages [pytest-seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-08-09 06:30:03] INFO root fetch - processPackages [pyimporters-plugins]: Downloading https://files.pythonhosted.org/packages/04/a6/d9a3f5bb3b7b330192c05eb8bc389a94411023dccb705221361ef64037ff/pyimporters-plugins-0.4.97.tar.gz
+[2023-08-09 06:30:03] INFO root fetch - processPackages [s3kv]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-09 06:30:03] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/49/eb/ad6c55d2af108681e38505aff036aef13544a2d1c09817221f499826a6f9/selenium-base-4.9.8.tar.gz
+[2023-08-09 06:30:03] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/91/87/a1223948d4bac31ab82915c4e7a930c22af874859aa805d6c3abd6b5bb3e/pytest-sbase-4.9.8.tar.gz
+[2023-08-09 06:30:03] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/d5/06/b4c4aa69540cf3a9c497a53072da777eefd704403fc8f952a88c69208ad1/seleniumbase-4.9.8.tar.gz
+[2023-08-09 06:30:03] INFO root fetch - processPackages [inviz]: Downloading https://files.pythonhosted.org/packages/ad/e4/f094795d5b05ec82b631fc2b6b521f9eaf957b9765b5971aa93ed95a4322/inviz-0.3.1.tar.gz
+[2023-08-09 06:30:03] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-08-09 06:30:03] INFO root fetch - processPackages [survey-report-generator]: Downloading https://files.pythonhosted.org/packages/23/e7/a8186c66ce9683ab479c8f137354f8735d0dfd1a793105d80b3e91794768/survey_report_generator-0.0.9.tar.gz
+[2023-08-09 06:30:03] INFO root fetch - processPackages [s3kv]: Downloading https://files.pythonhosted.org/packages/ce/96/8aaa63ce44dd005b773d3299bf91d1b2f5937800e79b9cd22fdcab7f22d8/s3kv-0.1.2.tar.gz
+[2023-08-09 06:30:03] INFO root fetch - processPackages [pyimporters-plugins]: Downloading https://files.pythonhosted.org/packages/a0/9e/f35c7f182c8361e393c2de52c452744ce2d8bceb7223f1413f661571e354/pyimporters-plugins-0.4.99.tar.gz
+[2023-08-09 06:30:03] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/40/bb/757cad3c5535e64c18cee852b145a86e4d539878bd9dce7c2934bcfb972d/pytest-seleniumbase-4.9.8.tar.gz
+[2023-08-09 06:30:03] INFO root fetch - processPackages [inviz]: executing diffoscope
+[2023-08-09 06:30:03] INFO root fetch - processPackages [inviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inviz-0.3.0.tar.gz tmp/inviz-0.3.1.tar.gz --markdown 20230809/i/inviz/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-09 06:30:03] INFO root fetch - processPackages [nonebot-plugin-jx3]: Downloading https://files.pythonhosted.org/packages/2d/da/3d31b759cd4a3b95f9eb0220cf13ae5fd62f1ff66bbade8a7025bd6fbefb/nonebot_plugin_jx3-0.5.7.tar.gz
+[2023-08-09 06:30:03] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-08-09 06:30:03] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230809/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-08-09 06:30:03] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/0a/3b/8bdd54f85b1550af5050c8683212c3f88b854c0ef99e22fa6fe216094900/selenium-base-4.9.9.tar.gz
+[2023-08-09 06:30:03] INFO root fetch - processPackages [pyimporters-plugins]: executing diffoscope
+[2023-08-09 06:30:03] INFO root fetch - processPackages [pyimporters-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-plugins-0.4.97.tar.gz tmp/pyimporters-plugins-0.4.99.tar.gz --markdown 20230809/p/pyimporters-plugins/0.4.97-0.4.99/diff.md --exclude *.pyd
+[2023-08-09 06:30:03] INFO root fetch - processPackages [survey-report-generator]: executing diffoscope
+[2023-08-09 06:30:03] INFO root fetch - processPackages [survey-report-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/survey_report_generator-0.0.8.tar.gz tmp/survey_report_generator-0.0.9.tar.gz --markdown 20230809/s/survey-report-generator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-09 06:30:03] INFO root fetch - processPackages [selenium-base]: executing diffoscope
+[2023-08-09 06:30:03] INFO root fetch - processPackages [selenium-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-base-4.9.8.tar.gz tmp/selenium-base-4.9.9.tar.gz --markdown 20230809/s/selenium-base/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-08-09 06:30:03] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/ea/6c/61da56c0f8d30ee6ecfbf486bd770ce073eba9a09e63981ae35863a37cb0/pytest-sbase-4.9.9.tar.gz
+[2023-08-09 06:30:03] INFO root fetch - processPackages [nonebot-plugin-jx3]: executing diffoscope
+[2023-08-09 06:30:03] INFO root fetch - processPackages [nonebot-plugin-jx3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_jx3-0.5.6.tar.gz tmp/nonebot_plugin_jx3-0.5.7.tar.gz --markdown 20230809/n/nonebot-plugin-jx3/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-08-09 06:30:03] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/9d/0f/462449b9921267bb9f0f0db257c72435e50ec2fcd4219764bb131be70686/seleniumbase-4.9.9.tar.gz
+[2023-08-09 06:30:03] INFO root fetch - processPackages [s3kv]: Downloading https://files.pythonhosted.org/packages/80/ad/a0dc55e54cc9c02def06edbc5dd523234a075017622c986a1a10137b2913/s3kv-0.1.3.tar.gz
+[2023-08-09 06:30:04] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/34/03/c67c6c24b8d7c3e49595b97d914034cf101d3d1d029f9e9453f497e0937a/pytest-seleniumbase-4.9.9.tar.gz
+[2023-08-09 06:30:04] INFO root fetch - processPackages [pytest-sbase]: executing diffoscope
+[2023-08-09 06:30:04] INFO root fetch - processPackages [pytest-sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sbase-4.9.8.tar.gz tmp/pytest-sbase-4.9.9.tar.gz --markdown 20230809/p/pytest-sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-08-09 06:30:04] INFO root fetch - processPackages [seleniumbase]: executing diffoscope
+[2023-08-09 06:30:04] INFO root fetch - processPackages [seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seleniumbase-4.9.8.tar.gz tmp/seleniumbase-4.9.9.tar.gz --markdown 20230809/s/seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-08-09 06:30:04] INFO root fetch - processPackages [pytest-seleniumbase]: executing diffoscope
+[2023-08-09 06:30:04] INFO root fetch - processPackages [pytest-seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-seleniumbase-4.9.8.tar.gz tmp/pytest-seleniumbase-4.9.9.tar.gz --markdown 20230809/p/pytest-seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-08-09 06:30:04] INFO root fetch - processPackages [s3kv]: executing diffoscope
+[2023-08-09 06:30:04] INFO root fetch - processPackages [s3kv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3kv-0.1.2.tar.gz tmp/s3kv-0.1.3.tar.gz --markdown 20230809/s/s3kv/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-09 06:30:04] INFO root fetch - processPackages [inviz]: Remove: archive file [/home/abi/fetcher/tmp/inviz-0.3.0.tar.gz]
+[2023-08-09 06:30:04] INFO root fetch - processPackages [inviz]: Remove: archive file [/home/abi/fetcher/tmp/inviz-0.3.1.tar.gz]
+[2023-08-09 06:30:04] INFO root fetch - processPackages [inviz]: Start processing: fixreprod
+[2023-08-09 06:30:04] INFO root fetch - main [MainThread]: End processing [inviz]: success
+[2023-08-09 06:30:05] INFO root fetch - processPackages [fixreprod]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-09 06:30:05] INFO root fetch - processPackages [pyimporters-plugins]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-plugins-0.4.97.tar.gz]
+[2023-08-09 06:30:05] INFO root fetch - processPackages [pyimporters-plugins]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-plugins-0.4.99.tar.gz]
+[2023-08-09 06:30:05] INFO root fetch - processPackages [pyimporters-plugins]: Start processing: busy
+[2023-08-09 06:30:05] INFO root fetch - main [MainThread]: End processing [pyimporters-plugins]: success
+[2023-08-09 06:30:05] INFO root fetch - processPackages [fixreprod]: Downloading https://files.pythonhosted.org/packages/f9/1f/1423c5dd05c22182d2cb905a23cfc7770e931cbcfbb1773915f416fab8b9/fixreprod-0.0.2.tar.gz
+[2023-08-09 06:30:05] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-08-09 06:30:05] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-08-09 06:30:05] INFO root fetch - processPackages [pyimporters-csv]: Start processing: survey-report-generator
+[2023-08-09 06:30:05] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-08-09 06:30:05] INFO root fetch - processPackages [busy]: New version: [5.3.6] Old Version: [5.3.5]
+[2023-08-09 06:30:05] INFO root fetch - processPackages [survey-report-generator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-09 06:30:05] INFO root fetch - processPackages [nonebot-plugin-jx3]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_jx3-0.5.6.tar.gz]
+[2023-08-09 06:30:05] INFO root fetch - processPackages [nonebot-plugin-jx3]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_jx3-0.5.7.tar.gz]
+[2023-08-09 06:30:05] INFO root fetch - processPackages [nonebot-plugin-jx3]: Start processing: sbase
+[2023-08-09 06:30:05] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-jx3]: success
+[2023-08-09 06:30:05] INFO root fetch - processPackages [survey-report-generator]: Remove: archive file [/home/abi/fetcher/tmp/survey_report_generator-0.0.8.tar.gz]
+[2023-08-09 06:30:05] INFO root fetch - processPackages [survey-report-generator]: Remove: archive file [/home/abi/fetcher/tmp/survey_report_generator-0.0.9.tar.gz]
+[2023-08-09 06:30:05] INFO root fetch - processPackages [survey-report-generator]: Start processing: pyimporters-csv
+[2023-08-09 06:30:05] INFO root fetch - main [MainThread]: End processing [survey-report-generator]: success
+[2023-08-09 06:30:05] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.8.tar.gz]
+[2023-08-09 06:30:05] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.9.tar.gz]
+[2023-08-09 06:30:05] INFO root fetch - processPackages [selenium-base]: Start processing: lazysdk
+[2023-08-09 06:30:05] INFO root fetch - main [MainThread]: End processing [selenium-base]: success
+[2023-08-09 06:30:05] INFO root fetch - processPackages [survey-report-generator]: Downloading https://files.pythonhosted.org/packages/23/e7/a8186c66ce9683ab479c8f137354f8735d0dfd1a793105d80b3e91794768/survey_report_generator-0.0.9.tar.gz
+[2023-08-09 06:30:05] INFO root fetch - processPackages [fixreprod]: Downloading https://files.pythonhosted.org/packages/b0/05/334f105fb605422bf9cae23ecb2e8bd8d0f42949cc0f9c9d6480dcfcc868/fixreprod-0.0.3.tar.gz
+[2023-08-09 06:30:05] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-08-09 06:30:05] INFO root fetch - processPackages [sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-08-09 06:30:05] INFO root fetch - processPackages [busy]: Downloading https://files.pythonhosted.org/packages/e0/f1/e2a69db9d9c6495588ed7dde3486e2b746c557cfc710b3777e328897373d/busy-5.3.5.tar.gz
+[2023-08-09 06:30:05] INFO root fetch - processPackages [fixreprod]: executing diffoscope
+[2023-08-09 06:30:05] INFO root fetch - processPackages [fixreprod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixreprod-0.0.2.tar.gz tmp/fixreprod-0.0.3.tar.gz --markdown 20230809/f/fixreprod/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-09 06:30:05] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-08-09 06:30:05] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.8.tar.gz]
+[2023-08-09 06:30:05] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.9.tar.gz]
+[2023-08-09 06:30:05] INFO root fetch - processPackages [pytest-sbase]: Start processing: nonebot-plugin-jx3
+[2023-08-09 06:30:05] INFO root fetch - main [MainThread]: End processing [pytest-sbase]: success
+[2023-08-09 06:30:05] INFO root fetch - processPackages [lazysdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-09 06:30:05] INFO root fetch - processPackages [nonebot-plugin-jx3]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-08-09 06:30:05] INFO root fetch - processPackages [survey-report-generator]: executing diffoscope
+[2023-08-09 06:30:05] INFO root fetch - processPackages [survey-report-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/survey_report_generator-0.0.8.tar.gz tmp/survey_report_generator-0.0.9.tar.gz --markdown 20230809/s/survey-report-generator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-09 06:30:05] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/10/f9/904caa9ffcdc6c4e7625f527d7ff03e2ccbecc9c360a7557b298321e506d/sbase-4.9.8.tar.gz
+[2023-08-09 06:30:05] INFO root fetch - processPackages [nonebot-plugin-jx3]: Downloading https://files.pythonhosted.org/packages/93/ee/137040232064e70aae10a278ca47f88670ba1b775baad0e842c3573837c4/nonebot_plugin_jx3-0.5.6.tar.gz
+[2023-08-09 06:30:05] INFO root fetch - processPackages [s3kv]: Remove: archive file [/home/abi/fetcher/tmp/s3kv-0.1.2.tar.gz]
+[2023-08-09 06:30:05] INFO root fetch - processPackages [s3kv]: Remove: archive file [/home/abi/fetcher/tmp/s3kv-0.1.3.tar.gz]
+[2023-08-09 06:30:05] INFO root fetch - processPackages [s3kv]: Start processing: survey-report-generator
+[2023-08-09 06:30:05] INFO root fetch - main [MainThread]: End processing [s3kv]: success
+[2023-08-09 06:30:05] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/38/6e/873c1f710606f91c4d8dd01b66a600b8f53828c838a79ba123c316f77c05/lazysdk-0.1.8.tar.gz
+[2023-08-09 06:30:05] INFO root fetch - processPackages [survey-report-generator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-09 06:30:05] INFO root fetch - processPackages [busy]: Downloading https://files.pythonhosted.org/packages/c4/e9/0a67abcb6fe643f71703289579c93b2eaff935bb6ccc23f937f377f1be47/busy-5.3.6.tar.gz
+[2023-08-09 06:30:05] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.8.tar.gz]
+[2023-08-09 06:30:05] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.9.tar.gz]
+[2023-08-09 06:30:05] INFO root fetch - processPackages [pytest-seleniumbase]: Start processing: s3kv
+[2023-08-09 06:30:05] INFO root fetch - main [MainThread]: End processing [pytest-seleniumbase]: success
+[2023-08-09 06:30:05] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-08-09 06:30:06] INFO root fetch - processPackages [survey-report-generator]: Downloading https://files.pythonhosted.org/packages/1f/f6/26fd1fc02c4f3a86772075a03e77f3cffb4f26de41e30bc9d7f7a57d304b/survey_report_generator-0.0.8.tar.gz
+[2023-08-09 06:30:06] INFO root fetch - processPackages [s3kv]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-09 06:30:06] INFO root fetch - processPackages [nonebot-plugin-jx3]: Downloading https://files.pythonhosted.org/packages/2d/da/3d31b759cd4a3b95f9eb0220cf13ae5fd62f1ff66bbade8a7025bd6fbefb/nonebot_plugin_jx3-0.5.7.tar.gz
+[2023-08-09 06:30:06] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/d2/57/c23bf788f4a8fba6ef62c68be73c8fb443dc5aa71c69b03726c1254377f7/sbase-4.9.9.tar.gz
+[2023-08-09 06:30:06] INFO root fetch - processPackages [busy]: executing diffoscope
+[2023-08-09 06:30:06] INFO root fetch - processPackages [busy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/busy-5.3.5.tar.gz tmp/busy-5.3.6.tar.gz --markdown 20230809/b/busy/5.3.5-5.3.6/diff.md --exclude *.pyd
+[2023-08-09 06:30:06] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-08-09 06:30:06] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230809/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-08-09 06:30:06] INFO root fetch - processPackages [nonebot-plugin-jx3]: executing diffoscope
+[2023-08-09 06:30:06] INFO root fetch - processPackages [nonebot-plugin-jx3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_jx3-0.5.6.tar.gz tmp/nonebot_plugin_jx3-0.5.7.tar.gz --markdown 20230809/n/nonebot-plugin-jx3/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-08-09 06:30:06] INFO root fetch - processPackages [s3kv]: Downloading https://files.pythonhosted.org/packages/ce/96/8aaa63ce44dd005b773d3299bf91d1b2f5937800e79b9cd22fdcab7f22d8/s3kv-0.1.2.tar.gz
+[2023-08-09 06:30:06] INFO root fetch - processPackages [sbase]: executing diffoscope
+[2023-08-09 06:30:06] INFO root fetch - processPackages [sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbase-4.9.8.tar.gz tmp/sbase-4.9.9.tar.gz --markdown 20230809/s/sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-08-09 06:30:06] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/56/f7/82feafe86145b2d6d28587748503b8e9a4aaab1142447bc3345f6b0683e6/lazysdk-0.1.9.tar.gz
+[2023-08-09 06:30:06] ERROR root fetch - processPackages [survey-report-generator]: Diffoscope failed: time="2023-08-09T06:30:05+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/survey_report_generator-0.0.8.tar.gz: No such file or directory
+
+[2023-08-09 06:30:06] INFO root fetch - main [MainThread]: End processing [survey-report-generator] error
+[2023-08-09 06:30:06] INFO root fetch - processPackages [survey-report-generator]: executing diffoscope
+[2023-08-09 06:30:06] INFO root fetch - processPackages [survey-report-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/survey_report_generator-0.0.8.tar.gz tmp/survey_report_generator-0.0.9.tar.gz --markdown 20230809/s/survey-report-generator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-09 06:30:06] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-08-09 06:30:06] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.8.tar.gz tmp/lazysdk-0.1.9.tar.gz --markdown 20230809/l/lazysdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-09 06:30:06] INFO root fetch - processPackages [s3kv]: Downloading https://files.pythonhosted.org/packages/80/ad/a0dc55e54cc9c02def06edbc5dd523234a075017622c986a1a10137b2913/s3kv-0.1.3.tar.gz
+[2023-08-09 06:30:06] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.8.tar.gz]
+[2023-08-09 06:30:06] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.9.tar.gz]
+[2023-08-09 06:30:06] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
+[2023-08-09 06:30:06] INFO root fetch - processPackages [s3kv]: executing diffoscope
+[2023-08-09 06:30:06] INFO root fetch - processPackages [s3kv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3kv-0.1.2.tar.gz tmp/s3kv-0.1.3.tar.gz --markdown 20230809/s/s3kv/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-09 06:30:06] INFO root fetch - processPackages [fixreprod]: Remove: archive file [/home/abi/fetcher/tmp/fixreprod-0.0.2.tar.gz]
+[2023-08-09 06:30:06] INFO root fetch - processPackages [fixreprod]: Remove: archive file [/home/abi/fetcher/tmp/fixreprod-0.0.3.tar.gz]
+[2023-08-09 06:30:06] INFO root fetch - main [MainThread]: End processing [fixreprod]: success
+[2023-08-09 06:30:07] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-08-09 06:30:07] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-08-09 06:30:07] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-08-09 06:30:07] INFO root fetch - processPackages [busy]: Remove: archive file [/home/abi/fetcher/tmp/busy-5.3.5.tar.gz]
+[2023-08-09 06:30:07] INFO root fetch - processPackages [busy]: Remove: archive file [/home/abi/fetcher/tmp/busy-5.3.6.tar.gz]
+[2023-08-09 06:30:07] INFO root fetch - main [MainThread]: End processing [busy]: success
+[2023-08-09 06:30:07] INFO root fetch - processPackages [nonebot-plugin-jx3]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_jx3-0.5.6.tar.gz]
+[2023-08-09 06:30:07] INFO root fetch - processPackages [nonebot-plugin-jx3]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_jx3-0.5.7.tar.gz]
+[2023-08-09 06:30:07] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-jx3]: success
+[2023-08-09 06:30:07] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.8.tar.gz]
+[2023-08-09 06:30:07] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.9.tar.gz]
+[2023-08-09 06:30:07] INFO root fetch - main [MainThread]: End processing [sbase]: success
+[2023-08-09 06:30:07] INFO root fetch - processPackages [s3kv]: Remove: archive file [/home/abi/fetcher/tmp/s3kv-0.1.2.tar.gz]
+[2023-08-09 06:30:07] INFO root fetch - processPackages [s3kv]: Remove: archive file [/home/abi/fetcher/tmp/s3kv-0.1.3.tar.gz]
+[2023-08-09 06:30:07] INFO root fetch - main [MainThread]: End processing [s3kv]: success
+[2023-08-09 06:30:07] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.8.tar.gz]
+[2023-08-09 06:30:07] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.9.tar.gz]
+[2023-08-09 06:30:07] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-08-09 06:30:07] INFO root fetch - processPackages [survey-report-generator]: Remove: archive file [/home/abi/fetcher/tmp/survey_report_generator-0.0.8.tar.gz]
+[2023-08-09 06:30:07] INFO root fetch - processPackages [survey-report-generator]: Remove: archive file [/home/abi/fetcher/tmp/survey_report_generator-0.0.9.tar.gz]
+[2023-08-09 06:30:07] INFO root fetch - main [MainThread]: End processing [survey-report-generator]: success
+[2023-08-09 06:30:07] INFO root fetch - main [MainThread]: Store serial: [19232689]
