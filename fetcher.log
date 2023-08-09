@@ -12186,3 +12186,82 @@
 [2023-08-09 07:06:58] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.8.9.13.5.35.tar.gz]
 [2023-08-09 07:06:58] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-08-09 07:06:58] INFO root fetch - main [MainThread]: Store serial: [19232956]
+[2023-08-09 07:12:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19232956]
+[2023-08-09 07:12:07] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-09 07:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dask-cuda
+[2023-08-09 07:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dask-cuda
+[2023-08-09 07:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: marqo
+[2023-08-09 07:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: myipmacpackage
+[2023-08-09 07:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arcana
+[2023-08-09 07:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rmrentryutils
+[2023-08-09 07:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: raftify
+[2023-08-09 07:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: arcana-xnat
+[2023-08-09 07:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qiskit-quantier
+[2023-08-09 07:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: myke
+[2023-08-09 07:12:08] INFO root fetch - processPackages [arcana-xnat]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-08-09 07:12:08] INFO root fetch - processPackages [raftify]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-09 07:12:08] INFO root fetch - processPackages [arcana]: New version: [2.0b2] Old Version: [2.0b0.dev7]
+[2023-08-09 07:12:08] INFO root fetch - processPackages [arcana-xnat]: Downloading https://files.pythonhosted.org/packages/18/8d/deb7c817fe59727801e6722d4cceb40902da9140d85733ee596ec49a3fc0/arcana_xnat-0.3.4.tar.gz
+[2023-08-09 07:12:08] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230809] Old Version: [23.8.0a230808]
+[2023-08-09 07:12:08] WARNING root fetch - processPackages [myipmacpackage]: Skipping, unable to determine old version
+[2023-08-09 07:12:08] WARNING root fetch - processPackages [rmrentryutils]: Skipping, unable to determine old version
+[2023-08-09 07:12:08] INFO root fetch - main [MainThread]: End processing [myipmacpackage] error
+[2023-08-09 07:12:08] INFO root fetch - main [MainThread]: End processing [rmrentryutils] error
+[2023-08-09 07:12:08] INFO root fetch - processPackages [marqo]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-08-09 07:12:08] INFO root fetch - processPackages [qiskit-quantier]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-08-09 07:12:08] INFO root fetch - processPackages [raftify]: Downloading https://files.pythonhosted.org/packages/9b/af/4067cf38fea978d616e9a6de20bea4cc7fe2b3d6576c4800f3f194b98d0d/raftify-0.0.8-py3-none-any.whl
+[2023-08-09 07:12:08] INFO root fetch - processPackages [arcana]: Downloading https://files.pythonhosted.org/packages/10/9e/3c3b2f727aaf50d3a2b3f389c49e797ace1c93bdb291d5708ae371b555ec/arcana-2.0b0.dev7.tar.gz
+[2023-08-09 07:12:08] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230809] Old Version: [23.8.0a230808]
+[2023-08-09 07:12:08] INFO root fetch - processPackages [myke]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-08-09 07:12:08] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/25/93/8a77af941e589d27c7aab11863dfdbc897e233081626e5e48ab5e9337dc2/dask-cuda-23.8.0a230808.tar.gz
+[2023-08-09 07:12:08] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/25/93/8a77af941e589d27c7aab11863dfdbc897e233081626e5e48ab5e9337dc2/dask-cuda-23.8.0a230808.tar.gz
+[2023-08-09 07:12:08] INFO root fetch - processPackages [marqo]: Downloading https://files.pythonhosted.org/packages/76/5b/a43844272b6aca2a531ade4919a871cd8546964d287a61a1eeab436f5d0e/marqo-1.1.1.tar.gz
+[2023-08-09 07:12:08] INFO root fetch - processPackages [raftify]: Downloading https://files.pythonhosted.org/packages/6f/02/c27b335ae153d3d210f56dfac6ecb3b1789141477d1424f4ac21b5386c27/raftify-0.0.9-py3-none-any.whl
+[2023-08-09 07:12:08] INFO root fetch - processPackages [myke]: Downloading https://files.pythonhosted.org/packages/2d/f3/6249472a729189619a6fa69bb5ad743de8abf38e23f5c640b3b5a817a148/myke-0.2.0.tar.gz
+[2023-08-09 07:12:08] INFO root fetch - processPackages [qiskit-quantier]: Downloading https://files.pythonhosted.org/packages/21/41/430d00a29a86c14ea0eb2119e7e6890d9468e873b9cbb86a8930670dc1ac/qiskit_quantier-0.5.0.tar.gz
+[2023-08-09 07:12:08] INFO root fetch - processPackages [arcana-xnat]: Downloading https://files.pythonhosted.org/packages/90/93/ffd587f6a321d15b6d51a64ec759c98148e1a98f02864e56ad30b93bd161/arcana_xnat-0.3.5.tar.gz
+[2023-08-09 07:12:08] INFO root fetch - processPackages [arcana]: Downloading https://files.pythonhosted.org/packages/d8/43/71640e43b1ab616df14e02e9190e20fb105df8f3bdaf155e8f34de1414ca/arcana-2.0b2.tar.gz
+[2023-08-09 07:12:08] INFO root fetch - processPackages [raftify]: executing diffoscope
+[2023-08-09 07:12:08] INFO root fetch - processPackages [raftify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raftify-0.0.8-py3-none-any.whl.zip tmp/raftify-0.0.9-py3-none-any.whl.zip --markdown 20230809/r/raftify/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-09 07:12:08] INFO root fetch - processPackages [arcana-xnat]: executing diffoscope
+[2023-08-09 07:12:08] INFO root fetch - processPackages [arcana-xnat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcana_xnat-0.3.4.tar.gz tmp/arcana_xnat-0.3.5.tar.gz --markdown 20230809/a/arcana-xnat/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-08-09 07:12:08] INFO root fetch - processPackages [arcana]: executing diffoscope
+[2023-08-09 07:12:08] INFO root fetch - processPackages [arcana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcana-2.0b0.dev7.tar.gz tmp/arcana-2.0b2.tar.gz --markdown 20230809/a/arcana/2.0b0.dev7-2.0b2/diff.md --exclude *.pyd
+[2023-08-09 07:12:08] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/62/d2/866c24f7b4bcb2194b6a0c79370812acdf3d9f9566cabcc6a2f28da870e4/dask-cuda-23.8.0a230809.tar.gz
+[2023-08-09 07:12:08] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/62/d2/866c24f7b4bcb2194b6a0c79370812acdf3d9f9566cabcc6a2f28da870e4/dask-cuda-23.8.0a230809.tar.gz
+[2023-08-09 07:12:09] INFO root fetch - processPackages [qiskit-quantier]: Downloading https://files.pythonhosted.org/packages/e9/93/b541b7ef587d5ded96cd93b156a5a3f5e2feda9bba3c8017058e7c757a3d/qiskit_quantier-0.6.0.tar.gz
+[2023-08-09 07:12:09] INFO root fetch - processPackages [marqo]: Downloading https://files.pythonhosted.org/packages/bc/6d/2803959c6b3053e0f069a6c33b354c187b5184d723df47f5486caa0f5698/marqo-1.2.0.tar.gz
+[2023-08-09 07:12:09] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-08-09 07:12:09] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230808.tar.gz tmp/dask-cuda-23.8.0a230809.tar.gz --markdown 20230809/d/dask-cuda/23.8.0a230808-23.8.0a230809/diff.md --exclude *.pyd
+[2023-08-09 07:12:09] INFO root fetch - processPackages [myke]: Downloading https://files.pythonhosted.org/packages/04/96/c50c0c46ee021cc568c0dc38c2215ece9fdc3ae16a4cd16ebf574ff2ef8e/myke-0.3.0.tar.gz
+[2023-08-09 07:12:09] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-08-09 07:12:09] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230808.tar.gz tmp/dask-cuda-23.8.0a230809.tar.gz --markdown 20230809/d/dask-cuda/23.8.0a230808-23.8.0a230809/diff.md --exclude *.pyd
+[2023-08-09 07:12:09] INFO root fetch - processPackages [qiskit-quantier]: executing diffoscope
+[2023-08-09 07:12:09] INFO root fetch - processPackages [qiskit-quantier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_quantier-0.5.0.tar.gz tmp/qiskit_quantier-0.6.0.tar.gz --markdown 20230809/q/qiskit-quantier/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-08-09 07:12:09] INFO root fetch - processPackages [marqo]: executing diffoscope
+[2023-08-09 07:12:09] INFO root fetch - processPackages [marqo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marqo-1.1.1.tar.gz tmp/marqo-1.2.0.tar.gz --markdown 20230809/m/marqo/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-08-09 07:12:09] INFO root fetch - processPackages [myke]: executing diffoscope
+[2023-08-09 07:12:09] INFO root fetch - processPackages [myke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myke-0.2.0.tar.gz tmp/myke-0.3.0.tar.gz --markdown 20230809/m/myke/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-08-09 07:12:10] INFO root fetch - processPackages [arcana-xnat]: Remove: archive file [/home/abi/fetcher/tmp/arcana_xnat-0.3.4.tar.gz]
+[2023-08-09 07:12:10] INFO root fetch - processPackages [arcana-xnat]: Remove: archive file [/home/abi/fetcher/tmp/arcana_xnat-0.3.5.tar.gz]
+[2023-08-09 07:12:10] INFO root fetch - main [MainThread]: End processing [arcana-xnat]: success
+[2023-08-09 07:12:10] INFO root fetch - processPackages [raftify]: Remove: archive file [/home/abi/fetcher/tmp/raftify-0.0.8-py3-none-any.whl.zip]
+[2023-08-09 07:12:10] INFO root fetch - processPackages [raftify]: Remove: archive file [/home/abi/fetcher/tmp/raftify-0.0.9-py3-none-any.whl.zip]
+[2023-08-09 07:12:10] INFO root fetch - main [MainThread]: End processing [raftify]: success
+[2023-08-09 07:12:10] INFO root fetch - processPackages [qiskit-quantier]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_quantier-0.5.0.tar.gz]
+[2023-08-09 07:12:10] INFO root fetch - processPackages [qiskit-quantier]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_quantier-0.6.0.tar.gz]
+[2023-08-09 07:12:10] INFO root fetch - main [MainThread]: End processing [qiskit-quantier]: success
+[2023-08-09 07:12:10] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230808.tar.gz]
+[2023-08-09 07:12:10] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230809.tar.gz]
+[2023-08-09 07:12:10] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-08-09 07:12:10] INFO root fetch - processPackages [arcana]: Remove: archive file [/home/abi/fetcher/tmp/arcana-2.0b0.dev7.tar.gz]
+[2023-08-09 07:12:10] INFO root fetch - processPackages [arcana]: Remove: archive file [/home/abi/fetcher/tmp/arcana-2.0b2.tar.gz]
+[2023-08-09 07:12:10] INFO root fetch - main [MainThread]: End processing [arcana]: success
+[2023-08-09 07:12:10] INFO root fetch - processPackages [marqo]: Remove: archive file [/home/abi/fetcher/tmp/marqo-1.1.1.tar.gz]
+[2023-08-09 07:12:10] INFO root fetch - processPackages [marqo]: Remove: archive file [/home/abi/fetcher/tmp/marqo-1.2.0.tar.gz]
+[2023-08-09 07:12:10] INFO root fetch - main [MainThread]: End processing [marqo]: success
+[2023-08-09 07:12:10] INFO root fetch - processPackages [myke]: Remove: archive file [/home/abi/fetcher/tmp/myke-0.2.0.tar.gz]
+[2023-08-09 07:12:10] INFO root fetch - processPackages [myke]: Remove: archive file [/home/abi/fetcher/tmp/myke-0.3.0.tar.gz]
+[2023-08-09 07:12:10] INFO root fetch - main [MainThread]: End processing [myke]: success
+[2023-08-09 07:12:10] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-08-09 07:12:10] INFO root fetch - main [MainThread]: Store serial: [19233000]
