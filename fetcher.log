@@ -10911,3 +10911,51 @@
 [2023-08-09 05:38:04] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_gpdb20160503-3.0.0.tar.gz]
 [2023-08-09 05:38:04] INFO root fetch - main [MainThread]: End processing [alibabacloud-gpdb20160503]: success
 [2023-08-09 05:38:04] INFO root fetch - main [MainThread]: Store serial: [19232321]
+[2023-08-09 05:43:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19232321]
+[2023-08-09 05:43:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-09 05:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: open-dread-rando
+[2023-08-09 05:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cooptools
+[2023-08-09 05:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: devchat
+[2023-08-09 05:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: harmony
+[2023-08-09 05:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: isqmap
+[2023-08-09 05:43:13] INFO root fetch - processPackages [cooptools]: New version: [1.9] Old Version: [1.8]
+[2023-08-09 05:43:13] INFO root fetch - processPackages [isqmap]: New version: [0.3] Old Version: [0.2]
+[2023-08-09 05:43:13] INFO root fetch - processPackages [harmony]: New version: [1.2.3127] Old Version: [1.2.3126]
+[2023-08-09 05:43:13] INFO root fetch - processPackages [devchat]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-09 05:43:13] INFO root fetch - processPackages [open-dread-rando]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-08-09 05:43:14] INFO root fetch - processPackages [cooptools]: Downloading https://files.pythonhosted.org/packages/b0/1c/86bf91cfc36d8dedde445f7e10828a5d004b092d6296b83176162d182b41/cooptools-1.8.tar.gz
+[2023-08-09 05:43:14] INFO root fetch - processPackages [isqmap]: Downloading https://files.pythonhosted.org/packages/40/dc/25a3b1b2a99e66b5099207bf2feee3a39b49d68b8aa8759fe3a0a489fc1e/isqmap-0.2.tar.gz
+[2023-08-09 05:43:14] INFO root fetch - processPackages [devchat]: Downloading https://files.pythonhosted.org/packages/f5/66/cfc65a854f1107a4122df859ca91f74424cf0eca14200af49602e708ad5f/devchat-0.2.1.tar.gz
+[2023-08-09 05:43:14] INFO root fetch - processPackages [harmony]: Downloading https://files.pythonhosted.org/packages/4f/da/25219ab62a53f222b71f4c249d317b7952e95e36b4523b84809fb2a30412/harmony-1.2.3126.tar.gz
+[2023-08-09 05:43:14] INFO root fetch - processPackages [open-dread-rando]: Downloading https://files.pythonhosted.org/packages/8e/0f/9fe714620bbc48bce28d6ca8eacb35e107ee052a8b92a11ce72cb578625b/open-dread-rando-2.4.0.tar.gz
+[2023-08-09 05:43:14] INFO root fetch - processPackages [devchat]: Downloading https://files.pythonhosted.org/packages/13/b2/49446935cc004b569d4cfedf3e28c86d7b5670497aef391568ac38a850b4/devchat-0.2.2.tar.gz
+[2023-08-09 05:43:14] INFO root fetch - processPackages [cooptools]: Downloading https://files.pythonhosted.org/packages/60/18/d1c8517d3d438fc7cec8f94ea9c90a0ce44f9fb26afa4463b8f1c7f90bbb/cooptools-1.9.tar.gz
+[2023-08-09 05:43:14] INFO root fetch - processPackages [harmony]: Downloading https://files.pythonhosted.org/packages/ca/06/130a2234bb3dfba85b9365715a83ee3c71f29f92e8d125bd3b94ebe2a5a4/harmony-1.2.3127.tar.gz
+[2023-08-09 05:43:14] INFO root fetch - processPackages [isqmap]: Downloading https://files.pythonhosted.org/packages/a9/18/c92212e3cc7e8e397513b7db9f869c716f121882a4e049fd26fc0ad696d7/isqmap-0.3.tar.gz
+[2023-08-09 05:43:14] INFO root fetch - processPackages [cooptools]: executing diffoscope
+[2023-08-09 05:43:14] INFO root fetch - processPackages [cooptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cooptools-1.8.tar.gz tmp/cooptools-1.9.tar.gz --markdown 20230809/c/cooptools/1.8-1.9/diff.md --exclude *.pyd
+[2023-08-09 05:43:14] INFO root fetch - processPackages [devchat]: executing diffoscope
+[2023-08-09 05:43:14] INFO root fetch - processPackages [devchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devchat-0.2.1.tar.gz tmp/devchat-0.2.2.tar.gz --markdown 20230809/d/devchat/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-09 05:43:14] INFO root fetch - processPackages [harmony]: executing diffoscope
+[2023-08-09 05:43:14] INFO root fetch - processPackages [harmony]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harmony-1.2.3126.tar.gz tmp/harmony-1.2.3127.tar.gz --markdown 20230809/h/harmony/1.2.3126-1.2.3127/diff.md --exclude *.pyd
+[2023-08-09 05:43:14] INFO root fetch - processPackages [isqmap]: executing diffoscope
+[2023-08-09 05:43:14] INFO root fetch - processPackages [isqmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isqmap-0.2.tar.gz tmp/isqmap-0.3.tar.gz --markdown 20230809/i/isqmap/0.2-0.3/diff.md --exclude *.pyd
+[2023-08-09 05:43:15] INFO root fetch - processPackages [open-dread-rando]: Downloading https://files.pythonhosted.org/packages/8e/a3/260f5562af32407b96152d47604f7d557acf5f33bd5d604f1782c879521b/open-dread-rando-2.4.1.tar.gz
+[2023-08-09 05:43:15] INFO root fetch - processPackages [open-dread-rando]: executing diffoscope
+[2023-08-09 05:43:15] INFO root fetch - processPackages [open-dread-rando]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-dread-rando-2.4.0.tar.gz tmp/open-dread-rando-2.4.1.tar.gz --markdown 20230809/o/open-dread-rando/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-08-09 05:43:15] INFO root fetch - processPackages [devchat]: Remove: archive file [/home/abi/fetcher/tmp/devchat-0.2.1.tar.gz]
+[2023-08-09 05:43:15] INFO root fetch - processPackages [devchat]: Remove: archive file [/home/abi/fetcher/tmp/devchat-0.2.2.tar.gz]
+[2023-08-09 05:43:15] INFO root fetch - main [MainThread]: End processing [devchat]: success
+[2023-08-09 05:43:15] INFO root fetch - processPackages [cooptools]: Remove: archive file [/home/abi/fetcher/tmp/cooptools-1.8.tar.gz]
+[2023-08-09 05:43:15] INFO root fetch - processPackages [cooptools]: Remove: archive file [/home/abi/fetcher/tmp/cooptools-1.9.tar.gz]
+[2023-08-09 05:43:15] INFO root fetch - main [MainThread]: End processing [cooptools]: success
+[2023-08-09 05:43:15] INFO root fetch - processPackages [isqmap]: Remove: archive file [/home/abi/fetcher/tmp/isqmap-0.2.tar.gz]
+[2023-08-09 05:43:15] INFO root fetch - processPackages [isqmap]: Remove: archive file [/home/abi/fetcher/tmp/isqmap-0.3.tar.gz]
+[2023-08-09 05:43:15] INFO root fetch - main [MainThread]: End processing [isqmap]: success
+[2023-08-09 05:43:16] INFO root fetch - processPackages [harmony]: Remove: archive file [/home/abi/fetcher/tmp/harmony-1.2.3126.tar.gz]
+[2023-08-09 05:43:16] INFO root fetch - processPackages [harmony]: Remove: archive file [/home/abi/fetcher/tmp/harmony-1.2.3127.tar.gz]
+[2023-08-09 05:43:16] INFO root fetch - main [MainThread]: End processing [harmony]: success
+[2023-08-09 05:43:17] INFO root fetch - processPackages [open-dread-rando]: Remove: archive file [/home/abi/fetcher/tmp/open-dread-rando-2.4.0.tar.gz]
+[2023-08-09 05:43:17] INFO root fetch - processPackages [open-dread-rando]: Remove: archive file [/home/abi/fetcher/tmp/open-dread-rando-2.4.1.tar.gz]
+[2023-08-09 05:43:17] INFO root fetch - main [MainThread]: End processing [open-dread-rando]: success
+[2023-08-09 05:43:17] INFO root fetch - main [MainThread]: Store serial: [19232408]
