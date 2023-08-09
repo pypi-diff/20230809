@@ -12400,3 +12400,33 @@
 [2023-08-09 07:22:49] INFO root fetch - processPackages [manik-django-sql-explorer-test]: Remove: archive file [/home/abi/fetcher/tmp/manik_django_sql_explorer_test-0.0.5-py3-none-any.whl.zip]
 [2023-08-09 07:22:49] INFO root fetch - main [MainThread]: End processing [manik-django-sql-explorer-test]: success
 [2023-08-09 07:22:49] INFO root fetch - main [MainThread]: Store serial: [19233067]
+[2023-08-09 07:27:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19233067]
+[2023-08-09 07:27:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-09 07:27:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: danbi
+[2023-08-09 07:27:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gammarer.aws-secure-log-bucket
+[2023-08-09 07:27:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: testApiGroup
+[2023-08-09 07:27:58] INFO root fetch - processPackages [testApiGroup]: New version: [1.0.0.8] Old Version: [1.0.0.7]
+[2023-08-09 07:27:58] INFO root fetch - processPackages [danbi]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-08-09 07:27:58] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-09 07:27:59] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Downloading https://files.pythonhosted.org/packages/24/2e/11cb152699573d94a8adb12346a042d125e832a97ddbd07af24be39bcfa5/gammarer.aws-secure-log-bucket-0.9.8.tar.gz
+[2023-08-09 07:27:59] INFO root fetch - processPackages [testApiGroup]: Downloading https://files.pythonhosted.org/packages/22/75/6767ee89f9fa5c8d8f3fa3ae01390cbbc6c4085d8f5cb4501697bd0cc738/testApiGroup-1.0.0.7.tar.gz
+[2023-08-09 07:27:59] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/c2/72/22ba0c3509479f69f5ffc3941df78acc0abfcc40698187c42ce4a3ddcc73/danbi-0.2.98.tar.gz
+[2023-08-09 07:27:59] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Downloading https://files.pythonhosted.org/packages/9c/47/ec93eb5c7f8705cbd3473157e9c73c15ce6ece6a660d1d3d36194eaf741a/gammarer.aws-secure-log-bucket-0.9.9.tar.gz
+[2023-08-09 07:27:59] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: executing diffoscope
+[2023-08-09 07:27:59] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-log-bucket-0.9.8.tar.gz tmp/gammarer.aws-secure-log-bucket-0.9.9.tar.gz --markdown 20230809/g/gammarer.aws-secure-log-bucket/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-09 07:27:59] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/08/67/6ca29911c73cded25c25e0725cecb295a7ffb7284383910591bbccccb9bf/danbi-0.2.99.tar.gz
+[2023-08-09 07:27:59] INFO root fetch - processPackages [testApiGroup]: Downloading https://files.pythonhosted.org/packages/63/49/2738d88bdd11c80091228a29e7db90dbb0328d0652f5744bc4838f21d8c9/testApiGroup-1.0.0.8.tar.gz
+[2023-08-09 07:27:59] INFO root fetch - processPackages [danbi]: executing diffoscope
+[2023-08-09 07:27:59] INFO root fetch - processPackages [danbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbi-0.2.98.tar.gz tmp/danbi-0.2.99.tar.gz --markdown 20230809/d/danbi/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-08-09 07:27:59] INFO root fetch - processPackages [testApiGroup]: executing diffoscope
+[2023-08-09 07:27:59] INFO root fetch - processPackages [testApiGroup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testApiGroup-1.0.0.7.tar.gz tmp/testApiGroup-1.0.0.8.tar.gz --markdown 20230809/t/testApiGroup/1.0.0.7-1.0.0.8/diff.md --exclude *.pyd
+[2023-08-09 07:28:00] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-log-bucket-0.9.8.tar.gz]
+[2023-08-09 07:28:00] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-log-bucket-0.9.9.tar.gz]
+[2023-08-09 07:28:00] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-log-bucket]: success
+[2023-08-09 07:28:00] INFO root fetch - processPackages [testApiGroup]: Remove: archive file [/home/abi/fetcher/tmp/testApiGroup-1.0.0.7.tar.gz]
+[2023-08-09 07:28:00] INFO root fetch - processPackages [testApiGroup]: Remove: archive file [/home/abi/fetcher/tmp/testApiGroup-1.0.0.8.tar.gz]
+[2023-08-09 07:28:00] INFO root fetch - main [MainThread]: End processing [testApiGroup]: success
+[2023-08-09 07:28:00] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.98.tar.gz]
+[2023-08-09 07:28:00] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.99.tar.gz]
+[2023-08-09 07:28:00] INFO root fetch - main [MainThread]: End processing [danbi]: success
+[2023-08-09 07:28:00] INFO root fetch - main [MainThread]: Store serial: [19233075]
