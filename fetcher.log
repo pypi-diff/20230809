@@ -12016,3 +12016,41 @@
 [2023-08-09 06:56:26] INFO root fetch - processPackages [restoreio]: Remove: archive file [/home/abi/fetcher/tmp/restoreio-0.6.7.tar.gz]
 [2023-08-09 06:56:26] INFO root fetch - main [MainThread]: End processing [restoreio]: success
 [2023-08-09 06:56:26] INFO root fetch - main [MainThread]: Store serial: [19232888]
+[2023-08-09 07:01:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19232888]
+[2023-08-09 07:01:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-09 07:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aioqueueext
+[2023-08-09 07:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ludwig
+[2023-08-09 07:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dmppred
+[2023-08-09 07:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: assetic
+[2023-08-09 07:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ConnectLM
+[2023-08-09 07:01:34] INFO root fetch - processPackages [dmppred]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-08-09 07:01:34] INFO root fetch - processPackages [dmppred]: Downloading https://files.pythonhosted.org/packages/f6/86/b7964f969c801ce06af546a4e95924d283961be40b275889b5aad32d4484/dmppred-1.2.0.tar.gz
+[2023-08-09 07:01:34] INFO root fetch - processPackages [aioqueueext]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-09 07:01:34] WARNING root fetch - processPackages [ConnectLM]: Skipping, unable to determine old version
+[2023-08-09 07:01:34] INFO root fetch - main [MainThread]: End processing [ConnectLM] error
+[2023-08-09 07:01:34] INFO root fetch - processPackages [ludwig]: New version: [0.8] Old Version: [0.7.5]
+[2023-08-09 07:01:35] WARNING root fetch - processPackages [dmppred]: Skipping package: exceeds size limit 41123062>=10485760
+[2023-08-09 07:01:35] INFO root fetch - main [MainThread]: End processing [dmppred] error
+[2023-08-09 07:01:35] INFO root fetch - processPackages [assetic]: New version: [2023.9.1.1] Old Version: [2023.9.1.0]
+[2023-08-09 07:01:35] INFO root fetch - processPackages [ludwig]: Downloading https://files.pythonhosted.org/packages/51/e4/32e02ce55e386a8e176121d35eddab1d067ea99ac06932162fb648962294/ludwig-0.7.5.tar.gz
+[2023-08-09 07:01:35] INFO root fetch - processPackages [aioqueueext]: Downloading https://files.pythonhosted.org/packages/66/d1/b173bdb8c33ec3402897a10a3c34499fd1dab0a0f71bfceed393bbdb5508/aioqueueext-0.1.0.tar.gz
+[2023-08-09 07:01:35] INFO root fetch - processPackages [assetic]: Downloading https://files.pythonhosted.org/packages/4c/39/591c93b5c736a2c04cb0b8dc05686bb9a64ba15b12864a415ae10e6546a4/assetic-2023.9.1.0-py2.py3-none-any.whl
+[2023-08-09 07:01:35] INFO root fetch - processPackages [aioqueueext]: Downloading https://files.pythonhosted.org/packages/ab/ca/ca361288ae76dcc4c649c866be5b456cb8e98861df2b850286ffbc1d55ed/aioqueueext-0.1.1.tar.gz
+[2023-08-09 07:01:35] INFO root fetch - processPackages [aioqueueext]: executing diffoscope
+[2023-08-09 07:01:35] INFO root fetch - processPackages [aioqueueext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioqueueext-0.1.0.tar.gz tmp/aioqueueext-0.1.1.tar.gz --markdown 20230809/a/aioqueueext/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-09 07:01:35] INFO root fetch - processPackages [ludwig]: Downloading https://files.pythonhosted.org/packages/d4/92/2331134c3f319a0754ca19fc184c865e452b18c0ef934070251f65ea4809/ludwig-0.8.tar.gz
+[2023-08-09 07:01:35] INFO root fetch - processPackages [assetic]: Downloading https://files.pythonhosted.org/packages/7b/cc/a4d527ab8e576d30023432aa995fd4032474b36fc1cf73f03237d3bc9049/assetic-2023.9.1.1-py2.py3-none-any.whl
+[2023-08-09 07:01:35] INFO root fetch - processPackages [ludwig]: executing diffoscope
+[2023-08-09 07:01:35] INFO root fetch - processPackages [ludwig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ludwig-0.7.5.tar.gz tmp/ludwig-0.8.tar.gz --markdown 20230809/l/ludwig/0.7.5-0.8/diff.md --exclude *.pyd
+[2023-08-09 07:01:36] INFO root fetch - processPackages [assetic]: executing diffoscope
+[2023-08-09 07:01:36] INFO root fetch - processPackages [assetic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assetic-2023.9.1.0-py2.py3-none-any.whl.zip tmp/assetic-2023.9.1.1-py2.py3-none-any.whl.zip --markdown 20230809/a/assetic/2023.9.1.0-2023.9.1.1/diff.md --exclude *.pyd
+[2023-08-09 07:01:36] INFO root fetch - processPackages [aioqueueext]: Remove: archive file [/home/abi/fetcher/tmp/aioqueueext-0.1.0.tar.gz]
+[2023-08-09 07:01:36] INFO root fetch - processPackages [aioqueueext]: Remove: archive file [/home/abi/fetcher/tmp/aioqueueext-0.1.1.tar.gz]
+[2023-08-09 07:01:36] INFO root fetch - main [MainThread]: End processing [aioqueueext]: success
+[2023-08-09 07:01:38] INFO root fetch - processPackages [assetic]: Remove: archive file [/home/abi/fetcher/tmp/assetic-2023.9.1.0-py2.py3-none-any.whl.zip]
+[2023-08-09 07:01:38] INFO root fetch - processPackages [assetic]: Remove: archive file [/home/abi/fetcher/tmp/assetic-2023.9.1.1-py2.py3-none-any.whl.zip]
+[2023-08-09 07:01:38] INFO root fetch - main [MainThread]: End processing [assetic]: success
+[2023-08-09 07:01:41] INFO root fetch - processPackages [ludwig]: Remove: archive file [/home/abi/fetcher/tmp/ludwig-0.7.5.tar.gz]
+[2023-08-09 07:01:41] INFO root fetch - processPackages [ludwig]: Remove: archive file [/home/abi/fetcher/tmp/ludwig-0.8.tar.gz]
+[2023-08-09 07:01:41] INFO root fetch - main [MainThread]: End processing [ludwig]: success
+[2023-08-09 07:01:41] INFO root fetch - main [MainThread]: Store serial: [19232908]
