@@ -1834,3 +1834,56 @@
 [2023-08-09 01:55:15] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.417.1.tar.gz]
 [2023-08-09 01:55:15] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-08-09 01:55:15] INFO root fetch - main [MainThread]: Store serial: [19228722]
+[2023-08-09 02:00:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19228722]
+[2023-08-09 02:00:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-09 02:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyenphase
+[2023-08-09 02:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: micropub
+[2023-08-09 02:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: functime
+[2023-08-09 02:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: circuitree
+[2023-08-09 02:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skeletonkey
+[2023-08-09 02:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nlpia2
+[2023-08-09 02:00:24] INFO root fetch - processPackages [functime]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-08-09 02:00:24] INFO root fetch - processPackages [pyenphase]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-08-09 02:00:24] INFO root fetch - processPackages [circuitree]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-08-09 02:00:24] INFO root fetch - processPackages [skeletonkey]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-09 02:00:24] INFO root fetch - processPackages [functime]: Downloading https://files.pythonhosted.org/packages/68/16/86e801159b14746e653a97d0576cbed2e3f52e61050e0b76cca89acb08fa/functime-0.4.1-py3-none-any.whl
+[2023-08-09 02:00:24] INFO root fetch - processPackages [micropub]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-09 02:00:24] INFO root fetch - processPackages [nlpia2]: New version: [0.0.35] Old Version: [0.0.33]
+[2023-08-09 02:00:24] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/32/d5/6a3307724a425672d6dda7f73a4648df843fed9841192ab5b0c25e989e17/pyenphase-1.1.3.tar.gz
+[2023-08-09 02:00:24] INFO root fetch - processPackages [skeletonkey]: Downloading https://files.pythonhosted.org/packages/ab/db/26f6d0a0f1e2d5bb0d93a58a1132c7de413f3613463a78434f1df26ebf8a/skeletonkey-0.1.3.tar.gz
+[2023-08-09 02:00:24] INFO root fetch - processPackages [circuitree]: Downloading https://files.pythonhosted.org/packages/69/21/3cd515d211a2e0c4a61a5c4d9613e34d6494db431b1d7db4bf2f109765c6/circuitree-0.4.1.tar.gz
+[2023-08-09 02:00:24] INFO root fetch - processPackages [micropub]: Downloading https://files.pythonhosted.org/packages/a0/b3/9878181a06c1f0b2274f80eddad72d5ee4e98b15f22a874d6b6e27dd8356/micropub-0.1.2.tar.gz
+[2023-08-09 02:00:24] INFO root fetch - processPackages [nlpia2]: Downloading https://files.pythonhosted.org/packages/8b/f7/4401f4c681ad0a2947146dc4f1dc2fc4d9865f3031a7d1dbedadf3bb1183/nlpia2-0.0.33.tar.gz
+[2023-08-09 02:00:24] WARNING root fetch - processPackages [nlpia2]: Skipping package: exceeds size limit 31081911>=10485760
+[2023-08-09 02:00:24] INFO root fetch - main [MainThread]: End processing [nlpia2] error
+[2023-08-09 02:00:24] INFO root fetch - processPackages [functime]: Downloading https://files.pythonhosted.org/packages/32/1a/57185f0411f604d3c0534037aa855872251d2f6c86d4c687754d45a18e2e/functime-0.4.2-py3-none-any.whl
+[2023-08-09 02:00:24] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/19/96/2105cbd539465fb67c82d58cbce172f2ca2989e53b354135c0da79962bd6/pyenphase-1.1.4.tar.gz
+[2023-08-09 02:00:24] INFO root fetch - processPackages [circuitree]: Downloading https://files.pythonhosted.org/packages/3e/e4/cddc37630c1f99c91e6ea1c947284dbb87bce54e7e33ba26effb6da4365b/circuitree-0.5.0.tar.gz
+[2023-08-09 02:00:24] INFO root fetch - processPackages [skeletonkey]: Downloading https://files.pythonhosted.org/packages/5e/3a/d01c90a5668be37f6703c5fd1b81b30d6544791c8a174d163ff4a8d09cf8/skeletonkey-0.1.4.tar.gz
+[2023-08-09 02:00:24] INFO root fetch - processPackages [micropub]: Downloading https://files.pythonhosted.org/packages/6c/28/e0a7a1f184a72ac0232098ca4206d39159392929a1dd5dad96c9ce7451d1/micropub-0.1.3.tar.gz
+[2023-08-09 02:00:24] INFO root fetch - processPackages [pyenphase]: executing diffoscope
+[2023-08-09 02:00:24] INFO root fetch - processPackages [pyenphase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyenphase-1.1.3.tar.gz tmp/pyenphase-1.1.4.tar.gz --markdown 20230809/p/pyenphase/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-08-09 02:00:24] INFO root fetch - processPackages [functime]: executing diffoscope
+[2023-08-09 02:00:24] INFO root fetch - processPackages [functime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/functime-0.4.1-py3-none-any.whl.zip tmp/functime-0.4.2-py3-none-any.whl.zip --markdown 20230809/f/functime/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-08-09 02:00:25] INFO root fetch - processPackages [circuitree]: executing diffoscope
+[2023-08-09 02:00:25] INFO root fetch - processPackages [circuitree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitree-0.4.1.tar.gz tmp/circuitree-0.5.0.tar.gz --markdown 20230809/c/circuitree/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-08-09 02:00:25] INFO root fetch - processPackages [skeletonkey]: executing diffoscope
+[2023-08-09 02:00:25] INFO root fetch - processPackages [skeletonkey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skeletonkey-0.1.3.tar.gz tmp/skeletonkey-0.1.4.tar.gz --markdown 20230809/s/skeletonkey/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-09 02:00:25] INFO root fetch - processPackages [micropub]: executing diffoscope
+[2023-08-09 02:00:25] INFO root fetch - processPackages [micropub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropub-0.1.2.tar.gz tmp/micropub-0.1.3.tar.gz --markdown 20230809/m/micropub/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-09 02:00:26] INFO root fetch - processPackages [functime]: Remove: archive file [/home/abi/fetcher/tmp/functime-0.4.1-py3-none-any.whl.zip]
+[2023-08-09 02:00:26] INFO root fetch - processPackages [functime]: Remove: archive file [/home/abi/fetcher/tmp/functime-0.4.2-py3-none-any.whl.zip]
+[2023-08-09 02:00:26] INFO root fetch - main [MainThread]: End processing [functime]: success
+[2023-08-09 02:00:26] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-1.1.3.tar.gz]
+[2023-08-09 02:00:26] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-1.1.4.tar.gz]
+[2023-08-09 02:00:26] INFO root fetch - main [MainThread]: End processing [pyenphase]: success
+[2023-08-09 02:00:26] INFO root fetch - processPackages [skeletonkey]: Remove: archive file [/home/abi/fetcher/tmp/skeletonkey-0.1.3.tar.gz]
+[2023-08-09 02:00:26] INFO root fetch - processPackages [skeletonkey]: Remove: archive file [/home/abi/fetcher/tmp/skeletonkey-0.1.4.tar.gz]
+[2023-08-09 02:00:26] INFO root fetch - main [MainThread]: End processing [skeletonkey]: success
+[2023-08-09 02:00:26] INFO root fetch - processPackages [circuitree]: Remove: archive file [/home/abi/fetcher/tmp/circuitree-0.4.1.tar.gz]
+[2023-08-09 02:00:26] INFO root fetch - processPackages [circuitree]: Remove: archive file [/home/abi/fetcher/tmp/circuitree-0.5.0.tar.gz]
+[2023-08-09 02:00:26] INFO root fetch - main [MainThread]: End processing [circuitree]: success
+[2023-08-09 02:00:26] INFO root fetch - processPackages [micropub]: Remove: archive file [/home/abi/fetcher/tmp/micropub-0.1.2.tar.gz]
+[2023-08-09 02:00:26] INFO root fetch - processPackages [micropub]: Remove: archive file [/home/abi/fetcher/tmp/micropub-0.1.3.tar.gz]
+[2023-08-09 02:00:26] INFO root fetch - main [MainThread]: End processing [micropub]: success
+[2023-08-09 02:00:26] INFO root fetch - main [MainThread]: Store serial: [19228742]
