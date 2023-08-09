@@ -11930,3 +11930,89 @@
 [2023-08-09 06:51:13] INFO root fetch - processPackages [RegScale-CLI]: Remove: archive file [/home/abi/fetcher/tmp/RegScale_CLI-5.9.0-py3-none-any.whl.zip]
 [2023-08-09 06:51:13] INFO root fetch - main [MainThread]: End processing [RegScale-CLI]: success
 [2023-08-09 06:51:13] INFO root fetch - main [MainThread]: Store serial: [19232850]
+[2023-08-09 06:56:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19232850]
+[2023-08-09 06:56:22] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-09 06:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: raftify
+[2023-08-09 06:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: garth
+[2023-08-09 06:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rmrentryutils
+[2023-08-09 06:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: restoreio
+[2023-08-09 06:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-report-qweb-signer
+[2023-08-09 06:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gammarer.aws-secure-flow-log-bucket
+[2023-08-09 06:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ofscraper
+[2023-08-09 06:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: what-time-is-it
+[2023-08-09 06:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: allin1
+[2023-08-09 06:56:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: HaploDynamics
+[2023-08-09 06:56:22] INFO root fetch - processPackages [garth]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-08-09 06:56:22] INFO root fetch - processPackages [restoreio]: New version: [0.6.7] Old Version: [0.6.3]
+[2023-08-09 06:56:22] WARNING root fetch - processPackages [what-time-is-it]: Skipping, unable to determine old version
+[2023-08-09 06:56:22] INFO root fetch - processPackages [what-time-is-it]: Start processing: opower
+[2023-08-09 06:56:22] INFO root fetch - main [MainThread]: End processing [what-time-is-it] error
+[2023-08-09 06:56:22] INFO root fetch - processPackages [ofscraper]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-08-09 06:56:22] INFO root fetch - processPackages [odoo14-addon-report-qweb-signer]: New version: [14.0.2.0.3.dev1] Old Version: [14.0.2.0.2.dev2]
+[2023-08-09 06:56:22] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-08-09 06:56:22] INFO root fetch - processPackages [HaploDynamics]: New version: [0.2b4] Old Version: [0.2b1]
+[2023-08-09 06:56:22] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/fa/78/886b54b59c2aacb5ba8a95980ade6002cf79cba1306f83eb35f6674d6fb3/garth-0.4.5.tar.gz
+[2023-08-09 06:56:22] WARNING root fetch - processPackages [rmrentryutils]: Skipping, unable to determine old version
+[2023-08-09 06:56:22] INFO root fetch - main [MainThread]: End processing [rmrentryutils] error
+[2023-08-09 06:56:22] INFO root fetch - processPackages [restoreio]: Downloading https://files.pythonhosted.org/packages/c8/bd/57554c9f40441fd591ec7071303c160dc502f68eb4365133e69750601a58/restoreio-0.6.3.tar.gz
+[2023-08-09 06:56:22] INFO root fetch - processPackages [allin1]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-09 06:56:22] INFO root fetch - processPackages [opower]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-09 06:56:22] INFO root fetch - processPackages [raftify]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-09 06:56:22] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/06/7a/7f58c5cc7f1dc9c0d63458d966895b92a63fe5da93e8d4d0d127502d4401/ofscraper-3.0.8.tar.gz
+[2023-08-09 06:56:22] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Downloading https://files.pythonhosted.org/packages/8b/9e/1444bb150a643d143d15a3e71f4ec01b157852a6248fcde9039057364f2a/gammarer.aws-secure-flow-log-bucket-0.3.9.tar.gz
+[2023-08-09 06:56:22] INFO root fetch - processPackages [odoo14-addon-report-qweb-signer]: Downloading https://files.pythonhosted.org/packages/f5/b1/e9439c3005be9f5dc71c8559e7ba05d0a21fce58fb97146997ba9fd89194/odoo14_addon_report_qweb_signer-14.0.2.0.2.dev2-py3-none-any.whl
+[2023-08-09 06:56:22] INFO root fetch - processPackages [HaploDynamics]: Downloading https://files.pythonhosted.org/packages/c0/2f/fb18c2e91f1571468aa6d501c4d5c86179a362a0271e20c42b42dfd09cfd/HaploDynamics-0.2b1.tar.gz
+[2023-08-09 06:56:23] INFO root fetch - processPackages [allin1]: Downloading https://files.pythonhosted.org/packages/65/8c/5c00770b17571298ef98362e95a142c48c04872235a88c64de02df8565a0/allin1-0.0.3.tar.gz
+[2023-08-09 06:56:23] INFO root fetch - processPackages [raftify]: Downloading https://files.pythonhosted.org/packages/9b/af/4067cf38fea978d616e9a6de20bea4cc7fe2b3d6576c4800f3f194b98d0d/raftify-0.0.8-py3-none-any.whl
+[2023-08-09 06:56:23] INFO root fetch - processPackages [opower]: Downloading https://files.pythonhosted.org/packages/de/e7/5d0e2eea618e46b3230cd28958d2cca7ca8ef0ec3acf7d333b499bc466db/opower-0.0.8.tar.gz
+[2023-08-09 06:56:23] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/c9/77/ac77d6184dbdebdda847c3f22a57d6dfc84bf0f11c6042b83040b84d6734/garth-0.4.6.tar.gz
+[2023-08-09 06:56:23] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/11/74/fd58047b970ac5a7c4c0edbf758f91e377683cf9c2ed700f4643e871f979/ofscraper-3.0.9.tar.gz
+[2023-08-09 06:56:23] INFO root fetch - processPackages [garth]: executing diffoscope
+[2023-08-09 06:56:23] INFO root fetch - processPackages [garth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garth-0.4.5.tar.gz tmp/garth-0.4.6.tar.gz --markdown 20230809/g/garth/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-08-09 06:56:23] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Downloading https://files.pythonhosted.org/packages/1e/fd/c1ad375812914ea7d48e9c76e3ba56d212e66679bd7fc7dbdeea9d2a0934/gammarer.aws-secure-flow-log-bucket-0.4.0.tar.gz
+[2023-08-09 06:56:23] INFO root fetch - processPackages [HaploDynamics]: Downloading https://files.pythonhosted.org/packages/ee/ae/795a5f70b34f7860a90439890e25d345333ba7e3d0390fde3494bba2cbc6/HaploDynamics-0.2b4.tar.gz
+[2023-08-09 06:56:23] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2023-08-09 06:56:23] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-3.0.8.tar.gz tmp/ofscraper-3.0.9.tar.gz --markdown 20230809/o/ofscraper/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-08-09 06:56:23] INFO root fetch - processPackages [raftify]: Downloading https://files.pythonhosted.org/packages/6f/02/c27b335ae153d3d210f56dfac6ecb3b1789141477d1424f4ac21b5386c27/raftify-0.0.9-py3-none-any.whl
+[2023-08-09 06:56:23] INFO root fetch - processPackages [restoreio]: Downloading https://files.pythonhosted.org/packages/a0/b1/1112c5afe103ef4d030f5b7f0f0d68daa91e5ba9d7486954d797bfecd206/restoreio-0.6.7.tar.gz
+[2023-08-09 06:56:23] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: executing diffoscope
+[2023-08-09 06:56:23] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-flow-log-bucket-0.3.9.tar.gz tmp/gammarer.aws-secure-flow-log-bucket-0.4.0.tar.gz --markdown 20230809/g/gammarer.aws-secure-flow-log-bucket/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-08-09 06:56:23] WARNING root fetch - processPackages [odoo14-addon-report-qweb-signer]: Skipping package: exceeds size limit 18122306>=10485760
+[2023-08-09 06:56:23] INFO root fetch - main [MainThread]: End processing [odoo14-addon-report-qweb-signer] error
+[2023-08-09 06:56:23] INFO root fetch - processPackages [allin1]: Downloading https://files.pythonhosted.org/packages/02/da/92317240bfe977ff44c1778767b1875332dcfc21a5c39019a95a33fa6ed6/allin1-0.0.4.tar.gz
+[2023-08-09 06:56:23] INFO root fetch - processPackages [opower]: Downloading https://files.pythonhosted.org/packages/86/54/64abf478f9a76b0937adc32bc301690e94e6e745928ac9cfcd0eeb625f56/opower-0.0.9.tar.gz
+[2023-08-09 06:56:23] INFO root fetch - processPackages [HaploDynamics]: executing diffoscope
+[2023-08-09 06:56:23] INFO root fetch - processPackages [HaploDynamics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HaploDynamics-0.2b1.tar.gz tmp/HaploDynamics-0.2b4.tar.gz --markdown 20230809/H/HaploDynamics/0.2b1-0.2b4/diff.md --exclude *.pyd
+[2023-08-09 06:56:23] INFO root fetch - processPackages [raftify]: executing diffoscope
+[2023-08-09 06:56:23] INFO root fetch - processPackages [raftify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raftify-0.0.8-py3-none-any.whl.zip tmp/raftify-0.0.9-py3-none-any.whl.zip --markdown 20230809/r/raftify/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-09 06:56:23] INFO root fetch - processPackages [allin1]: executing diffoscope
+[2023-08-09 06:56:23] INFO root fetch - processPackages [allin1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allin1-0.0.3.tar.gz tmp/allin1-0.0.4.tar.gz --markdown 20230809/a/allin1/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-09 06:56:23] INFO root fetch - processPackages [opower]: executing diffoscope
+[2023-08-09 06:56:23] INFO root fetch - processPackages [opower]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opower-0.0.8.tar.gz tmp/opower-0.0.9.tar.gz --markdown 20230809/o/opower/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-09 06:56:24] INFO root fetch - processPackages [restoreio]: executing diffoscope
+[2023-08-09 06:56:24] INFO root fetch - processPackages [restoreio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/restoreio-0.6.3.tar.gz tmp/restoreio-0.6.7.tar.gz --markdown 20230809/r/restoreio/0.6.3-0.6.7/diff.md --exclude *.pyd
+[2023-08-09 06:56:24] INFO root fetch - processPackages [HaploDynamics]: Remove: archive file [/home/abi/fetcher/tmp/HaploDynamics-0.2b1.tar.gz]
+[2023-08-09 06:56:24] INFO root fetch - processPackages [HaploDynamics]: Remove: archive file [/home/abi/fetcher/tmp/HaploDynamics-0.2b4.tar.gz]
+[2023-08-09 06:56:24] INFO root fetch - main [MainThread]: End processing [HaploDynamics]: success
+[2023-08-09 06:56:24] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.4.5.tar.gz]
+[2023-08-09 06:56:24] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.4.6.tar.gz]
+[2023-08-09 06:56:24] INFO root fetch - main [MainThread]: End processing [garth]: success
+[2023-08-09 06:56:24] INFO root fetch - processPackages [opower]: Remove: archive file [/home/abi/fetcher/tmp/opower-0.0.8.tar.gz]
+[2023-08-09 06:56:24] INFO root fetch - processPackages [opower]: Remove: archive file [/home/abi/fetcher/tmp/opower-0.0.9.tar.gz]
+[2023-08-09 06:56:25] INFO root fetch - main [MainThread]: End processing [opower]: success
+[2023-08-09 06:56:25] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-flow-log-bucket-0.3.9.tar.gz]
+[2023-08-09 06:56:25] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-flow-log-bucket-0.4.0.tar.gz]
+[2023-08-09 06:56:25] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-flow-log-bucket]: success
+[2023-08-09 06:56:25] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.0.8.tar.gz]
+[2023-08-09 06:56:25] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.0.9.tar.gz]
+[2023-08-09 06:56:25] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2023-08-09 06:56:25] INFO root fetch - processPackages [raftify]: Remove: archive file [/home/abi/fetcher/tmp/raftify-0.0.8-py3-none-any.whl.zip]
+[2023-08-09 06:56:25] INFO root fetch - processPackages [raftify]: Remove: archive file [/home/abi/fetcher/tmp/raftify-0.0.9-py3-none-any.whl.zip]
+[2023-08-09 06:56:25] INFO root fetch - main [MainThread]: End processing [raftify]: success
+[2023-08-09 06:56:25] INFO root fetch - processPackages [allin1]: Remove: archive file [/home/abi/fetcher/tmp/allin1-0.0.3.tar.gz]
+[2023-08-09 06:56:25] INFO root fetch - processPackages [allin1]: Remove: archive file [/home/abi/fetcher/tmp/allin1-0.0.4.tar.gz]
+[2023-08-09 06:56:25] INFO root fetch - main [MainThread]: End processing [allin1]: success
+[2023-08-09 06:56:26] INFO root fetch - processPackages [restoreio]: Remove: archive file [/home/abi/fetcher/tmp/restoreio-0.6.3.tar.gz]
+[2023-08-09 06:56:26] INFO root fetch - processPackages [restoreio]: Remove: archive file [/home/abi/fetcher/tmp/restoreio-0.6.7.tar.gz]
+[2023-08-09 06:56:26] INFO root fetch - main [MainThread]: End processing [restoreio]: success
+[2023-08-09 06:56:26] INFO root fetch - main [MainThread]: Store serial: [19232888]
