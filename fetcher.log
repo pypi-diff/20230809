@@ -11618,3 +11618,131 @@
 [2023-08-09 06:30:07] INFO root fetch - processPackages [survey-report-generator]: Remove: archive file [/home/abi/fetcher/tmp/survey_report_generator-0.0.9.tar.gz]
 [2023-08-09 06:30:07] INFO root fetch - main [MainThread]: End processing [survey-report-generator]: success
 [2023-08-09 06:30:07] INFO root fetch - main [MainThread]: Store serial: [19232689]
+[2023-08-09 06:35:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19232689]
+[2023-08-09 06:35:16] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-09 06:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: s3kv
+[2023-08-09 06:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: waddle
+[2023-08-09 06:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dmppred
+[2023-08-09 06:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: InvokeAI
+[2023-08-09 06:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-sale-partner-company-group
+[2023-08-09 06:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pywencai
+[2023-08-09 06:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-partner-contact
+[2023-08-09 06:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cntracer
+[2023-08-09 06:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oceanengine
+[2023-08-09 06:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: runningz
+[2023-08-09 06:35:16] INFO root fetch - processPackages [s3kv]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-09 06:35:16] INFO root fetch - processPackages [odoo-addon-sale-partner-company-group]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.1]
+[2023-08-09 06:35:16] INFO root fetch - processPackages [pywencai]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-09 06:35:16] INFO root fetch - processPackages [oceanengine]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-09 06:35:16] INFO root fetch - processPackages [dmppred]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-08-09 06:35:16] INFO root fetch - processPackages [cntracer]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-08-09 06:35:16] INFO root fetch - processPackages [waddle]: New version: [1.2] Old Version: [1.1]
+[2023-08-09 06:35:16] INFO root fetch - processPackages [InvokeAI]: New version: [3.0.2rc1] Old Version: [3.0.2a1]
+[2023-08-09 06:35:16] INFO root fetch - processPackages [runningz]: New version: [0.11.7.8] Old Version: [0.11.7.7]
+[2023-08-09 06:35:16] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: New version: [16.0.20230808.0] Old Version: [16.0.20230711.1]
+[2023-08-09 06:35:16] INFO root fetch - processPackages [s3kv]: Downloading https://files.pythonhosted.org/packages/ce/96/8aaa63ce44dd005b773d3299bf91d1b2f5937800e79b9cd22fdcab7f22d8/s3kv-0.1.2.tar.gz
+[2023-08-09 06:35:16] INFO root fetch - processPackages [pywencai]: Downloading https://files.pythonhosted.org/packages/5a/f1/d46d6d2b9df688322af1ef327b8922b7c5a59739046fddd8de0ef81e9b88/pywencai-0.9.0.tar.gz
+[2023-08-09 06:35:16] INFO root fetch - processPackages [odoo-addon-sale-partner-company-group]: Downloading https://files.pythonhosted.org/packages/92/1e/95f762c3b3d0161fe9a0e7bf9c0d356fdd01b637fd8872c12fb3660922e5/odoo_addon_sale_partner_company_group-15.0.1.0.1-py3-none-any.whl
+[2023-08-09 06:35:17] INFO root fetch - processPackages [oceanengine]: Downloading https://files.pythonhosted.org/packages/6d/2c/8fbb5077fd0cc4f77176b31a039972a69ccb77612aa95506b50a200db3cb/oceanengine-0.1.0.tar.gz
+[2023-08-09 06:35:17] INFO root fetch - processPackages [dmppred]: Downloading https://files.pythonhosted.org/packages/f6/86/b7964f969c801ce06af546a4e95924d283961be40b275889b5aad32d4484/dmppred-1.2.0.tar.gz
+[2023-08-09 06:35:17] INFO root fetch - processPackages [waddle]: Downloading https://files.pythonhosted.org/packages/80/eb/a9fd5c62f8c2e81f8da7da66f7d652c7142ec7070f5de8b9543a38fe2144/waddle-1.1.tar.gz
+[2023-08-09 06:35:17] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/67/27/6d7ad4e87e2c0b2cd0f36af554e3f3cd07fcdaef1ea8c0de2a46dc576911/cntracer-0.6.3-cp39-cp39-win_amd64.whl
+[2023-08-09 06:35:17] INFO root fetch - processPackages [runningz]: Downloading https://files.pythonhosted.org/packages/ec/19/48a8293538743a686706d2b34b6e6c3dea2732959efb4dd609207f2bcd3e/runningz-0.11.7.7-py39-none-any.whl
+[2023-08-09 06:35:17] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Downloading https://files.pythonhosted.org/packages/f7/9d/74f7843c169930484ee13358598e9178220fe70c71ba8cd6f2a6d3b22d52/odoo_addons_oca_partner_contact-16.0.20230711.1-py3-none-any.whl
+[2023-08-09 06:35:17] WARNING root fetch - processPackages [dmppred]: Skipping package: exceeds size limit 41123062>=10485760
+[2023-08-09 06:35:17] INFO root fetch - processPackages [dmppred]: Start processing: hdx-scraper-geonode
+[2023-08-09 06:35:17] INFO root fetch - main [MainThread]: End processing [dmppred] error
+[2023-08-09 06:35:17] INFO root fetch - processPackages [s3kv]: Downloading https://files.pythonhosted.org/packages/80/ad/a0dc55e54cc9c02def06edbc5dd523234a075017622c986a1a10137b2913/s3kv-0.1.3.tar.gz
+[2023-08-09 06:35:17] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/8d/37/f584d1f88a0c9b6b9b50eb123dacd87ecdc4e8be9d66b51cb3b6ce7e5f97/InvokeAI-3.0.2a1.tar.gz
+[2023-08-09 06:35:17] INFO root fetch - processPackages [hdx-scraper-geonode]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-08-09 06:35:17] INFO root fetch - processPackages [odoo-addon-sale-partner-company-group]: Downloading https://files.pythonhosted.org/packages/2f/f6/d6828e8dff046ed9fe126a79d3b7e2f23c7e2bf12f92464c0ef3c547bc89/odoo_addon_sale_partner_company_group-16.0.1.0.0.2-py3-none-any.whl
+[2023-08-09 06:35:17] INFO root fetch - processPackages [s3kv]: executing diffoscope
+[2023-08-09 06:35:17] INFO root fetch - processPackages [s3kv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3kv-0.1.2.tar.gz tmp/s3kv-0.1.3.tar.gz --markdown 20230809/s/s3kv/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-09 06:35:17] INFO root fetch - processPackages [pywencai]: Downloading https://files.pythonhosted.org/packages/e4/42/279970b75bf0da6a8bce21f8f771807136d6d09464d72836f6a5bc7f0476/pywencai-0.9.1.tar.gz
+[2023-08-09 06:35:17] INFO root fetch - processPackages [oceanengine]: Downloading https://files.pythonhosted.org/packages/14/a9/568cefdda19b72a743a6d4f3f4368a107ee823c4aff85fdff5fae1ad0e3e/oceanengine-0.1.1.tar.gz
+[2023-08-09 06:35:17] INFO root fetch - processPackages [odoo-addon-sale-partner-company-group]: executing diffoscope
+[2023-08-09 06:35:17] INFO root fetch - processPackages [odoo-addon-sale-partner-company-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_partner_company_group-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_sale_partner_company_group-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230809/o/odoo-addon-sale-partner-company-group/15.0.1.0.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-08-09 06:35:17] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/f0/4e/9d23878146113d2686962fb9bdd6b383c7dfc4366b922bc9f2b7aecf1eff/cntracer-0.6.4-cp39-cp39-win_amd64.whl
+[2023-08-09 06:35:17] INFO root fetch - processPackages [oceanengine]: executing diffoscope
+[2023-08-09 06:35:17] INFO root fetch - processPackages [oceanengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceanengine-0.1.0.tar.gz tmp/oceanengine-0.1.1.tar.gz --markdown 20230809/o/oceanengine/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-09 06:35:17] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Downloading https://files.pythonhosted.org/packages/bd/44/5130b2ca80bbcd8b60ea2398ec960c43d6d3ca519feec621fa18ebf7ccb3/odoo_addons_oca_partner_contact-16.0.20230808.0-py3-none-any.whl
+[2023-08-09 06:35:17] INFO root fetch - processPackages [hdx-scraper-geonode]: Downloading https://files.pythonhosted.org/packages/6d/a4/85ac7dcdcbdceaf16de0dc0c01ec50258dedf640b0c6ef47ed5611551032/hdx_scraper_geonode-1.5.1.tar.gz
+[2023-08-09 06:35:17] INFO root fetch - processPackages [pywencai]: executing diffoscope
+[2023-08-09 06:35:17] INFO root fetch - processPackages [pywencai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywencai-0.9.0.tar.gz tmp/pywencai-0.9.1.tar.gz --markdown 20230809/p/pywencai/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-09 06:35:17] INFO root fetch - processPackages [waddle]: Downloading https://files.pythonhosted.org/packages/fd/38/453ebbffff7181aee5568528923ed459a19d92d3d0552070cee5cc1eed9d/waddle-1.2.tar.gz
+[2023-08-09 06:35:17] INFO root fetch - processPackages [runningz]: Downloading https://files.pythonhosted.org/packages/84/48/dc9442856d28809ec7a15a817c93f72d54fc44a330aff8921f34743784c2/runningz-0.11.7.8-py39-none-any.whl
+[2023-08-09 06:35:17] INFO root fetch - processPackages [cntracer]: executing diffoscope
+[2023-08-09 06:35:17] INFO root fetch - processPackages [cntracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cntracer-0.6.3-cp39-cp39-win_amd64.whl.zip tmp/cntracer-0.6.4-cp39-cp39-win_amd64.whl.zip --markdown 20230809/c/cntracer/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-08-09 06:35:17] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: executing diffoscope
+[2023-08-09 06:35:17] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_partner_contact-16.0.20230711.1-py3-none-any.whl.zip tmp/odoo_addons_oca_partner_contact-16.0.20230808.0-py3-none-any.whl.zip --markdown 20230809/o/odoo-addons-oca-partner-contact/16.0.20230711.1-16.0.20230808.0/diff.md --exclude *.pyd
+[2023-08-09 06:35:17] INFO root fetch - processPackages [waddle]: executing diffoscope
+[2023-08-09 06:35:17] INFO root fetch - processPackages [waddle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waddle-1.1.tar.gz tmp/waddle-1.2.tar.gz --markdown 20230809/w/waddle/1.1-1.2/diff.md --exclude *.pyd
+[2023-08-09 06:35:17] INFO root fetch - processPackages [runningz]: executing diffoscope
+[2023-08-09 06:35:17] INFO root fetch - processPackages [runningz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runningz-0.11.7.7-py39-none-any.whl.zip tmp/runningz-0.11.7.8-py39-none-any.whl.zip --markdown 20230809/r/runningz/0.11.7.7-0.11.7.8/diff.md --exclude *.pyd
+[2023-08-09 06:35:17] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/2f/97/26564deceda5d47b7c08bbe4b895063cabb7dcc41d5f5ec692973871e892/InvokeAI-3.0.2rc1.tar.gz
+[2023-08-09 06:35:18] INFO root fetch - processPackages [hdx-scraper-geonode]: Downloading https://files.pythonhosted.org/packages/8f/a0/13758d195b3bc9749b8485b6a0adcb35997a8dba3b8ad2023dcbc5d66026/hdx_scraper_geonode-1.5.2.tar.gz
+[2023-08-09 06:35:18] INFO root fetch - processPackages [InvokeAI]: executing diffoscope
+[2023-08-09 06:35:18] INFO root fetch - processPackages [InvokeAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InvokeAI-3.0.2a1.tar.gz tmp/InvokeAI-3.0.2rc1.tar.gz --markdown 20230809/I/InvokeAI/3.0.2a1-3.0.2rc1/diff.md --exclude *.pyd
+[2023-08-09 06:35:18] INFO root fetch - processPackages [hdx-scraper-geonode]: executing diffoscope
+[2023-08-09 06:35:18] INFO root fetch - processPackages [hdx-scraper-geonode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdx_scraper_geonode-1.5.1.tar.gz tmp/hdx_scraper_geonode-1.5.2.tar.gz --markdown 20230809/h/hdx-scraper-geonode/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-08-09 06:35:18] INFO root fetch - processPackages [s3kv]: Remove: archive file [/home/abi/fetcher/tmp/s3kv-0.1.2.tar.gz]
+[2023-08-09 06:35:18] INFO root fetch - processPackages [s3kv]: Remove: archive file [/home/abi/fetcher/tmp/s3kv-0.1.3.tar.gz]
+[2023-08-09 06:35:18] INFO root fetch - processPackages [s3kv]: Start processing: bumble
+[2023-08-09 06:35:18] INFO root fetch - main [MainThread]: End processing [s3kv]: success
+[2023-08-09 06:35:18] INFO root fetch - processPackages [bumble]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-09 06:35:19] INFO root fetch - processPackages [bumble]: Downloading https://files.pythonhosted.org/packages/5c/cc/2050aa113bf91c23119ba662d8833cb2442c86a9be578ea2ef801786e1bc/bumble-0.0.7.tar.gz
+[2023-08-09 06:35:19] INFO root fetch - processPackages [odoo-addon-sale-partner-company-group]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_partner_company_group-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-08-09 06:35:19] INFO root fetch - processPackages [odoo-addon-sale-partner-company-group]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_partner_company_group-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-08-09 06:35:19] INFO root fetch - processPackages [odoo-addon-sale-partner-company-group]: Start processing: allin1
+[2023-08-09 06:35:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-partner-company-group]: success
+[2023-08-09 06:35:19] INFO root fetch - processPackages [oceanengine]: Remove: archive file [/home/abi/fetcher/tmp/oceanengine-0.1.0.tar.gz]
+[2023-08-09 06:35:19] INFO root fetch - processPackages [oceanengine]: Remove: archive file [/home/abi/fetcher/tmp/oceanengine-0.1.1.tar.gz]
+[2023-08-09 06:35:19] INFO root fetch - processPackages [oceanengine]: Start processing: v-quantum-cloud
+[2023-08-09 06:35:19] INFO root fetch - main [MainThread]: End processing [oceanengine]: success
+[2023-08-09 06:35:19] INFO root fetch - processPackages [pywencai]: Remove: archive file [/home/abi/fetcher/tmp/pywencai-0.9.0.tar.gz]
+[2023-08-09 06:35:19] INFO root fetch - processPackages [pywencai]: Remove: archive file [/home/abi/fetcher/tmp/pywencai-0.9.1.tar.gz]
+[2023-08-09 06:35:19] INFO root fetch - processPackages [pywencai]: Start processing: nonebot-plugin-jx3
+[2023-08-09 06:35:19] INFO root fetch - main [MainThread]: End processing [pywencai]: success
+[2023-08-09 06:35:19] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-0.6.3-cp39-cp39-win_amd64.whl.zip]
+[2023-08-09 06:35:19] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-0.6.4-cp39-cp39-win_amd64.whl.zip]
+[2023-08-09 06:35:19] INFO root fetch - main [MainThread]: End processing [cntracer]: success
+[2023-08-09 06:35:19] WARNING root fetch - processPackages [v-quantum-cloud]: Skipping, unable to determine old version
+[2023-08-09 06:35:19] INFO root fetch - main [MainThread]: End processing [v-quantum-cloud] error
+[2023-08-09 06:35:19] INFO root fetch - processPackages [waddle]: Remove: archive file [/home/abi/fetcher/tmp/waddle-1.1.tar.gz]
+[2023-08-09 06:35:19] INFO root fetch - processPackages [waddle]: Remove: archive file [/home/abi/fetcher/tmp/waddle-1.2.tar.gz]
+[2023-08-09 06:35:19] INFO root fetch - main [MainThread]: End processing [waddle]: success
+[2023-08-09 06:35:19] INFO root fetch - processPackages [nonebot-plugin-jx3]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-08-09 06:35:19] INFO root fetch - processPackages [allin1]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-09 06:35:19] INFO root fetch - processPackages [nonebot-plugin-jx3]: Downloading https://files.pythonhosted.org/packages/93/ee/137040232064e70aae10a278ca47f88670ba1b775baad0e842c3573837c4/nonebot_plugin_jx3-0.5.6.tar.gz
+[2023-08-09 06:35:19] INFO root fetch - processPackages [allin1]: Downloading https://files.pythonhosted.org/packages/b3/38/8f748c0d54f5c57465a90c1c87ced6328fb5ecdbf7f4fb2157cd26d407f5/allin1-0.0.1.tar.gz
+[2023-08-09 06:35:19] INFO root fetch - processPackages [bumble]: Downloading https://files.pythonhosted.org/packages/68/35/9a248bc72c337b8ddaaa686a9f635b08670845ec0d96933f6e246cb6f7c2/bumble-0.0.8.tar.gz
+[2023-08-09 06:35:19] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_partner_contact-16.0.20230711.1-py3-none-any.whl.zip]
+[2023-08-09 06:35:19] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_partner_contact-16.0.20230808.0-py3-none-any.whl.zip]
+[2023-08-09 06:35:19] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-partner-contact]: success
+[2023-08-09 06:35:19] INFO root fetch - processPackages [hdx-scraper-geonode]: Remove: archive file [/home/abi/fetcher/tmp/hdx_scraper_geonode-1.5.1.tar.gz]
+[2023-08-09 06:35:19] INFO root fetch - processPackages [hdx-scraper-geonode]: Remove: archive file [/home/abi/fetcher/tmp/hdx_scraper_geonode-1.5.2.tar.gz]
+[2023-08-09 06:35:19] INFO root fetch - main [MainThread]: End processing [hdx-scraper-geonode]: success
+[2023-08-09 06:35:19] INFO root fetch - processPackages [nonebot-plugin-jx3]: Downloading https://files.pythonhosted.org/packages/2d/da/3d31b759cd4a3b95f9eb0220cf13ae5fd62f1ff66bbade8a7025bd6fbefb/nonebot_plugin_jx3-0.5.7.tar.gz
+[2023-08-09 06:35:19] INFO root fetch - processPackages [nonebot-plugin-jx3]: executing diffoscope
+[2023-08-09 06:35:19] INFO root fetch - processPackages [nonebot-plugin-jx3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_jx3-0.5.6.tar.gz tmp/nonebot_plugin_jx3-0.5.7.tar.gz --markdown 20230809/n/nonebot-plugin-jx3/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-08-09 06:35:19] INFO root fetch - processPackages [bumble]: executing diffoscope
+[2023-08-09 06:35:19] INFO root fetch - processPackages [bumble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bumble-0.0.7.tar.gz tmp/bumble-0.0.8.tar.gz --markdown 20230809/b/bumble/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-09 06:35:19] INFO root fetch - processPackages [allin1]: Downloading https://files.pythonhosted.org/packages/fe/90/907530f28109aaa96aeb6cdbd1c0c860512b3324ebd7218fa2d770a4b6d3/allin1-0.0.2.tar.gz
+[2023-08-09 06:35:20] INFO root fetch - processPackages [allin1]: executing diffoscope
+[2023-08-09 06:35:20] INFO root fetch - processPackages [allin1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allin1-0.0.1.tar.gz tmp/allin1-0.0.2.tar.gz --markdown 20230809/a/allin1/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-09 06:35:20] INFO root fetch - processPackages [runningz]: Remove: archive file [/home/abi/fetcher/tmp/runningz-0.11.7.7-py39-none-any.whl.zip]
+[2023-08-09 06:35:20] INFO root fetch - processPackages [runningz]: Remove: archive file [/home/abi/fetcher/tmp/runningz-0.11.7.8-py39-none-any.whl.zip]
+[2023-08-09 06:35:20] INFO root fetch - main [MainThread]: End processing [runningz]: success
+[2023-08-09 06:35:20] INFO root fetch - processPackages [nonebot-plugin-jx3]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_jx3-0.5.6.tar.gz]
+[2023-08-09 06:35:20] INFO root fetch - processPackages [nonebot-plugin-jx3]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_jx3-0.5.7.tar.gz]
+[2023-08-09 06:35:20] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-jx3]: success
+[2023-08-09 06:35:21] INFO root fetch - processPackages [allin1]: Remove: archive file [/home/abi/fetcher/tmp/allin1-0.0.1.tar.gz]
+[2023-08-09 06:35:21] INFO root fetch - processPackages [allin1]: Remove: archive file [/home/abi/fetcher/tmp/allin1-0.0.2.tar.gz]
+[2023-08-09 06:35:21] INFO root fetch - main [MainThread]: End processing [allin1]: success
+[2023-08-09 06:35:21] INFO root fetch - processPackages [bumble]: Remove: archive file [/home/abi/fetcher/tmp/bumble-0.0.7.tar.gz]
+[2023-08-09 06:35:21] INFO root fetch - processPackages [bumble]: Remove: archive file [/home/abi/fetcher/tmp/bumble-0.0.8.tar.gz]
+[2023-08-09 06:35:21] INFO root fetch - main [MainThread]: End processing [bumble]: success
+[2023-08-09 06:35:39] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-3.0.2a1.tar.gz]
+[2023-08-09 06:35:39] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-3.0.2rc1.tar.gz]
+[2023-08-09 06:35:39] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
+[2023-08-09 06:35:39] INFO root fetch - main [MainThread]: Store serial: [19232759]
