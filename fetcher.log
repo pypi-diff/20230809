@@ -12316,3 +12316,87 @@
 [2023-08-09 07:17:36] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.15.0.dev20230808-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
 [2023-08-09 07:17:36] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2023-08-09 07:17:36] INFO root fetch - main [MainThread]: Store serial: [19233041]
+[2023-08-09 07:22:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19233041]
+[2023-08-09 07:22:46] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-09 07:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docsbot
+[2023-08-09 07:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: litellm
+[2023-08-09 07:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: latest-chromedriver
+[2023-08-09 07:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cooptools
+[2023-08-09 07:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thunder-ase
+[2023-08-09 07:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-jx3
+[2023-08-09 07:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyimporters-json
+[2023-08-09 07:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyspark-ai
+[2023-08-09 07:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: manik-django-sql-explorer-test
+[2023-08-09 07:22:47] INFO root fetch - processPackages [litellm]: New version: [0.1.366] Old Version: [0.1.365]
+[2023-08-09 07:22:47] INFO root fetch - processPackages [thunder-ase]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-08-09 07:22:47] INFO root fetch - processPackages [nonebot-plugin-jx3]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-08-09 07:22:47] INFO root fetch - processPackages [cooptools]: New version: [1.9] Old Version: [1.8]
+[2023-08-09 07:22:47] INFO root fetch - processPackages [pyimporters-json]: New version: [0.4.9] Old Version: [0.4.6]
+[2023-08-09 07:22:47] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/5f/88/cbf0b516ba95d013d77e6e8f74629088aaae707dc0ed52cb31a51e6d556c/litellm-0.1.365.tar.gz
+[2023-08-09 07:22:47] INFO root fetch - processPackages [pyspark-ai]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-09 07:22:47] INFO root fetch - processPackages [latest-chromedriver]: New version: [2023.8.9] Old Version: [2023.8.8]
+[2023-08-09 07:22:47] INFO root fetch - processPackages [docsbot]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-09 07:22:47] INFO root fetch - processPackages [manik-django-sql-explorer-test]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-09 07:22:47] INFO root fetch - processPackages [thunder-ase]: Downloading https://files.pythonhosted.org/packages/19/b6/d89fc328318ad8aeac0b3a0b7b7e540af373370ffa62d18a7b8138737a8a/thunder-ase-0.4.2.tar.gz
+[2023-08-09 07:22:47] INFO root fetch - processPackages [nonebot-plugin-jx3]: Downloading https://files.pythonhosted.org/packages/fe/85/09ebea3faf8016c3374b222d51a168262e72cc4b345c1540a1ead0b2d828/nonebot_plugin_jx3-0.5.8.tar.gz
+[2023-08-09 07:22:47] INFO root fetch - processPackages [cooptools]: Downloading https://files.pythonhosted.org/packages/b0/1c/86bf91cfc36d8dedde445f7e10828a5d004b092d6296b83176162d182b41/cooptools-1.8.tar.gz
+[2023-08-09 07:22:47] INFO root fetch - processPackages [pyspark-ai]: Downloading https://files.pythonhosted.org/packages/17/42/6e215367cefeefbe3c17e28dd69e221f12cb80078ca155a53ea6bb7b5ab2/pyspark_ai-0.1.8.tar.gz
+[2023-08-09 07:22:47] INFO root fetch - processPackages [docsbot]: Downloading https://files.pythonhosted.org/packages/fa/ca/2054bb7b16f9b0dc5bfaeff44d1c82e7fbd7f0b6f058bcc5940af202579e/docsbot-0.1.8.tar.gz
+[2023-08-09 07:22:47] INFO root fetch - processPackages [pyimporters-json]: Downloading https://files.pythonhosted.org/packages/74/e7/84efbb7d2014f7d39c5160bd0f9961796f0cde4ade02516fd416157a43b1/pyimporters-json-0.4.6.tar.gz
+[2023-08-09 07:22:47] INFO root fetch - processPackages [manik-django-sql-explorer-test]: Downloading https://files.pythonhosted.org/packages/6f/1d/13cc5dc7d7de0631c15fa30efda128c00fe5936473b757f8ee41c62d6cbf/manik_django_sql_explorer_test-0.0.4-py3-none-any.whl
+[2023-08-09 07:22:47] INFO root fetch - processPackages [latest-chromedriver]: Downloading https://files.pythonhosted.org/packages/4b/c3/e163facdb2831ba84e489f829c18cba17255c9547ab6177408a281724acf/latest-chromedriver-2023.8.8.tar.gz
+[2023-08-09 07:22:47] INFO root fetch - processPackages [thunder-ase]: Downloading https://files.pythonhosted.org/packages/43/54/6f24de221331a5c4a2e69f83c01bab8d5189ade417417c721e5fff71dbd9/thunder-ase-0.4.3.tar.gz
+[2023-08-09 07:22:47] INFO root fetch - processPackages [cooptools]: Downloading https://files.pythonhosted.org/packages/60/18/d1c8517d3d438fc7cec8f94ea9c90a0ce44f9fb26afa4463b8f1c7f90bbb/cooptools-1.9.tar.gz
+[2023-08-09 07:22:47] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/73/ea/a8e2ca79d8584103a564c4117e038a711b56a7ea570e6c2308427634d5a3/litellm-0.1.366.tar.gz
+[2023-08-09 07:22:47] INFO root fetch - processPackages [nonebot-plugin-jx3]: Downloading https://files.pythonhosted.org/packages/f5/4d/17bd9212109d95e4ece928817d9adf688c93b018fe9040284c43d2cbee4d/nonebot_plugin_jx3-0.5.9.tar.gz
+[2023-08-09 07:22:47] INFO root fetch - processPackages [thunder-ase]: executing diffoscope
+[2023-08-09 07:22:47] INFO root fetch - processPackages [thunder-ase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thunder-ase-0.4.2.tar.gz tmp/thunder-ase-0.4.3.tar.gz --markdown 20230809/t/thunder-ase/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-08-09 07:22:48] INFO root fetch - processPackages [pyspark-ai]: Downloading https://files.pythonhosted.org/packages/fd/be/b23b9eb89f8e4e39fd53eb0a4ffbbdae2153934acf8cc457715037ab02b7/pyspark_ai-0.1.9.tar.gz
+[2023-08-09 07:22:48] INFO root fetch - processPackages [cooptools]: executing diffoscope
+[2023-08-09 07:22:48] INFO root fetch - processPackages [cooptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cooptools-1.8.tar.gz tmp/cooptools-1.9.tar.gz --markdown 20230809/c/cooptools/1.8-1.9/diff.md --exclude *.pyd
+[2023-08-09 07:22:48] INFO root fetch - processPackages [nonebot-plugin-jx3]: executing diffoscope
+[2023-08-09 07:22:48] INFO root fetch - processPackages [nonebot-plugin-jx3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_jx3-0.5.8.tar.gz tmp/nonebot_plugin_jx3-0.5.9.tar.gz --markdown 20230809/n/nonebot-plugin-jx3/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-08-09 07:22:48] INFO root fetch - processPackages [docsbot]: Downloading https://files.pythonhosted.org/packages/dd/2b/1b10466060f6621df8cd3687edab36674e88ba454b839aa4cdac9c804a51/docsbot-0.1.9.tar.gz
+[2023-08-09 07:22:48] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-08-09 07:22:48] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.365.tar.gz tmp/litellm-0.1.366.tar.gz --markdown 20230809/l/litellm/0.1.365-0.1.366/diff.md --exclude *.pyd
+[2023-08-09 07:22:48] INFO root fetch - processPackages [latest-chromedriver]: Downloading https://files.pythonhosted.org/packages/51/b2/c0d264b8dc951a30620335c28237eccb6b32d329c3813dc32bf6fc372437/latest-chromedriver-2023.8.9.tar.gz
+[2023-08-09 07:22:48] INFO root fetch - processPackages [manik-django-sql-explorer-test]: Downloading https://files.pythonhosted.org/packages/a9/21/45c1f2b0b18b038fb6664b8bd78589601d9cb9f3ee94f0f285f0a13c97fb/manik_django_sql_explorer_test-0.0.5-py3-none-any.whl
+[2023-08-09 07:22:48] INFO root fetch - processPackages [docsbot]: executing diffoscope
+[2023-08-09 07:22:48] INFO root fetch - processPackages [docsbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docsbot-0.1.8.tar.gz tmp/docsbot-0.1.9.tar.gz --markdown 20230809/d/docsbot/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-09 07:22:48] INFO root fetch - processPackages [latest-chromedriver]: executing diffoscope
+[2023-08-09 07:22:48] INFO root fetch - processPackages [latest-chromedriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latest-chromedriver-2023.8.8.tar.gz tmp/latest-chromedriver-2023.8.9.tar.gz --markdown 20230809/l/latest-chromedriver/2023.8.8-2023.8.9/diff.md --exclude *.pyd
+[2023-08-09 07:22:48] INFO root fetch - processPackages [pyspark-ai]: executing diffoscope
+[2023-08-09 07:22:48] INFO root fetch - processPackages [pyspark-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspark_ai-0.1.8.tar.gz tmp/pyspark_ai-0.1.9.tar.gz --markdown 20230809/p/pyspark-ai/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-09 07:22:48] INFO root fetch - processPackages [manik-django-sql-explorer-test]: executing diffoscope
+[2023-08-09 07:22:48] INFO root fetch - processPackages [manik-django-sql-explorer-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manik_django_sql_explorer_test-0.0.4-py3-none-any.whl.zip tmp/manik_django_sql_explorer_test-0.0.5-py3-none-any.whl.zip --markdown 20230809/m/manik-django-sql-explorer-test/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-09 07:22:48] INFO root fetch - processPackages [pyimporters-json]: Downloading https://files.pythonhosted.org/packages/d0/45/a8732186c346267bf7415ccc07a44e3fc2cb6510d8c00a445b44bf8f6f1e/pyimporters-json-0.4.9.tar.gz
+[2023-08-09 07:22:48] INFO root fetch - processPackages [pyimporters-json]: executing diffoscope
+[2023-08-09 07:22:48] INFO root fetch - processPackages [pyimporters-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-json-0.4.6.tar.gz tmp/pyimporters-json-0.4.9.tar.gz --markdown 20230809/p/pyimporters-json/0.4.6-0.4.9/diff.md --exclude *.pyd
+[2023-08-09 07:22:49] INFO root fetch - processPackages [thunder-ase]: Remove: archive file [/home/abi/fetcher/tmp/thunder-ase-0.4.2.tar.gz]
+[2023-08-09 07:22:49] INFO root fetch - processPackages [thunder-ase]: Remove: archive file [/home/abi/fetcher/tmp/thunder-ase-0.4.3.tar.gz]
+[2023-08-09 07:22:49] INFO root fetch - main [MainThread]: End processing [thunder-ase]: success
+[2023-08-09 07:22:49] INFO root fetch - processPackages [nonebot-plugin-jx3]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_jx3-0.5.8.tar.gz]
+[2023-08-09 07:22:49] INFO root fetch - processPackages [nonebot-plugin-jx3]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_jx3-0.5.9.tar.gz]
+[2023-08-09 07:22:49] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-jx3]: success
+[2023-08-09 07:22:49] INFO root fetch - processPackages [latest-chromedriver]: Remove: archive file [/home/abi/fetcher/tmp/latest-chromedriver-2023.8.8.tar.gz]
+[2023-08-09 07:22:49] INFO root fetch - processPackages [latest-chromedriver]: Remove: archive file [/home/abi/fetcher/tmp/latest-chromedriver-2023.8.9.tar.gz]
+[2023-08-09 07:22:49] INFO root fetch - main [MainThread]: End processing [latest-chromedriver]: success
+[2023-08-09 07:22:49] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.365.tar.gz]
+[2023-08-09 07:22:49] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.366.tar.gz]
+[2023-08-09 07:22:49] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-08-09 07:22:49] INFO root fetch - processPackages [cooptools]: Remove: archive file [/home/abi/fetcher/tmp/cooptools-1.8.tar.gz]
+[2023-08-09 07:22:49] INFO root fetch - processPackages [cooptools]: Remove: archive file [/home/abi/fetcher/tmp/cooptools-1.9.tar.gz]
+[2023-08-09 07:22:49] INFO root fetch - main [MainThread]: End processing [cooptools]: success
+[2023-08-09 07:22:49] INFO root fetch - processPackages [pyspark-ai]: Remove: archive file [/home/abi/fetcher/tmp/pyspark_ai-0.1.8.tar.gz]
+[2023-08-09 07:22:49] INFO root fetch - processPackages [pyspark-ai]: Remove: archive file [/home/abi/fetcher/tmp/pyspark_ai-0.1.9.tar.gz]
+[2023-08-09 07:22:49] INFO root fetch - main [MainThread]: End processing [pyspark-ai]: success
+[2023-08-09 07:22:49] INFO root fetch - processPackages [docsbot]: Remove: archive file [/home/abi/fetcher/tmp/docsbot-0.1.8.tar.gz]
+[2023-08-09 07:22:49] INFO root fetch - processPackages [docsbot]: Remove: archive file [/home/abi/fetcher/tmp/docsbot-0.1.9.tar.gz]
+[2023-08-09 07:22:49] INFO root fetch - main [MainThread]: End processing [docsbot]: success
+[2023-08-09 07:22:49] INFO root fetch - processPackages [pyimporters-json]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-json-0.4.6.tar.gz]
+[2023-08-09 07:22:49] INFO root fetch - processPackages [pyimporters-json]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-json-0.4.9.tar.gz]
+[2023-08-09 07:22:49] INFO root fetch - main [MainThread]: End processing [pyimporters-json]: success
+[2023-08-09 07:22:49] INFO root fetch - processPackages [manik-django-sql-explorer-test]: Remove: archive file [/home/abi/fetcher/tmp/manik_django_sql_explorer_test-0.0.4-py3-none-any.whl.zip]
+[2023-08-09 07:22:49] INFO root fetch - processPackages [manik-django-sql-explorer-test]: Remove: archive file [/home/abi/fetcher/tmp/manik_django_sql_explorer_test-0.0.5-py3-none-any.whl.zip]
+[2023-08-09 07:22:49] INFO root fetch - main [MainThread]: End processing [manik-django-sql-explorer-test]: success
+[2023-08-09 07:22:49] INFO root fetch - main [MainThread]: Store serial: [19233067]
