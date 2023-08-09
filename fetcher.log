@@ -11200,3 +11200,54 @@
 [2023-08-09 06:04:04] INFO root fetch - processPackages [pytlgateway]: Remove: archive file [/home/abi/fetcher/tmp/pytlgateway-0.2.9.tar.gz]
 [2023-08-09 06:04:04] INFO root fetch - main [MainThread]: End processing [pytlgateway]: success
 [2023-08-09 06:04:04] INFO root fetch - main [MainThread]: Store serial: [19232505]
+[2023-08-09 06:09:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19232505]
+[2023-08-09 06:09:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-09 06:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-cookie-cutter-polls
+[2023-08-09 06:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansible-risk-insight
+[2023-08-09 06:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unic
+[2023-08-09 06:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chromedriver-binary
+[2023-08-09 06:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cicada-core
+[2023-08-09 06:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dubo
+[2023-08-09 06:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cicada-runner
+[2023-08-09 06:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: picalib
+[2023-08-09 06:09:13] INFO root fetch - processPackages [ansible-risk-insight]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-09 06:09:13] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2023-08-09 06:09:13] WARNING root fetch - processPackages [cicada-core]: Skipping, unable to determine old version
+[2023-08-09 06:09:13] INFO root fetch - main [MainThread]: End processing [cicada-core] error
+[2023-08-09 06:09:13] WARNING root fetch - processPackages [django-cookie-cutter-polls]: Skipping, unable to determine old version
+[2023-08-09 06:09:13] INFO root fetch - main [MainThread]: End processing [django-cookie-cutter-polls] error
+[2023-08-09 06:09:13] WARNING root fetch - processPackages [picalib]: Skipping, unable to determine old version
+[2023-08-09 06:09:13] WARNING root fetch - processPackages [cicada-runner]: Skipping, unable to determine old version
+[2023-08-09 06:09:13] INFO root fetch - main [MainThread]: End processing [picalib] error
+[2023-08-09 06:09:13] INFO root fetch - main [MainThread]: End processing [cicada-runner] error
+[2023-08-09 06:09:13] INFO root fetch - processPackages [unic]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-08-09 06:09:13] INFO root fetch - processPackages [dubo]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-08-09 06:09:13] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2023-08-09 06:09:13] INFO root fetch - processPackages [ansible-risk-insight]: Downloading https://files.pythonhosted.org/packages/3b/02/db1065ca979e47828fe7bfa0ff1d668dfd1556aa950c1bb01ada930728ef/ansible-risk-insight-0.1.8.tar.gz
+[2023-08-09 06:09:13] INFO root fetch - processPackages [dubo]: Downloading https://files.pythonhosted.org/packages/cd/b4/5165c4ed7793039ec54535126a48fefabd98c018ce017467c36ce03b4813/dubo-0.2.6.tar.gz
+[2023-08-09 06:09:13] INFO root fetch - processPackages [unic]: Downloading https://files.pythonhosted.org/packages/f9/64/aded09f7853304f402dd6ae03d4991c34affa4ea6eed40b7064c7eca6852/unic-0.1.1.tar.gz
+[2023-08-09 06:09:13] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2023-08-09 06:09:14] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2023-08-09 06:09:14] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20230809/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/diff.md --exclude *.pyd
+[2023-08-09 06:09:14] INFO root fetch - processPackages [dubo]: Downloading https://files.pythonhosted.org/packages/59/f2/50f9085be8673f327e06d4ad79bee6bd4827c6140cbf0bde1df9e74e0342/dubo-0.2.7.tar.gz
+[2023-08-09 06:09:14] INFO root fetch - processPackages [unic]: Downloading https://files.pythonhosted.org/packages/fb/68/0451a57c94d23cbd44b9c6a705028acb5f0ee6bb3d91528d4b1ab167c899/unic-0.2.0.tar.gz
+[2023-08-09 06:09:14] INFO root fetch - processPackages [unic]: executing diffoscope
+[2023-08-09 06:09:14] INFO root fetch - processPackages [unic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unic-0.1.1.tar.gz tmp/unic-0.2.0.tar.gz --markdown 20230809/u/unic/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-08-09 06:09:14] INFO root fetch - processPackages [dubo]: executing diffoscope
+[2023-08-09 06:09:14] INFO root fetch - processPackages [dubo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dubo-0.2.6.tar.gz tmp/dubo-0.2.7.tar.gz --markdown 20230809/d/dubo/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-08-09 06:09:14] INFO root fetch - processPackages [ansible-risk-insight]: Downloading https://files.pythonhosted.org/packages/28/48/3827f2e1d0b52e0c0900a748335902cadbe5ff699f670283a22e680a1ddb/ansible-risk-insight-0.1.9.tar.gz
+[2023-08-09 06:09:14] INFO root fetch - processPackages [ansible-risk-insight]: executing diffoscope
+[2023-08-09 06:09:14] INFO root fetch - processPackages [ansible-risk-insight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-risk-insight-0.1.8.tar.gz tmp/ansible-risk-insight-0.1.9.tar.gz --markdown 20230809/a/ansible-risk-insight/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-09 06:09:14] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2023-08-09 06:09:14] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2023-08-09 06:09:14] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2023-08-09 06:09:15] INFO root fetch - processPackages [unic]: Remove: archive file [/home/abi/fetcher/tmp/unic-0.1.1.tar.gz]
+[2023-08-09 06:09:15] INFO root fetch - processPackages [unic]: Remove: archive file [/home/abi/fetcher/tmp/unic-0.2.0.tar.gz]
+[2023-08-09 06:09:15] INFO root fetch - main [MainThread]: End processing [unic]: success
+[2023-08-09 06:09:15] INFO root fetch - processPackages [dubo]: Remove: archive file [/home/abi/fetcher/tmp/dubo-0.2.6.tar.gz]
+[2023-08-09 06:09:15] INFO root fetch - processPackages [dubo]: Remove: archive file [/home/abi/fetcher/tmp/dubo-0.2.7.tar.gz]
+[2023-08-09 06:09:15] INFO root fetch - main [MainThread]: End processing [dubo]: success
+[2023-08-09 06:09:16] INFO root fetch - processPackages [ansible-risk-insight]: Remove: archive file [/home/abi/fetcher/tmp/ansible-risk-insight-0.1.8.tar.gz]
+[2023-08-09 06:09:16] INFO root fetch - processPackages [ansible-risk-insight]: Remove: archive file [/home/abi/fetcher/tmp/ansible-risk-insight-0.1.9.tar.gz]
+[2023-08-09 06:09:16] INFO root fetch - main [MainThread]: End processing [ansible-risk-insight]: success
+[2023-08-09 06:09:16] INFO root fetch - main [MainThread]: Store serial: [19232541]
