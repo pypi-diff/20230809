@@ -9210,3 +9210,54 @@
 [2023-08-09 03:43:05] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.2.4a1.tar.gz]
 [2023-08-09 03:43:05] INFO root fetch - main [MainThread]: End processing [reflex]: success
 [2023-08-09 03:43:05] INFO root fetch - main [MainThread]: Store serial: [19231530]
+[2023-08-09 03:48:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19231530]
+[2023-08-09 03:48:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-09 03:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdm-backend
+[2023-08-09 03:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flax
+[2023-08-09 03:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cap6635
+[2023-08-09 03:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quao
+[2023-08-09 03:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyQt6-Frameless-Window
+[2023-08-09 03:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PySideSix-Frameless-Window
+[2023-08-09 03:48:19] INFO root fetch - processPackages [quao]: New version: [0.4.0.9] Old Version: [0.4.0.8]
+[2023-08-09 03:48:19] INFO root fetch - processPackages [PySideSix-Frameless-Window]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-09 03:48:19] INFO root fetch - processPackages [PyQt6-Frameless-Window]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-09 03:48:19] INFO root fetch - processPackages [flax]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-08-09 03:48:19] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/06/bf/f9aa0065003c9f548af0c94b1a2ff8fe5faa735debed7c20a624922b87af/quao-0.4.0.8-py3-none-any.whl
+[2023-08-09 03:48:19] INFO root fetch - processPackages [pdm-backend]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-08-09 03:48:19] WARNING root fetch - processPackages [cap6635]: Skipping, unable to determine old version
+[2023-08-09 03:48:19] INFO root fetch - main [MainThread]: End processing [cap6635] error
+[2023-08-09 03:48:19] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/15/ce/fdedb65f96e76c805b9c649dfcde71a2c2fdca40b7ac8e1ae8ba09ab928f/quao-0.4.0.9-py3-none-any.whl
+[2023-08-09 03:48:19] INFO root fetch - processPackages [PySideSix-Frameless-Window]: Downloading https://files.pythonhosted.org/packages/00/21/e004f4ac71ae2e5d8fe78e68391998e10f747e1b0b36979a17658604d56d/PySideSix-Frameless-Window-0.3.0.tar.gz
+[2023-08-09 03:48:19] INFO root fetch - processPackages [flax]: Downloading https://files.pythonhosted.org/packages/20/53/42a39b67d98390798bdc5e8f17015b315a9c00129bce3a8de6b629b10c5d/flax-0.7.1.tar.gz
+[2023-08-09 03:48:19] INFO root fetch - processPackages [pdm-backend]: Downloading https://files.pythonhosted.org/packages/f9/bd/393be60c563dd0b25e341f6abef396309f6c12d2bfee4014e521f96b1286/pdm_backend-2.1.4.tar.gz
+[2023-08-09 03:48:19] INFO root fetch - processPackages [PyQt6-Frameless-Window]: Downloading https://files.pythonhosted.org/packages/68/78/2be260ea93c5e40148ca6558bf611f6315a9ac3fe86c16404c36f6f1472b/PyQt6-Frameless-Window-0.3.0.tar.gz
+[2023-08-09 03:48:19] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-08-09 03:48:19] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.4.0.8-py3-none-any.whl.zip tmp/quao-0.4.0.9-py3-none-any.whl.zip --markdown 20230809/q/quao/0.4.0.8-0.4.0.9/diff.md --exclude *.pyd
+[2023-08-09 03:48:19] INFO root fetch - processPackages [PySideSix-Frameless-Window]: Downloading https://files.pythonhosted.org/packages/88/f1/c3abb0e4ae1972cf4142702de8078884b089aca4f833473efa23733a8343/PySideSix-Frameless-Window-0.3.1.tar.gz
+[2023-08-09 03:48:19] INFO root fetch - processPackages [PyQt6-Frameless-Window]: Downloading https://files.pythonhosted.org/packages/38/4b/0e209c0b3e2e5c11992ef152c4de4124314b6496b3513faa7f2da1472c72/PyQt6-Frameless-Window-0.3.1.tar.gz
+[2023-08-09 03:48:19] INFO root fetch - processPackages [pdm-backend]: Downloading https://files.pythonhosted.org/packages/12/0d/cfe7ce34e411d44bd4e1863c8332365e8bfddedc84a0c51f18ab76ae4aec/pdm_backend-2.1.5.tar.gz
+[2023-08-09 03:48:19] INFO root fetch - processPackages [PySideSix-Frameless-Window]: executing diffoscope
+[2023-08-09 03:48:19] INFO root fetch - processPackages [PySideSix-Frameless-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySideSix-Frameless-Window-0.3.0.tar.gz tmp/PySideSix-Frameless-Window-0.3.1.tar.gz --markdown 20230809/P/PySideSix-Frameless-Window/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-09 03:48:19] INFO root fetch - processPackages [flax]: Downloading https://files.pythonhosted.org/packages/38/27/53b211446e79795c10564638fe4264b3e4603ebcafde85f233e12b67bcc3/flax-0.7.2.tar.gz
+[2023-08-09 03:48:19] INFO root fetch - processPackages [PyQt6-Frameless-Window]: executing diffoscope
+[2023-08-09 03:48:19] INFO root fetch - processPackages [PyQt6-Frameless-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6-Frameless-Window-0.3.0.tar.gz tmp/PyQt6-Frameless-Window-0.3.1.tar.gz --markdown 20230809/P/PyQt6-Frameless-Window/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-09 03:48:20] INFO root fetch - processPackages [pdm-backend]: executing diffoscope
+[2023-08-09 03:48:20] INFO root fetch - processPackages [pdm-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_backend-2.1.4.tar.gz tmp/pdm_backend-2.1.5.tar.gz --markdown 20230809/p/pdm-backend/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-08-09 03:48:20] INFO root fetch - processPackages [flax]: executing diffoscope
+[2023-08-09 03:48:20] INFO root fetch - processPackages [flax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flax-0.7.1.tar.gz tmp/flax-0.7.2.tar.gz --markdown 20230809/f/flax/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-08-09 03:48:20] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.4.0.8-py3-none-any.whl.zip]
+[2023-08-09 03:48:20] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.4.0.9-py3-none-any.whl.zip]
+[2023-08-09 03:48:20] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-08-09 03:48:20] INFO root fetch - processPackages [PySideSix-Frameless-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySideSix-Frameless-Window-0.3.0.tar.gz]
+[2023-08-09 03:48:20] INFO root fetch - processPackages [PySideSix-Frameless-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySideSix-Frameless-Window-0.3.1.tar.gz]
+[2023-08-09 03:48:20] INFO root fetch - main [MainThread]: End processing [PySideSix-Frameless-Window]: success
+[2023-08-09 03:48:21] INFO root fetch - processPackages [PyQt6-Frameless-Window]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Frameless-Window-0.3.0.tar.gz]
+[2023-08-09 03:48:21] INFO root fetch - processPackages [PyQt6-Frameless-Window]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Frameless-Window-0.3.1.tar.gz]
+[2023-08-09 03:48:21] INFO root fetch - main [MainThread]: End processing [PyQt6-Frameless-Window]: success
+[2023-08-09 03:48:21] INFO root fetch - processPackages [pdm-backend]: Remove: archive file [/home/abi/fetcher/tmp/pdm_backend-2.1.4.tar.gz]
+[2023-08-09 03:48:21] INFO root fetch - processPackages [pdm-backend]: Remove: archive file [/home/abi/fetcher/tmp/pdm_backend-2.1.5.tar.gz]
+[2023-08-09 03:48:21] INFO root fetch - main [MainThread]: End processing [pdm-backend]: success
+[2023-08-09 03:48:22] INFO root fetch - processPackages [flax]: Remove: archive file [/home/abi/fetcher/tmp/flax-0.7.1.tar.gz]
+[2023-08-09 03:48:22] INFO root fetch - processPackages [flax]: Remove: archive file [/home/abi/fetcher/tmp/flax-0.7.2.tar.gz]
+[2023-08-09 03:48:22] INFO root fetch - main [MainThread]: End processing [flax]: success
+[2023-08-09 03:48:22] INFO root fetch - main [MainThread]: Store serial: [19231550]
