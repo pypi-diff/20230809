@@ -8850,3 +8850,87 @@
 [2023-08-09 03:26:52] INFO root fetch - processPackages [botocore-a-la-carte]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-1.31.9.tar.gz]
 [2023-08-09 03:26:52] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte]: success
 [2023-08-09 03:26:52] INFO root fetch - main [MainThread]: Store serial: [19231049]
+[2023-08-09 03:31:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19231049]
+[2023-08-09 03:32:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-09 03:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cntracer
+[2023-08-09 03:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-wordpress
+[2023-08-09 03:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: danbi
+[2023-08-09 03:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nubium-utils
+[2023-08-09 03:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: types-aiobotocore-accessanalyzer
+[2023-08-09 03:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: types-aiobotocore-acm
+[2023-08-09 03:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: types-aiobotocore-guardduty
+[2023-08-09 03:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: types-aiobotocore
+[2023-08-09 03:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mpzinke
+[2023-08-09 03:32:03] INFO root fetch - processPackages [mpzinke]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-09 03:32:03] INFO root fetch - processPackages [mpzinke]: Downloading https://files.pythonhosted.org/packages/75/e3/dafa40c399bc1c49c83632c4832c09b84625aaf98d3546741d90092a4cd9/mpzinke-0.1.2.tar.gz
+[2023-08-09 03:32:03] INFO root fetch - processPackages [types-aiobotocore-guardduty]: New version: [2.5.4] Old Version: [2.5.2.post3]
+[2023-08-09 03:32:03] INFO root fetch - processPackages [types-aiobotocore-accessanalyzer]: New version: [2.5.4] Old Version: [2.5.2.post3]
+[2023-08-09 03:32:03] INFO root fetch - processPackages [cntracer]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-08-09 03:32:03] INFO root fetch - processPackages [types-aiobotocore-acm]: New version: [2.5.4] Old Version: [2.5.2.post3]
+[2023-08-09 03:32:03] INFO root fetch - processPackages [danbi]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-08-09 03:32:03] INFO root fetch - processPackages [types-aiobotocore]: New version: [2.5.4] Old Version: [2.5.2.post1]
+[2023-08-09 03:32:03] INFO root fetch - processPackages [nubium-utils]: New version: [4.2.0] Old Version: [4.1.0.post1]
+[2023-08-09 03:32:03] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-09 03:32:03] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/c2/72/22ba0c3509479f69f5ffc3941df78acc0abfcc40698187c42ce4a3ddcc73/danbi-0.2.98.tar.gz
+[2023-08-09 03:32:03] INFO root fetch - processPackages [types-aiobotocore-guardduty]: Downloading https://files.pythonhosted.org/packages/b8/21/7d1b89c2ef6ef65cf6e3ceebae77df8c50cd48d028b294470d6327d4710d/types-aiobotocore-guardduty-2.5.2.post3.tar.gz
+[2023-08-09 03:32:03] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/e3/11/cf9ec94500e42f8734ae69ba8783ef97d9994740f8f9a8b4ae675c86e205/cntracer-0.6.1-cp39-cp39-win_amd64.whl
+[2023-08-09 03:32:03] INFO root fetch - processPackages [types-aiobotocore-acm]: Downloading https://files.pythonhosted.org/packages/fc/42/87657e9dbaab779ccc5e5e86b18403fdbdafa912d77bae8bbacd4f969c7b/types-aiobotocore-acm-2.5.2.post3.tar.gz
+[2023-08-09 03:32:03] INFO root fetch - processPackages [types-aiobotocore-accessanalyzer]: Downloading https://files.pythonhosted.org/packages/81/27/b381659473aa56a781fb064b3be829db6b6f95060144d9797c6a46a61e2b/types-aiobotocore-accessanalyzer-2.5.2.post3.tar.gz
+[2023-08-09 03:32:03] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-08-09 03:32:03] INFO root fetch - processPackages [nubium-utils]: Downloading https://files.pythonhosted.org/packages/fb/02/fb03671be1f92b8c92e1486e46526e20fe3115ca48c355079843c3824abb/nubium-utils-4.1.0.post1.tar.gz
+[2023-08-09 03:32:03] INFO root fetch - processPackages [mpzinke]: Downloading https://files.pythonhosted.org/packages/10/ac/758e068509eef9a863d85f9a3692a653833dabbaa87047fd6c6eec7d1940/mpzinke-0.1.3.tar.gz
+[2023-08-09 03:32:03] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/08/67/6ca29911c73cded25c25e0725cecb295a7ffb7284383910591bbccccb9bf/danbi-0.2.99.tar.gz
+[2023-08-09 03:32:03] INFO root fetch - processPackages [types-aiobotocore-guardduty]: Downloading https://files.pythonhosted.org/packages/df/b6/884e4619a629fa2a164de4833dad3f8cfd3ea534d9ec6c4efcef4f0f65ea/types-aiobotocore-guardduty-2.5.4.tar.gz
+[2023-08-09 03:32:03] INFO root fetch - processPackages [types-aiobotocore]: Downloading https://files.pythonhosted.org/packages/4d/aa/dcdbf8e1b95f049e7909288f18571ee1ff7c0ef3e0aaaecec4af45dd1f4f/types-aiobotocore-2.5.2.post1.tar.gz
+[2023-08-09 03:32:03] INFO root fetch - processPackages [mpzinke]: executing diffoscope
+[2023-08-09 03:32:03] INFO root fetch - processPackages [mpzinke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpzinke-0.1.2.tar.gz tmp/mpzinke-0.1.3.tar.gz --markdown 20230809/m/mpzinke/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-09 03:32:03] INFO root fetch - processPackages [danbi]: executing diffoscope
+[2023-08-09 03:32:03] INFO root fetch - processPackages [danbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbi-0.2.98.tar.gz tmp/danbi-0.2.99.tar.gz --markdown 20230809/d/danbi/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-08-09 03:32:03] INFO root fetch - processPackages [types-aiobotocore-acm]: Downloading https://files.pythonhosted.org/packages/16/e1/5a1d904950a2c888ef51850d10d59a3a9385259e29d9cc2fd7e05724f3b9/types-aiobotocore-acm-2.5.4.tar.gz
+[2023-08-09 03:32:03] INFO root fetch - processPackages [types-aiobotocore-accessanalyzer]: Downloading https://files.pythonhosted.org/packages/50/78/85bdb483a0904a29d92a0d34e63227641050ec7e9652f517dcff3e496ed4/types-aiobotocore-accessanalyzer-2.5.4.tar.gz
+[2023-08-09 03:32:03] INFO root fetch - processPackages [types-aiobotocore-guardduty]: executing diffoscope
+[2023-08-09 03:32:03] INFO root fetch - processPackages [types-aiobotocore-guardduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-guardduty-2.5.2.post3.tar.gz tmp/types-aiobotocore-guardduty-2.5.4.tar.gz --markdown 20230809/t/types-aiobotocore-guardduty/2.5.2.post3-2.5.4/diff.md --exclude *.pyd
+[2023-08-09 03:32:03] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/96/93/4706611918324bd83e9630458abca7923414d4de4de06c62f0368da7711d/cntracer-0.6.2-cp39-cp39-musllinux_1_1_x86_64.whl
+[2023-08-09 03:32:03] INFO root fetch - processPackages [types-aiobotocore-acm]: executing diffoscope
+[2023-08-09 03:32:03] INFO root fetch - processPackages [types-aiobotocore-acm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-acm-2.5.2.post3.tar.gz tmp/types-aiobotocore-acm-2.5.4.tar.gz --markdown 20230809/t/types-aiobotocore-acm/2.5.2.post3-2.5.4/diff.md --exclude *.pyd
+[2023-08-09 03:32:04] INFO root fetch - processPackages [nubium-utils]: Downloading https://files.pythonhosted.org/packages/24/90/9c0cef4d47caf1d9bdc3e53c16edd2322592941cc79baacf73948110c0e9/nubium-utils-4.2.0.tar.gz
+[2023-08-09 03:32:04] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-08-09 03:32:04] INFO root fetch - processPackages [types-aiobotocore-accessanalyzer]: executing diffoscope
+[2023-08-09 03:32:04] INFO root fetch - processPackages [types-aiobotocore-accessanalyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-accessanalyzer-2.5.2.post3.tar.gz tmp/types-aiobotocore-accessanalyzer-2.5.4.tar.gz --markdown 20230809/t/types-aiobotocore-accessanalyzer/2.5.2.post3-2.5.4/diff.md --exclude *.pyd
+[2023-08-09 03:32:04] INFO root fetch - processPackages [nubium-utils]: executing diffoscope
+[2023-08-09 03:32:04] INFO root fetch - processPackages [nubium-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nubium-utils-4.1.0.post1.tar.gz tmp/nubium-utils-4.2.0.tar.gz --markdown 20230809/n/nubium-utils/4.1.0.post1-4.2.0/diff.md --exclude *.pyd
+[2023-08-09 03:32:04] INFO root fetch - processPackages [types-aiobotocore]: Downloading https://files.pythonhosted.org/packages/aa/bb/9759fb387593dc4b9a27d778b56572c5c76274723d68a5c2cc53a12086c8/types-aiobotocore-2.5.4.tar.gz
+[2023-08-09 03:32:04] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-08-09 03:32:04] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230809/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-09 03:32:04] INFO root fetch - processPackages [types-aiobotocore]: executing diffoscope
+[2023-08-09 03:32:04] INFO root fetch - processPackages [types-aiobotocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-2.5.2.post1.tar.gz tmp/types-aiobotocore-2.5.4.tar.gz --markdown 20230809/t/types-aiobotocore/2.5.2.post1-2.5.4/diff.md --exclude *.pyd
+[2023-08-09 03:32:04] INFO root fetch - processPackages [cntracer]: executing diffoscope
+[2023-08-09 03:32:04] INFO root fetch - processPackages [cntracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cntracer-0.6.1-cp39-cp39-win_amd64.whl.zip tmp/cntracer-0.6.2-cp39-cp39-musllinux_1_1_x86_64.whl.zip --markdown 20230809/c/cntracer/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-08-09 03:32:05] INFO root fetch - processPackages [mpzinke]: Remove: archive file [/home/abi/fetcher/tmp/mpzinke-0.1.2.tar.gz]
+[2023-08-09 03:32:05] INFO root fetch - processPackages [mpzinke]: Remove: archive file [/home/abi/fetcher/tmp/mpzinke-0.1.3.tar.gz]
+[2023-08-09 03:32:05] INFO root fetch - main [MainThread]: End processing [mpzinke]: success
+[2023-08-09 03:32:05] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.98.tar.gz]
+[2023-08-09 03:32:05] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.99.tar.gz]
+[2023-08-09 03:32:05] INFO root fetch - main [MainThread]: End processing [danbi]: success
+[2023-08-09 03:32:05] INFO root fetch - processPackages [types-aiobotocore-acm]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-acm-2.5.2.post3.tar.gz]
+[2023-08-09 03:32:05] INFO root fetch - processPackages [types-aiobotocore-acm]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-acm-2.5.4.tar.gz]
+[2023-08-09 03:32:05] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-acm]: success
+[2023-08-09 03:32:05] INFO root fetch - processPackages [types-aiobotocore-accessanalyzer]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-accessanalyzer-2.5.2.post3.tar.gz]
+[2023-08-09 03:32:05] INFO root fetch - processPackages [types-aiobotocore-accessanalyzer]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-accessanalyzer-2.5.4.tar.gz]
+[2023-08-09 03:32:05] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-accessanalyzer]: success
+[2023-08-09 03:32:05] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-08-09 03:32:05] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-08-09 03:32:05] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-08-09 03:32:05] INFO root fetch - processPackages [types-aiobotocore-guardduty]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-guardduty-2.5.2.post3.tar.gz]
+[2023-08-09 03:32:05] INFO root fetch - processPackages [types-aiobotocore-guardduty]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-guardduty-2.5.4.tar.gz]
+[2023-08-09 03:32:05] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-guardduty]: success
+[2023-08-09 03:32:05] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-0.6.1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-09 03:32:05] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-0.6.2-cp39-cp39-musllinux_1_1_x86_64.whl.zip]
+[2023-08-09 03:32:05] INFO root fetch - main [MainThread]: End processing [cntracer]: success
+[2023-08-09 03:32:05] INFO root fetch - processPackages [nubium-utils]: Remove: archive file [/home/abi/fetcher/tmp/nubium-utils-4.1.0.post1.tar.gz]
+[2023-08-09 03:32:05] INFO root fetch - processPackages [nubium-utils]: Remove: archive file [/home/abi/fetcher/tmp/nubium-utils-4.2.0.tar.gz]
+[2023-08-09 03:32:05] INFO root fetch - main [MainThread]: End processing [nubium-utils]: success
+[2023-08-09 03:32:05] INFO root fetch - processPackages [types-aiobotocore]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-2.5.2.post1.tar.gz]
+[2023-08-09 03:32:05] INFO root fetch - processPackages [types-aiobotocore]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-2.5.4.tar.gz]
+[2023-08-09 03:32:05] INFO root fetch - main [MainThread]: End processing [types-aiobotocore]: success
+[2023-08-09 03:32:05] INFO root fetch - main [MainThread]: Store serial: [19231427]
