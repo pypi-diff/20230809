@@ -10032,3 +10032,111 @@
 [2023-08-09 04:45:48] INFO root fetch - processPackages [clp-logging]: Remove: archive file [/home/abi/fetcher/tmp/clp_logging-0.0.9.tar.gz]
 [2023-08-09 04:45:48] INFO root fetch - main [MainThread]: End processing [clp-logging]: success
 [2023-08-09 04:45:48] INFO root fetch - main [MainThread]: Store serial: [19231953]
+[2023-08-09 04:50:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19231953]
+[2023-08-09 04:51:01] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-09 04:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lastfm-mpris2-scrobbler
+[2023-08-09 04:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CheeseAPI
+[2023-08-09 04:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: michaelPanThematicLib
+[2023-08-09 04:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyenphase
+[2023-08-09 04:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: the-collector
+[2023-08-09 04:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shaku-database
+[2023-08-09 04:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jaraco.crypto
+[2023-08-09 04:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alanapy
+[2023-08-09 04:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: file-operation
+[2023-08-09 04:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo10-addon-account-payment-order
+[2023-08-09 04:51:01] WARNING root fetch - processPackages [file-operation]: Skipping, unable to determine old version
+[2023-08-09 04:51:01] INFO root fetch - processPackages [file-operation]: Start processing: odoo11-addon-account-payment-order
+[2023-08-09 04:51:01] INFO root fetch - main [MainThread]: End processing [file-operation] error
+[2023-08-09 04:51:01] INFO root fetch - processPackages [pyenphase]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-08-09 04:51:01] INFO root fetch - processPackages [jaraco.crypto]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-08-09 04:51:01] INFO root fetch - processPackages [shaku-database]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-09 04:51:01] INFO root fetch - processPackages [lastfm-mpris2-scrobbler]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-09 04:51:01] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/ab/3c/cb3e0fc5b144858c61a1674ec5e0f2558b729af001a61b97fcf7438baf57/pyenphase-1.2.1.tar.gz
+[2023-08-09 04:51:01] WARNING root fetch - processPackages [michaelPanThematicLib]: Skipping, unable to determine old version
+[2023-08-09 04:51:01] INFO root fetch - processPackages [michaelPanThematicLib]: Start processing: odoo12-addon-account-payment-partner
+[2023-08-09 04:51:01] INFO root fetch - main [MainThread]: End processing [michaelPanThematicLib] error
+[2023-08-09 04:51:01] INFO root fetch - processPackages [alanapy]: New version: [0.9] Old Version: [0.17]
+[2023-08-09 04:51:01] INFO root fetch - processPackages [CheeseAPI]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-09 04:51:01] INFO root fetch - processPackages [odoo10-addon-account-payment-order]: New version: [10.0.1.7.0.99.dev9] Old Version: [10.0.1.7.0.99.dev8]
+[2023-08-09 04:51:01] INFO root fetch - processPackages [odoo11-addon-account-payment-order]: New version: [11.0.1.4.0.99.dev8] Old Version: [11.0.1.4.0.99.dev7]
+[2023-08-09 04:51:01] INFO root fetch - processPackages [the-collector]: New version: [2023.8.7] Old Version: [0.9.0]
+[2023-08-09 04:51:02] INFO root fetch - processPackages [lastfm-mpris2-scrobbler]: Downloading https://files.pythonhosted.org/packages/f7/5e/ed56527a4d148e9c9ce1a6806fd1236826cc0a41583a9a366cf74714b16b/lastfm-mpris2-scrobbler-1.0.0.tar.gz
+[2023-08-09 04:51:02] INFO root fetch - processPackages [odoo12-addon-account-payment-partner]: New version: [12.0.1.0.3.99.dev7] Old Version: [12.0.1.0.3.99.dev6]
+[2023-08-09 04:51:02] INFO root fetch - processPackages [jaraco.crypto]: Downloading https://files.pythonhosted.org/packages/62/de/99a55483c9cd115b039fdac1de697a5c1a6a6f8b1798aa9ec281cd737d8f/jaraco.crypto-3.1.0.tar.gz
+[2023-08-09 04:51:02] INFO root fetch - processPackages [shaku-database]: Downloading https://files.pythonhosted.org/packages/be/70/3a3c8e65da2ba537e567c35da2fd91cb094d3099fc1550a24e575ddf3391/shaku-database-1.1.8.tar.gz
+[2023-08-09 04:51:02] INFO root fetch - processPackages [alanapy]: Downloading https://files.pythonhosted.org/packages/3f/f8/1aeeb312bc5357a6857576c228811df09b5d14923bd049213bb58bdb8e41/alanapy-0.17.tar.gz
+[2023-08-09 04:51:02] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/19/74/e04db1e11cf59b28f65c5d97d74fbbce62de740b07a21e2f3e7c15e40981/pyenphase-1.2.2.tar.gz
+[2023-08-09 04:51:02] INFO root fetch - processPackages [odoo10-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/1b/d7/3147e0176554574d82d1cd5c3bec416d9ec5cea72e538cfa033a8d87ff96/odoo10_addon_account_payment_order-10.0.1.7.0.99.dev8-py2-none-any.whl
+[2023-08-09 04:51:02] INFO root fetch - processPackages [CheeseAPI]: Downloading https://files.pythonhosted.org/packages/88/14/49850b6d20e9dd231e861f7b51921e4df505cbb92cbfc4699ace5d0716e2/CheeseAPI-0.0.7.tar.gz
+[2023-08-09 04:51:02] INFO root fetch - processPackages [odoo11-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/02/b4/d587f410c8acb7b8c6634e3ddebd6106f106b1dd3f825b8fffc5251586a2/odoo11_addon_account_payment_order-11.0.1.4.0.99.dev7-py2.py3-none-any.whl
+[2023-08-09 04:51:02] INFO root fetch - processPackages [the-collector]: Downloading https://files.pythonhosted.org/packages/32/cb/3f8d584d27a5e008ebf7bca5a5498957c51d0402f5fb117c417a9d32d782/the_collector-0.9.0.tar.gz
+[2023-08-09 04:51:02] INFO root fetch - processPackages [odoo12-addon-account-payment-partner]: Downloading https://files.pythonhosted.org/packages/5a/d1/13b9ed1838bceaa2568333ec17b292036db7548752a52d6e92a766252622/odoo12_addon_account_payment_partner-12.0.1.0.3.99.dev6-py3-none-any.whl
+[2023-08-09 04:51:02] INFO root fetch - processPackages [pyenphase]: executing diffoscope
+[2023-08-09 04:51:02] INFO root fetch - processPackages [pyenphase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyenphase-1.2.1.tar.gz tmp/pyenphase-1.2.2.tar.gz --markdown 20230809/p/pyenphase/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-08-09 04:51:02] INFO root fetch - processPackages [lastfm-mpris2-scrobbler]: Downloading https://files.pythonhosted.org/packages/47/d6/d29b732bea9ed5e86c4ed425b2b925fc023141a102a36befcd712fc0bb05/lastfm-mpris2-scrobbler-1.0.1.tar.gz
+[2023-08-09 04:51:02] INFO root fetch - processPackages [jaraco.crypto]: Downloading https://files.pythonhosted.org/packages/11/13/0bec756b47379cf19f38a03f397d090233e54ae14e8f46239f33472e4b64/jaraco.crypto-3.1.1.tar.gz
+[2023-08-09 04:51:02] INFO root fetch - processPackages [shaku-database]: Downloading https://files.pythonhosted.org/packages/de/f9/cbbd006393723c333994ef70392d3f978cb1520f27c460eb2b586e17f3c5/shaku-database-1.1.9.tar.gz
+[2023-08-09 04:51:02] INFO root fetch - processPackages [CheeseAPI]: Downloading https://files.pythonhosted.org/packages/6b/dc/d07ab8e6c7bde505f5da469db8117ceb2714c90f52dd7093c18626e7e78e/CheeseAPI-0.0.8.tar.gz
+[2023-08-09 04:51:02] INFO root fetch - processPackages [alanapy]: Downloading https://files.pythonhosted.org/packages/2c/33/fa7118279782bd920d77fd7b293dbfdab5a7c1650c71e2360020b096068a/alanapy-0.9.tar.gz
+[2023-08-09 04:51:02] INFO root fetch - processPackages [odoo12-addon-account-payment-partner]: Downloading https://files.pythonhosted.org/packages/45/1a/0979401597aa4c64fc7f351dc6b4e1dd049fd3ab0848dafedf1021ecb304/odoo12_addon_account_payment_partner-12.0.1.0.3.99.dev7-py3-none-any.whl
+[2023-08-09 04:51:02] INFO root fetch - processPackages [jaraco.crypto]: executing diffoscope
+[2023-08-09 04:51:02] INFO root fetch - processPackages [jaraco.crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.crypto-3.1.0.tar.gz tmp/jaraco.crypto-3.1.1.tar.gz --markdown 20230809/j/jaraco.crypto/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-08-09 04:51:02] INFO root fetch - processPackages [shaku-database]: executing diffoscope
+[2023-08-09 04:51:02] INFO root fetch - processPackages [shaku-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shaku-database-1.1.8.tar.gz tmp/shaku-database-1.1.9.tar.gz --markdown 20230809/s/shaku-database/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-09 04:51:02] INFO root fetch - processPackages [the-collector]: Downloading https://files.pythonhosted.org/packages/e1/37/673b67d1835671e4f399a0c3ebdbe69a93c190ebb226e4998791c85f391a/the_collector-2023.8.7.tar.gz
+[2023-08-09 04:51:02] INFO root fetch - processPackages [lastfm-mpris2-scrobbler]: executing diffoscope
+[2023-08-09 04:51:02] INFO root fetch - processPackages [lastfm-mpris2-scrobbler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lastfm-mpris2-scrobbler-1.0.0.tar.gz tmp/lastfm-mpris2-scrobbler-1.0.1.tar.gz --markdown 20230809/l/lastfm-mpris2-scrobbler/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-09 04:51:02] INFO root fetch - processPackages [odoo11-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/c7/28/9bc7f6176db7fc271b8356dac94a330f4cb6ff282cd56402d694cc8d814a/odoo11_addon_account_payment_order-11.0.1.4.0.99.dev8-py2.py3-none-any.whl
+[2023-08-09 04:51:02] INFO root fetch - processPackages [CheeseAPI]: executing diffoscope
+[2023-08-09 04:51:02] INFO root fetch - processPackages [CheeseAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CheeseAPI-0.0.7.tar.gz tmp/CheeseAPI-0.0.8.tar.gz --markdown 20230809/C/CheeseAPI/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-09 04:51:02] INFO root fetch - processPackages [odoo10-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/c7/1f/2c4cd529463187f4f2aa631aa1069a756ad997d3652220d14f5fb8572b17/odoo10_addon_account_payment_order-10.0.1.7.0.99.dev9-py2-none-any.whl
+[2023-08-09 04:51:02] INFO root fetch - processPackages [alanapy]: executing diffoscope
+[2023-08-09 04:51:02] INFO root fetch - processPackages [alanapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alanapy-0.17.tar.gz tmp/alanapy-0.9.tar.gz --markdown 20230809/a/alanapy/0.17-0.9/diff.md --exclude *.pyd
+[2023-08-09 04:51:02] INFO root fetch - processPackages [the-collector]: executing diffoscope
+[2023-08-09 04:51:02] INFO root fetch - processPackages [the-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/the_collector-0.9.0.tar.gz tmp/the_collector-2023.8.7.tar.gz --markdown 20230809/t/the-collector/0.9.0-2023.8.7/diff.md --exclude *.pyd
+[2023-08-09 04:51:02] INFO root fetch - processPackages [odoo12-addon-account-payment-partner]: executing diffoscope
+[2023-08-09 04:51:02] INFO root fetch - processPackages [odoo12-addon-account-payment-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_account_payment_partner-12.0.1.0.3.99.dev6-py3-none-any.whl.zip tmp/odoo12_addon_account_payment_partner-12.0.1.0.3.99.dev7-py3-none-any.whl.zip --markdown 20230809/o/odoo12-addon-account-payment-partner/12.0.1.0.3.99.dev6-12.0.1.0.3.99.dev7/diff.md --exclude *.pyd
+[2023-08-09 04:51:03] INFO root fetch - processPackages [odoo10-addon-account-payment-order]: executing diffoscope
+[2023-08-09 04:51:03] INFO root fetch - processPackages [odoo10-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_account_payment_order-10.0.1.7.0.99.dev8-py2-none-any.whl.zip tmp/odoo10_addon_account_payment_order-10.0.1.7.0.99.dev9-py2-none-any.whl.zip --markdown 20230809/o/odoo10-addon-account-payment-order/10.0.1.7.0.99.dev8-10.0.1.7.0.99.dev9/diff.md --exclude *.pyd
+[2023-08-09 04:51:03] INFO root fetch - processPackages [odoo11-addon-account-payment-order]: executing diffoscope
+[2023-08-09 04:51:03] INFO root fetch - processPackages [odoo11-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_account_payment_order-11.0.1.4.0.99.dev7-py2.py3-none-any.whl.zip tmp/odoo11_addon_account_payment_order-11.0.1.4.0.99.dev8-py2.py3-none-any.whl.zip --markdown 20230809/o/odoo11-addon-account-payment-order/11.0.1.4.0.99.dev7-11.0.1.4.0.99.dev8/diff.md --exclude *.pyd
+[2023-08-09 04:51:03] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-1.2.1.tar.gz]
+[2023-08-09 04:51:03] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-1.2.2.tar.gz]
+[2023-08-09 04:51:03] INFO root fetch - processPackages [pyenphase]: Start processing: odoo13-addon-account-banking-mandate
+[2023-08-09 04:51:03] INFO root fetch - main [MainThread]: End processing [pyenphase]: success
+[2023-08-09 04:51:03] INFO root fetch - processPackages [odoo13-addon-account-banking-mandate]: New version: [13.0.1.3.1.dev9] Old Version: [13.0.1.3.1.dev8]
+[2023-08-09 04:51:04] INFO root fetch - processPackages [odoo13-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/6b/ef/e078194a09777a408482b0151215682e99fd098e08cc9154d4eaa1daca12/odoo13_addon_account_banking_mandate-13.0.1.3.1.dev8-py3-none-any.whl
+[2023-08-09 04:51:04] INFO root fetch - processPackages [alanapy]: Remove: archive file [/home/abi/fetcher/tmp/alanapy-0.17.tar.gz]
+[2023-08-09 04:51:04] INFO root fetch - processPackages [alanapy]: Remove: archive file [/home/abi/fetcher/tmp/alanapy-0.9.tar.gz]
+[2023-08-09 04:51:04] INFO root fetch - main [MainThread]: End processing [alanapy]: success
+[2023-08-09 04:51:04] INFO root fetch - processPackages [shaku-database]: Remove: archive file [/home/abi/fetcher/tmp/shaku-database-1.1.8.tar.gz]
+[2023-08-09 04:51:04] INFO root fetch - processPackages [shaku-database]: Remove: archive file [/home/abi/fetcher/tmp/shaku-database-1.1.9.tar.gz]
+[2023-08-09 04:51:04] INFO root fetch - main [MainThread]: End processing [shaku-database]: success
+[2023-08-09 04:51:04] INFO root fetch - processPackages [jaraco.crypto]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.crypto-3.1.0.tar.gz]
+[2023-08-09 04:51:04] INFO root fetch - processPackages [jaraco.crypto]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.crypto-3.1.1.tar.gz]
+[2023-08-09 04:51:04] INFO root fetch - main [MainThread]: End processing [jaraco.crypto]: success
+[2023-08-09 04:51:04] INFO root fetch - processPackages [odoo13-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/7d/47/22986bfd8e5955731d053d5dfd1f7ef573b43c5e0275801d92a34660a559/odoo13_addon_account_banking_mandate-13.0.1.3.1.dev9-py3-none-any.whl
+[2023-08-09 04:51:04] INFO root fetch - processPackages [lastfm-mpris2-scrobbler]: Remove: archive file [/home/abi/fetcher/tmp/lastfm-mpris2-scrobbler-1.0.0.tar.gz]
+[2023-08-09 04:51:04] INFO root fetch - processPackages [lastfm-mpris2-scrobbler]: Remove: archive file [/home/abi/fetcher/tmp/lastfm-mpris2-scrobbler-1.0.1.tar.gz]
+[2023-08-09 04:51:04] INFO root fetch - main [MainThread]: End processing [lastfm-mpris2-scrobbler]: success
+[2023-08-09 04:51:04] INFO root fetch - processPackages [CheeseAPI]: Remove: archive file [/home/abi/fetcher/tmp/CheeseAPI-0.0.7.tar.gz]
+[2023-08-09 04:51:04] INFO root fetch - processPackages [CheeseAPI]: Remove: archive file [/home/abi/fetcher/tmp/CheeseAPI-0.0.8.tar.gz]
+[2023-08-09 04:51:04] INFO root fetch - main [MainThread]: End processing [CheeseAPI]: success
+[2023-08-09 04:51:04] INFO root fetch - processPackages [the-collector]: Remove: archive file [/home/abi/fetcher/tmp/the_collector-0.9.0.tar.gz]
+[2023-08-09 04:51:04] INFO root fetch - processPackages [the-collector]: Remove: archive file [/home/abi/fetcher/tmp/the_collector-2023.8.7.tar.gz]
+[2023-08-09 04:51:04] INFO root fetch - main [MainThread]: End processing [the-collector]: success
+[2023-08-09 04:51:04] INFO root fetch - processPackages [odoo13-addon-account-banking-mandate]: executing diffoscope
+[2023-08-09 04:51:04] INFO root fetch - processPackages [odoo13-addon-account-banking-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_account_banking_mandate-13.0.1.3.1.dev8-py3-none-any.whl.zip tmp/odoo13_addon_account_banking_mandate-13.0.1.3.1.dev9-py3-none-any.whl.zip --markdown 20230809/o/odoo13-addon-account-banking-mandate/13.0.1.3.1.dev8-13.0.1.3.1.dev9/diff.md --exclude *.pyd
+[2023-08-09 04:51:04] INFO root fetch - processPackages [odoo12-addon-account-payment-partner]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_payment_partner-12.0.1.0.3.99.dev6-py3-none-any.whl.zip]
+[2023-08-09 04:51:04] INFO root fetch - processPackages [odoo12-addon-account-payment-partner]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_payment_partner-12.0.1.0.3.99.dev7-py3-none-any.whl.zip]
+[2023-08-09 04:51:04] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-payment-partner]: success
+[2023-08-09 04:51:04] INFO root fetch - processPackages [odoo10-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_account_payment_order-10.0.1.7.0.99.dev8-py2-none-any.whl.zip]
+[2023-08-09 04:51:04] INFO root fetch - processPackages [odoo10-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_account_payment_order-10.0.1.7.0.99.dev9-py2-none-any.whl.zip]
+[2023-08-09 04:51:04] INFO root fetch - main [MainThread]: End processing [odoo10-addon-account-payment-order]: success
+[2023-08-09 04:51:05] INFO root fetch - processPackages [odoo11-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_account_payment_order-11.0.1.4.0.99.dev7-py2.py3-none-any.whl.zip]
+[2023-08-09 04:51:05] INFO root fetch - processPackages [odoo11-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_account_payment_order-11.0.1.4.0.99.dev8-py2.py3-none-any.whl.zip]
+[2023-08-09 04:51:05] INFO root fetch - main [MainThread]: End processing [odoo11-addon-account-payment-order]: success
+[2023-08-09 04:51:05] INFO root fetch - processPackages [odoo13-addon-account-banking-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_account_banking_mandate-13.0.1.3.1.dev8-py3-none-any.whl.zip]
+[2023-08-09 04:51:05] INFO root fetch - processPackages [odoo13-addon-account-banking-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_account_banking_mandate-13.0.1.3.1.dev9-py3-none-any.whl.zip]
+[2023-08-09 04:51:05] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-banking-mandate]: success
+[2023-08-09 04:51:05] INFO root fetch - main [MainThread]: Store serial: [19231987]
