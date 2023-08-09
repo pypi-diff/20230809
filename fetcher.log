@@ -9045,3 +9045,168 @@
 [2023-08-09 03:37:49] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.9.0.tar.gz]
 [2023-08-09 03:37:49] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
 [2023-08-09 03:37:49] INFO root fetch - main [MainThread]: Store serial: [19231474]
+[2023-08-09 03:42:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19231474]
+[2023-08-09 03:42:59] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-08-09 03:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-cs20151215-py2
+[2023-08-09 03:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-nis20211216-py2
+[2023-08-09 03:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-scipy
+[2023-08-09 03:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-dds20151201-py2
+[2023-08-09 03:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-ecs20140526-py2
+[2023-08-09 03:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-vpc20160428-py2
+[2023-08-09 03:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-vpc20160428
+[2023-08-09 03:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-sphinx
+[2023-08-09 03:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bardapi
+[2023-08-09 03:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wyvern-ai
+[2023-08-09 03:42:59] INFO root fetch - processPackages [alibabacloud-vpc20160428-py2]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-08-09 03:42:59] INFO root fetch - processPackages [alibabacloud-cs20151215-py2]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-08-09 03:42:59] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-09 03:42:59] INFO root fetch - processPackages [alibabacloud-ecs20140526-py2]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-08-09 03:42:59] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-08-09 03:42:59] INFO root fetch - processPackages [alibabacloud-vpc20160428]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-08-09 03:42:59] INFO root fetch - processPackages [alibabacloud-nis20211216-py2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-09 03:42:59] INFO root fetch - processPackages [wyvern-ai]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-09 03:42:59] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-09 03:42:59] INFO root fetch - processPackages [bardapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-09 03:42:59] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-08-09 03:42:59] INFO root fetch - processPackages [alibabacloud-vpc20160428-py2]: Downloading https://files.pythonhosted.org/packages/96/24/8942a5db849b7b66e70640f9aa68cb30ba7645110508717e07d472f68738/alibabacloud_vpc20160428_py2-3.0.0.tar.gz
+[2023-08-09 03:42:59] INFO root fetch - processPackages [alibabacloud-ecs20140526-py2]: Downloading https://files.pythonhosted.org/packages/87/27/34dcec76d58b97b2e1aff89bf978061267df0fbfa1972dacc532cdf6054c/alibabacloud_ecs20140526_py2-3.0.8.tar.gz
+[2023-08-09 03:42:59] INFO root fetch - processPackages [alibabacloud-cs20151215-py2]: Downloading https://files.pythonhosted.org/packages/bf/c8/86bfcb3b3c164050ebd8920618a148ba6b01b6d75c187f5d9436994566f8/alibabacloud_cs20151215_py2-3.0.8.tar.gz
+[2023-08-09 03:42:59] INFO root fetch - processPackages [alibabacloud-nis20211216-py2]: Downloading https://files.pythonhosted.org/packages/0d/ae/7768ef241d5494d39788e34a6209d9608dd4f263676cfcaa40d5990e6d4d/alibabacloud_nis20211216_py2-1.0.0.tar.gz
+[2023-08-09 03:42:59] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-08-09 03:42:59] INFO root fetch - processPackages [alibabacloud-vpc20160428]: Downloading https://files.pythonhosted.org/packages/c7/2c/98caabfa6503a4be0bcd7fed919ec169d4d9f5fc9ce2340b4aca85b8a7b5/alibabacloud_vpc20160428-4.0.1.tar.gz
+[2023-08-09 03:42:59] INFO root fetch - processPackages [wyvern-ai]: Downloading https://files.pythonhosted.org/packages/76/6c/6ac213a7aab0b82ab62cbcf6b41376e4fc0d515c6fbcf11e5f844d14094c/wyvern_ai-0.0.1.tar.gz
+[2023-08-09 03:42:59] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: Downloading https://files.pythonhosted.org/packages/b4/8b/db69db3d620d86148e55d41022b683dc4a4fd00da282c3569018b4ae4d77/alibabacloud_dds20151201_py2-1.0.9.tar.gz
+[2023-08-09 03:42:59] INFO root fetch - processPackages [bardapi]: Downloading https://files.pythonhosted.org/packages/15/8c/c307da290d06da4e1a9dababf71aef7b155e7ea4f8feacfb03447cecdd15/bardapi-0.1.8.tar.gz
+[2023-08-09 03:43:00] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-08-09 03:43:00] INFO root fetch - processPackages [alibabacloud-vpc20160428-py2]: Downloading https://files.pythonhosted.org/packages/29/09/967bfcadeb1b267e21c33cf1e8d239b58d57382a307924573ca32372a028/alibabacloud_vpc20160428_py2-3.0.1.tar.gz
+[2023-08-09 03:43:00] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-08-09 03:43:00] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-08-09 03:43:00] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230809/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-09 03:43:00] INFO root fetch - processPackages [alibabacloud-cs20151215-py2]: Downloading https://files.pythonhosted.org/packages/52/5e/838ed1afcd3953302e2fd9f2cfdd6168f7f30424e9fa35794d7b53f4c289/alibabacloud_cs20151215_py2-3.0.9.tar.gz
+[2023-08-09 03:43:00] INFO root fetch - processPackages [alibabacloud-ecs20140526-py2]: Downloading https://files.pythonhosted.org/packages/9e/c8/6284a150afe9761956681a024eb02b307e5d002feda7e1a06b3c4136cf39/alibabacloud_ecs20140526_py2-3.0.9.tar.gz
+[2023-08-09 03:43:00] INFO root fetch - processPackages [wyvern-ai]: Downloading https://files.pythonhosted.org/packages/59/58/93a18671f8e12e461a7b12625ae248c43d7deca61aa531bd2c4d4a9625b9/wyvern_ai-0.0.2.tar.gz
+[2023-08-09 03:43:00] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-08-09 03:43:00] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230809/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-09 03:43:00] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: Downloading https://files.pythonhosted.org/packages/77/da/32622c1838d36fe64e762d26bbbeb589f5f785ad89304a36a8ebdc541b8f/alibabacloud_dds20151201_py2-1.1.0.tar.gz
+[2023-08-09 03:43:00] INFO root fetch - processPackages [alibabacloud-nis20211216-py2]: Downloading https://files.pythonhosted.org/packages/7a/df/9937b587b4240a2335a892ee3d3c822ff4686e1e852da8a3635552b63e8f/alibabacloud_nis20211216_py2-1.1.0.tar.gz
+[2023-08-09 03:43:00] INFO root fetch - processPackages [alibabacloud-vpc20160428]: Downloading https://files.pythonhosted.org/packages/26/4d/28df832f8b61984f062967d5603fc605c12e2ff26be17946c723482ceb86/alibabacloud_vpc20160428-4.0.2.tar.gz
+[2023-08-09 03:43:00] INFO root fetch - processPackages [alibabacloud-vpc20160428-py2]: executing diffoscope
+[2023-08-09 03:43:00] INFO root fetch - processPackages [alibabacloud-vpc20160428-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_vpc20160428_py2-3.0.0.tar.gz tmp/alibabacloud_vpc20160428_py2-3.0.1.tar.gz --markdown 20230809/a/alibabacloud-vpc20160428-py2/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-08-09 03:43:00] INFO root fetch - processPackages [alibabacloud-cs20151215-py2]: executing diffoscope
+[2023-08-09 03:43:00] INFO root fetch - processPackages [alibabacloud-cs20151215-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cs20151215_py2-3.0.8.tar.gz tmp/alibabacloud_cs20151215_py2-3.0.9.tar.gz --markdown 20230809/a/alibabacloud-cs20151215-py2/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-08-09 03:43:00] INFO root fetch - processPackages [bardapi]: Downloading https://files.pythonhosted.org/packages/7d/28/67bed0a690d240036e208efb5d30b83c9d0f46dca1f249b426109f7ee2f4/bardapi-0.1.9.tar.gz
+[2023-08-09 03:43:00] INFO root fetch - processPackages [wyvern-ai]: executing diffoscope
+[2023-08-09 03:43:00] INFO root fetch - processPackages [wyvern-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wyvern_ai-0.0.1.tar.gz tmp/wyvern_ai-0.0.2.tar.gz --markdown 20230809/w/wyvern-ai/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-09 03:43:00] INFO root fetch - processPackages [alibabacloud-ecs20140526-py2]: executing diffoscope
+[2023-08-09 03:43:00] INFO root fetch - processPackages [alibabacloud-ecs20140526-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ecs20140526_py2-3.0.8.tar.gz tmp/alibabacloud_ecs20140526_py2-3.0.9.tar.gz --markdown 20230809/a/alibabacloud-ecs20140526-py2/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-08-09 03:43:00] INFO root fetch - processPackages [alibabacloud-nis20211216-py2]: executing diffoscope
+[2023-08-09 03:43:00] INFO root fetch - processPackages [alibabacloud-nis20211216-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_nis20211216_py2-1.0.0.tar.gz tmp/alibabacloud_nis20211216_py2-1.1.0.tar.gz --markdown 20230809/a/alibabacloud-nis20211216-py2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-09 03:43:00] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: executing diffoscope
+[2023-08-09 03:43:00] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dds20151201_py2-1.0.9.tar.gz tmp/alibabacloud_dds20151201_py2-1.1.0.tar.gz --markdown 20230809/a/alibabacloud-dds20151201-py2/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-08-09 03:43:00] INFO root fetch - processPackages [alibabacloud-vpc20160428]: executing diffoscope
+[2023-08-09 03:43:00] INFO root fetch - processPackages [alibabacloud-vpc20160428]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_vpc20160428-4.0.1.tar.gz tmp/alibabacloud_vpc20160428-4.0.2.tar.gz --markdown 20230809/a/alibabacloud-vpc20160428/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-08-09 03:43:00] INFO root fetch - processPackages [bardapi]: executing diffoscope
+[2023-08-09 03:43:00] INFO root fetch - processPackages [bardapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bardapi-0.1.8.tar.gz tmp/bardapi-0.1.9.tar.gz --markdown 20230809/b/bardapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-09 03:43:01] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-08-09 03:43:01] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-08-09 03:43:01] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: alibabacloud-nis20211216
+[2023-08-09 03:43:01] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-08-09 03:43:02] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-08-09 03:43:02] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-08-09 03:43:02] INFO root fetch - processPackages [nbdev-scipy]: Start processing: alibabacloud-dds20151201
+[2023-08-09 03:43:02] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-08-09 03:43:02] INFO root fetch - processPackages [alibabacloud-nis20211216]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-09 03:43:02] INFO root fetch - processPackages [alibabacloud-dds20151201]: New version: [3.7.0] Old Version: [3.6.9]
+[2023-08-09 03:43:02] INFO root fetch - processPackages [alibabacloud-nis20211216]: Downloading https://files.pythonhosted.org/packages/5c/8a/276c5599c2817516b54b128f6d90f92c93c9c3acbe1001398a10608e8205/alibabacloud_nis20211216-1.0.0.tar.gz
+[2023-08-09 03:43:02] INFO root fetch - processPackages [bardapi]: Remove: archive file [/home/abi/fetcher/tmp/bardapi-0.1.8.tar.gz]
+[2023-08-09 03:43:02] INFO root fetch - processPackages [bardapi]: Remove: archive file [/home/abi/fetcher/tmp/bardapi-0.1.9.tar.gz]
+[2023-08-09 03:43:02] INFO root fetch - processPackages [bardapi]: Start processing: alibabacloud-cs20151215
+[2023-08-09 03:43:02] INFO root fetch - main [MainThread]: End processing [bardapi]: success
+[2023-08-09 03:43:02] INFO root fetch - processPackages [alibabacloud-cs20151215]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-08-09 03:43:02] INFO root fetch - processPackages [alibabacloud-dds20151201]: Downloading https://files.pythonhosted.org/packages/1c/2d/1b2025f572be463d79817a87c044f0cc6dc71b6d49004d19ff01fde358f5/alibabacloud_dds20151201-3.6.9.tar.gz
+[2023-08-09 03:43:02] INFO root fetch - processPackages [alibabacloud-nis20211216-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_nis20211216_py2-1.0.0.tar.gz]
+[2023-08-09 03:43:02] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dds20151201_py2-1.0.9.tar.gz]
+[2023-08-09 03:43:02] INFO root fetch - processPackages [alibabacloud-nis20211216-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_nis20211216_py2-1.1.0.tar.gz]
+[2023-08-09 03:43:02] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dds20151201_py2-1.1.0.tar.gz]
+[2023-08-09 03:43:02] INFO root fetch - processPackages [alibabacloud-nis20211216-py2]: Start processing: nbdev-django
+[2023-08-09 03:43:02] INFO root fetch - main [MainThread]: End processing [alibabacloud-nis20211216-py2]: success
+[2023-08-09 03:43:02] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: Start processing: alibabacloud-ecs20140526
+[2023-08-09 03:43:02] INFO root fetch - main [MainThread]: End processing [alibabacloud-dds20151201-py2]: success
+[2023-08-09 03:43:02] INFO root fetch - processPackages [alibabacloud-cs20151215]: Downloading https://files.pythonhosted.org/packages/52/b6/0a76ee09c8910e22d03ca3f4b738b9f0ea54c523f6bf1ed2c21a3aa21471/alibabacloud_cs20151215-3.0.8.tar.gz
+[2023-08-09 03:43:02] INFO root fetch - processPackages [alibabacloud-cs20151215-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cs20151215_py2-3.0.8.tar.gz]
+[2023-08-09 03:43:02] INFO root fetch - processPackages [alibabacloud-cs20151215-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cs20151215_py2-3.0.9.tar.gz]
+[2023-08-09 03:43:02] INFO root fetch - processPackages [alibabacloud-cs20151215-py2]: Start processing: reflex
+[2023-08-09 03:43:02] INFO root fetch - main [MainThread]: End processing [alibabacloud-cs20151215-py2]: success
+[2023-08-09 03:43:02] INFO root fetch - processPackages [wyvern-ai]: Remove: archive file [/home/abi/fetcher/tmp/wyvern_ai-0.0.1.tar.gz]
+[2023-08-09 03:43:02] INFO root fetch - processPackages [wyvern-ai]: Remove: archive file [/home/abi/fetcher/tmp/wyvern_ai-0.0.2.tar.gz]
+[2023-08-09 03:43:02] INFO root fetch - processPackages [wyvern-ai]: Start processing: protonn
+[2023-08-09 03:43:02] INFO root fetch - main [MainThread]: End processing [wyvern-ai]: success
+[2023-08-09 03:43:02] INFO root fetch - processPackages [alibabacloud-vpc20160428-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_vpc20160428_py2-3.0.0.tar.gz]
+[2023-08-09 03:43:02] INFO root fetch - processPackages [alibabacloud-vpc20160428-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_vpc20160428_py2-3.0.1.tar.gz]
+[2023-08-09 03:43:02] INFO root fetch - processPackages [alibabacloud-vpc20160428-py2]: Start processing: nbdev-apl
+[2023-08-09 03:43:02] INFO root fetch - main [MainThread]: End processing [alibabacloud-vpc20160428-py2]: success
+[2023-08-09 03:43:02] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-09 03:43:02] INFO root fetch - processPackages [reflex]: New version: [0.2.4a1] Old Version: [0.2.3a9]
+[2023-08-09 03:43:02] INFO root fetch - processPackages [alibabacloud-ecs20140526]: New version: [4.24.17] Old Version: [3.0.9]
+[2023-08-09 03:43:02] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.944] Old Version: [0.0.943]
+[2023-08-09 03:43:02] INFO root fetch - processPackages [alibabacloud-nis20211216]: Downloading https://files.pythonhosted.org/packages/b4/e1/f2f3ba82ab189caff833ab7a705946776e16f39d04079c68611029b79b0e/alibabacloud_nis20211216-1.1.0.tar.gz
+[2023-08-09 03:43:02] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-08-09 03:43:02] INFO root fetch - processPackages [protonn]: New version: [0.3.4] Old Version: [0.3.2]
+[2023-08-09 03:43:02] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/38/d2/0b6288ac028b0fbbc547f8eceab27fd5e8e6f31b8922c92a739099af840c/reflex-0.2.3a9.tar.gz
+[2023-08-09 03:43:02] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/ad/9f/aabe06c26dfbeeba4c6c8e031bde6a9b0915bc9eb233a9b0ddaf58b93d94/nbdev-apl-0.0.943.tar.gz
+[2023-08-09 03:43:02] INFO root fetch - processPackages [alibabacloud-cs20151215]: Downloading https://files.pythonhosted.org/packages/15/7b/e9fedf7700e82b65d3f4db362385626770e8782d4d4baf0fdb3cf4b4b366/alibabacloud_cs20151215-3.0.9.tar.gz
+[2023-08-09 03:43:02] INFO root fetch - processPackages [alibabacloud-dds20151201]: Downloading https://files.pythonhosted.org/packages/cf/34/a8577a6e107eec5518571293275dcbb9f77d6fe9452a1ac423af9244e310/alibabacloud_dds20151201-3.7.0.tar.gz
+[2023-08-09 03:43:02] INFO root fetch - processPackages [alibabacloud-nis20211216]: executing diffoscope
+[2023-08-09 03:43:02] INFO root fetch - processPackages [alibabacloud-nis20211216]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_nis20211216-1.0.0.tar.gz tmp/alibabacloud_nis20211216-1.1.0.tar.gz --markdown 20230809/a/alibabacloud-nis20211216/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-09 03:43:03] INFO root fetch - processPackages [alibabacloud-ecs20140526]: Downloading https://files.pythonhosted.org/packages/15/a7/ea0e93bb411d77692415edc24e9e400e680723beb55ee021f022253f387e/alibabacloud_ecs20140526-3.0.9.tar.gz
+[2023-08-09 03:43:03] INFO root fetch - processPackages [protonn]: Downloading https://files.pythonhosted.org/packages/bc/73/67d7da384c3d3f525f8d34ec4922b4fd01c4840d58c18049464e1f44da3b/protonn-0.3.2-py3-none-any.whl
+[2023-08-09 03:43:03] INFO root fetch - processPackages [alibabacloud-cs20151215]: executing diffoscope
+[2023-08-09 03:43:03] INFO root fetch - processPackages [alibabacloud-cs20151215]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cs20151215-3.0.8.tar.gz tmp/alibabacloud_cs20151215-3.0.9.tar.gz --markdown 20230809/a/alibabacloud-cs20151215/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-08-09 03:43:03] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-08-09 03:43:03] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/72/5f/0c56c7e3c744a0d148e38ced7ca13ba70d69350acc4556526cf0da215a33/reflex-0.2.4a1.tar.gz
+[2023-08-09 03:43:03] INFO root fetch - processPackages [alibabacloud-dds20151201]: executing diffoscope
+[2023-08-09 03:43:03] INFO root fetch - processPackages [alibabacloud-dds20151201]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dds20151201-3.6.9.tar.gz tmp/alibabacloud_dds20151201-3.7.0.tar.gz --markdown 20230809/a/alibabacloud-dds20151201/3.6.9-3.7.0/diff.md --exclude *.pyd
+[2023-08-09 03:43:03] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-08-09 03:43:03] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230809/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-09 03:43:03] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/dc/00/734e42e7c90a29773d53ed6fad5de142cf4f98b1f47657a165551206b4c7/nbdev-apl-0.0.944.tar.gz
+[2023-08-09 03:43:03] INFO root fetch - processPackages [reflex]: executing diffoscope
+[2023-08-09 03:43:03] INFO root fetch - processPackages [reflex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex-0.2.3a9.tar.gz tmp/reflex-0.2.4a1.tar.gz --markdown 20230809/r/reflex/0.2.3a9-0.2.4a1/diff.md --exclude *.pyd
+[2023-08-09 03:43:03] INFO root fetch - processPackages [alibabacloud-ecs20140526]: Downloading https://files.pythonhosted.org/packages/0f/3c/f2e0d6a85b6b1f078daa29303ac569839a7ed977a1350c31c57a502fcc5c/alibabacloud_ecs20140526-4.24.17.tar.gz
+[2023-08-09 03:43:03] INFO root fetch - processPackages [protonn]: Downloading https://files.pythonhosted.org/packages/cf/52/14a5f3d0b8f34025d7dbef78d813908808aaae94f7ccb906d3d9454f5815/protonn-0.3.4-py3-none-any.whl
+[2023-08-09 03:43:03] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-08-09 03:43:03] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.943.tar.gz tmp/nbdev-apl-0.0.944.tar.gz --markdown 20230809/n/nbdev-apl/0.0.943-0.0.944/diff.md --exclude *.pyd
+[2023-08-09 03:43:03] INFO root fetch - processPackages [alibabacloud-ecs20140526]: executing diffoscope
+[2023-08-09 03:43:03] INFO root fetch - processPackages [alibabacloud-ecs20140526]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ecs20140526-3.0.9.tar.gz tmp/alibabacloud_ecs20140526-4.24.17.tar.gz --markdown 20230809/a/alibabacloud-ecs20140526/3.0.9-4.24.17/diff.md --exclude *.pyd
+[2023-08-09 03:43:03] INFO root fetch - processPackages [protonn]: executing diffoscope
+[2023-08-09 03:43:03] INFO root fetch - processPackages [protonn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protonn-0.3.2-py3-none-any.whl.zip tmp/protonn-0.3.4-py3-none-any.whl.zip --markdown 20230809/p/protonn/0.3.2-0.3.4/diff.md --exclude *.pyd
+[2023-08-09 03:43:04] INFO root fetch - processPackages [alibabacloud-ecs20140526-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ecs20140526_py2-3.0.8.tar.gz]
+[2023-08-09 03:43:04] INFO root fetch - processPackages [alibabacloud-ecs20140526-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ecs20140526_py2-3.0.9.tar.gz]
+[2023-08-09 03:43:04] INFO root fetch - main [MainThread]: End processing [alibabacloud-ecs20140526-py2]: success
+[2023-08-09 03:43:04] INFO root fetch - processPackages [alibabacloud-nis20211216]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_nis20211216-1.0.0.tar.gz]
+[2023-08-09 03:43:04] INFO root fetch - processPackages [alibabacloud-nis20211216]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_nis20211216-1.1.0.tar.gz]
+[2023-08-09 03:43:04] INFO root fetch - main [MainThread]: End processing [alibabacloud-nis20211216]: success
+[2023-08-09 03:43:04] INFO root fetch - processPackages [alibabacloud-dds20151201]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dds20151201-3.6.9.tar.gz]
+[2023-08-09 03:43:04] INFO root fetch - processPackages [alibabacloud-dds20151201]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dds20151201-3.7.0.tar.gz]
+[2023-08-09 03:43:04] INFO root fetch - main [MainThread]: End processing [alibabacloud-dds20151201]: success
+[2023-08-09 03:43:04] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-08-09 03:43:04] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-08-09 03:43:04] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-08-09 03:43:04] INFO root fetch - processPackages [alibabacloud-cs20151215]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cs20151215-3.0.8.tar.gz]
+[2023-08-09 03:43:04] INFO root fetch - processPackages [alibabacloud-cs20151215]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cs20151215-3.0.9.tar.gz]
+[2023-08-09 03:43:04] INFO root fetch - main [MainThread]: End processing [alibabacloud-cs20151215]: success
+[2023-08-09 03:43:04] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.943.tar.gz]
+[2023-08-09 03:43:04] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.944.tar.gz]
+[2023-08-09 03:43:04] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-08-09 03:43:05] INFO root fetch - processPackages [protonn]: Remove: archive file [/home/abi/fetcher/tmp/protonn-0.3.2-py3-none-any.whl.zip]
+[2023-08-09 03:43:05] INFO root fetch - processPackages [protonn]: Remove: archive file [/home/abi/fetcher/tmp/protonn-0.3.4-py3-none-any.whl.zip]
+[2023-08-09 03:43:05] INFO root fetch - main [MainThread]: End processing [protonn]: success
+[2023-08-09 03:43:05] INFO root fetch - processPackages [alibabacloud-ecs20140526]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ecs20140526-3.0.9.tar.gz]
+[2023-08-09 03:43:05] INFO root fetch - processPackages [alibabacloud-ecs20140526]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ecs20140526-4.24.17.tar.gz]
+[2023-08-09 03:43:05] INFO root fetch - main [MainThread]: End processing [alibabacloud-ecs20140526]: success
+[2023-08-09 03:43:05] INFO root fetch - processPackages [alibabacloud-vpc20160428]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_vpc20160428-4.0.1.tar.gz]
+[2023-08-09 03:43:05] INFO root fetch - processPackages [alibabacloud-vpc20160428]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_vpc20160428-4.0.2.tar.gz]
+[2023-08-09 03:43:05] INFO root fetch - main [MainThread]: End processing [alibabacloud-vpc20160428]: success
+[2023-08-09 03:43:05] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.2.3a9.tar.gz]
+[2023-08-09 03:43:05] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.2.4a1.tar.gz]
+[2023-08-09 03:43:05] INFO root fetch - main [MainThread]: End processing [reflex]: success
+[2023-08-09 03:43:05] INFO root fetch - main [MainThread]: Store serial: [19231530]
