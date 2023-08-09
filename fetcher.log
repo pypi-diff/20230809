@@ -9811,3 +9811,104 @@
 [2023-08-09 04:35:19] INFO root fetch - processPackages [pyatp]: Remove: archive file [/home/abi/fetcher/tmp/pyatp-1.2.1.tar.gz]
 [2023-08-09 04:35:19] INFO root fetch - main [MainThread]: End processing [pyatp]: success
 [2023-08-09 04:35:19] INFO root fetch - main [MainThread]: Store serial: [19231889]
+[2023-08-09 04:40:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19231889]
+[2023-08-09 04:40:29] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-09 04:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cqepyutils
+[2023-08-09 04:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SQLAlchemyExample
+[2023-08-09 04:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-account-check-deposit
+[2023-08-09 04:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lida
+[2023-08-09 04:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DeepLScrapper
+[2023-08-09 04:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiohttp-wsconnhandler
+[2023-08-09 04:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-account-check-deposit
+[2023-08-09 04:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lexisnexisapi
+[2023-08-09 04:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: konbinine
+[2023-08-09 04:40:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addons-oca-account-financial-tools
+[2023-08-09 04:40:29] INFO root fetch - processPackages [SQLAlchemyExample]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-09 04:40:29] WARNING root fetch - processPackages [aiohttp-wsconnhandler]: Skipping, unable to determine old version
+[2023-08-09 04:40:29] INFO root fetch - processPackages [aiohttp-wsconnhandler]: Start processing: hdx-python-scraper
+[2023-08-09 04:40:29] INFO root fetch - main [MainThread]: End processing [aiohttp-wsconnhandler] error
+[2023-08-09 04:40:29] INFO root fetch - processPackages [konbinine]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-09 04:40:29] INFO root fetch - processPackages [odoo-addon-account-check-deposit]: New version: [15.0.1.0.0.9] Old Version: [15.0.1.0.0.8]
+[2023-08-09 04:40:29] INFO root fetch - processPackages [SQLAlchemyExample]: Downloading https://files.pythonhosted.org/packages/55/90/959c6696c1bd54325124c8ad66368a8ec75dc623cd59ccd7b87152420fdd/SQLAlchemyExample-0.1.8.tar.gz
+[2023-08-09 04:40:29] INFO root fetch - processPackages [lexisnexisapi]: New version: [3.0.3.1] Old Version: [3.0.3]
+[2023-08-09 04:40:29] INFO root fetch - processPackages [DeepLScrapper]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-08-09 04:40:29] INFO root fetch - processPackages [lida]: New version: [0.0.3a0] Old Version: [0.0.2a0]
+[2023-08-09 04:40:29] INFO root fetch - processPackages [odoo12-addon-account-check-deposit]: New version: [12.0.2.0.1.99.dev8] Old Version: [12.0.2.0.1.99.dev7]
+[2023-08-09 04:40:29] INFO root fetch - processPackages [cqepyutils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-09 04:40:29] INFO root fetch - processPackages [hdx-python-scraper]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-08-09 04:40:29] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: New version: [16.0.20230808.0] Old Version: [16.0.20230627.0]
+[2023-08-09 04:40:29] INFO root fetch - processPackages [konbinine]: Downloading https://files.pythonhosted.org/packages/b9/d3/f93eef83130ac1be9c589d2ef66f97c3b662eb736a660e5d29292ce5d80c/konbinine-0.1.5.tar.gz
+[2023-08-09 04:40:30] INFO root fetch - processPackages [odoo-addon-account-check-deposit]: Downloading https://files.pythonhosted.org/packages/e3/cd/87ac7ffa59e9dd943146a29e6c500d40aed135ebd72f0eb6906661c0ec38/odoo_addon_account_check_deposit-15.0.1.0.0.8-py3-none-any.whl
+[2023-08-09 04:40:30] INFO root fetch - processPackages [lexisnexisapi]: Downloading https://files.pythonhosted.org/packages/ca/a8/59ed24c356cd2c5ea003d837d7ab56be9eff3ac95111b9edb03b7643bb10/lexisnexisapi-3.0.3.tar.gz
+[2023-08-09 04:40:30] INFO root fetch - processPackages [DeepLScrapper]: Downloading https://files.pythonhosted.org/packages/81/e4/92fe4beb38c92ee9f071baa3d36db71c443d74d64fa0330ad62abfa5d31a/DeepLScrapper-1.6.0.tar.gz
+[2023-08-09 04:40:30] INFO root fetch - processPackages [lida]: Downloading https://files.pythonhosted.org/packages/46/42/ed970a5ca2d14df319401eb52de7f4fd0b8cccf4c7899f6346621fa1d501/lida-0.0.2a0.tar.gz
+[2023-08-09 04:40:30] INFO root fetch - processPackages [cqepyutils]: Downloading https://files.pythonhosted.org/packages/55/34/8dcdfb6c9a70f03ef447aeacb120af4cd8cd3cc6f8b23e10c8fa1ce0a9df/cqepyutils-0.1.8.tar.gz
+[2023-08-09 04:40:30] INFO root fetch - processPackages [odoo12-addon-account-check-deposit]: Downloading https://files.pythonhosted.org/packages/d8/7c/2642dda77a7e90e311452ec72935500b1940e957e822dddb94074dc62598/odoo12_addon_account_check_deposit-12.0.2.0.1.99.dev7-py3-none-any.whl
+[2023-08-09 04:40:30] INFO root fetch - processPackages [hdx-python-scraper]: Downloading https://files.pythonhosted.org/packages/51/19/9affedb490d3d9c67c824d3e87fb535c2e4ee5fa884ca267e370a44e7582/hdx_python_scraper-2.1.7.tar.gz
+[2023-08-09 04:40:30] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: Downloading https://files.pythonhosted.org/packages/82/d0/a991ea3d26c025386116d6c5098146ba191accc841fb7d9c7b300fd60df8/odoo_addons_oca_account_financial_tools-16.0.20230627.0-py3-none-any.whl
+[2023-08-09 04:40:30] INFO root fetch - processPackages [SQLAlchemyExample]: Downloading https://files.pythonhosted.org/packages/99/86/69c08e1e10888eef50706dff5bb2ab77784d49f027fe33ee1245041e8e3f/SQLAlchemyExample-0.1.9.tar.gz
+[2023-08-09 04:40:30] INFO root fetch - processPackages [SQLAlchemyExample]: executing diffoscope
+[2023-08-09 04:40:30] INFO root fetch - processPackages [SQLAlchemyExample]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SQLAlchemyExample-0.1.8.tar.gz tmp/SQLAlchemyExample-0.1.9.tar.gz --markdown 20230809/S/SQLAlchemyExample/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-09 04:40:30] WARNING root fetch - processPackages [lida]: Skipping package: exceeds size limit 41456940>=10485760
+[2023-08-09 04:40:30] INFO root fetch - processPackages [lida]: Start processing: odoo-addon-account-fiscal-position-type
+[2023-08-09 04:40:30] INFO root fetch - main [MainThread]: End processing [lida] error
+[2023-08-09 04:40:30] INFO root fetch - processPackages [konbinine]: Downloading https://files.pythonhosted.org/packages/a7/aa/520fcd94b6cc9edc8ca529b3085765ca3027bf38f90b40219b1d5ecb5b56/konbinine-0.1.6.tar.gz
+[2023-08-09 04:40:30] INFO root fetch - processPackages [lexisnexisapi]: Downloading https://files.pythonhosted.org/packages/bf/3b/19722d091d95174a9ba2a2a0c871fdeb5df9c1beb3a180b4f0888d585af7/lexisnexisapi-3.0.3.1.tar.gz
+[2023-08-09 04:40:30] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: Downloading https://files.pythonhosted.org/packages/46/27/6e485627f3cba7e680030c6b156d86fdcef530375c1d5fa1af5c81acd83c/odoo_addons_oca_account_financial_tools-16.0.20230808.0-py3-none-any.whl
+[2023-08-09 04:40:30] INFO root fetch - processPackages [DeepLScrapper]: Downloading https://files.pythonhosted.org/packages/d3/bb/9b9d5fa557426cb62b4f85046ae7fa13276fabb1757a9ab9b830e95212c9/DeepLScrapper-1.7.0.tar.gz
+[2023-08-09 04:40:30] INFO root fetch - processPackages [odoo-addon-account-check-deposit]: Downloading https://files.pythonhosted.org/packages/1e/55/d5133eadea02722bc20556430307723016eb294266a8c67446257070030d/odoo_addon_account_check_deposit-15.0.1.0.0.9-py3-none-any.whl
+[2023-08-09 04:40:30] INFO root fetch - processPackages [odoo-addon-account-fiscal-position-type]: New version: [16.0.1.0.2.5] Old Version: [16.0.1.0.2.3]
+[2023-08-09 04:40:30] INFO root fetch - processPackages [konbinine]: executing diffoscope
+[2023-08-09 04:40:30] INFO root fetch - processPackages [konbinine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konbinine-0.1.5.tar.gz tmp/konbinine-0.1.6.tar.gz --markdown 20230809/k/konbinine/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-09 04:40:30] INFO root fetch - processPackages [cqepyutils]: Downloading https://files.pythonhosted.org/packages/93/a1/24226d85226d734a3a37ba4877dcc492a3aba114b83026119310dae5e724/cqepyutils-0.1.9.tar.gz
+[2023-08-09 04:40:30] INFO root fetch - processPackages [lexisnexisapi]: executing diffoscope
+[2023-08-09 04:40:30] INFO root fetch - processPackages [lexisnexisapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lexisnexisapi-3.0.3.tar.gz tmp/lexisnexisapi-3.0.3.1.tar.gz --markdown 20230809/l/lexisnexisapi/3.0.3-3.0.3.1/diff.md --exclude *.pyd
+[2023-08-09 04:40:30] INFO root fetch - processPackages [odoo12-addon-account-check-deposit]: Downloading https://files.pythonhosted.org/packages/46/2e/79901509c670b6614bece3b5c0f21e4822a1c0d319cc04ee7ecb51530a50/odoo12_addon_account_check_deposit-12.0.2.0.1.99.dev8-py3-none-any.whl
+[2023-08-09 04:40:30] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: executing diffoscope
+[2023-08-09 04:40:30] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_financial_tools-16.0.20230627.0-py3-none-any.whl.zip tmp/odoo_addons_oca_account_financial_tools-16.0.20230808.0-py3-none-any.whl.zip --markdown 20230809/o/odoo-addons-oca-account-financial-tools/16.0.20230627.0-16.0.20230808.0/diff.md --exclude *.pyd
+[2023-08-09 04:40:30] INFO root fetch - processPackages [cqepyutils]: executing diffoscope
+[2023-08-09 04:40:30] INFO root fetch - processPackages [cqepyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cqepyutils-0.1.8.tar.gz tmp/cqepyutils-0.1.9.tar.gz --markdown 20230809/c/cqepyutils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-09 04:40:30] INFO root fetch - processPackages [DeepLScrapper]: executing diffoscope
+[2023-08-09 04:40:30] INFO root fetch - processPackages [DeepLScrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeepLScrapper-1.6.0.tar.gz tmp/DeepLScrapper-1.7.0.tar.gz --markdown 20230809/D/DeepLScrapper/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-08-09 04:40:30] INFO root fetch - processPackages [odoo-addon-account-check-deposit]: executing diffoscope
+[2023-08-09 04:40:30] INFO root fetch - processPackages [odoo-addon-account-check-deposit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_check_deposit-15.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_account_check_deposit-15.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230809/o/odoo-addon-account-check-deposit/15.0.1.0.0.8-15.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-08-09 04:40:30] INFO root fetch - processPackages [odoo-addon-account-fiscal-position-type]: Downloading https://files.pythonhosted.org/packages/69/1d/5f09606b6739be3d210e4b0e50c3d425c42360150b61e9c69b367c1fa7b2/odoo_addon_account_fiscal_position_type-16.0.1.0.2.3-py3-none-any.whl
+[2023-08-09 04:40:31] INFO root fetch - processPackages [hdx-python-scraper]: Downloading https://files.pythonhosted.org/packages/19/65/923390e58f4df24c2c47f276b7834c366765b95297c2a393ca1e7afe1a4a/hdx_python_scraper-2.1.8.tar.gz
+[2023-08-09 04:40:31] INFO root fetch - processPackages [odoo12-addon-account-check-deposit]: executing diffoscope
+[2023-08-09 04:40:31] INFO root fetch - processPackages [odoo12-addon-account-check-deposit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_account_check_deposit-12.0.2.0.1.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_account_check_deposit-12.0.2.0.1.99.dev8-py3-none-any.whl.zip --markdown 20230809/o/odoo12-addon-account-check-deposit/12.0.2.0.1.99.dev7-12.0.2.0.1.99.dev8/diff.md --exclude *.pyd
+[2023-08-09 04:40:31] INFO root fetch - processPackages [odoo-addon-account-fiscal-position-type]: Downloading https://files.pythonhosted.org/packages/3d/d4/bd5a2018f823121ec511d811990bd4686912c757ba4f4cbc879986295807/odoo_addon_account_fiscal_position_type-16.0.1.0.2.5-py3-none-any.whl
+[2023-08-09 04:40:31] INFO root fetch - processPackages [SQLAlchemyExample]: Remove: archive file [/home/abi/fetcher/tmp/SQLAlchemyExample-0.1.8.tar.gz]
+[2023-08-09 04:40:31] INFO root fetch - processPackages [SQLAlchemyExample]: Remove: archive file [/home/abi/fetcher/tmp/SQLAlchemyExample-0.1.9.tar.gz]
+[2023-08-09 04:40:31] INFO root fetch - main [MainThread]: End processing [SQLAlchemyExample]: success
+[2023-08-09 04:40:31] INFO root fetch - processPackages [odoo-addon-account-fiscal-position-type]: executing diffoscope
+[2023-08-09 04:40:31] INFO root fetch - processPackages [odoo-addon-account-fiscal-position-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_fiscal_position_type-16.0.1.0.2.3-py3-none-any.whl.zip tmp/odoo_addon_account_fiscal_position_type-16.0.1.0.2.5-py3-none-any.whl.zip --markdown 20230809/o/odoo-addon-account-fiscal-position-type/16.0.1.0.2.3-16.0.1.0.2.5/diff.md --exclude *.pyd
+[2023-08-09 04:40:32] INFO root fetch - processPackages [hdx-python-scraper]: executing diffoscope
+[2023-08-09 04:40:32] INFO root fetch - processPackages [hdx-python-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdx_python_scraper-2.1.7.tar.gz tmp/hdx_python_scraper-2.1.8.tar.gz --markdown 20230809/h/hdx-python-scraper/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-08-09 04:40:32] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_financial_tools-16.0.20230627.0-py3-none-any.whl.zip]
+[2023-08-09 04:40:32] INFO root fetch - processPackages [odoo-addons-oca-account-financial-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_financial_tools-16.0.20230808.0-py3-none-any.whl.zip]
+[2023-08-09 04:40:32] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-financial-tools]: success
+[2023-08-09 04:40:32] INFO root fetch - processPackages [lexisnexisapi]: Remove: archive file [/home/abi/fetcher/tmp/lexisnexisapi-3.0.3.tar.gz]
+[2023-08-09 04:40:32] INFO root fetch - processPackages [lexisnexisapi]: Remove: archive file [/home/abi/fetcher/tmp/lexisnexisapi-3.0.3.1.tar.gz]
+[2023-08-09 04:40:32] INFO root fetch - main [MainThread]: End processing [lexisnexisapi]: success
+[2023-08-09 04:40:32] INFO root fetch - processPackages [cqepyutils]: Remove: archive file [/home/abi/fetcher/tmp/cqepyutils-0.1.8.tar.gz]
+[2023-08-09 04:40:32] INFO root fetch - processPackages [cqepyutils]: Remove: archive file [/home/abi/fetcher/tmp/cqepyutils-0.1.9.tar.gz]
+[2023-08-09 04:40:32] INFO root fetch - main [MainThread]: End processing [cqepyutils]: success
+[2023-08-09 04:40:32] INFO root fetch - processPackages [konbinine]: Remove: archive file [/home/abi/fetcher/tmp/konbinine-0.1.5.tar.gz]
+[2023-08-09 04:40:32] INFO root fetch - processPackages [konbinine]: Remove: archive file [/home/abi/fetcher/tmp/konbinine-0.1.6.tar.gz]
+[2023-08-09 04:40:32] INFO root fetch - main [MainThread]: End processing [konbinine]: success
+[2023-08-09 04:40:32] INFO root fetch - processPackages [DeepLScrapper]: Remove: archive file [/home/abi/fetcher/tmp/DeepLScrapper-1.6.0.tar.gz]
+[2023-08-09 04:40:32] INFO root fetch - processPackages [DeepLScrapper]: Remove: archive file [/home/abi/fetcher/tmp/DeepLScrapper-1.7.0.tar.gz]
+[2023-08-09 04:40:32] INFO root fetch - main [MainThread]: End processing [DeepLScrapper]: success
+[2023-08-09 04:40:32] INFO root fetch - processPackages [odoo-addon-account-check-deposit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_check_deposit-15.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-08-09 04:40:32] INFO root fetch - processPackages [odoo-addon-account-check-deposit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_check_deposit-15.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-08-09 04:40:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-check-deposit]: success
+[2023-08-09 04:40:32] INFO root fetch - processPackages [odoo-addon-account-fiscal-position-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_fiscal_position_type-16.0.1.0.2.3-py3-none-any.whl.zip]
+[2023-08-09 04:40:32] INFO root fetch - processPackages [odoo-addon-account-fiscal-position-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_fiscal_position_type-16.0.1.0.2.5-py3-none-any.whl.zip]
+[2023-08-09 04:40:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-fiscal-position-type]: success
+[2023-08-09 04:40:32] INFO root fetch - processPackages [odoo12-addon-account-check-deposit]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_check_deposit-12.0.2.0.1.99.dev7-py3-none-any.whl.zip]
+[2023-08-09 04:40:32] INFO root fetch - processPackages [odoo12-addon-account-check-deposit]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_check_deposit-12.0.2.0.1.99.dev8-py3-none-any.whl.zip]
+[2023-08-09 04:40:32] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-check-deposit]: success
+[2023-08-09 04:40:34] INFO root fetch - processPackages [hdx-python-scraper]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_scraper-2.1.7.tar.gz]
+[2023-08-09 04:40:34] INFO root fetch - processPackages [hdx-python-scraper]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_scraper-2.1.8.tar.gz]
+[2023-08-09 04:40:34] INFO root fetch - main [MainThread]: End processing [hdx-python-scraper]: success
+[2023-08-09 04:40:34] INFO root fetch - main [MainThread]: Store serial: [19231921]
