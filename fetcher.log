@@ -10758,3 +10758,42 @@
 [2023-08-09 05:22:29] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-ionoscloud-8.0.4.tar.gz]
 [2023-08-09 05:22:29] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-ionoscloud]: success
 [2023-08-09 05:22:29] INFO root fetch - main [MainThread]: Store serial: [19232245]
+[2023-08-09 05:27:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19232245]
+[2023-08-09 05:27:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-09 05:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: konfuzio-sdk
+[2023-08-09 05:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-base-geolocalize-company
+[2023-08-09 05:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-base-geoengine-demo
+[2023-08-09 05:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-base-geoengine
+[2023-08-09 05:27:38] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-08-09 05:27:38] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-08-09 05:27:38] INFO root fetch - processPackages [odoo-addon-base-geolocalize-company]: New version: [16.0.1.0.1.4] Old Version: [16.0.1.0.1.2]
+[2023-08-09 05:27:38] INFO root fetch - processPackages [odoo-addon-base-geoengine-demo]: New version: [16.0.1.0.0.26] Old Version: [16.0.1.0.0.23]
+[2023-08-09 05:27:38] INFO root fetch - processPackages [odoo-addon-base-geoengine]: New version: [16.0.1.0.0.71] Old Version: [16.0.1.0.0.69]
+[2023-08-09 05:27:38] INFO root fetch - processPackages [odoo-addon-base-geolocalize-company]: Downloading https://files.pythonhosted.org/packages/ef/ed/8e852a285a94ba9d16474fe5dae010f0bb74f11f4f7b89e788c1a1238745/odoo_addon_base_geolocalize_company-16.0.1.0.1.2-py3-none-any.whl
+[2023-08-09 05:27:38] INFO root fetch - processPackages [odoo-addon-base-geoengine-demo]: Downloading https://files.pythonhosted.org/packages/de/70/57a7237b224b7d09a8836a8b0d9764dadf5ad3d1c97cdae52ed1e7061704/odoo_addon_base_geoengine_demo-16.0.1.0.0.23-py3-none-any.whl
+[2023-08-09 05:27:38] INFO root fetch - processPackages [odoo-addon-base-geoengine]: Downloading https://files.pythonhosted.org/packages/7e/ac/889acc35c17db2fd71a6e723294f56471ca8677278151fa25032bfcb804b/odoo_addon_base_geoengine-16.0.1.0.0.69-py3-none-any.whl
+[2023-08-09 05:27:39] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-08-09 05:27:39] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-08-09 05:27:39] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230809/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-08-09 05:27:39] INFO root fetch - processPackages [odoo-addon-base-geolocalize-company]: Downloading https://files.pythonhosted.org/packages/a9/ce/d983f887217ee6b8fb9636c78c863d003f003395e47bfeb36567e4c96356/odoo_addon_base_geolocalize_company-16.0.1.0.1.4-py3-none-any.whl
+[2023-08-09 05:27:39] INFO root fetch - processPackages [odoo-addon-base-geoengine-demo]: Downloading https://files.pythonhosted.org/packages/39/4f/d9bae9315494ff9944ba794e5c48395f8365e9bcbcadfdce483064486640/odoo_addon_base_geoengine_demo-16.0.1.0.0.26-py3-none-any.whl
+[2023-08-09 05:27:39] INFO root fetch - processPackages [odoo-addon-base-geolocalize-company]: executing diffoscope
+[2023-08-09 05:27:39] INFO root fetch - processPackages [odoo-addon-base-geolocalize-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_geolocalize_company-16.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_base_geolocalize_company-16.0.1.0.1.4-py3-none-any.whl.zip --markdown 20230809/o/odoo-addon-base-geolocalize-company/16.0.1.0.1.2-16.0.1.0.1.4/diff.md --exclude *.pyd
+[2023-08-09 05:27:39] INFO root fetch - processPackages [odoo-addon-base-geoengine]: Downloading https://files.pythonhosted.org/packages/c9/3c/ae76530e489ae401292bdc47e7beccb7b88b5771e0479d86c03d4551d53f/odoo_addon_base_geoengine-16.0.1.0.0.71-py3-none-any.whl
+[2023-08-09 05:27:39] INFO root fetch - processPackages [odoo-addon-base-geoengine-demo]: executing diffoscope
+[2023-08-09 05:27:39] INFO root fetch - processPackages [odoo-addon-base-geoengine-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_geoengine_demo-16.0.1.0.0.23-py3-none-any.whl.zip tmp/odoo_addon_base_geoengine_demo-16.0.1.0.0.26-py3-none-any.whl.zip --markdown 20230809/o/odoo-addon-base-geoengine-demo/16.0.1.0.0.23-16.0.1.0.0.26/diff.md --exclude *.pyd
+[2023-08-09 05:27:40] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2023-08-09 05:27:40] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2023-08-09 05:27:40] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-08-09 05:27:40] INFO root fetch - processPackages [odoo-addon-base-geolocalize-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_geolocalize_company-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2023-08-09 05:27:40] INFO root fetch - processPackages [odoo-addon-base-geolocalize-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_geolocalize_company-16.0.1.0.1.4-py3-none-any.whl.zip]
+[2023-08-09 05:27:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-geolocalize-company]: success
+[2023-08-09 05:27:40] INFO root fetch - processPackages [odoo-addon-base-geoengine-demo]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_geoengine_demo-16.0.1.0.0.23-py3-none-any.whl.zip]
+[2023-08-09 05:27:40] INFO root fetch - processPackages [odoo-addon-base-geoengine-demo]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_geoengine_demo-16.0.1.0.0.26-py3-none-any.whl.zip]
+[2023-08-09 05:27:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-geoengine-demo]: success
+[2023-08-09 05:27:41] INFO root fetch - processPackages [odoo-addon-base-geoengine]: executing diffoscope
+[2023-08-09 05:27:41] INFO root fetch - processPackages [odoo-addon-base-geoengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_geoengine-16.0.1.0.0.69-py3-none-any.whl.zip tmp/odoo_addon_base_geoengine-16.0.1.0.0.71-py3-none-any.whl.zip --markdown 20230809/o/odoo-addon-base-geoengine/16.0.1.0.0.69-16.0.1.0.0.71/diff.md --exclude *.pyd
+[2023-08-09 05:27:42] INFO root fetch - processPackages [odoo-addon-base-geoengine]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_geoengine-16.0.1.0.0.69-py3-none-any.whl.zip]
+[2023-08-09 05:27:42] INFO root fetch - processPackages [odoo-addon-base-geoengine]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_geoengine-16.0.1.0.0.71-py3-none-any.whl.zip]
+[2023-08-09 05:27:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-geoengine]: success
+[2023-08-09 05:27:42] INFO root fetch - main [MainThread]: Store serial: [19232259]
