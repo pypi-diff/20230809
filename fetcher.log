@@ -11846,3 +11846,87 @@
 [2023-08-09 06:46:02] INFO root fetch - processPackages [odoo-addon-project-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_sequence-16.0.1.0.0.6-py3-none-any.whl.zip]
 [2023-08-09 06:46:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-sequence]: success
 [2023-08-09 06:46:02] INFO root fetch - main [MainThread]: Store serial: [19232819]
+[2023-08-09 06:51:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19232819]
+[2023-08-09 06:51:10] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-09 06:51:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: survey-report-generator
+[2023-08-09 06:51:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: garth
+[2023-08-09 06:51:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rraft-py
+[2023-08-09 06:51:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metasnek
+[2023-08-09 06:51:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cropnet
+[2023-08-09 06:51:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RegScale-CLI
+[2023-08-09 06:51:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wandb-core-alpha
+[2023-08-09 06:51:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: psyke
+[2023-08-09 06:51:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addons-oca-repair
+[2023-08-09 06:51:10] INFO root fetch - processPackages [cropnet]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-09 06:51:10] INFO root fetch - processPackages [rraft-py]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-09 06:51:10] INFO root fetch - processPackages [survey-report-generator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-09 06:51:10] INFO root fetch - processPackages [garth]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-08-09 06:51:11] INFO root fetch - processPackages [metasnek]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-09 06:51:11] INFO root fetch - processPackages [rraft-py]: Downloading https://files.pythonhosted.org/packages/64/26/94c005c69923aad0b350fb27b05f0c0c7470307aca2a0850f9d1a84339e4/rraft_py-0.1.0.tar.gz
+[2023-08-09 06:51:11] INFO root fetch - processPackages [RegScale-CLI]: New version: [5.9.0] Old Version: [5.8.0]
+[2023-08-09 06:51:11] INFO root fetch - processPackages [cropnet]: Downloading https://files.pythonhosted.org/packages/70/cb/da58115f4228c8e151b9039114c5006dec30df930291b243471b8c7cd997/cropnet-0.1.8.tar.gz
+[2023-08-09 06:51:11] INFO root fetch - processPackages [wandb-core-alpha]: New version: [0.0.1a3] Old Version: [0.0.1a2]
+[2023-08-09 06:51:11] INFO root fetch - processPackages [odoo-addons-oca-repair]: New version: [16.0.20230728.1] Old Version: [15.0.20230808.1]
+[2023-08-09 06:51:11] INFO root fetch - processPackages [survey-report-generator]: Downloading https://files.pythonhosted.org/packages/1f/f6/26fd1fc02c4f3a86772075a03e77f3cffb4f26de41e30bc9d7f7a57d304b/survey_report_generator-0.0.8.tar.gz
+[2023-08-09 06:51:11] INFO root fetch - processPackages [psyke]: New version: [0.4.9.dev9] Old Version: [0.4.9.dev8]
+[2023-08-09 06:51:11] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/fa/78/886b54b59c2aacb5ba8a95980ade6002cf79cba1306f83eb35f6674d6fb3/garth-0.4.5.tar.gz
+[2023-08-09 06:51:11] INFO root fetch - processPackages [metasnek]: Downloading https://files.pythonhosted.org/packages/7a/98/dec7c2c73456bb285ead11defe6b7700dc35847b54dcdfeb8f7ed3bd1621/metasnek-0.0.5.tar.gz
+[2023-08-09 06:51:11] INFO root fetch - processPackages [wandb-core-alpha]: Downloading https://files.pythonhosted.org/packages/10/2f/a0d197655a714919c02ca98541ba7368710ce4b7c34c9046cfe6d9f2bd2f/wandb-core-alpha-0.0.1a2.tar.gz
+[2023-08-09 06:51:11] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/58/85/6147396e1ee43b6657869d503e8864e087e8af4c86a69aa0d21e8442e50b/psyke-0.4.9.dev8.tar.gz
+[2023-08-09 06:51:11] INFO root fetch - processPackages [RegScale-CLI]: Downloading https://files.pythonhosted.org/packages/2b/3f/878438fa28f5ffd3c38125c73b4b234937896776bf6f52a64031c5602a30/RegScale_CLI-5.8.0-py3-none-any.whl
+[2023-08-09 06:51:11] INFO root fetch - processPackages [rraft-py]: Downloading https://files.pythonhosted.org/packages/c4/1b/25caaef1af00c339d8cb64cf383f91b4290d69fb1167a449c5708f31c780/rraft_py-0.1.1.tar.gz
+[2023-08-09 06:51:11] INFO root fetch - processPackages [cropnet]: Downloading https://files.pythonhosted.org/packages/13/53/3e388f8f144121c37506e88f46fa01c7f8007ce66c3a14ada1d8f942cd90/cropnet-0.1.9.tar.gz
+[2023-08-09 06:51:11] INFO root fetch - processPackages [odoo-addons-oca-repair]: Downloading https://files.pythonhosted.org/packages/50/fa/f5ae0cc241081a1764fee5691e73bae0063159b8ed17b492ccff48ebe9eb/odoo_addons_oca_repair-15.0.20230808.1-py3-none-any.whl
+[2023-08-09 06:51:11] INFO root fetch - processPackages [survey-report-generator]: Downloading https://files.pythonhosted.org/packages/23/e7/a8186c66ce9683ab479c8f137354f8735d0dfd1a793105d80b3e91794768/survey_report_generator-0.0.9.tar.gz
+[2023-08-09 06:51:11] INFO root fetch - processPackages [rraft-py]: executing diffoscope
+[2023-08-09 06:51:11] INFO root fetch - processPackages [rraft-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rraft_py-0.1.0.tar.gz tmp/rraft_py-0.1.1.tar.gz --markdown 20230809/r/rraft-py/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-09 06:51:11] INFO root fetch - processPackages [cropnet]: executing diffoscope
+[2023-08-09 06:51:11] INFO root fetch - processPackages [cropnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cropnet-0.1.8.tar.gz tmp/cropnet-0.1.9.tar.gz --markdown 20230809/c/cropnet/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-09 06:51:11] INFO root fetch - processPackages [metasnek]: Downloading https://files.pythonhosted.org/packages/82/8c/d199df74c9491b70c7449338beac688651d012d45b267113d9eac17535af/metasnek-0.0.6.tar.gz
+[2023-08-09 06:51:11] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/c9/77/ac77d6184dbdebdda847c3f22a57d6dfc84bf0f11c6042b83040b84d6734/garth-0.4.6.tar.gz
+[2023-08-09 06:51:11] INFO root fetch - processPackages [wandb-core-alpha]: Downloading https://files.pythonhosted.org/packages/92/1b/20d473a596d693f89709c2abadc03dd46f55a20eff5bfdc09717a0ec8cb0/wandb-core-alpha-0.0.1a3.tar.gz
+[2023-08-09 06:51:11] INFO root fetch - processPackages [metasnek]: executing diffoscope
+[2023-08-09 06:51:11] INFO root fetch - processPackages [metasnek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metasnek-0.0.5.tar.gz tmp/metasnek-0.0.6.tar.gz --markdown 20230809/m/metasnek/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-09 06:51:11] INFO root fetch - processPackages [survey-report-generator]: executing diffoscope
+[2023-08-09 06:51:11] INFO root fetch - processPackages [survey-report-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/survey_report_generator-0.0.8.tar.gz tmp/survey_report_generator-0.0.9.tar.gz --markdown 20230809/s/survey-report-generator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-09 06:51:11] INFO root fetch - processPackages [garth]: executing diffoscope
+[2023-08-09 06:51:11] INFO root fetch - processPackages [garth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garth-0.4.5.tar.gz tmp/garth-0.4.6.tar.gz --markdown 20230809/g/garth/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-08-09 06:51:11] INFO root fetch - processPackages [odoo-addons-oca-repair]: Downloading https://files.pythonhosted.org/packages/0e/8b/6c223b1ac19690d49864b06600e70b5b2fc24e9567f8eed3390d08fa6335/odoo_addons_oca_repair-16.0.20230728.1-py3-none-any.whl
+[2023-08-09 06:51:11] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/15/d4/b851e7d22e51eb36d2fb9795da0dda8f93018d6d15b54b8ef5ade09be088/psyke-0.4.9.dev9.tar.gz
+[2023-08-09 06:51:11] INFO root fetch - processPackages [RegScale-CLI]: Downloading https://files.pythonhosted.org/packages/81/07/778978d646b2a15a81f5db8b7ec76ce6f41543e491b67f82cc41051e8332/RegScale_CLI-5.9.0-py3-none-any.whl
+[2023-08-09 06:51:11] INFO root fetch - processPackages [wandb-core-alpha]: executing diffoscope
+[2023-08-09 06:51:11] INFO root fetch - processPackages [wandb-core-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wandb-core-alpha-0.0.1a2.tar.gz tmp/wandb-core-alpha-0.0.1a3.tar.gz --markdown 20230809/w/wandb-core-alpha/0.0.1a2-0.0.1a3/diff.md --exclude *.pyd
+[2023-08-09 06:51:12] INFO root fetch - processPackages [odoo-addons-oca-repair]: executing diffoscope
+[2023-08-09 06:51:12] INFO root fetch - processPackages [odoo-addons-oca-repair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_repair-15.0.20230808.1-py3-none-any.whl.zip tmp/odoo_addons_oca_repair-16.0.20230728.1-py3-none-any.whl.zip --markdown 20230809/o/odoo-addons-oca-repair/15.0.20230808.1-16.0.20230728.1/diff.md --exclude *.pyd
+[2023-08-09 06:51:12] INFO root fetch - processPackages [psyke]: executing diffoscope
+[2023-08-09 06:51:12] INFO root fetch - processPackages [psyke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psyke-0.4.9.dev8.tar.gz tmp/psyke-0.4.9.dev9.tar.gz --markdown 20230809/p/psyke/0.4.9.dev8-0.4.9.dev9/diff.md --exclude *.pyd
+[2023-08-09 06:51:12] INFO root fetch - processPackages [RegScale-CLI]: executing diffoscope
+[2023-08-09 06:51:12] INFO root fetch - processPackages [RegScale-CLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RegScale_CLI-5.8.0-py3-none-any.whl.zip tmp/RegScale_CLI-5.9.0-py3-none-any.whl.zip --markdown 20230809/R/RegScale-CLI/5.8.0-5.9.0/diff.md --exclude *.pyd
+[2023-08-09 06:51:13] INFO root fetch - processPackages [cropnet]: Remove: archive file [/home/abi/fetcher/tmp/cropnet-0.1.8.tar.gz]
+[2023-08-09 06:51:13] INFO root fetch - processPackages [cropnet]: Remove: archive file [/home/abi/fetcher/tmp/cropnet-0.1.9.tar.gz]
+[2023-08-09 06:51:13] INFO root fetch - main [MainThread]: End processing [cropnet]: success
+[2023-08-09 06:51:13] INFO root fetch - processPackages [metasnek]: Remove: archive file [/home/abi/fetcher/tmp/metasnek-0.0.5.tar.gz]
+[2023-08-09 06:51:13] INFO root fetch - processPackages [metasnek]: Remove: archive file [/home/abi/fetcher/tmp/metasnek-0.0.6.tar.gz]
+[2023-08-09 06:51:13] INFO root fetch - main [MainThread]: End processing [metasnek]: success
+[2023-08-09 06:51:13] INFO root fetch - processPackages [odoo-addons-oca-repair]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_repair-15.0.20230808.1-py3-none-any.whl.zip]
+[2023-08-09 06:51:13] INFO root fetch - processPackages [odoo-addons-oca-repair]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_repair-16.0.20230728.1-py3-none-any.whl.zip]
+[2023-08-09 06:51:13] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-repair]: success
+[2023-08-09 06:51:13] INFO root fetch - processPackages [survey-report-generator]: Remove: archive file [/home/abi/fetcher/tmp/survey_report_generator-0.0.8.tar.gz]
+[2023-08-09 06:51:13] INFO root fetch - processPackages [survey-report-generator]: Remove: archive file [/home/abi/fetcher/tmp/survey_report_generator-0.0.9.tar.gz]
+[2023-08-09 06:51:13] INFO root fetch - main [MainThread]: End processing [survey-report-generator]: success
+[2023-08-09 06:51:13] INFO root fetch - processPackages [wandb-core-alpha]: Remove: archive file [/home/abi/fetcher/tmp/wandb-core-alpha-0.0.1a2.tar.gz]
+[2023-08-09 06:51:13] INFO root fetch - processPackages [wandb-core-alpha]: Remove: archive file [/home/abi/fetcher/tmp/wandb-core-alpha-0.0.1a3.tar.gz]
+[2023-08-09 06:51:13] INFO root fetch - main [MainThread]: End processing [wandb-core-alpha]: success
+[2023-08-09 06:51:13] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.4.5.tar.gz]
+[2023-08-09 06:51:13] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.4.6.tar.gz]
+[2023-08-09 06:51:13] INFO root fetch - main [MainThread]: End processing [garth]: success
+[2023-08-09 06:51:13] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.4.9.dev8.tar.gz]
+[2023-08-09 06:51:13] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.4.9.dev9.tar.gz]
+[2023-08-09 06:51:13] INFO root fetch - main [MainThread]: End processing [psyke]: success
+[2023-08-09 06:51:13] INFO root fetch - processPackages [rraft-py]: Remove: archive file [/home/abi/fetcher/tmp/rraft_py-0.1.0.tar.gz]
+[2023-08-09 06:51:13] INFO root fetch - processPackages [rraft-py]: Remove: archive file [/home/abi/fetcher/tmp/rraft_py-0.1.1.tar.gz]
+[2023-08-09 06:51:13] INFO root fetch - main [MainThread]: End processing [rraft-py]: success
+[2023-08-09 06:51:13] INFO root fetch - processPackages [RegScale-CLI]: Remove: archive file [/home/abi/fetcher/tmp/RegScale_CLI-5.8.0-py3-none-any.whl.zip]
+[2023-08-09 06:51:13] INFO root fetch - processPackages [RegScale-CLI]: Remove: archive file [/home/abi/fetcher/tmp/RegScale_CLI-5.9.0-py3-none-any.whl.zip]
+[2023-08-09 06:51:13] INFO root fetch - main [MainThread]: End processing [RegScale-CLI]: success
+[2023-08-09 06:51:13] INFO root fetch - main [MainThread]: Store serial: [19232850]
