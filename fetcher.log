@@ -11746,3 +11746,33 @@
 [2023-08-09 06:35:39] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-3.0.2rc1.tar.gz]
 [2023-08-09 06:35:39] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
 [2023-08-09 06:35:39] INFO root fetch - main [MainThread]: Store serial: [19232759]
+[2023-08-09 06:40:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19232759]
+[2023-08-09 06:40:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-09 06:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: computing-toolbox
+[2023-08-09 06:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-product-attribute
+[2023-08-09 06:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiohttp-wsconnhandler
+[2023-08-09 06:40:49] INFO root fetch - processPackages [computing-toolbox]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-09 06:40:49] INFO root fetch - processPackages [aiohttp-wsconnhandler]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-09 06:40:49] INFO root fetch - processPackages [computing-toolbox]: Downloading https://files.pythonhosted.org/packages/f2/8e/1bed8b8e0b1782a73709a1a045616f5d480e60a82b7027004980f3afe48c/computing-toolbox-1.0.1.tar.gz
+[2023-08-09 06:40:49] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: New version: [16.0.20230808.0] Old Version: [16.0.20230718.0]
+[2023-08-09 06:40:49] INFO root fetch - processPackages [aiohttp-wsconnhandler]: Downloading https://files.pythonhosted.org/packages/de/91/3716c5586835e8c6a25ade032f758f964778d6639ae7c6d181c0a7befca2/aiohttp-wsconnhandler-0.1.0.tar.gz
+[2023-08-09 06:40:49] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Downloading https://files.pythonhosted.org/packages/f9/44/b1541c7a99990a7c7a1e32d71d2cb69df563a2a3e290e1df55eb063276e5/odoo_addons_oca_product_attribute-16.0.20230718.0-py3-none-any.whl
+[2023-08-09 06:40:49] INFO root fetch - processPackages [computing-toolbox]: Downloading https://files.pythonhosted.org/packages/c0/0b/458390f76a593a51aefe71545e7fc639915294b9857196cd61b0f371e788/computing-toolbox-1.0.2.tar.gz
+[2023-08-09 06:40:49] INFO root fetch - processPackages [aiohttp-wsconnhandler]: Downloading https://files.pythonhosted.org/packages/ba/c6/a05728f4f6bf3b3cdb53738cff8b321936f7f569cdbc6ab7bf7e7701500c/aiohttp-wsconnhandler-0.1.1.tar.gz
+[2023-08-09 06:40:49] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Downloading https://files.pythonhosted.org/packages/d3/81/a7a910dd2a1878cb8aaed9cfcee3d66b006c6c07b84059b1a022f570bcf7/odoo_addons_oca_product_attribute-16.0.20230808.0-py3-none-any.whl
+[2023-08-09 06:40:50] INFO root fetch - processPackages [computing-toolbox]: executing diffoscope
+[2023-08-09 06:40:50] INFO root fetch - processPackages [computing-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/computing-toolbox-1.0.1.tar.gz tmp/computing-toolbox-1.0.2.tar.gz --markdown 20230809/c/computing-toolbox/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-09 06:40:50] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: executing diffoscope
+[2023-08-09 06:40:50] INFO root fetch - processPackages [aiohttp-wsconnhandler]: executing diffoscope
+[2023-08-09 06:40:50] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_product_attribute-16.0.20230718.0-py3-none-any.whl.zip tmp/odoo_addons_oca_product_attribute-16.0.20230808.0-py3-none-any.whl.zip --markdown 20230809/o/odoo-addons-oca-product-attribute/16.0.20230718.0-16.0.20230808.0/diff.md --exclude *.pyd
+[2023-08-09 06:40:50] INFO root fetch - processPackages [aiohttp-wsconnhandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohttp-wsconnhandler-0.1.0.tar.gz tmp/aiohttp-wsconnhandler-0.1.1.tar.gz --markdown 20230809/a/aiohttp-wsconnhandler/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-09 06:40:50] INFO root fetch - processPackages [aiohttp-wsconnhandler]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp-wsconnhandler-0.1.0.tar.gz]
+[2023-08-09 06:40:50] INFO root fetch - processPackages [aiohttp-wsconnhandler]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp-wsconnhandler-0.1.1.tar.gz]
+[2023-08-09 06:40:50] INFO root fetch - main [MainThread]: End processing [aiohttp-wsconnhandler]: success
+[2023-08-09 06:40:50] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_product_attribute-16.0.20230718.0-py3-none-any.whl.zip]
+[2023-08-09 06:40:50] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_product_attribute-16.0.20230808.0-py3-none-any.whl.zip]
+[2023-08-09 06:40:50] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-product-attribute]: success
+[2023-08-09 06:40:50] INFO root fetch - processPackages [computing-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/computing-toolbox-1.0.1.tar.gz]
+[2023-08-09 06:40:50] INFO root fetch - processPackages [computing-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/computing-toolbox-1.0.2.tar.gz]
+[2023-08-09 06:40:50] INFO root fetch - main [MainThread]: End processing [computing-toolbox]: success
+[2023-08-09 06:40:50] INFO root fetch - main [MainThread]: Store serial: [19232794]
