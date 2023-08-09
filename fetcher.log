@@ -4940,3 +4940,57 @@
 [2023-08-09 02:43:07] INFO root fetch - processPackages [aviatrix-migration]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration-0.2.9-cp39-cp39-win_amd64.whl.zip]
 [2023-08-09 02:43:07] INFO root fetch - main [MainThread]: End processing [aviatrix-migration]: success
 [2023-08-09 02:43:07] INFO root fetch - main [MainThread]: Store serial: [19229818]
+[2023-08-09 02:48:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19229818]
+[2023-08-09 02:48:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-09 02:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygamd
+[2023-08-09 02:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gwdetchar
+[2023-08-09 02:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robson-package
+[2023-08-09 02:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kubric-nightly
+[2023-08-09 02:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mpzinke
+[2023-08-09 02:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-comprehend-s3olap
+[2023-08-09 02:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lida
+[2023-08-09 02:48:15] INFO root fetch - processPackages [lida]: New version: [0.0.2a0] Old Version: [0.0.1]
+[2023-08-09 02:48:16] INFO root fetch - processPackages [mpzinke]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-09 02:48:16] INFO root fetch - processPackages [robson-package]: New version: [0.0.25] Old Version: [0.0.24]
+[2023-08-09 02:48:16] INFO root fetch - processPackages [gwdetchar]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-08-09 02:48:16] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.8.8] Old Version: [2023.8.7]
+[2023-08-09 02:48:16] INFO root fetch - processPackages [pygamd]: New version: [1.3.7] Old Version: [1.3.2]
+[2023-08-09 02:48:16] INFO root fetch - processPackages [mpzinke]: Downloading https://files.pythonhosted.org/packages/26/f9/28bb81abcd1383624d0667bbb919c5f557ddabc4c34fbfd1034e3213a749/mpzinke-0.1.0.tar.gz
+[2023-08-09 02:48:16] INFO root fetch - processPackages [robson-package]: Downloading https://files.pythonhosted.org/packages/6e/62/06967dc8c185f1efae2a4f048ce17ea596de111e4188f2c5d67988e7efec/robson_package-0.0.24.tar.gz
+[2023-08-09 02:48:16] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/71/25/e61e00aff36fb3bd55a5ea566d5afa61217454783be26937fadd745405ba/kubric-nightly-2023.8.7.tar.gz
+[2023-08-09 02:48:16] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-09 02:48:16] INFO root fetch - processPackages [lida]: Downloading https://files.pythonhosted.org/packages/46/42/ed970a5ca2d14df319401eb52de7f4fd0b8cccf4c7899f6346621fa1d501/lida-0.0.2a0.tar.gz
+[2023-08-09 02:48:16] WARNING root fetch - processPackages [lida]: Skipping package: exceeds size limit 41456940>=10485760
+[2023-08-09 02:48:16] INFO root fetch - main [MainThread]: End processing [lida] error
+[2023-08-09 02:48:16] INFO root fetch - processPackages [gwdetchar]: Downloading https://files.pythonhosted.org/packages/4d/27/d8426425727f4c495da1d4a8a1efa074a6e1fec3a0067a89504e5cbf9e48/gwdetchar-2.1.3.tar.gz
+[2023-08-09 02:48:16] INFO root fetch - processPackages [pygamd]: Downloading https://files.pythonhosted.org/packages/6f/a8/0f4647911b9cff4134f68f5126447488ecb22f5d0188ab6b9c33327e9950/pygamd-1.3.2.tar.gz
+[2023-08-09 02:48:16] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-08-09 02:48:16] INFO root fetch - processPackages [mpzinke]: Downloading https://files.pythonhosted.org/packages/b3/1d/19622b8e746dd153c83acddcedb55b29df3b9a0093c84228171b4d92d045/mpzinke-0.1.1.tar.gz
+[2023-08-09 02:48:16] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-08-09 02:48:16] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-08-09 02:48:16] INFO root fetch - processPackages [robson-package]: Downloading https://files.pythonhosted.org/packages/d6/5c/8f469f88168d3b44c03c601d0f73a641f8776084d3cfccdc8002c7c7c6c4/robson_package-0.0.25.tar.gz
+[2023-08-09 02:48:16] INFO root fetch - processPackages [mpzinke]: executing diffoscope
+[2023-08-09 02:48:16] INFO root fetch - processPackages [mpzinke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpzinke-0.1.0.tar.gz tmp/mpzinke-0.1.1.tar.gz --markdown 20230809/m/mpzinke/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-09 02:48:16] WARNING root fetch - processPackages [pygamd]: Skipping package: exceeds size limit 25899518>=10485760
+[2023-08-09 02:48:16] INFO root fetch - main [MainThread]: End processing [pygamd] error
+[2023-08-09 02:48:16] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/e3/60/ef6d19ed77ec0ee33ab80ea7f7689a49a45049dd1748f3945e74f0d20bb4/kubric-nightly-2023.8.8.tar.gz
+[2023-08-09 02:48:16] INFO root fetch - processPackages [robson-package]: executing diffoscope
+[2023-08-09 02:48:16] INFO root fetch - processPackages [robson-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robson_package-0.0.24.tar.gz tmp/robson_package-0.0.25.tar.gz --markdown 20230809/r/robson-package/0.0.24-0.0.25/diff.md --exclude *.pyd
+[2023-08-09 02:48:16] INFO root fetch - processPackages [gwdetchar]: Downloading https://files.pythonhosted.org/packages/52/ef/1bbb459ffc5bd68a4bd30f05dc3ed9791364763fde75e695316a5542338d/gwdetchar-2.1.4.tar.gz
+[2023-08-09 02:48:16] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-08-09 02:48:16] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.8.7.tar.gz tmp/kubric-nightly-2023.8.8.tar.gz --markdown 20230809/k/kubric-nightly/2023.8.7-2023.8.8/diff.md --exclude *.pyd
+[2023-08-09 02:48:16] INFO root fetch - processPackages [gwdetchar]: executing diffoscope
+[2023-08-09 02:48:16] INFO root fetch - processPackages [gwdetchar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwdetchar-2.1.3.tar.gz tmp/gwdetchar-2.1.4.tar.gz --markdown 20230809/g/gwdetchar/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-08-09 02:48:17] INFO root fetch - processPackages [robson-package]: Remove: archive file [/home/abi/fetcher/tmp/robson_package-0.0.24.tar.gz]
+[2023-08-09 02:48:17] INFO root fetch - processPackages [robson-package]: Remove: archive file [/home/abi/fetcher/tmp/robson_package-0.0.25.tar.gz]
+[2023-08-09 02:48:17] INFO root fetch - main [MainThread]: End processing [robson-package]: success
+[2023-08-09 02:48:17] INFO root fetch - processPackages [mpzinke]: Remove: archive file [/home/abi/fetcher/tmp/mpzinke-0.1.0.tar.gz]
+[2023-08-09 02:48:17] INFO root fetch - processPackages [mpzinke]: Remove: archive file [/home/abi/fetcher/tmp/mpzinke-0.1.1.tar.gz]
+[2023-08-09 02:48:17] INFO root fetch - main [MainThread]: End processing [mpzinke]: success
+[2023-08-09 02:48:17] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.8.7.tar.gz]
+[2023-08-09 02:48:17] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.8.8.tar.gz]
+[2023-08-09 02:48:17] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-08-09 02:48:18] INFO root fetch - processPackages [gwdetchar]: Remove: archive file [/home/abi/fetcher/tmp/gwdetchar-2.1.3.tar.gz]
+[2023-08-09 02:48:18] INFO root fetch - processPackages [gwdetchar]: Remove: archive file [/home/abi/fetcher/tmp/gwdetchar-2.1.4.tar.gz]
+[2023-08-09 02:48:18] INFO root fetch - main [MainThread]: End processing [gwdetchar]: success
+[2023-08-09 02:48:18] INFO root fetch - main [MainThread]: Store serial: [19229858]
