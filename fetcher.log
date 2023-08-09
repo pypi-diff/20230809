@@ -10356,3 +10356,157 @@
 [2023-08-09 05:01:32] INFO root fetch - processPackages [cumm]: Remove: archive file [/home/abi/fetcher/tmp/cumm-0.4.9-cp39-cp39-win_amd64.whl.zip]
 [2023-08-09 05:01:32] INFO root fetch - main [MainThread]: End processing [cumm]: success
 [2023-08-09 05:01:32] INFO root fetch - main [MainThread]: Store serial: [19232057]
+[2023-08-09 05:06:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19232057]
+[2023-08-09 05:06:40] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-08-09 05:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: varman
+[2023-08-09 05:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thebestllmever
+[2023-08-09 05:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: raftify
+[2023-08-09 05:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ryetest
+[2023-08-09 05:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quao
+[2023-08-09 05:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cumm-cu113
+[2023-08-09 05:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cumm-cu114
+[2023-08-09 05:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cumm-cu102
+[2023-08-09 05:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: restoreio
+[2023-08-09 05:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: reddit-post-scraping-tool
+[2023-08-09 05:06:41] INFO root fetch - processPackages [quao]: New version: [0.4.0.9] Old Version: [0.4.0.8]
+[2023-08-09 05:06:41] INFO root fetch - processPackages [reddit-post-scraping-tool]: New version: [1.6.0.0] Old Version: [1.5.0.0]
+[2023-08-09 05:06:41] INFO root fetch - processPackages [restoreio]: New version: [0.6.7] Old Version: [0.6.3]
+[2023-08-09 05:06:41] INFO root fetch - processPackages [raftify]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-09 05:06:41] INFO root fetch - processPackages [varman]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-09 05:06:41] WARNING root fetch - processPackages [ryetest]: Skipping, unable to determine old version
+[2023-08-09 05:06:41] INFO root fetch - processPackages [ryetest]: Start processing: query-rewritor
+[2023-08-09 05:06:41] INFO root fetch - main [MainThread]: End processing [ryetest] error
+[2023-08-09 05:06:41] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/06/bf/f9aa0065003c9f548af0c94b1a2ff8fe5faa735debed7c20a624922b87af/quao-0.4.0.8-py3-none-any.whl
+[2023-08-09 05:06:41] INFO root fetch - processPackages [cumm-cu114]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-09 05:06:41] INFO root fetch - processPackages [thebestllmever]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-09 05:06:41] INFO root fetch - processPackages [cumm-cu102]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-09 05:06:41] WARNING root fetch - processPackages [query-rewritor]: Skipping, unable to determine old version
+[2023-08-09 05:06:41] INFO root fetch - processPackages [query-rewritor]: Start processing: odoo14-addon-contract
+[2023-08-09 05:06:41] INFO root fetch - main [MainThread]: End processing [query-rewritor] error
+[2023-08-09 05:06:41] INFO root fetch - processPackages [cumm-cu113]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-09 05:06:41] INFO root fetch - processPackages [reddit-post-scraping-tool]: Downloading https://files.pythonhosted.org/packages/42/a3/435f890744b3ed934bd9080664aa35307ccfc03d90965b9569d964806142/reddit-post-scraping-tool-1.5.0.0.tar.gz
+[2023-08-09 05:06:41] INFO root fetch - processPackages [varman]: Downloading https://files.pythonhosted.org/packages/b3/7b/33612d7bb408c2c955260678bb6f0f939d42c06641023e9d4a8e02ddeaa9/varman-0.1.2.tar.gz
+[2023-08-09 05:06:41] INFO root fetch - processPackages [raftify]: Downloading https://files.pythonhosted.org/packages/f3/0e/b566132f32d6fa22e7ec71e32547d3abeafbfb2e0ed1a8dab962b2f043bb/raftify-0.0.7-py3-none-any.whl
+[2023-08-09 05:06:41] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/15/ce/fdedb65f96e76c805b9c649dfcde71a2c2fdca40b7ac8e1ae8ba09ab928f/quao-0.4.0.9-py3-none-any.whl
+[2023-08-09 05:06:41] INFO root fetch - processPackages [cumm-cu114]: Downloading https://files.pythonhosted.org/packages/ed/13/a593a7ca4fde703b9a2786b1ab44c644c8e64b1c8effd2721ca93ad45526/cumm_cu114-0.4.8-cp39-cp39-win_amd64.whl
+[2023-08-09 05:06:41] INFO root fetch - processPackages [odoo14-addon-contract]: New version: [14.0.2.9.6.dev2] Old Version: [14.0.2.9.5.dev2]
+[2023-08-09 05:06:41] INFO root fetch - processPackages [thebestllmever]: Downloading https://files.pythonhosted.org/packages/9e/55/b19c761033c3241b513e4c483d7603602badf69784185a112babd3f3fd3d/thebestllmever-0.0.2.tar.gz
+[2023-08-09 05:06:41] INFO root fetch - processPackages [restoreio]: Downloading https://files.pythonhosted.org/packages/c8/bd/57554c9f40441fd591ec7071303c160dc502f68eb4365133e69750601a58/restoreio-0.6.3.tar.gz
+[2023-08-09 05:06:41] INFO root fetch - processPackages [cumm-cu102]: Downloading https://files.pythonhosted.org/packages/e4/35/1695c1481fd037af2b6cf0c8e71e8fef18e36da52b466243d706f3993304/cumm_cu102-0.4.8-cp39-cp39-win_amd64.whl
+[2023-08-09 05:06:41] INFO root fetch - processPackages [cumm-cu113]: Downloading https://files.pythonhosted.org/packages/9d/96/ab30697fb32c71ce8e17bd96de244818d6f9c5abd9947478d4d57e374443/cumm_cu113-0.4.8-cp39-cp39-win_amd64.whl
+[2023-08-09 05:06:41] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-08-09 05:06:41] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.4.0.8-py3-none-any.whl.zip tmp/quao-0.4.0.9-py3-none-any.whl.zip --markdown 20230809/q/quao/0.4.0.8-0.4.0.9/diff.md --exclude *.pyd
+[2023-08-09 05:06:41] INFO root fetch - processPackages [odoo14-addon-contract]: Downloading https://files.pythonhosted.org/packages/85/80/fa2b3f96da4d6346224a003ef95545165051c2cc98d411b8865efbad54c8/odoo14_addon_contract-14.0.2.9.5.dev2-py3-none-any.whl
+[2023-08-09 05:06:41] INFO root fetch - processPackages [thebestllmever]: Downloading https://files.pythonhosted.org/packages/d8/47/c26730d88da4aa62bfc93c0aa665d714c89eee1129f45396b7656b810689/thebestllmever-0.0.3.tar.gz
+[2023-08-09 05:06:41] INFO root fetch - processPackages [varman]: Downloading https://files.pythonhosted.org/packages/c4/95/3a668a520c3e398f4c12317d8aa4f41e6c1bedcce5e522f5c20057373b0d/varman-0.1.3.tar.gz
+[2023-08-09 05:06:41] INFO root fetch - processPackages [raftify]: Downloading https://files.pythonhosted.org/packages/9b/af/4067cf38fea978d616e9a6de20bea4cc7fe2b3d6576c4800f3f194b98d0d/raftify-0.0.8-py3-none-any.whl
+[2023-08-09 05:06:42] INFO root fetch - processPackages [varman]: executing diffoscope
+[2023-08-09 05:06:42] INFO root fetch - processPackages [varman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/varman-0.1.2.tar.gz tmp/varman-0.1.3.tar.gz --markdown 20230809/v/varman/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-09 05:06:42] INFO root fetch - processPackages [raftify]: executing diffoscope
+[2023-08-09 05:06:42] INFO root fetch - processPackages [raftify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raftify-0.0.7-py3-none-any.whl.zip tmp/raftify-0.0.8-py3-none-any.whl.zip --markdown 20230809/r/raftify/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-09 05:06:42] INFO root fetch - processPackages [thebestllmever]: executing diffoscope
+[2023-08-09 05:06:42] INFO root fetch - processPackages [thebestllmever]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thebestllmever-0.0.2.tar.gz tmp/thebestllmever-0.0.3.tar.gz --markdown 20230809/t/thebestllmever/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-09 05:06:42] INFO root fetch - processPackages [cumm-cu102]: Downloading https://files.pythonhosted.org/packages/c8/26/abd154c5625a6af71a2bf16b46a2d7c31ddb3b1bcee2aa6cb35677e1395f/cumm_cu102-0.4.9-cp39-cp39-win_amd64.whl
+[2023-08-09 05:06:42] INFO root fetch - processPackages [reddit-post-scraping-tool]: Downloading https://files.pythonhosted.org/packages/e7/df/904946853cb62d4d3aa4fca5be2161afe863745bf9c147e18e0beb05751d/reddit-post-scraping-tool-1.6.0.0.tar.gz
+[2023-08-09 05:06:42] INFO root fetch - processPackages [odoo14-addon-contract]: Downloading https://files.pythonhosted.org/packages/4a/2f/b3078b338fe555715925883d6240b40dd6e3948466f24e9693b5bbf985c6/odoo14_addon_contract-14.0.2.9.6.dev2-py3-none-any.whl
+[2023-08-09 05:06:42] INFO root fetch - processPackages [reddit-post-scraping-tool]: executing diffoscope
+[2023-08-09 05:06:42] INFO root fetch - processPackages [reddit-post-scraping-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reddit-post-scraping-tool-1.5.0.0.tar.gz tmp/reddit-post-scraping-tool-1.6.0.0.tar.gz --markdown 20230809/r/reddit-post-scraping-tool/1.5.0.0-1.6.0.0/diff.md --exclude *.pyd
+[2023-08-09 05:06:42] INFO root fetch - processPackages [restoreio]: Downloading https://files.pythonhosted.org/packages/a0/b1/1112c5afe103ef4d030f5b7f0f0d68daa91e5ba9d7486954d797bfecd206/restoreio-0.6.7.tar.gz
+[2023-08-09 05:06:42] INFO root fetch - processPackages [cumm-cu114]: Downloading https://files.pythonhosted.org/packages/a4/62/c6ebe2c5281568cece73ea4c0d16e3ed7a21b064eca1f5296016d29e5687/cumm_cu114-0.4.9-cp39-cp39-win_amd64.whl
+[2023-08-09 05:06:42] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.4.0.8-py3-none-any.whl.zip]
+[2023-08-09 05:06:42] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.4.0.9-py3-none-any.whl.zip]
+[2023-08-09 05:06:42] INFO root fetch - processPackages [quao]: Start processing: app-ordering
+[2023-08-09 05:06:42] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-08-09 05:06:42] INFO root fetch - processPackages [app-ordering]: New version: [1.2] Old Version: [1.1]
+[2023-08-09 05:06:42] INFO root fetch - processPackages [cumm-cu113]: Downloading https://files.pythonhosted.org/packages/83/5b/730cbece24850ed9a837f43f761ee42b6c3b205427c09189b1335aac4c77/cumm_cu113-0.4.9-cp39-cp39-win_amd64.whl
+[2023-08-09 05:06:42] INFO root fetch - processPackages [odoo14-addon-contract]: executing diffoscope
+[2023-08-09 05:06:42] INFO root fetch - processPackages [odoo14-addon-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_contract-14.0.2.9.5.dev2-py3-none-any.whl.zip tmp/odoo14_addon_contract-14.0.2.9.6.dev2-py3-none-any.whl.zip --markdown 20230809/o/odoo14-addon-contract/14.0.2.9.5.dev2-14.0.2.9.6.dev2/diff.md --exclude *.pyd
+[2023-08-09 05:06:42] INFO root fetch - processPackages [varman]: Remove: archive file [/home/abi/fetcher/tmp/varman-0.1.2.tar.gz]
+[2023-08-09 05:06:42] INFO root fetch - processPackages [varman]: Remove: archive file [/home/abi/fetcher/tmp/varman-0.1.3.tar.gz]
+[2023-08-09 05:06:42] INFO root fetch - processPackages [varman]: Start processing: odoo14-addon-cooperator
+[2023-08-09 05:06:42] INFO root fetch - main [MainThread]: End processing [varman]: success
+[2023-08-09 05:06:43] INFO root fetch - processPackages [app-ordering]: Downloading https://files.pythonhosted.org/packages/82/48/de9603f519506919e52b858e764b2e9195e7807f794fb0c2cd45a2f3f1b5/app_ordering-1.1.tar.gz
+[2023-08-09 05:06:43] INFO root fetch - processPackages [thebestllmever]: Remove: archive file [/home/abi/fetcher/tmp/thebestllmever-0.0.2.tar.gz]
+[2023-08-09 05:06:43] INFO root fetch - processPackages [thebestllmever]: Remove: archive file [/home/abi/fetcher/tmp/thebestllmever-0.0.3.tar.gz]
+[2023-08-09 05:06:43] INFO root fetch - processPackages [thebestllmever]: Start processing: gtauthclient
+[2023-08-09 05:06:43] INFO root fetch - main [MainThread]: End processing [thebestllmever]: success
+[2023-08-09 05:06:43] INFO root fetch - processPackages [raftify]: Remove: archive file [/home/abi/fetcher/tmp/raftify-0.0.7-py3-none-any.whl.zip]
+[2023-08-09 05:06:43] INFO root fetch - processPackages [raftify]: Remove: archive file [/home/abi/fetcher/tmp/raftify-0.0.8-py3-none-any.whl.zip]
+[2023-08-09 05:06:43] INFO root fetch - processPackages [raftify]: Start processing: xmltread
+[2023-08-09 05:06:43] INFO root fetch - main [MainThread]: End processing [raftify]: success
+[2023-08-09 05:06:43] INFO root fetch - processPackages [odoo14-addon-cooperator]: New version: [14.0.3.0.1.dev3] Old Version: [14.0.3.0.1.dev2]
+[2023-08-09 05:06:43] WARNING root fetch - processPackages [gtauthclient]: Skipping, unable to determine old version
+[2023-08-09 05:06:43] INFO root fetch - processPackages [gtauthclient]: Start processing: odoo-addon-account-credit-control
+[2023-08-09 05:06:43] INFO root fetch - main [MainThread]: End processing [gtauthclient] error
+[2023-08-09 05:06:43] INFO root fetch - processPackages [xmltread]: New version: [0.3] Old Version: [0.2]
+[2023-08-09 05:06:43] INFO root fetch - processPackages [cumm-cu102]: executing diffoscope
+[2023-08-09 05:06:43] INFO root fetch - processPackages [cumm-cu102]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cumm_cu102-0.4.8-cp39-cp39-win_amd64.whl.zip tmp/cumm_cu102-0.4.9-cp39-cp39-win_amd64.whl.zip --markdown 20230809/c/cumm-cu102/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-09 05:06:43] INFO root fetch - processPackages [odoo-addon-account-credit-control]: New version: [16.0.1.0.2.4] Old Version: [16.0.1.0.2.2]
+[2023-08-09 05:06:43] INFO root fetch - processPackages [app-ordering]: Downloading https://files.pythonhosted.org/packages/41/a2/54bf7e6de517c688be8c904128e28e54a727d647cbb0a0995b1a9b1fa6e8/app_ordering-1.2.tar.gz
+[2023-08-09 05:06:43] INFO root fetch - processPackages [odoo14-addon-cooperator]: Downloading https://files.pythonhosted.org/packages/fd/ba/cbe95f5d28337b19704a6ac3f7222ca5307b908a5bd1d7881248f0d4f76c/odoo14_addon_cooperator-14.0.3.0.1.dev2-py3-none-any.whl
+[2023-08-09 05:06:43] INFO root fetch - processPackages [app-ordering]: executing diffoscope
+[2023-08-09 05:06:43] INFO root fetch - processPackages [app-ordering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/app_ordering-1.1.tar.gz tmp/app_ordering-1.2.tar.gz --markdown 20230809/a/app-ordering/1.1-1.2/diff.md --exclude *.pyd
+[2023-08-09 05:06:43] INFO root fetch - processPackages [xmltread]: Downloading https://files.pythonhosted.org/packages/5d/b3/15d12f3176a4d21f89aaf9526f909a141de6352db8f21904047850bd4720/xmltread-0.2.tar.gz
+[2023-08-09 05:06:43] INFO root fetch - processPackages [cumm-cu113]: executing diffoscope
+[2023-08-09 05:06:43] INFO root fetch - processPackages [cumm-cu113]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cumm_cu113-0.4.8-cp39-cp39-win_amd64.whl.zip tmp/cumm_cu113-0.4.9-cp39-cp39-win_amd64.whl.zip --markdown 20230809/c/cumm-cu113/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-09 05:06:43] INFO root fetch - processPackages [odoo-addon-account-credit-control]: Downloading https://files.pythonhosted.org/packages/2a/93/6f9d5b0fa46a04726ec049ecca629bd78d5de685b31852878eaf21c63908/odoo_addon_account_credit_control-16.0.1.0.2.2-py3-none-any.whl
+[2023-08-09 05:06:43] INFO root fetch - processPackages [cumm-cu114]: executing diffoscope
+[2023-08-09 05:06:43] INFO root fetch - processPackages [cumm-cu114]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cumm_cu114-0.4.8-cp39-cp39-win_amd64.whl.zip tmp/cumm_cu114-0.4.9-cp39-cp39-win_amd64.whl.zip --markdown 20230809/c/cumm-cu114/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-09 05:06:43] INFO root fetch - processPackages [reddit-post-scraping-tool]: Remove: archive file [/home/abi/fetcher/tmp/reddit-post-scraping-tool-1.5.0.0.tar.gz]
+[2023-08-09 05:06:43] INFO root fetch - processPackages [reddit-post-scraping-tool]: Remove: archive file [/home/abi/fetcher/tmp/reddit-post-scraping-tool-1.6.0.0.tar.gz]
+[2023-08-09 05:06:43] INFO root fetch - processPackages [reddit-post-scraping-tool]: Start processing: odoo-addon-account-credit-control
+[2023-08-09 05:06:43] INFO root fetch - main [MainThread]: End processing [reddit-post-scraping-tool]: success
+[2023-08-09 05:06:43] INFO root fetch - processPackages [odoo-addon-account-credit-control]: New version: [16.0.1.0.2.4] Old Version: [16.0.1.0.2.2]
+[2023-08-09 05:06:43] INFO root fetch - processPackages [odoo-addon-account-credit-control]: Downloading https://files.pythonhosted.org/packages/2a/93/6f9d5b0fa46a04726ec049ecca629bd78d5de685b31852878eaf21c63908/odoo_addon_account_credit_control-16.0.1.0.2.2-py3-none-any.whl
+[2023-08-09 05:06:43] INFO root fetch - processPackages [odoo14-addon-cooperator]: Downloading https://files.pythonhosted.org/packages/ff/55/3fef583b947de678c31e2a17e3411b2d589e5b1c6b4207dc84adfbc47a03/odoo14_addon_cooperator-14.0.3.0.1.dev3-py3-none-any.whl
+[2023-08-09 05:06:43] INFO root fetch - processPackages [xmltread]: Downloading https://files.pythonhosted.org/packages/0f/27/1d69dd8f106b7a6bbb99af8ff8cbfb2f99924111d6b6ccc1f0685f1b869d/xmltread-0.3.tar.gz
+[2023-08-09 05:06:44] INFO root fetch - processPackages [xmltread]: executing diffoscope
+[2023-08-09 05:06:44] INFO root fetch - processPackages [xmltread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmltread-0.2.tar.gz tmp/xmltread-0.3.tar.gz --markdown 20230809/x/xmltread/0.2-0.3/diff.md --exclude *.pyd
+[2023-08-09 05:06:44] INFO root fetch - processPackages [odoo-addon-account-credit-control]: Downloading https://files.pythonhosted.org/packages/e3/df/042bdd20fd4ae4b31922dcd4844b56ef89ba818d947417047ce8afbd8c59/odoo_addon_account_credit_control-16.0.1.0.2.4-py3-none-any.whl
+[2023-08-09 05:06:44] INFO root fetch - processPackages [odoo14-addon-cooperator]: executing diffoscope
+[2023-08-09 05:06:44] INFO root fetch - processPackages [odoo-addon-account-credit-control]: Downloading https://files.pythonhosted.org/packages/e3/df/042bdd20fd4ae4b31922dcd4844b56ef89ba818d947417047ce8afbd8c59/odoo_addon_account_credit_control-16.0.1.0.2.4-py3-none-any.whl
+[2023-08-09 05:06:44] INFO root fetch - processPackages [odoo14-addon-cooperator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_cooperator-14.0.3.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_cooperator-14.0.3.0.1.dev3-py3-none-any.whl.zip --markdown 20230809/o/odoo14-addon-cooperator/14.0.3.0.1.dev2-14.0.3.0.1.dev3/diff.md --exclude *.pyd
+[2023-08-09 05:06:44] INFO root fetch - processPackages [app-ordering]: Remove: archive file [/home/abi/fetcher/tmp/app_ordering-1.1.tar.gz]
+[2023-08-09 05:06:44] INFO root fetch - processPackages [app-ordering]: Remove: archive file [/home/abi/fetcher/tmp/app_ordering-1.2.tar.gz]
+[2023-08-09 05:06:44] INFO root fetch - processPackages [app-ordering]: Start processing: valorant.py
+[2023-08-09 05:06:44] INFO root fetch - main [MainThread]: End processing [app-ordering]: success
+[2023-08-09 05:06:44] INFO root fetch - processPackages [odoo-addon-account-credit-control]: executing diffoscope
+[2023-08-09 05:06:44] INFO root fetch - processPackages [odoo-addon-account-credit-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_credit_control-16.0.1.0.2.2-py3-none-any.whl.zip tmp/odoo_addon_account_credit_control-16.0.1.0.2.4-py3-none-any.whl.zip --markdown 20230809/o/odoo-addon-account-credit-control/16.0.1.0.2.2-16.0.1.0.2.4/diff.md --exclude *.pyd
+[2023-08-09 05:06:44] INFO root fetch - processPackages [odoo-addon-account-credit-control]: executing diffoscope
+[2023-08-09 05:06:44] INFO root fetch - processPackages [odoo-addon-account-credit-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_credit_control-16.0.1.0.2.2-py3-none-any.whl.zip tmp/odoo_addon_account_credit_control-16.0.1.0.2.4-py3-none-any.whl.zip --markdown 20230809/o/odoo-addon-account-credit-control/16.0.1.0.2.2-16.0.1.0.2.4/diff.md --exclude *.pyd
+[2023-08-09 05:06:44] INFO root fetch - processPackages [valorant.py]: New version: [1.0.2a0] Old Version: [1.0.1]
+[2023-08-09 05:06:45] INFO root fetch - processPackages [odoo14-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_contract-14.0.2.9.5.dev2-py3-none-any.whl.zip]
+[2023-08-09 05:06:45] INFO root fetch - processPackages [odoo14-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_contract-14.0.2.9.6.dev2-py3-none-any.whl.zip]
+[2023-08-09 05:06:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-contract]: success
+[2023-08-09 05:06:45] INFO root fetch - processPackages [valorant.py]: Downloading https://files.pythonhosted.org/packages/0d/7c/d47bbc72f2fc2e4081a1e2bb066d0535e42a05255629f6b152a29a6d54d8/valorant.py-1.0.1.tar.gz
+[2023-08-09 05:06:45] INFO root fetch - processPackages [xmltread]: Remove: archive file [/home/abi/fetcher/tmp/xmltread-0.2.tar.gz]
+[2023-08-09 05:06:45] INFO root fetch - processPackages [xmltread]: Remove: archive file [/home/abi/fetcher/tmp/xmltread-0.3.tar.gz]
+[2023-08-09 05:06:45] INFO root fetch - main [MainThread]: End processing [xmltread]: success
+[2023-08-09 05:06:45] INFO root fetch - processPackages [valorant.py]: Downloading https://files.pythonhosted.org/packages/6a/81/afa046584ff36401c2bbe4179fe2d4e96a9d69157d3536de45218f78d3bd/valorant.py-1.0.2a0.tar.gz
+[2023-08-09 05:06:45] INFO root fetch - processPackages [cumm-cu102]: Remove: archive file [/home/abi/fetcher/tmp/cumm_cu102-0.4.8-cp39-cp39-win_amd64.whl.zip]
+[2023-08-09 05:06:45] INFO root fetch - processPackages [cumm-cu102]: Remove: archive file [/home/abi/fetcher/tmp/cumm_cu102-0.4.9-cp39-cp39-win_amd64.whl.zip]
+[2023-08-09 05:06:45] INFO root fetch - main [MainThread]: End processing [cumm-cu102]: success
+[2023-08-09 05:06:45] INFO root fetch - processPackages [odoo14-addon-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_cooperator-14.0.3.0.1.dev2-py3-none-any.whl.zip]
+[2023-08-09 05:06:45] INFO root fetch - processPackages [odoo14-addon-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_cooperator-14.0.3.0.1.dev3-py3-none-any.whl.zip]
+[2023-08-09 05:06:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-cooperator]: success
+[2023-08-09 05:06:46] INFO root fetch - processPackages [cumm-cu114]: Remove: archive file [/home/abi/fetcher/tmp/cumm_cu114-0.4.8-cp39-cp39-win_amd64.whl.zip]
+[2023-08-09 05:06:46] INFO root fetch - processPackages [cumm-cu114]: Remove: archive file [/home/abi/fetcher/tmp/cumm_cu114-0.4.9-cp39-cp39-win_amd64.whl.zip]
+[2023-08-09 05:06:46] INFO root fetch - main [MainThread]: End processing [cumm-cu114]: success
+[2023-08-09 05:06:46] INFO root fetch - processPackages [cumm-cu113]: Remove: archive file [/home/abi/fetcher/tmp/cumm_cu113-0.4.8-cp39-cp39-win_amd64.whl.zip]
+[2023-08-09 05:06:46] INFO root fetch - processPackages [cumm-cu113]: Remove: archive file [/home/abi/fetcher/tmp/cumm_cu113-0.4.9-cp39-cp39-win_amd64.whl.zip]
+[2023-08-09 05:06:46] INFO root fetch - main [MainThread]: End processing [cumm-cu113]: success
+[2023-08-09 05:06:46] INFO root fetch - processPackages [valorant.py]: executing diffoscope
+[2023-08-09 05:06:46] INFO root fetch - processPackages [valorant.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valorant.py-1.0.1.tar.gz tmp/valorant.py-1.0.2a0.tar.gz --markdown 20230809/v/valorant.py/1.0.1-1.0.2a0/diff.md --exclude *.pyd
+[2023-08-09 05:06:46] INFO root fetch - processPackages [odoo-addon-account-credit-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_credit_control-16.0.1.0.2.2-py3-none-any.whl.zip]
+[2023-08-09 05:06:46] INFO root fetch - processPackages [odoo-addon-account-credit-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_credit_control-16.0.1.0.2.4-py3-none-any.whl.zip]
+[2023-08-09 05:06:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-credit-control]: success
+[2023-08-09 05:06:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-credit-control]: success
+[2023-08-09 05:06:47] INFO root fetch - processPackages [valorant.py]: Remove: archive file [/home/abi/fetcher/tmp/valorant.py-1.0.1.tar.gz]
+[2023-08-09 05:06:47] INFO root fetch - processPackages [valorant.py]: Remove: archive file [/home/abi/fetcher/tmp/valorant.py-1.0.2a0.tar.gz]
+[2023-08-09 05:06:47] INFO root fetch - main [MainThread]: End processing [valorant.py]: success
+[2023-08-09 05:06:48] INFO root fetch - processPackages [restoreio]: executing diffoscope
+[2023-08-09 05:06:48] INFO root fetch - processPackages [restoreio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/restoreio-0.6.3.tar.gz tmp/restoreio-0.6.7.tar.gz --markdown 20230809/r/restoreio/0.6.3-0.6.7/diff.md --exclude *.pyd
+[2023-08-09 05:06:50] INFO root fetch - processPackages [restoreio]: Remove: archive file [/home/abi/fetcher/tmp/restoreio-0.6.3.tar.gz]
+[2023-08-09 05:06:50] INFO root fetch - processPackages [restoreio]: Remove: archive file [/home/abi/fetcher/tmp/restoreio-0.6.7.tar.gz]
+[2023-08-09 05:06:50] INFO root fetch - main [MainThread]: End processing [restoreio]: success
+[2023-08-09 05:06:50] INFO root fetch - main [MainThread]: Store serial: [19232124]
