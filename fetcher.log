@@ -12640,3 +12640,60 @@
 [2023-08-09 07:38:36] INFO root fetch - processPackages [pyimporters-obo]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters_obo-0.4.81.tar.gz]
 [2023-08-09 07:38:36] INFO root fetch - main [MainThread]: End processing [pyimporters-obo]: success
 [2023-08-09 07:38:36] INFO root fetch - main [MainThread]: Store serial: [19233145]
+[2023-08-09 07:43:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19233145]
+[2023-08-09 07:43:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-09 07:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cooptools
+[2023-08-09 07:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rabbit-client
+[2023-08-09 07:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: e6data-python-connector
+[2023-08-09 07:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: idlemypyextension
+[2023-08-09 07:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thunder-ase
+[2023-08-09 07:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tempmail-python
+[2023-08-09 07:43:45] INFO root fetch - processPackages [thunder-ase]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-08-09 07:43:45] INFO root fetch - processPackages [tempmail-python]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-08-09 07:43:45] INFO root fetch - processPackages [idlemypyextension]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-08-09 07:43:45] INFO root fetch - processPackages [thunder-ase]: Downloading https://files.pythonhosted.org/packages/43/54/6f24de221331a5c4a2e69f83c01bab8d5189ade417417c721e5fff71dbd9/thunder-ase-0.4.3.tar.gz
+[2023-08-09 07:43:45] INFO root fetch - processPackages [rabbit-client]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-08-09 07:43:45] INFO root fetch - processPackages [e6data-python-connector]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-08-09 07:43:45] INFO root fetch - processPackages [cooptools]: New version: [1.9] Old Version: [1.8]
+[2023-08-09 07:43:45] INFO root fetch - processPackages [idlemypyextension]: Downloading https://files.pythonhosted.org/packages/10/1c/4539eb84c2c08308390d04fb1b0c7fefbe0a414cc34298482fdb984ebb77/idlemypyextension-0.1.1.tar.gz
+[2023-08-09 07:43:45] INFO root fetch - processPackages [rabbit-client]: Downloading https://files.pythonhosted.org/packages/34/b4/8268915f3f1746957d6f83515170115d071b51115c78cc3f0c682cdb55f4/rabbit-client-3.0.1.tar.gz
+[2023-08-09 07:43:45] INFO root fetch - processPackages [tempmail-python]: Downloading https://files.pythonhosted.org/packages/60/5c/8797fa41028d6c13648e3f7a18ec658f53bc58f613fdfc69fb5d4f8beea6/tempmail-python-2.2.0.tar.gz
+[2023-08-09 07:43:45] INFO root fetch - processPackages [cooptools]: Downloading https://files.pythonhosted.org/packages/b0/1c/86bf91cfc36d8dedde445f7e10828a5d004b092d6296b83176162d182b41/cooptools-1.8.tar.gz
+[2023-08-09 07:43:45] INFO root fetch - processPackages [e6data-python-connector]: Downloading https://files.pythonhosted.org/packages/30/a6/ba8929aa86436e9619b55e90f049ceeb784e54f481a6e2dd49f8198841ae/e6data-python-connector-1.0.9.tar.gz
+[2023-08-09 07:43:46] INFO root fetch - processPackages [thunder-ase]: Downloading https://files.pythonhosted.org/packages/3d/f1/d1ea2d2027a92069ffca3fc1aab12681247962413a208aeb021782af6ac9/thunder-ase-0.4.4.tar.gz
+[2023-08-09 07:43:46] INFO root fetch - processPackages [tempmail-python]: Downloading https://files.pythonhosted.org/packages/ff/6b/7ae8e7706425a6c2e0968f59bc7798ec9041d3d861f9e8d30e0bc230acc4/tempmail-python-2.2.1.tar.gz
+[2023-08-09 07:43:46] INFO root fetch - processPackages [thunder-ase]: executing diffoscope
+[2023-08-09 07:43:46] INFO root fetch - processPackages [thunder-ase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thunder-ase-0.4.3.tar.gz tmp/thunder-ase-0.4.4.tar.gz --markdown 20230809/t/thunder-ase/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-08-09 07:43:46] INFO root fetch - processPackages [rabbit-client]: Downloading https://files.pythonhosted.org/packages/03/0d/7cf1f166ce0ae1d24287ef0ea8ba830038d24db248255f0d6d362e7c5fb5/rabbit-client-3.0.2.tar.gz
+[2023-08-09 07:43:46] INFO root fetch - processPackages [e6data-python-connector]: Downloading https://files.pythonhosted.org/packages/01/d8/bf090b969846642dce152141ee300f4c60348c700284c520fb2d2cbfaf36/e6data-python-connector-1.1.0.tar.gz
+[2023-08-09 07:43:46] INFO root fetch - processPackages [tempmail-python]: executing diffoscope
+[2023-08-09 07:43:46] INFO root fetch - processPackages [tempmail-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tempmail-python-2.2.0.tar.gz tmp/tempmail-python-2.2.1.tar.gz --markdown 20230809/t/tempmail-python/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-08-09 07:43:46] INFO root fetch - processPackages [idlemypyextension]: Downloading https://files.pythonhosted.org/packages/cb/52/20508337de3a95a188dca57a702cad5807b99758435fcfb4aee439cfd558/idlemypyextension-0.2.0.tar.gz
+[2023-08-09 07:43:46] INFO root fetch - processPackages [rabbit-client]: executing diffoscope
+[2023-08-09 07:43:46] INFO root fetch - processPackages [rabbit-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rabbit-client-3.0.1.tar.gz tmp/rabbit-client-3.0.2.tar.gz --markdown 20230809/r/rabbit-client/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-08-09 07:43:46] INFO root fetch - processPackages [cooptools]: Downloading https://files.pythonhosted.org/packages/60/18/d1c8517d3d438fc7cec8f94ea9c90a0ce44f9fb26afa4463b8f1c7f90bbb/cooptools-1.9.tar.gz
+[2023-08-09 07:43:46] INFO root fetch - processPackages [e6data-python-connector]: executing diffoscope
+[2023-08-09 07:43:46] INFO root fetch - processPackages [e6data-python-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e6data-python-connector-1.0.9.tar.gz tmp/e6data-python-connector-1.1.0.tar.gz --markdown 20230809/e/e6data-python-connector/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-08-09 07:43:46] INFO root fetch - processPackages [idlemypyextension]: executing diffoscope
+[2023-08-09 07:43:46] INFO root fetch - processPackages [idlemypyextension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idlemypyextension-0.1.1.tar.gz tmp/idlemypyextension-0.2.0.tar.gz --markdown 20230809/i/idlemypyextension/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-08-09 07:43:46] INFO root fetch - processPackages [cooptools]: executing diffoscope
+[2023-08-09 07:43:46] INFO root fetch - processPackages [cooptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cooptools-1.8.tar.gz tmp/cooptools-1.9.tar.gz --markdown 20230809/c/cooptools/1.8-1.9/diff.md --exclude *.pyd
+[2023-08-09 07:43:47] INFO root fetch - processPackages [thunder-ase]: Remove: archive file [/home/abi/fetcher/tmp/thunder-ase-0.4.3.tar.gz]
+[2023-08-09 07:43:47] INFO root fetch - processPackages [thunder-ase]: Remove: archive file [/home/abi/fetcher/tmp/thunder-ase-0.4.4.tar.gz]
+[2023-08-09 07:43:47] INFO root fetch - main [MainThread]: End processing [thunder-ase]: success
+[2023-08-09 07:43:47] INFO root fetch - processPackages [tempmail-python]: Remove: archive file [/home/abi/fetcher/tmp/tempmail-python-2.2.0.tar.gz]
+[2023-08-09 07:43:47] INFO root fetch - processPackages [tempmail-python]: Remove: archive file [/home/abi/fetcher/tmp/tempmail-python-2.2.1.tar.gz]
+[2023-08-09 07:43:47] INFO root fetch - main [MainThread]: End processing [tempmail-python]: success
+[2023-08-09 07:43:47] INFO root fetch - processPackages [rabbit-client]: Remove: archive file [/home/abi/fetcher/tmp/rabbit-client-3.0.1.tar.gz]
+[2023-08-09 07:43:47] INFO root fetch - processPackages [rabbit-client]: Remove: archive file [/home/abi/fetcher/tmp/rabbit-client-3.0.2.tar.gz]
+[2023-08-09 07:43:47] INFO root fetch - main [MainThread]: End processing [rabbit-client]: success
+[2023-08-09 07:43:47] INFO root fetch - processPackages [idlemypyextension]: Remove: archive file [/home/abi/fetcher/tmp/idlemypyextension-0.1.1.tar.gz]
+[2023-08-09 07:43:47] INFO root fetch - processPackages [idlemypyextension]: Remove: archive file [/home/abi/fetcher/tmp/idlemypyextension-0.2.0.tar.gz]
+[2023-08-09 07:43:47] INFO root fetch - main [MainThread]: End processing [idlemypyextension]: success
+[2023-08-09 07:43:47] INFO root fetch - processPackages [cooptools]: Remove: archive file [/home/abi/fetcher/tmp/cooptools-1.8.tar.gz]
+[2023-08-09 07:43:47] INFO root fetch - processPackages [cooptools]: Remove: archive file [/home/abi/fetcher/tmp/cooptools-1.9.tar.gz]
+[2023-08-09 07:43:47] INFO root fetch - main [MainThread]: End processing [cooptools]: success
+[2023-08-09 07:43:47] INFO root fetch - processPackages [e6data-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/e6data-python-connector-1.0.9.tar.gz]
+[2023-08-09 07:43:47] INFO root fetch - processPackages [e6data-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/e6data-python-connector-1.1.0.tar.gz]
+[2023-08-09 07:43:47] INFO root fetch - main [MainThread]: End processing [e6data-python-connector]: success
+[2023-08-09 07:43:47] INFO root fetch - main [MainThread]: Store serial: [19233165]
