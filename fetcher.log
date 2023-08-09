@@ -12697,3 +12697,81 @@
 [2023-08-09 07:43:47] INFO root fetch - processPackages [e6data-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/e6data-python-connector-1.1.0.tar.gz]
 [2023-08-09 07:43:47] INFO root fetch - main [MainThread]: End processing [e6data-python-connector]: success
 [2023-08-09 07:43:47] INFO root fetch - main [MainThread]: Store serial: [19233165]
+[2023-08-09 07:48:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19233165]
+[2023-08-09 07:48:56] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-09 07:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-s3-viewer
+[2023-08-09 07:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataverse-sdk
+[2023-08-09 07:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-08-09 07:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ortei
+[2023-08-09 07:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyimporters-skos
+[2023-08-09 07:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-web-dialog-size
+[2023-08-09 07:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mlbi-at-dku-lib
+[2023-08-09 07:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-web-ir-actions-act-window-page
+[2023-08-09 07:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addons-oca-web
+[2023-08-09 07:48:56] WARNING root fetch - processPackages [odoo-addon-web-ir-actions-act-window-page]: Skipping, unable to determine old version
+[2023-08-09 07:48:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-ir-actions-act-window-page] error
+[2023-08-09 07:48:56] INFO root fetch - processPackages [mlbi-at-dku-lib]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-09 07:48:56] INFO root fetch - processPackages [ortei]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-09 07:48:56] INFO root fetch - processPackages [flask-s3-viewer]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-08-09 07:48:56] INFO root fetch - processPackages [mlbi-at-dku-lib]: Downloading https://files.pythonhosted.org/packages/0e/2f/0eaa2dc20676cda11a546dcc03932278b8e6df27ac32a0538e0a19796edc/mlbi_at_dku_lib-0.3.0.tar.gz
+[2023-08-09 07:48:56] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-08-09 07:48:56] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.4.1.3] Old Version: [0.4.1.2]
+[2023-08-09 07:48:56] INFO root fetch - processPackages [dataverse-sdk]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-09 07:48:57] INFO root fetch - processPackages [pyimporters-skos]: New version: [0.4.99] Old Version: [0.4.95]
+[2023-08-09 07:48:57] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: Downloading https://files.pythonhosted.org/packages/55/24/62b5454de7e86dc8962defd73ca26bec4a3e49e70fb0d268aff963ddea46/odoo_addon_web_dialog_size-16.0.1.0.0.2-py3-none-any.whl
+[2023-08-09 07:48:57] INFO root fetch - processPackages [flask-s3-viewer]: Downloading https://files.pythonhosted.org/packages/3e/77/13e7623fd800ca64603d9c558f4459f3ceeb2d52b238437de581b3df6159/flask_s3_viewer-0.2.2-py3-none-any.whl
+[2023-08-09 07:48:57] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/fb/f1/d3b3341b8cca088e72c20b8b1e98bda6fd886b23638df45fd648b04f1a81/nonebot_plugin_stable_diffusion_diao-0.4.1.2.tar.gz
+[2023-08-09 07:48:57] INFO root fetch - processPackages [ortei]: Downloading https://files.pythonhosted.org/packages/c6/92/b938562a6ee13c78432d800978b5c683d06483db4f646216b8dd169a1ecf/ortei-0.1.0.tar.gz
+[2023-08-09 07:48:57] INFO root fetch - processPackages [odoo-addons-oca-web]: New version: [16.0.20230808.0] Old Version: [16.0.20230725.0]
+[2023-08-09 07:48:57] INFO root fetch - processPackages [pyimporters-skos]: Downloading https://files.pythonhosted.org/packages/f4/5c/6d95e6f0bcbcce6fc38c5eda1948662ff364b0a1821b8b04515bab7f2443/pyimporters-skos-0.4.95.tar.gz
+[2023-08-09 07:48:57] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: Downloading https://files.pythonhosted.org/packages/b8/8a/b1b446005c7ebb2b3699b4de2d15309431a02168dcb9e4f0e0e38ea23060/odoo_addon_web_dialog_size-16.0.1.0.0.3-py3-none-any.whl
+[2023-08-09 07:48:57] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: executing diffoscope
+[2023-08-09 07:48:57] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_dialog_size-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_web_dialog_size-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230809/o/odoo-addon-web-dialog-size/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-08-09 07:48:57] INFO root fetch - processPackages [odoo-addons-oca-web]: Downloading https://files.pythonhosted.org/packages/ae/c6/b4b027f2956becea2002f82316ac47d021ef066ba01fe7114e0b24d24bea/odoo_addons_oca_web-16.0.20230725.0-py3-none-any.whl
+[2023-08-09 07:48:57] INFO root fetch - processPackages [ortei]: Downloading https://files.pythonhosted.org/packages/e0/c8/cc65ef52e58cdc53ec466d62d394a4e021f9782a9a533daae165807f98b9/ortei-0.1.1.tar.gz
+[2023-08-09 07:48:57] INFO root fetch - processPackages [ortei]: executing diffoscope
+[2023-08-09 07:48:57] INFO root fetch - processPackages [ortei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ortei-0.1.0.tar.gz tmp/ortei-0.1.1.tar.gz --markdown 20230809/o/ortei/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-09 07:48:57] INFO root fetch - processPackages [flask-s3-viewer]: Downloading https://files.pythonhosted.org/packages/33/b9/96f0f7a89cab2dff560dbe333d52179b74047386ebe130dd00188111b457/flask_s3_viewer-0.2.3-py3-none-any.whl
+[2023-08-09 07:48:58] INFO root fetch - processPackages [flask-s3-viewer]: executing diffoscope
+[2023-08-09 07:48:58] INFO root fetch - processPackages [flask-s3-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_s3_viewer-0.2.2-py3-none-any.whl.zip tmp/flask_s3_viewer-0.2.3-py3-none-any.whl.zip --markdown 20230809/f/flask-s3-viewer/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-08-09 07:48:58] INFO root fetch - processPackages [odoo-addons-oca-web]: Downloading https://files.pythonhosted.org/packages/bd/5a/37f397544f7b572b7a8dae06dd6a41d09c01be20ca260076810f9f352750/odoo_addons_oca_web-16.0.20230808.0-py3-none-any.whl
+[2023-08-09 07:48:58] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/d3/4e/e214f2275077481714a19a8786102b562aeddc2a8dfc96c7adabccb0562b/nonebot_plugin_stable_diffusion_diao-0.4.1.3-py2.py3-none-any.whl
+[2023-08-09 07:48:58] INFO root fetch - processPackages [odoo-addons-oca-web]: executing diffoscope
+[2023-08-09 07:48:58] INFO root fetch - processPackages [odoo-addons-oca-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_web-16.0.20230725.0-py3-none-any.whl.zip tmp/odoo_addons_oca_web-16.0.20230808.0-py3-none-any.whl.zip --markdown 20230809/o/odoo-addons-oca-web/16.0.20230725.0-16.0.20230808.0/diff.md --exclude *.pyd
+[2023-08-09 07:48:58] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-08-09 07:48:58] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.4.1.2.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.4.1.3-py2.py3-none-any.whl.zip --markdown 20230809/n/nonebot-plugin-stable-diffusion-diao/0.4.1.2-0.4.1.3/diff.md --exclude *.pyd
+[2023-08-09 07:48:58] INFO root fetch - processPackages [mlbi-at-dku-lib]: Downloading https://files.pythonhosted.org/packages/fe/ee/7d7441b2503da2e75a728e5fce992f155708ed1887e9ebcd78306fec41e7/mlbi_at_dku_lib-0.3.1.tar.gz
+[2023-08-09 07:48:58] INFO root fetch - processPackages [dataverse-sdk]: Downloading https://files.pythonhosted.org/packages/12/ca/91d2f0bf3816ca17624dff280ca018a387cfb458e17bcfd58ac98cdbc17a/dataverse-sdk-0.2.0.tar.gz
+[2023-08-09 07:48:58] INFO root fetch - processPackages [pyimporters-skos]: Downloading https://files.pythonhosted.org/packages/c3/0b/3644462ccbc7cb86ebf33463e5fb9e4f20db98f26fe96b4ed3f76b54234c/pyimporters_skos-0.4.99.tar.gz
+[2023-08-09 07:48:58] INFO root fetch - processPackages [pyimporters-skos]: executing diffoscope
+[2023-08-09 07:48:58] INFO root fetch - processPackages [pyimporters-skos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-skos-0.4.95.tar.gz tmp/pyimporters_skos-0.4.99.tar.gz --markdown 20230809/p/pyimporters-skos/0.4.95-0.4.99/diff.md --exclude *.pyd
+[2023-08-09 07:48:58] INFO root fetch - processPackages [ortei]: Remove: archive file [/home/abi/fetcher/tmp/ortei-0.1.0.tar.gz]
+[2023-08-09 07:48:58] INFO root fetch - processPackages [ortei]: Remove: archive file [/home/abi/fetcher/tmp/ortei-0.1.1.tar.gz]
+[2023-08-09 07:48:58] INFO root fetch - main [MainThread]: End processing [ortei]: success
+[2023-08-09 07:48:58] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_dialog_size-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-08-09 07:48:58] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_dialog_size-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-08-09 07:48:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-dialog-size]: success
+[2023-08-09 07:48:58] INFO root fetch - processPackages [dataverse-sdk]: Downloading https://files.pythonhosted.org/packages/a8/26/df8e21ba53cd766cfcb33cc01897d02a1cd47a17c4c4582f17bb5051284f/dataverse-sdk-0.2.1.tar.gz
+[2023-08-09 07:48:58] INFO root fetch - processPackages [dataverse-sdk]: executing diffoscope
+[2023-08-09 07:48:58] INFO root fetch - processPackages [dataverse-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataverse-sdk-0.2.0.tar.gz tmp/dataverse-sdk-0.2.1.tar.gz --markdown 20230809/d/dataverse-sdk/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-09 07:48:58] INFO root fetch - processPackages [mlbi-at-dku-lib]: executing diffoscope
+[2023-08-09 07:48:58] INFO root fetch - processPackages [mlbi-at-dku-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlbi_at_dku_lib-0.3.0.tar.gz tmp/mlbi_at_dku_lib-0.3.1.tar.gz --markdown 20230809/m/mlbi-at-dku-lib/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-09 07:48:59] INFO root fetch - processPackages [odoo-addons-oca-web]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_web-16.0.20230725.0-py3-none-any.whl.zip]
+[2023-08-09 07:48:59] INFO root fetch - processPackages [odoo-addons-oca-web]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_web-16.0.20230808.0-py3-none-any.whl.zip]
+[2023-08-09 07:48:59] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-web]: success
+[2023-08-09 07:48:59] INFO root fetch - processPackages [flask-s3-viewer]: Remove: archive file [/home/abi/fetcher/tmp/flask_s3_viewer-0.2.2-py3-none-any.whl.zip]
+[2023-08-09 07:48:59] INFO root fetch - processPackages [flask-s3-viewer]: Remove: archive file [/home/abi/fetcher/tmp/flask_s3_viewer-0.2.3-py3-none-any.whl.zip]
+[2023-08-09 07:48:59] INFO root fetch - main [MainThread]: End processing [flask-s3-viewer]: success
+[2023-08-09 07:48:59] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.4.1.2.tar.gz]
+[2023-08-09 07:48:59] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.4.1.3-py2.py3-none-any.whl.zip]
+[2023-08-09 07:48:59] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-08-09 07:48:59] INFO root fetch - processPackages [pyimporters-skos]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-skos-0.4.95.tar.gz]
+[2023-08-09 07:48:59] INFO root fetch - processPackages [pyimporters-skos]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters_skos-0.4.99.tar.gz]
+[2023-08-09 07:48:59] INFO root fetch - main [MainThread]: End processing [pyimporters-skos]: success
+[2023-08-09 07:48:59] INFO root fetch - processPackages [dataverse-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dataverse-sdk-0.2.0.tar.gz]
+[2023-08-09 07:48:59] INFO root fetch - processPackages [dataverse-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dataverse-sdk-0.2.1.tar.gz]
+[2023-08-09 07:48:59] INFO root fetch - main [MainThread]: End processing [dataverse-sdk]: success
+[2023-08-09 07:49:03] INFO root fetch - processPackages [mlbi-at-dku-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlbi_at_dku_lib-0.3.0.tar.gz]
+[2023-08-09 07:49:03] INFO root fetch - processPackages [mlbi-at-dku-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlbi_at_dku_lib-0.3.1.tar.gz]
+[2023-08-09 07:49:03] INFO root fetch - main [MainThread]: End processing [mlbi-at-dku-lib]: success
+[2023-08-09 07:49:03] INFO root fetch - main [MainThread]: Store serial: [19233187]
