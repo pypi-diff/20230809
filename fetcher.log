@@ -10857,3 +10857,57 @@
 [2023-08-09 05:32:53] INFO root fetch - processPackages [odoo-addon-base-geoengine]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_geoengine-16.0.1.0.0.71-py3-none-any.whl.zip]
 [2023-08-09 05:32:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-geoengine]: success
 [2023-08-09 05:32:53] INFO root fetch - main [MainThread]: Store serial: [19232280]
+[2023-08-09 05:37:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19232280]
+[2023-08-09 05:38:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-09 05:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kaldi-native-fbank
+[2023-08-09 05:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paralelogramoedu
+[2023-08-09 05:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: socketman
+[2023-08-09 05:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fancy-config
+[2023-08-09 05:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-gpdb20160503
+[2023-08-09 05:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-gpdb20160503-py2
+[2023-08-09 05:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quao
+[2023-08-09 05:38:02] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-08-09 05:38:02] INFO root fetch - processPackages [quao]: New version: [0.4.0.9] Old Version: [0.4.0.8]
+[2023-08-09 05:38:02] INFO root fetch - processPackages [fancy-config]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-09 05:38:02] WARNING root fetch - processPackages [paralelogramoedu]: Skipping, unable to determine old version
+[2023-08-09 05:38:02] INFO root fetch - main [MainThread]: End processing [paralelogramoedu] error
+[2023-08-09 05:38:02] WARNING root fetch - processPackages [socketman]: Skipping, unable to determine old version
+[2023-08-09 05:38:02] INFO root fetch - main [MainThread]: End processing [socketman] error
+[2023-08-09 05:38:02] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: New version: [3.0.0] Old Version: [2.0.2]
+[2023-08-09 05:38:02] INFO root fetch - processPackages [kaldi-native-fbank]: New version: [1.9] Old Version: [1.18.2]
+[2023-08-09 05:38:02] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/06/bf/f9aa0065003c9f548af0c94b1a2ff8fe5faa735debed7c20a624922b87af/quao-0.4.0.8-py3-none-any.whl
+[2023-08-09 05:38:02] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: Downloading https://files.pythonhosted.org/packages/90/da/ce987f70ec1a647af2863232a1c28ce7265809eaa9b8ed99a16fb16ccc53/alibabacloud_gpdb20160503_py2-2.0.1.tar.gz
+[2023-08-09 05:38:02] INFO root fetch - processPackages [fancy-config]: Downloading https://files.pythonhosted.org/packages/49/a2/40b42eeb09cb3d43ff86488b79202dd33e773fbfd62f5366d2e8a4b3fb26/fancy-config-0.9.2.tar.gz
+[2023-08-09 05:38:02] INFO root fetch - processPackages [kaldi-native-fbank]: Downloading https://files.pythonhosted.org/packages/7a/4a/921cb349b1ae143e12277ce4078258337ebe78dff777aa2bcbe480daf089/kaldi_native_fbank-1.18.2-pp39-pypy39_pp73-win_amd64.whl
+[2023-08-09 05:38:02] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: Downloading https://files.pythonhosted.org/packages/ce/f2/c20dd250a9b107f6929b541478cfb1b64a3322faaf28046da99d292864d6/alibabacloud_gpdb20160503-2.0.2.tar.gz
+[2023-08-09 05:38:02] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/15/ce/fdedb65f96e76c805b9c649dfcde71a2c2fdca40b7ac8e1ae8ba09ab928f/quao-0.4.0.9-py3-none-any.whl
+[2023-08-09 05:38:02] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-08-09 05:38:02] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.4.0.8-py3-none-any.whl.zip tmp/quao-0.4.0.9-py3-none-any.whl.zip --markdown 20230809/q/quao/0.4.0.8-0.4.0.9/diff.md --exclude *.pyd
+[2023-08-09 05:38:02] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: Downloading https://files.pythonhosted.org/packages/c5/ce/c8d5c6c56e5aeb5f66dae75bbf47544ab69772f54247848b7c0aff20693b/alibabacloud_gpdb20160503_py2-2.0.2.tar.gz
+[2023-08-09 05:38:02] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: Downloading https://files.pythonhosted.org/packages/e0/a3/7b04ca5b3a5693ed4cf3ded0a616794ce892b64874f49578c98b763fb872/alibabacloud_gpdb20160503-3.0.0.tar.gz
+[2023-08-09 05:38:02] INFO root fetch - processPackages [fancy-config]: Downloading https://files.pythonhosted.org/packages/bd/cd/5060ee9c6c7d57f10f1ea6b16a9737dee123dc185ca291512f58d44c4c62/fancy-config-0.9.3.tar.gz
+[2023-08-09 05:38:02] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: executing diffoscope
+[2023-08-09 05:38:02] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_gpdb20160503_py2-2.0.1.tar.gz tmp/alibabacloud_gpdb20160503_py2-2.0.2.tar.gz --markdown 20230809/a/alibabacloud-gpdb20160503-py2/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-08-09 05:38:02] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: executing diffoscope
+[2023-08-09 05:38:02] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_gpdb20160503-2.0.2.tar.gz tmp/alibabacloud_gpdb20160503-3.0.0.tar.gz --markdown 20230809/a/alibabacloud-gpdb20160503/2.0.2-3.0.0/diff.md --exclude *.pyd
+[2023-08-09 05:38:02] INFO root fetch - processPackages [kaldi-native-fbank]: Downloading https://files.pythonhosted.org/packages/8a/18/17a4f7de43572faf999f9d3682d94e4f9145cd6bc1b4c90b4755ec830b3b/kaldi-native-fbank-1.9.tar.gz
+[2023-08-09 05:38:03] INFO root fetch - processPackages [kaldi-native-fbank]: executing diffoscope
+[2023-08-09 05:38:03] INFO root fetch - processPackages [kaldi-native-fbank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaldi_native_fbank-1.18.2-pp39-pypy39_pp73-win_amd64.whl.zip tmp/kaldi-native-fbank-1.9.tar.gz --markdown 20230809/k/kaldi-native-fbank/1.18.2-1.9/diff.md --exclude *.pyd
+[2023-08-09 05:38:03] INFO root fetch - processPackages [fancy-config]: executing diffoscope
+[2023-08-09 05:38:03] INFO root fetch - processPackages [fancy-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fancy-config-0.9.2.tar.gz tmp/fancy-config-0.9.3.tar.gz --markdown 20230809/f/fancy-config/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-09 05:38:03] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.4.0.8-py3-none-any.whl.zip]
+[2023-08-09 05:38:03] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.4.0.9-py3-none-any.whl.zip]
+[2023-08-09 05:38:03] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-08-09 05:38:04] INFO root fetch - processPackages [fancy-config]: Remove: archive file [/home/abi/fetcher/tmp/fancy-config-0.9.2.tar.gz]
+[2023-08-09 05:38:04] INFO root fetch - processPackages [fancy-config]: Remove: archive file [/home/abi/fetcher/tmp/fancy-config-0.9.3.tar.gz]
+[2023-08-09 05:38:04] INFO root fetch - main [MainThread]: End processing [fancy-config]: success
+[2023-08-09 05:38:04] INFO root fetch - processPackages [kaldi-native-fbank]: Remove: archive file [/home/abi/fetcher/tmp/kaldi_native_fbank-1.18.2-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-08-09 05:38:04] INFO root fetch - processPackages [kaldi-native-fbank]: Remove: archive file [/home/abi/fetcher/tmp/kaldi-native-fbank-1.9.tar.gz]
+[2023-08-09 05:38:04] INFO root fetch - main [MainThread]: End processing [kaldi-native-fbank]: success
+[2023-08-09 05:38:04] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_gpdb20160503_py2-2.0.1.tar.gz]
+[2023-08-09 05:38:04] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_gpdb20160503_py2-2.0.2.tar.gz]
+[2023-08-09 05:38:04] INFO root fetch - main [MainThread]: End processing [alibabacloud-gpdb20160503-py2]: success
+[2023-08-09 05:38:04] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_gpdb20160503-2.0.2.tar.gz]
+[2023-08-09 05:38:04] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_gpdb20160503-3.0.0.tar.gz]
+[2023-08-09 05:38:04] INFO root fetch - main [MainThread]: End processing [alibabacloud-gpdb20160503]: success
+[2023-08-09 05:38:04] INFO root fetch - main [MainThread]: Store serial: [19232321]
