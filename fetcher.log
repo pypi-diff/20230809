@@ -9661,3 +9661,96 @@
 [2023-08-09 04:24:42] INFO root fetch - processPackages [aifactory]: Remove: archive file [/home/abi/fetcher/tmp/aifactory-1.8.3.tar.gz]
 [2023-08-09 04:24:42] INFO root fetch - main [MainThread]: End processing [aifactory]: success
 [2023-08-09 04:24:42] INFO root fetch - main [MainThread]: Store serial: [19231825]
+[2023-08-09 04:29:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19231825]
+[2023-08-09 04:29:51] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-09 04:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cnceye
+[2023-08-09 04:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: leafmap
+[2023-08-09 04:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aifactory
+[2023-08-09 04:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hdx-python-api
+[2023-08-09 04:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iam-actions
+[2023-08-09 04:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: naif-eop-high-prec
+[2023-08-09 04:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dubborequests
+[2023-08-09 04:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mfio
+[2023-08-09 04:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: geodefi
+[2023-08-09 04:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dvc-data
+[2023-08-09 04:29:52] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.8.8] Old Version: [2023.8.7]
+[2023-08-09 04:29:52] INFO root fetch - processPackages [aifactory]: New version: [1.8.4] Old Version: [1.8.3]
+[2023-08-09 04:29:52] WARNING root fetch - processPackages [cnceye]: Skipping, unable to determine old version
+[2023-08-09 04:29:52] INFO root fetch - processPackages [cnceye]: Start processing: onnx2tf
+[2023-08-09 04:29:52] INFO root fetch - main [MainThread]: End processing [cnceye] error
+[2023-08-09 04:29:52] INFO root fetch - processPackages [leafmap]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-08-09 04:29:52] INFO root fetch - processPackages [dubborequests]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-09 04:29:52] WARNING root fetch - processPackages [mfio]: Skipping, unable to determine old version
+[2023-08-09 04:29:52] INFO root fetch - processPackages [mfio]: Start processing: whylogs
+[2023-08-09 04:29:52] INFO root fetch - main [MainThread]: End processing [mfio] error
+[2023-08-09 04:29:52] WARNING root fetch - processPackages [geodefi]: Skipping, unable to determine old version
+[2023-08-09 04:29:52] INFO root fetch - main [MainThread]: End processing [geodefi] error
+[2023-08-09 04:29:52] INFO root fetch - processPackages [dvc-data]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-08-09 04:29:52] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230809] Old Version: [1.2.20230808]
+[2023-08-09 04:29:52] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-08-09 04:29:52] INFO root fetch - processPackages [hdx-python-api]: New version: [6.0.8] Old Version: [6.0.7]
+[2023-08-09 04:29:52] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/d9/42/6a8bc73e4a920e87eac877fa596ad2fe36ac16e6e7fca116258beb947477/naif_eop_high_prec-2023.8.7.tar.gz
+[2023-08-09 04:29:52] INFO root fetch - processPackages [aifactory]: Downloading https://files.pythonhosted.org/packages/31/94/9b9b8c7c064db90fe4355ce4185fbfe3f5d5c8296ec402586e50a9edb98c/aifactory-1.8.3.tar.gz
+[2023-08-09 04:29:52] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2023-08-09 04:29:52] INFO root fetch - processPackages [leafmap]: Downloading https://files.pythonhosted.org/packages/c7/06/719b97b642d663f4528bd69b8bd0c22e66eb9d8cab0e459bbabc20094b8d/leafmap-0.9.5.tar.gz
+[2023-08-09 04:29:52] INFO root fetch - processPackages [dubborequests]: Downloading https://files.pythonhosted.org/packages/6f/d7/bb862f82950c7ef7af74ffb6205d70e4264b8479357631442396fe4e58ac/dubborequests-0.9.1.tar.gz
+[2023-08-09 04:29:52] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/3a/01/1eb16026b61e74cf4dbd564a51839495edb9d74bb2ec635e4c237a03ccee/dvc-data-2.9.0.tar.gz
+[2023-08-09 04:29:52] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/5a/ec/1491ab06c2e54f5a0b235dc21e247b9ca1858cac7cc1526956b2738b2940/iam_actions-1.2.20230808.tar.gz
+[2023-08-09 04:29:52] INFO root fetch - processPackages [whylogs]: New version: [1.2.8] Old Version: [1.2.7.dev0]
+[2023-08-09 04:29:52] INFO root fetch - processPackages [hdx-python-api]: Downloading https://files.pythonhosted.org/packages/bb/2f/367d1d60b4ab535729b7a4f78ef35f6b1c691fe7daabb9ef4f7615d5f166/hdx_python_api-6.0.7.tar.gz
+[2023-08-09 04:29:52] INFO root fetch - processPackages [aifactory]: Downloading https://files.pythonhosted.org/packages/ef/bc/9e97083b2a50cf80662b55a11509de1e34ead7c31413da28f73f9131b58b/aifactory-1.8.4.tar.gz
+[2023-08-09 04:29:53] INFO root fetch - processPackages [whylogs]: Downloading https://files.pythonhosted.org/packages/61/60/74908a882c0febd267d05c2e203aebbe6be4ea2abd1b26787f8fbb600014/whylogs-1.2.7.dev0.tar.gz
+[2023-08-09 04:29:53] INFO root fetch - processPackages [aifactory]: executing diffoscope
+[2023-08-09 04:29:53] INFO root fetch - processPackages [aifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aifactory-1.8.3.tar.gz tmp/aifactory-1.8.4.tar.gz --markdown 20230809/a/aifactory/1.8.3-1.8.4/diff.md --exclude *.pyd
+[2023-08-09 04:29:53] INFO root fetch - processPackages [dubborequests]: Downloading https://files.pythonhosted.org/packages/82/12/b2f39aa83ae69306302a847a29eb0345bf00b8d0979f007961db81269500/dubborequests-0.9.2.tar.gz
+[2023-08-09 04:29:53] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/e3/05/abe23e9616d06c4974f814b4407b17fa0365e4745b76ee804484cad69120/dvc-data-2.9.1.tar.gz
+[2023-08-09 04:29:53] INFO root fetch - processPackages [leafmap]: Downloading https://files.pythonhosted.org/packages/74/59/375f8e1ca2eb029e521f2e04761219f715186963c29a089229743730a6cd/leafmap-0.9.6.tar.gz
+[2023-08-09 04:29:53] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2023-08-09 04:29:53] INFO root fetch - processPackages [hdx-python-api]: Downloading https://files.pythonhosted.org/packages/70/3b/4463ad24e4664e6dc3d0bb8404fb609e95d955143bc36faf6075678f1a53/hdx_python_api-6.0.8.tar.gz
+[2023-08-09 04:29:53] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/a1/04/83522663065e3959c3504379cf02563990e837c78bc19e579c61b99083c7/iam_actions-1.2.20230809.tar.gz
+[2023-08-09 04:29:53] INFO root fetch - processPackages [dvc-data]: executing diffoscope
+[2023-08-09 04:29:53] INFO root fetch - processPackages [dvc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-data-2.9.0.tar.gz tmp/dvc-data-2.9.1.tar.gz --markdown 20230809/d/dvc-data/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-08-09 04:29:53] INFO root fetch - processPackages [dubborequests]: executing diffoscope
+[2023-08-09 04:29:53] INFO root fetch - processPackages [dubborequests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dubborequests-0.9.1.tar.gz tmp/dubborequests-0.9.2.tar.gz --markdown 20230809/d/dubborequests/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-09 04:29:53] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-08-09 04:29:53] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230809/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-08-09 04:29:53] INFO root fetch - processPackages [leafmap]: executing diffoscope
+[2023-08-09 04:29:53] INFO root fetch - processPackages [leafmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leafmap-0.9.5.tar.gz tmp/leafmap-0.9.6.tar.gz --markdown 20230809/l/leafmap/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-08-09 04:29:53] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-08-09 04:29:53] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230808.tar.gz tmp/iam_actions-1.2.20230809.tar.gz --markdown 20230809/i/iam-actions/1.2.20230808-1.2.20230809/diff.md --exclude *.pyd
+[2023-08-09 04:29:53] INFO root fetch - processPackages [hdx-python-api]: executing diffoscope
+[2023-08-09 04:29:53] INFO root fetch - processPackages [hdx-python-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdx_python_api-6.0.7.tar.gz tmp/hdx_python_api-6.0.8.tar.gz --markdown 20230809/h/hdx-python-api/6.0.7-6.0.8/diff.md --exclude *.pyd
+[2023-08-09 04:29:53] INFO root fetch - processPackages [whylogs]: Downloading https://files.pythonhosted.org/packages/0e/72/0e48dd0b798bdd3d8714754c225611ed7d9a06f4199ce5abc5cb49281d16/whylogs-1.2.8.tar.gz
+[2023-08-09 04:29:53] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/56/a4/f7d4e65695a8eb3fd9e9932948bf842a92cc8b9b9b8e01540f035af73c99/naif_eop_high_prec-2023.8.8.tar.gz
+[2023-08-09 04:29:54] INFO root fetch - processPackages [aifactory]: Remove: archive file [/home/abi/fetcher/tmp/aifactory-1.8.3.tar.gz]
+[2023-08-09 04:29:54] INFO root fetch - processPackages [aifactory]: Remove: archive file [/home/abi/fetcher/tmp/aifactory-1.8.4.tar.gz]
+[2023-08-09 04:29:54] INFO root fetch - main [MainThread]: End processing [aifactory]: success
+[2023-08-09 04:29:54] INFO root fetch - processPackages [whylogs]: executing diffoscope
+[2023-08-09 04:29:54] INFO root fetch - processPackages [whylogs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whylogs-1.2.7.dev0.tar.gz tmp/whylogs-1.2.8.tar.gz --markdown 20230809/w/whylogs/1.2.7.dev0-1.2.8/diff.md --exclude *.pyd
+[2023-08-09 04:29:54] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-08-09 04:29:54] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.8.7.tar.gz tmp/naif_eop_high_prec-2023.8.8.tar.gz --markdown 20230809/n/naif-eop-high-prec/2023.8.7-2023.8.8/diff.md --exclude *.pyd
+[2023-08-09 04:29:54] INFO root fetch - processPackages [dubborequests]: Remove: archive file [/home/abi/fetcher/tmp/dubborequests-0.9.1.tar.gz]
+[2023-08-09 04:29:54] INFO root fetch - processPackages [dubborequests]: Remove: archive file [/home/abi/fetcher/tmp/dubborequests-0.9.2.tar.gz]
+[2023-08-09 04:29:54] INFO root fetch - main [MainThread]: End processing [dubborequests]: success
+[2023-08-09 04:29:54] INFO root fetch - processPackages [leafmap]: Remove: archive file [/home/abi/fetcher/tmp/leafmap-0.9.5.tar.gz]
+[2023-08-09 04:29:54] INFO root fetch - processPackages [leafmap]: Remove: archive file [/home/abi/fetcher/tmp/leafmap-0.9.6.tar.gz]
+[2023-08-09 04:29:54] INFO root fetch - main [MainThread]: End processing [leafmap]: success
+[2023-08-09 04:29:54] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-2.9.0.tar.gz]
+[2023-08-09 04:29:54] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-2.9.1.tar.gz]
+[2023-08-09 04:29:54] INFO root fetch - main [MainThread]: End processing [dvc-data]: success
+[2023-08-09 04:29:55] INFO root fetch - processPackages [hdx-python-api]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_api-6.0.7.tar.gz]
+[2023-08-09 04:29:55] INFO root fetch - processPackages [hdx-python-api]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_api-6.0.8.tar.gz]
+[2023-08-09 04:29:55] INFO root fetch - main [MainThread]: End processing [hdx-python-api]: success
+[2023-08-09 04:29:55] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.8.tar.gz]
+[2023-08-09 04:29:55] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
+[2023-08-09 04:29:55] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-08-09 04:29:56] INFO root fetch - processPackages [whylogs]: Remove: archive file [/home/abi/fetcher/tmp/whylogs-1.2.7.dev0.tar.gz]
+[2023-08-09 04:29:56] INFO root fetch - processPackages [whylogs]: Remove: archive file [/home/abi/fetcher/tmp/whylogs-1.2.8.tar.gz]
+[2023-08-09 04:29:56] INFO root fetch - main [MainThread]: End processing [whylogs]: success
+[2023-08-09 04:29:57] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.8.7.tar.gz]
+[2023-08-09 04:29:57] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.8.8.tar.gz]
+[2023-08-09 04:29:57] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-08-09 04:29:58] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230808.tar.gz]
+[2023-08-09 04:29:58] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230809.tar.gz]
+[2023-08-09 04:29:58] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-08-09 04:29:58] INFO root fetch - main [MainThread]: Store serial: [19231866]
