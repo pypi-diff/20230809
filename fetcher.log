@@ -11776,3 +11776,73 @@
 [2023-08-09 06:40:50] INFO root fetch - processPackages [computing-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/computing-toolbox-1.0.2.tar.gz]
 [2023-08-09 06:40:50] INFO root fetch - main [MainThread]: End processing [computing-toolbox]: success
 [2023-08-09 06:40:50] INFO root fetch - main [MainThread]: Store serial: [19232794]
+[2023-08-09 06:45:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19232794]
+[2023-08-09 06:45:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-09 06:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: survey-report-generator
+[2023-08-09 06:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: what-time-is-it
+[2023-08-09 06:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wiz-craft
+[2023-08-09 06:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: survey-report-generator
+[2023-08-09 06:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seagoat
+[2023-08-09 06:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-project-sequence
+[2023-08-09 06:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-project
+[2023-08-09 06:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: allin1
+[2023-08-09 06:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pitrix
+[2023-08-09 06:45:59] INFO root fetch - processPackages [survey-report-generator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-09 06:45:59] INFO root fetch - processPackages [survey-report-generator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-09 06:45:59] WARNING root fetch - processPackages [pitrix]: Skipping, unable to determine old version
+[2023-08-09 06:45:59] INFO root fetch - main [MainThread]: End processing [pitrix] error
+[2023-08-09 06:45:59] INFO root fetch - processPackages [allin1]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-09 06:45:59] INFO root fetch - processPackages [wiz-craft]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-09 06:45:59] WARNING root fetch - processPackages [what-time-is-it]: Skipping, unable to determine old version
+[2023-08-09 06:45:59] INFO root fetch - main [MainThread]: End processing [what-time-is-it] error
+[2023-08-09 06:45:59] INFO root fetch - processPackages [odoo-addon-project-sequence]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.4]
+[2023-08-09 06:45:59] INFO root fetch - processPackages [seagoat]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-09 06:45:59] INFO root fetch - processPackages [survey-report-generator]: Downloading https://files.pythonhosted.org/packages/1f/f6/26fd1fc02c4f3a86772075a03e77f3cffb4f26de41e30bc9d7f7a57d304b/survey_report_generator-0.0.8.tar.gz
+[2023-08-09 06:45:59] INFO root fetch - processPackages [odoo-addons-oca-project]: New version: [16.0.20230808.0] Old Version: [16.0.20230801.0]
+[2023-08-09 06:45:59] INFO root fetch - processPackages [survey-report-generator]: Downloading https://files.pythonhosted.org/packages/1f/f6/26fd1fc02c4f3a86772075a03e77f3cffb4f26de41e30bc9d7f7a57d304b/survey_report_generator-0.0.8.tar.gz
+[2023-08-09 06:45:59] INFO root fetch - processPackages [allin1]: Downloading https://files.pythonhosted.org/packages/b3/38/8f748c0d54f5c57465a90c1c87ced6328fb5ecdbf7f4fb2157cd26d407f5/allin1-0.0.1.tar.gz
+[2023-08-09 06:46:00] INFO root fetch - processPackages [seagoat]: Downloading https://files.pythonhosted.org/packages/fb/98/c810a70a159e0e984ce414e3972e09f018fa68001f0f37e711f76d81172d/seagoat-0.9.2.tar.gz
+[2023-08-09 06:46:00] INFO root fetch - processPackages [wiz-craft]: Downloading https://files.pythonhosted.org/packages/78/77/100800ba6a87c305b33b62d5b107fe0b3f5d709e60406de71f1a864b3630/wiz-craft-1.0.1.tar.gz
+[2023-08-09 06:46:00] INFO root fetch - processPackages [odoo-addon-project-sequence]: Downloading https://files.pythonhosted.org/packages/d6/b6/cc4682addd3812d9e0c9786e8b9bb587fcae6632180aa987a7432f50715d/odoo_addon_project_sequence-16.0.1.0.0.4-py3-none-any.whl
+[2023-08-09 06:46:00] INFO root fetch - processPackages [odoo-addons-oca-project]: Downloading https://files.pythonhosted.org/packages/b2/5d/521f16b59c0f3232e11245f67175de133b6f26ff268a6578321ffa4f4cee/odoo_addons_oca_project-16.0.20230801.0-py3-none-any.whl
+[2023-08-09 06:46:00] INFO root fetch - processPackages [allin1]: Downloading https://files.pythonhosted.org/packages/fe/90/907530f28109aaa96aeb6cdbd1c0c860512b3324ebd7218fa2d770a4b6d3/allin1-0.0.2.tar.gz
+[2023-08-09 06:46:00] INFO root fetch - processPackages [seagoat]: Downloading https://files.pythonhosted.org/packages/e5/79/ac0fbe92e5da8a301bad1d4012d8eea6aa469f19ff20b776531ceeaf8507/seagoat-0.9.3.tar.gz
+[2023-08-09 06:46:00] INFO root fetch - processPackages [survey-report-generator]: Downloading https://files.pythonhosted.org/packages/23/e7/a8186c66ce9683ab479c8f137354f8735d0dfd1a793105d80b3e91794768/survey_report_generator-0.0.9.tar.gz
+[2023-08-09 06:46:00] INFO root fetch - processPackages [survey-report-generator]: Downloading https://files.pythonhosted.org/packages/23/e7/a8186c66ce9683ab479c8f137354f8735d0dfd1a793105d80b3e91794768/survey_report_generator-0.0.9.tar.gz
+[2023-08-09 06:46:00] INFO root fetch - processPackages [allin1]: executing diffoscope
+[2023-08-09 06:46:00] INFO root fetch - processPackages [allin1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allin1-0.0.1.tar.gz tmp/allin1-0.0.2.tar.gz --markdown 20230809/a/allin1/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-09 06:46:00] INFO root fetch - processPackages [wiz-craft]: Downloading https://files.pythonhosted.org/packages/00/3e/b52033e2e8a95e92eaa826499080462acef28997b497d86b1b06c5227785/wiz-craft-1.0.2.tar.gz
+[2023-08-09 06:46:00] INFO root fetch - processPackages [seagoat]: executing diffoscope
+[2023-08-09 06:46:00] INFO root fetch - processPackages [seagoat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seagoat-0.9.2.tar.gz tmp/seagoat-0.9.3.tar.gz --markdown 20230809/s/seagoat/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-09 06:46:00] INFO root fetch - processPackages [wiz-craft]: executing diffoscope
+[2023-08-09 06:46:00] INFO root fetch - processPackages [wiz-craft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiz-craft-1.0.1.tar.gz tmp/wiz-craft-1.0.2.tar.gz --markdown 20230809/w/wiz-craft/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-09 06:46:00] INFO root fetch - processPackages [odoo-addons-oca-project]: Downloading https://files.pythonhosted.org/packages/b1/b6/8fc3a81730ea7e4cdd301a77a454c716030d45f6209aa7a3735039ae01f9/odoo_addons_oca_project-16.0.20230808.0-py3-none-any.whl
+[2023-08-09 06:46:00] INFO root fetch - processPackages [odoo-addon-project-sequence]: Downloading https://files.pythonhosted.org/packages/e7/37/13eeddced8601129e2c9b27cfb20b911f56acc2c5fdb7c64408d2d64f476/odoo_addon_project_sequence-16.0.1.0.0.6-py3-none-any.whl
+[2023-08-09 06:46:00] INFO root fetch - processPackages [survey-report-generator]: executing diffoscope
+[2023-08-09 06:46:00] INFO root fetch - processPackages [survey-report-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/survey_report_generator-0.0.8.tar.gz tmp/survey_report_generator-0.0.9.tar.gz --markdown 20230809/s/survey-report-generator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-09 06:46:00] INFO root fetch - processPackages [survey-report-generator]: executing diffoscope
+[2023-08-09 06:46:00] INFO root fetch - processPackages [survey-report-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/survey_report_generator-0.0.8.tar.gz tmp/survey_report_generator-0.0.9.tar.gz --markdown 20230809/s/survey-report-generator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-09 06:46:00] INFO root fetch - processPackages [odoo-addons-oca-project]: executing diffoscope
+[2023-08-09 06:46:00] INFO root fetch - processPackages [odoo-addons-oca-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_project-16.0.20230801.0-py3-none-any.whl.zip tmp/odoo_addons_oca_project-16.0.20230808.0-py3-none-any.whl.zip --markdown 20230809/o/odoo-addons-oca-project/16.0.20230801.0-16.0.20230808.0/diff.md --exclude *.pyd
+[2023-08-09 06:46:00] INFO root fetch - processPackages [odoo-addon-project-sequence]: executing diffoscope
+[2023-08-09 06:46:00] INFO root fetch - processPackages [odoo-addon-project-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_sequence-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_project_sequence-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230809/o/odoo-addon-project-sequence/16.0.1.0.0.4-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-08-09 06:46:01] INFO root fetch - processPackages [allin1]: Remove: archive file [/home/abi/fetcher/tmp/allin1-0.0.1.tar.gz]
+[2023-08-09 06:46:01] INFO root fetch - processPackages [allin1]: Remove: archive file [/home/abi/fetcher/tmp/allin1-0.0.2.tar.gz]
+[2023-08-09 06:46:01] INFO root fetch - main [MainThread]: End processing [allin1]: success
+[2023-08-09 06:46:01] INFO root fetch - processPackages [seagoat]: Remove: archive file [/home/abi/fetcher/tmp/seagoat-0.9.2.tar.gz]
+[2023-08-09 06:46:01] INFO root fetch - processPackages [seagoat]: Remove: archive file [/home/abi/fetcher/tmp/seagoat-0.9.3.tar.gz]
+[2023-08-09 06:46:01] INFO root fetch - main [MainThread]: End processing [seagoat]: success
+[2023-08-09 06:46:01] INFO root fetch - processPackages [wiz-craft]: Remove: archive file [/home/abi/fetcher/tmp/wiz-craft-1.0.1.tar.gz]
+[2023-08-09 06:46:01] INFO root fetch - processPackages [wiz-craft]: Remove: archive file [/home/abi/fetcher/tmp/wiz-craft-1.0.2.tar.gz]
+[2023-08-09 06:46:01] INFO root fetch - main [MainThread]: End processing [wiz-craft]: success
+[2023-08-09 06:46:02] INFO root fetch - processPackages [odoo-addons-oca-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_project-16.0.20230801.0-py3-none-any.whl.zip]
+[2023-08-09 06:46:02] INFO root fetch - processPackages [odoo-addons-oca-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_project-16.0.20230808.0-py3-none-any.whl.zip]
+[2023-08-09 06:46:02] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-project]: success
+[2023-08-09 06:46:02] INFO root fetch - processPackages [survey-report-generator]: Remove: archive file [/home/abi/fetcher/tmp/survey_report_generator-0.0.8.tar.gz]
+[2023-08-09 06:46:02] INFO root fetch - processPackages [survey-report-generator]: Remove: archive file [/home/abi/fetcher/tmp/survey_report_generator-0.0.9.tar.gz]
+[2023-08-09 06:46:02] INFO root fetch - main [MainThread]: End processing [survey-report-generator]: success
+[2023-08-09 06:46:02] INFO root fetch - main [MainThread]: End processing [survey-report-generator]: success
+[2023-08-09 06:46:02] INFO root fetch - processPackages [odoo-addon-project-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_sequence-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-08-09 06:46:02] INFO root fetch - processPackages [odoo-addon-project-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_sequence-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-08-09 06:46:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-sequence]: success
+[2023-08-09 06:46:02] INFO root fetch - main [MainThread]: Store serial: [19232819]
