@@ -10797,3 +10797,63 @@
 [2023-08-09 05:27:42] INFO root fetch - processPackages [odoo-addon-base-geoengine]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_geoengine-16.0.1.0.0.71-py3-none-any.whl.zip]
 [2023-08-09 05:27:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-geoengine]: success
 [2023-08-09 05:27:42] INFO root fetch - main [MainThread]: Store serial: [19232259]
+[2023-08-09 05:32:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19232259]
+[2023-08-09 05:32:50] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-09 05:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-base-geoengine
+[2023-08-09 05:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-send-anything-anywhere
+[2023-08-09 05:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Zxy-Private
+[2023-08-09 05:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Caribe
+[2023-08-09 05:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quao
+[2023-08-09 05:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plate-model-manager
+[2023-08-09 05:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dicergirl
+[2023-08-09 05:32:51] WARNING root fetch - processPackages [plate-model-manager]: Skipping, unable to determine old version
+[2023-08-09 05:32:51] INFO root fetch - main [MainThread]: End processing [plate-model-manager] error
+[2023-08-09 05:32:51] INFO root fetch - processPackages [nonebot-plugin-send-anything-anywhere]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-08-09 05:32:51] INFO root fetch - processPackages [quao]: New version: [0.4.0.9] Old Version: [0.4.0.8]
+[2023-08-09 05:32:51] INFO root fetch - processPackages [odoo-addon-base-geoengine]: New version: [16.0.1.0.0.71] Old Version: [16.0.1.0.0.69]
+[2023-08-09 05:32:51] INFO root fetch - processPackages [nonebot-plugin-send-anything-anywhere]: Downloading https://files.pythonhosted.org/packages/f6/c3/379de672b734a26f7f9cc28886c2b49a760e6dab848918b4ef307158ca52/nonebot_plugin_send_anything_anywhere-0.2.7.tar.gz
+[2023-08-09 05:32:51] INFO root fetch - processPackages [Zxy-Private]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-09 05:32:51] INFO root fetch - processPackages [Caribe]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-08-09 05:32:51] INFO root fetch - processPackages [dicergirl]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-08-09 05:32:51] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/06/bf/f9aa0065003c9f548af0c94b1a2ff8fe5faa735debed7c20a624922b87af/quao-0.4.0.8-py3-none-any.whl
+[2023-08-09 05:32:51] INFO root fetch - processPackages [Zxy-Private]: Downloading https://files.pythonhosted.org/packages/36/d6/13eaf052393ab04582917f72dea426d4d907b8d792f76889cf1e2885c267/Zxy_Private-0.0.2.tar.gz
+[2023-08-09 05:32:51] INFO root fetch - processPackages [odoo-addon-base-geoengine]: Downloading https://files.pythonhosted.org/packages/7e/ac/889acc35c17db2fd71a6e723294f56471ca8677278151fa25032bfcb804b/odoo_addon_base_geoengine-16.0.1.0.0.69-py3-none-any.whl
+[2023-08-09 05:32:51] INFO root fetch - processPackages [Caribe]: Downloading https://files.pythonhosted.org/packages/ad/66/aa6c1628b3b6e1e9226e952f38e61a8310c9e0b7e460d2947e61155d6e36/Caribe-0.8.9.tar.gz
+[2023-08-09 05:32:51] INFO root fetch - processPackages [nonebot-plugin-send-anything-anywhere]: Downloading https://files.pythonhosted.org/packages/3d/96/3b6a072479f90a189f47af1726f56b62134fcf191d34e8daef644976cdb1/nonebot_plugin_send_anything_anywhere-0.2.8.tar.gz
+[2023-08-09 05:32:51] INFO root fetch - processPackages [dicergirl]: Downloading https://files.pythonhosted.org/packages/8b/4a/3b5164723b1baf2ae98bcbc6678920a09d19c1adb79b5925c65e2bacb1a7/dicergirl-3.0.8.tar.gz
+[2023-08-09 05:32:51] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/15/ce/fdedb65f96e76c805b9c649dfcde71a2c2fdca40b7ac8e1ae8ba09ab928f/quao-0.4.0.9-py3-none-any.whl
+[2023-08-09 05:32:51] INFO root fetch - processPackages [nonebot-plugin-send-anything-anywhere]: executing diffoscope
+[2023-08-09 05:32:51] INFO root fetch - processPackages [nonebot-plugin-send-anything-anywhere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_send_anything_anywhere-0.2.7.tar.gz tmp/nonebot_plugin_send_anything_anywhere-0.2.8.tar.gz --markdown 20230809/n/nonebot-plugin-send-anything-anywhere/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-08-09 05:32:51] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-08-09 05:32:51] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.4.0.8-py3-none-any.whl.zip tmp/quao-0.4.0.9-py3-none-any.whl.zip --markdown 20230809/q/quao/0.4.0.8-0.4.0.9/diff.md --exclude *.pyd
+[2023-08-09 05:32:51] INFO root fetch - processPackages [Zxy-Private]: Downloading https://files.pythonhosted.org/packages/63/86/f82c3ccdf78e2400e8e5a2f8648554c693c213ee335a0d619609392df59c/Zxy_Private-0.0.3.tar.gz
+[2023-08-09 05:32:51] INFO root fetch - processPackages [Zxy-Private]: executing diffoscope
+[2023-08-09 05:32:51] INFO root fetch - processPackages [Zxy-Private]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Zxy_Private-0.0.2.tar.gz tmp/Zxy_Private-0.0.3.tar.gz --markdown 20230809/Z/Zxy-Private/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-09 05:32:51] INFO root fetch - processPackages [Caribe]: Downloading https://files.pythonhosted.org/packages/be/4a/3e37ab06b2ae020ef3fdd1ca2b49b0512a013019a3c93fa9209e9ad6aff3/Caribe-0.9.0.tar.gz
+[2023-08-09 05:32:51] INFO root fetch - processPackages [odoo-addon-base-geoengine]: Downloading https://files.pythonhosted.org/packages/c9/3c/ae76530e489ae401292bdc47e7beccb7b88b5771e0479d86c03d4551d53f/odoo_addon_base_geoengine-16.0.1.0.0.71-py3-none-any.whl
+[2023-08-09 05:32:51] INFO root fetch - processPackages [dicergirl]: Downloading https://files.pythonhosted.org/packages/cc/2f/86394a6773784d7b675bced8d86f2838a1653b0cd960f19c21fedf5a8d2b/dicergirl-3.0.9.tar.gz
+[2023-08-09 05:32:51] INFO root fetch - processPackages [Caribe]: executing diffoscope
+[2023-08-09 05:32:51] INFO root fetch - processPackages [Caribe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Caribe-0.8.9.tar.gz tmp/Caribe-0.9.0.tar.gz --markdown 20230809/C/Caribe/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-08-09 05:32:52] INFO root fetch - processPackages [dicergirl]: executing diffoscope
+[2023-08-09 05:32:52] INFO root fetch - processPackages [dicergirl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicergirl-3.0.8.tar.gz tmp/dicergirl-3.0.9.tar.gz --markdown 20230809/d/dicergirl/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-08-09 05:32:52] INFO root fetch - processPackages [odoo-addon-base-geoengine]: executing diffoscope
+[2023-08-09 05:32:52] INFO root fetch - processPackages [odoo-addon-base-geoengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_geoengine-16.0.1.0.0.69-py3-none-any.whl.zip tmp/odoo_addon_base_geoengine-16.0.1.0.0.71-py3-none-any.whl.zip --markdown 20230809/o/odoo-addon-base-geoengine/16.0.1.0.0.69-16.0.1.0.0.71/diff.md --exclude *.pyd
+[2023-08-09 05:32:52] INFO root fetch - processPackages [nonebot-plugin-send-anything-anywhere]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_send_anything_anywhere-0.2.7.tar.gz]
+[2023-08-09 05:32:52] INFO root fetch - processPackages [nonebot-plugin-send-anything-anywhere]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_send_anything_anywhere-0.2.8.tar.gz]
+[2023-08-09 05:32:52] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-send-anything-anywhere]: success
+[2023-08-09 05:32:52] INFO root fetch - processPackages [Zxy-Private]: Remove: archive file [/home/abi/fetcher/tmp/Zxy_Private-0.0.2.tar.gz]
+[2023-08-09 05:32:52] INFO root fetch - processPackages [Zxy-Private]: Remove: archive file [/home/abi/fetcher/tmp/Zxy_Private-0.0.3.tar.gz]
+[2023-08-09 05:32:52] INFO root fetch - main [MainThread]: End processing [Zxy-Private]: success
+[2023-08-09 05:32:52] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.4.0.8-py3-none-any.whl.zip]
+[2023-08-09 05:32:52] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.4.0.9-py3-none-any.whl.zip]
+[2023-08-09 05:32:52] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-08-09 05:32:52] INFO root fetch - processPackages [Caribe]: Remove: archive file [/home/abi/fetcher/tmp/Caribe-0.8.9.tar.gz]
+[2023-08-09 05:32:52] INFO root fetch - processPackages [Caribe]: Remove: archive file [/home/abi/fetcher/tmp/Caribe-0.9.0.tar.gz]
+[2023-08-09 05:32:52] INFO root fetch - main [MainThread]: End processing [Caribe]: success
+[2023-08-09 05:32:53] INFO root fetch - processPackages [dicergirl]: Remove: archive file [/home/abi/fetcher/tmp/dicergirl-3.0.8.tar.gz]
+[2023-08-09 05:32:53] INFO root fetch - processPackages [dicergirl]: Remove: archive file [/home/abi/fetcher/tmp/dicergirl-3.0.9.tar.gz]
+[2023-08-09 05:32:53] INFO root fetch - main [MainThread]: End processing [dicergirl]: success
+[2023-08-09 05:32:53] INFO root fetch - processPackages [odoo-addon-base-geoengine]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_geoengine-16.0.1.0.0.69-py3-none-any.whl.zip]
+[2023-08-09 05:32:53] INFO root fetch - processPackages [odoo-addon-base-geoengine]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_geoengine-16.0.1.0.0.71-py3-none-any.whl.zip]
+[2023-08-09 05:32:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-geoengine]: success
+[2023-08-09 05:32:53] INFO root fetch - main [MainThread]: Store serial: [19232280]
