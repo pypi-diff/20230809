@@ -9550,3 +9550,99 @@
 [2023-08-09 04:14:19] INFO root fetch - processPackages [qcs-api-client]: Remove: archive file [/home/abi/fetcher/tmp/qcs-api-client-0.9.0.tar.gz]
 [2023-08-09 04:14:19] INFO root fetch - main [MainThread]: End processing [qcs-api-client]: success
 [2023-08-09 04:14:19] INFO root fetch - main [MainThread]: Store serial: [19231780]
+[2023-08-09 04:19:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19231780]
+[2023-08-09 04:19:28] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-09 04:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aifactory
+[2023-08-09 04:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polarismesh-specification
+[2023-08-09 04:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: appPublic
+[2023-08-09 04:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-08-09 04:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kyqacommon
+[2023-08-09 04:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hdx-python-country
+[2023-08-09 04:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TreeSAK
+[2023-08-09 04:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CheckmarxPythonSDK
+[2023-08-09 04:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py3-test
+[2023-08-09 04:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: promql-http-api
+[2023-08-09 04:19:28] INFO root fetch - processPackages [aifactory]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-08-09 04:19:28] WARNING root fetch - processPackages [py3-test]: Skipping, unable to determine old version
+[2023-08-09 04:19:28] INFO root fetch - processPackages [py3-test]: Start processing: metricsoperator
+[2023-08-09 04:19:28] INFO root fetch - main [MainThread]: End processing [py3-test] error
+[2023-08-09 04:19:28] INFO root fetch - processPackages [polarismesh-specification]: New version: [1.4.0a5] Old Version: [1.4.0a4]
+[2023-08-09 04:19:28] INFO root fetch - processPackages [appPublic]: New version: [5.1.9] Old Version: [5.1.8]
+[2023-08-09 04:19:28] INFO root fetch - processPackages [kyqacommon]: New version: [1.0.706] Old Version: [1.0.6]
+[2023-08-09 04:19:28] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-08-09 04:19:28] INFO root fetch - processPackages [CheckmarxPythonSDK]: New version: [0.8.0] Old Version: [0.7.9]
+[2023-08-09 04:19:28] INFO root fetch - processPackages [promql-http-api]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-09 04:19:28] INFO root fetch - processPackages [metricsoperator]: New version: [0.0.13] Old Version: [0.0.12.1]
+[2023-08-09 04:19:28] INFO root fetch - processPackages [aifactory]: Downloading https://files.pythonhosted.org/packages/c2/87/c443ecc73c30ca280e04e367c84f113def36ad569b38a05e82c69618c684/aifactory-1.8.1.tar.gz
+[2023-08-09 04:19:28] INFO root fetch - processPackages [hdx-python-country]: New version: [3.5.2] Old Version: [3.5.1]
+[2023-08-09 04:19:28] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-08-09 04:19:28] INFO root fetch - processPackages [CheckmarxPythonSDK]: Downloading https://files.pythonhosted.org/packages/6c/de/c46ab81f61e93d0b883ec1fc8a9c52225472e4a0640e9afa4dfe6ec151b2/CheckmarxPythonSDK-0.7.9.tar.gz
+[2023-08-09 04:19:28] INFO root fetch - processPackages [promql-http-api]: Downloading https://files.pythonhosted.org/packages/99/55/522d8681f472450bf714f74e2626c6b31aaef2617c1054101864f2e008d7/promql_http_api-0.3.0.tar.gz
+[2023-08-09 04:19:28] INFO root fetch - processPackages [metricsoperator]: Downloading https://files.pythonhosted.org/packages/af/d3/c3b8741a106af36dda2e94bf5e168148162dd8ee25b14c14e20f9dab82f8/metricsoperator-0.0.12.1.tar.gz
+[2023-08-09 04:19:28] INFO root fetch - processPackages [kyqacommon]: Downloading https://files.pythonhosted.org/packages/e8/6d/c178fc6087cf8bb1bfa4aadefb91ede12bda1559cdfbbf5c948de74ff016/kyqacommon-1.0.6.tar.gz
+[2023-08-09 04:19:29] INFO root fetch - processPackages [appPublic]: Downloading https://files.pythonhosted.org/packages/47/61/1628ee29078fec27fc36114f4c19059799a3b65e7ce18552073af79a00b2/appPublic-5.1.8.tar.gz
+[2023-08-09 04:19:29] INFO root fetch - processPackages [polarismesh-specification]: Downloading https://files.pythonhosted.org/packages/78/66/1d284e27f48e3b4fbf9111e32d329c65e72cc8e3396a382d7d72362fa43f/polarismesh_specification-1.4.0a4.tar.gz
+[2023-08-09 04:19:29] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2023-08-09 04:19:29] INFO root fetch - processPackages [hdx-python-country]: Downloading https://files.pythonhosted.org/packages/a3/54/f66e6096a1796c587544ed9e15a8e495d3f87cb125d175b4b74c160ff969/hdx_python_country-3.5.1.tar.gz
+[2023-08-09 04:19:29] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/20/7a/1cf95cd827a5bc2353d4a04fac9ad2282341306d1871323109bc1fcdc1bf/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz
+[2023-08-09 04:19:29] INFO root fetch - processPackages [aifactory]: Downloading https://files.pythonhosted.org/packages/8c/79/93c8a25fb79d2495286c68ff4942e981f18b0cad17ba5f54fe5b923dd12e/aifactory-1.8.2.tar.gz
+[2023-08-09 04:19:29] INFO root fetch - processPackages [CheckmarxPythonSDK]: Downloading https://files.pythonhosted.org/packages/b3/01/6bcc6fd8019bccca3d7d868a2d6805ca203c590ff5fd528ca14493604634/CheckmarxPythonSDK-0.8.0.tar.gz
+[2023-08-09 04:19:29] INFO root fetch - processPackages [aifactory]: executing diffoscope
+[2023-08-09 04:19:29] INFO root fetch - processPackages [aifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aifactory-1.8.1.tar.gz tmp/aifactory-1.8.2.tar.gz --markdown 20230809/a/aifactory/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-08-09 04:19:29] INFO root fetch - processPackages [promql-http-api]: Downloading https://files.pythonhosted.org/packages/44/df/ae6eeaf659cfc402ebf43b6f5ee556c8007d9d73aebe402cf739aecf87fb/promql_http_api-0.3.1.tar.gz
+[2023-08-09 04:19:29] INFO root fetch - processPackages [metricsoperator]: Downloading https://files.pythonhosted.org/packages/44/f3/09b6dec15378c7a7fa3d29a166d34238db20f138f2a790cafa67bb70418c/metricsoperator-0.0.13.tar.gz
+[2023-08-09 04:19:29] INFO root fetch - processPackages [kyqacommon]: Downloading https://files.pythonhosted.org/packages/1b/58/4ac6f42f84980be79a7cbd5737642a6ba899f041c86a26297452cbf9bbc9/kyqacommon-1.0.706.tar.gz
+[2023-08-09 04:19:29] INFO root fetch - processPackages [appPublic]: Downloading https://files.pythonhosted.org/packages/00/ea/d27ee03fed9481c78bd469b8bb24c70cd69c8a4629601a160ae65d950cd5/appPublic-5.1.9.tar.gz
+[2023-08-09 04:19:29] INFO root fetch - processPackages [CheckmarxPythonSDK]: executing diffoscope
+[2023-08-09 04:19:29] INFO root fetch - processPackages [CheckmarxPythonSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CheckmarxPythonSDK-0.7.9.tar.gz tmp/CheckmarxPythonSDK-0.8.0.tar.gz --markdown 20230809/C/CheckmarxPythonSDK/0.7.9-0.8.0/diff.md --exclude *.pyd
+[2023-08-09 04:19:29] INFO root fetch - processPackages [hdx-python-country]: Downloading https://files.pythonhosted.org/packages/8d/ee/7fe587d219e32f49a458c80530e34ac0b62dfc0b525e08a43cbdc7009c71/hdx_python_country-3.5.2.tar.gz
+[2023-08-09 04:19:29] INFO root fetch - processPackages [metricsoperator]: executing diffoscope
+[2023-08-09 04:19:29] INFO root fetch - processPackages [metricsoperator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metricsoperator-0.0.12.1.tar.gz tmp/metricsoperator-0.0.13.tar.gz --markdown 20230809/m/metricsoperator/0.0.12.1-0.0.13/diff.md --exclude *.pyd
+[2023-08-09 04:19:29] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2023-08-09 04:19:29] INFO root fetch - processPackages [kyqacommon]: executing diffoscope
+[2023-08-09 04:19:29] INFO root fetch - processPackages [kyqacommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kyqacommon-1.0.6.tar.gz tmp/kyqacommon-1.0.706.tar.gz --markdown 20230809/k/kyqacommon/1.0.6-1.0.706/diff.md --exclude *.pyd
+[2023-08-09 04:19:29] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/a1/02/a44f26db0508904ac5d6e70c575bf20e4f99ab1df68dad57967a57b3a117/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz
+[2023-08-09 04:19:29] INFO root fetch - processPackages [appPublic]: executing diffoscope
+[2023-08-09 04:19:29] INFO root fetch - processPackages [appPublic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appPublic-5.1.8.tar.gz tmp/appPublic-5.1.9.tar.gz --markdown 20230809/a/appPublic/5.1.8-5.1.9/diff.md --exclude *.pyd
+[2023-08-09 04:19:29] INFO root fetch - processPackages [promql-http-api]: executing diffoscope
+[2023-08-09 04:19:29] INFO root fetch - processPackages [promql-http-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promql_http_api-0.3.0.tar.gz tmp/promql_http_api-0.3.1.tar.gz --markdown 20230809/p/promql-http-api/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-09 04:19:29] INFO root fetch - processPackages [polarismesh-specification]: Downloading https://files.pythonhosted.org/packages/3f/fe/be07c2bf7a31628883345c2a453893187d7be8f1ddef8af46df5519e9b57/polarismesh_specification-1.4.0a5.tar.gz
+[2023-08-09 04:19:29] INFO root fetch - processPackages [hdx-python-country]: executing diffoscope
+[2023-08-09 04:19:29] INFO root fetch - processPackages [hdx-python-country]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdx_python_country-3.5.1.tar.gz tmp/hdx_python_country-3.5.2.tar.gz --markdown 20230809/h/hdx-python-country/3.5.1-3.5.2/diff.md --exclude *.pyd
+[2023-08-09 04:19:29] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2023-08-09 04:19:29] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20230809/T/TreeSAK/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-08-09 04:19:29] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-08-09 04:19:29] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230809/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-08-09 04:19:29] INFO root fetch - processPackages [polarismesh-specification]: executing diffoscope
+[2023-08-09 04:19:29] INFO root fetch - processPackages [polarismesh-specification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polarismesh_specification-1.4.0a4.tar.gz tmp/polarismesh_specification-1.4.0a5.tar.gz --markdown 20230809/p/polarismesh-specification/1.4.0a4-1.4.0a5/diff.md --exclude *.pyd
+[2023-08-09 04:19:30] INFO root fetch - processPackages [aifactory]: Remove: archive file [/home/abi/fetcher/tmp/aifactory-1.8.1.tar.gz]
+[2023-08-09 04:19:30] INFO root fetch - processPackages [aifactory]: Remove: archive file [/home/abi/fetcher/tmp/aifactory-1.8.2.tar.gz]
+[2023-08-09 04:19:30] INFO root fetch - main [MainThread]: End processing [aifactory]: success
+[2023-08-09 04:19:31] INFO root fetch - processPackages [kyqacommon]: Remove: archive file [/home/abi/fetcher/tmp/kyqacommon-1.0.6.tar.gz]
+[2023-08-09 04:19:31] INFO root fetch - processPackages [kyqacommon]: Remove: archive file [/home/abi/fetcher/tmp/kyqacommon-1.0.706.tar.gz]
+[2023-08-09 04:19:31] INFO root fetch - main [MainThread]: End processing [kyqacommon]: success
+[2023-08-09 04:19:31] INFO root fetch - processPackages [metricsoperator]: Remove: archive file [/home/abi/fetcher/tmp/metricsoperator-0.0.12.1.tar.gz]
+[2023-08-09 04:19:31] INFO root fetch - processPackages [metricsoperator]: Remove: archive file [/home/abi/fetcher/tmp/metricsoperator-0.0.13.tar.gz]
+[2023-08-09 04:19:31] INFO root fetch - main [MainThread]: End processing [metricsoperator]: success
+[2023-08-09 04:19:31] INFO root fetch - processPackages [promql-http-api]: Remove: archive file [/home/abi/fetcher/tmp/promql_http_api-0.3.0.tar.gz]
+[2023-08-09 04:19:31] INFO root fetch - processPackages [promql-http-api]: Remove: archive file [/home/abi/fetcher/tmp/promql_http_api-0.3.1.tar.gz]
+[2023-08-09 04:19:31] INFO root fetch - main [MainThread]: End processing [promql-http-api]: success
+[2023-08-09 04:19:31] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2023-08-09 04:19:31] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2023-08-09 04:19:31] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2023-08-09 04:19:31] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz]
+[2023-08-09 04:19:31] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz]
+[2023-08-09 04:19:31] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-08-09 04:19:31] INFO root fetch - processPackages [appPublic]: Remove: archive file [/home/abi/fetcher/tmp/appPublic-5.1.8.tar.gz]
+[2023-08-09 04:19:31] INFO root fetch - processPackages [appPublic]: Remove: archive file [/home/abi/fetcher/tmp/appPublic-5.1.9.tar.gz]
+[2023-08-09 04:19:31] INFO root fetch - main [MainThread]: End processing [appPublic]: success
+[2023-08-09 04:19:31] INFO root fetch - processPackages [polarismesh-specification]: Remove: archive file [/home/abi/fetcher/tmp/polarismesh_specification-1.4.0a4.tar.gz]
+[2023-08-09 04:19:31] INFO root fetch - processPackages [polarismesh-specification]: Remove: archive file [/home/abi/fetcher/tmp/polarismesh_specification-1.4.0a5.tar.gz]
+[2023-08-09 04:19:31] INFO root fetch - main [MainThread]: End processing [polarismesh-specification]: success
+[2023-08-09 04:19:31] INFO root fetch - processPackages [hdx-python-country]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_country-3.5.1.tar.gz]
+[2023-08-09 04:19:31] INFO root fetch - processPackages [hdx-python-country]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_country-3.5.2.tar.gz]
+[2023-08-09 04:19:31] INFO root fetch - main [MainThread]: End processing [hdx-python-country]: success
+[2023-08-09 04:19:32] INFO root fetch - processPackages [CheckmarxPythonSDK]: Remove: archive file [/home/abi/fetcher/tmp/CheckmarxPythonSDK-0.7.9.tar.gz]
+[2023-08-09 04:19:32] INFO root fetch - processPackages [CheckmarxPythonSDK]: Remove: archive file [/home/abi/fetcher/tmp/CheckmarxPythonSDK-0.8.0.tar.gz]
+[2023-08-09 04:19:32] INFO root fetch - main [MainThread]: End processing [CheckmarxPythonSDK]: success
+[2023-08-09 04:19:32] INFO root fetch - main [MainThread]: Store serial: [19231816]
