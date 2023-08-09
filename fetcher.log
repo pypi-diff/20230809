@@ -11251,3 +11251,84 @@
 [2023-08-09 06:09:16] INFO root fetch - processPackages [ansible-risk-insight]: Remove: archive file [/home/abi/fetcher/tmp/ansible-risk-insight-0.1.9.tar.gz]
 [2023-08-09 06:09:16] INFO root fetch - main [MainThread]: End processing [ansible-risk-insight]: success
 [2023-08-09 06:09:16] INFO root fetch - main [MainThread]: Store serial: [19232541]
+[2023-08-09 06:14:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19232541]
+[2023-08-09 06:14:24] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-09 06:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inviz
+[2023-08-09 06:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gnssanalysis
+[2023-08-09 06:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydflow
+[2023-08-09 06:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opprint
+[2023-08-09 06:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grapes-graph
+[2023-08-09 06:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chainedci
+[2023-08-09 06:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cropnet
+[2023-08-09 06:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: v-quantum-cloud
+[2023-08-09 06:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: survey-report-generator
+[2023-08-09 06:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mago
+[2023-08-09 06:14:24] INFO root fetch - processPackages [chainedci]: New version: [1.5.43] Old Version: [1.5.42]
+[2023-08-09 06:14:24] INFO root fetch - processPackages [survey-report-generator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-09 06:14:24] INFO root fetch - processPackages [cropnet]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-09 06:14:24] INFO root fetch - processPackages [inviz]: New version: [0.3.0] Old Version: [0.2.8a2]
+[2023-08-09 06:14:24] INFO root fetch - processPackages [chainedci]: Downloading https://files.pythonhosted.org/packages/6f/68/dafe0c1c09bf29548fefae4e7387cafe611beaaf7d66fcba4e8301a4fdca/chainedci-1.5.42.tar.gz
+[2023-08-09 06:14:24] WARNING root fetch - processPackages [mago]: Skipping, unable to determine old version
+[2023-08-09 06:14:24] INFO root fetch - main [MainThread]: End processing [mago] error
+[2023-08-09 06:14:24] INFO root fetch - processPackages [opprint]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-09 06:14:24] INFO root fetch - processPackages [pydflow]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-08-09 06:14:24] INFO root fetch - processPackages [gnssanalysis]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-09 06:14:24] WARNING root fetch - processPackages [v-quantum-cloud]: Skipping, unable to determine old version
+[2023-08-09 06:14:24] INFO root fetch - main [MainThread]: End processing [v-quantum-cloud] error
+[2023-08-09 06:14:24] INFO root fetch - processPackages [grapes-graph]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-09 06:14:24] INFO root fetch - processPackages [inviz]: Downloading https://files.pythonhosted.org/packages/37/a9/e913eeffb47e1015e76b86496403b9fb506db46e6d59502d09e29ccf5502/inviz-0.2.8a2.tar.gz
+[2023-08-09 06:14:24] INFO root fetch - processPackages [survey-report-generator]: Downloading https://files.pythonhosted.org/packages/1f/f6/26fd1fc02c4f3a86772075a03e77f3cffb4f26de41e30bc9d7f7a57d304b/survey_report_generator-0.0.8.tar.gz
+[2023-08-09 06:14:25] INFO root fetch - processPackages [cropnet]: Downloading https://files.pythonhosted.org/packages/70/cb/da58115f4228c8e151b9039114c5006dec30df930291b243471b8c7cd997/cropnet-0.1.8.tar.gz
+[2023-08-09 06:14:25] INFO root fetch - processPackages [opprint]: Downloading https://files.pythonhosted.org/packages/5f/6c/889866277bf335dfbf36831a1841173ad392a93ae36267d0b4d09aba5f2e/opprint-1.0.2.tar.gz
+[2023-08-09 06:14:25] INFO root fetch - processPackages [gnssanalysis]: Downloading https://files.pythonhosted.org/packages/e0/2d/6e9b2e6b7338eb4ade3a80238c53fe3d7046af99576c4229b166e23c1a3a/gnssanalysis-0.0.8.tar.gz
+[2023-08-09 06:14:25] INFO root fetch - processPackages [grapes-graph]: Downloading https://files.pythonhosted.org/packages/a0/9d/a48a50fe233d3efb3edeed4fd7886e8fd07d18bb55debcca473aef627879/grapes-graph-0.0.3.tar.gz
+[2023-08-09 06:14:25] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/33/96/a989d9cfcdb5dcb43d60a72640c59e2efb7fd053182742205b332006f813/pydflow-1.7.8.tar.gz
+[2023-08-09 06:14:25] INFO root fetch - processPackages [inviz]: Downloading https://files.pythonhosted.org/packages/41/3a/c4787504614c7006e022bbffa36c7acb08d9e7b02d1ad75c040e779b6138/inviz-0.3.0.tar.gz
+[2023-08-09 06:14:25] INFO root fetch - processPackages [chainedci]: Downloading https://files.pythonhosted.org/packages/56/bf/a06d340a7f5359960a971a0b2197a947f8a5928626dccfade7b3e04aedce/chainedci-1.5.43.tar.gz
+[2023-08-09 06:14:25] INFO root fetch - processPackages [survey-report-generator]: Downloading https://files.pythonhosted.org/packages/23/e7/a8186c66ce9683ab479c8f137354f8735d0dfd1a793105d80b3e91794768/survey_report_generator-0.0.9.tar.gz
+[2023-08-09 06:14:25] INFO root fetch - processPackages [inviz]: executing diffoscope
+[2023-08-09 06:14:25] INFO root fetch - processPackages [inviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inviz-0.2.8a2.tar.gz tmp/inviz-0.3.0.tar.gz --markdown 20230809/i/inviz/0.2.8a2-0.3.0/diff.md --exclude *.pyd
+[2023-08-09 06:14:25] INFO root fetch - processPackages [cropnet]: Downloading https://files.pythonhosted.org/packages/13/53/3e388f8f144121c37506e88f46fa01c7f8007ce66c3a14ada1d8f942cd90/cropnet-0.1.9.tar.gz
+[2023-08-09 06:14:25] INFO root fetch - processPackages [chainedci]: executing diffoscope
+[2023-08-09 06:14:25] INFO root fetch - processPackages [chainedci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainedci-1.5.42.tar.gz tmp/chainedci-1.5.43.tar.gz --markdown 20230809/c/chainedci/1.5.42-1.5.43/diff.md --exclude *.pyd
+[2023-08-09 06:14:25] INFO root fetch - processPackages [opprint]: Downloading https://files.pythonhosted.org/packages/30/71/d6ad9a54ad75cb1b77af2151e109a594553cbfd6c192e19b0a490c09916e/opprint-1.0.3.tar.gz
+[2023-08-09 06:14:25] INFO root fetch - processPackages [grapes-graph]: Downloading https://files.pythonhosted.org/packages/e0/21/e8e73b9f82be405bd1ba1ef56a7e4684c5d704e54fd75428c224365f23e6/grapes-graph-0.0.4.tar.gz
+[2023-08-09 06:14:25] INFO root fetch - processPackages [gnssanalysis]: Downloading https://files.pythonhosted.org/packages/e1/ac/da507121836c683adba00ccb9f5f955063e24f97656ce240e4354a9cbe10/gnssanalysis-0.0.9.tar.gz
+[2023-08-09 06:14:25] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/9c/41/6c9bc72fde943869899725f55fade9f850f62ecbc6fa31e53b8fa79ae5a3/pydflow-1.7.9.tar.gz
+[2023-08-09 06:14:25] INFO root fetch - processPackages [opprint]: executing diffoscope
+[2023-08-09 06:14:25] INFO root fetch - processPackages [opprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opprint-1.0.2.tar.gz tmp/opprint-1.0.3.tar.gz --markdown 20230809/o/opprint/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-09 06:14:25] INFO root fetch - processPackages [cropnet]: executing diffoscope
+[2023-08-09 06:14:25] INFO root fetch - processPackages [cropnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cropnet-0.1.8.tar.gz tmp/cropnet-0.1.9.tar.gz --markdown 20230809/c/cropnet/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-09 06:14:25] INFO root fetch - processPackages [grapes-graph]: executing diffoscope
+[2023-08-09 06:14:25] INFO root fetch - processPackages [grapes-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grapes-graph-0.0.3.tar.gz tmp/grapes-graph-0.0.4.tar.gz --markdown 20230809/g/grapes-graph/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-09 06:14:25] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-08-09 06:14:25] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.8.tar.gz tmp/pydflow-1.7.9.tar.gz --markdown 20230809/p/pydflow/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-08-09 06:14:25] INFO root fetch - processPackages [gnssanalysis]: executing diffoscope
+[2023-08-09 06:14:25] INFO root fetch - processPackages [gnssanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnssanalysis-0.0.8.tar.gz tmp/gnssanalysis-0.0.9.tar.gz --markdown 20230809/g/gnssanalysis/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-09 06:14:26] INFO root fetch - processPackages [survey-report-generator]: executing diffoscope
+[2023-08-09 06:14:26] INFO root fetch - processPackages [survey-report-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/survey_report_generator-0.0.8.tar.gz tmp/survey_report_generator-0.0.9.tar.gz --markdown 20230809/s/survey-report-generator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-09 06:14:26] INFO root fetch - processPackages [inviz]: Remove: archive file [/home/abi/fetcher/tmp/inviz-0.2.8a2.tar.gz]
+[2023-08-09 06:14:26] INFO root fetch - processPackages [inviz]: Remove: archive file [/home/abi/fetcher/tmp/inviz-0.3.0.tar.gz]
+[2023-08-09 06:14:26] INFO root fetch - main [MainThread]: End processing [inviz]: success
+[2023-08-09 06:14:26] INFO root fetch - processPackages [chainedci]: Remove: archive file [/home/abi/fetcher/tmp/chainedci-1.5.42.tar.gz]
+[2023-08-09 06:14:26] INFO root fetch - processPackages [chainedci]: Remove: archive file [/home/abi/fetcher/tmp/chainedci-1.5.43.tar.gz]
+[2023-08-09 06:14:26] INFO root fetch - main [MainThread]: End processing [chainedci]: success
+[2023-08-09 06:14:27] INFO root fetch - processPackages [cropnet]: Remove: archive file [/home/abi/fetcher/tmp/cropnet-0.1.8.tar.gz]
+[2023-08-09 06:14:27] INFO root fetch - processPackages [cropnet]: Remove: archive file [/home/abi/fetcher/tmp/cropnet-0.1.9.tar.gz]
+[2023-08-09 06:14:27] INFO root fetch - main [MainThread]: End processing [cropnet]: success
+[2023-08-09 06:14:27] INFO root fetch - processPackages [opprint]: Remove: archive file [/home/abi/fetcher/tmp/opprint-1.0.2.tar.gz]
+[2023-08-09 06:14:27] INFO root fetch - processPackages [opprint]: Remove: archive file [/home/abi/fetcher/tmp/opprint-1.0.3.tar.gz]
+[2023-08-09 06:14:27] INFO root fetch - main [MainThread]: End processing [opprint]: success
+[2023-08-09 06:14:27] INFO root fetch - processPackages [grapes-graph]: Remove: archive file [/home/abi/fetcher/tmp/grapes-graph-0.0.3.tar.gz]
+[2023-08-09 06:14:27] INFO root fetch - processPackages [grapes-graph]: Remove: archive file [/home/abi/fetcher/tmp/grapes-graph-0.0.4.tar.gz]
+[2023-08-09 06:14:27] INFO root fetch - main [MainThread]: End processing [grapes-graph]: success
+[2023-08-09 06:14:27] INFO root fetch - processPackages [survey-report-generator]: Remove: archive file [/home/abi/fetcher/tmp/survey_report_generator-0.0.8.tar.gz]
+[2023-08-09 06:14:27] INFO root fetch - processPackages [survey-report-generator]: Remove: archive file [/home/abi/fetcher/tmp/survey_report_generator-0.0.9.tar.gz]
+[2023-08-09 06:14:27] INFO root fetch - main [MainThread]: End processing [survey-report-generator]: success
+[2023-08-09 06:14:27] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.8.tar.gz]
+[2023-08-09 06:14:27] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
+[2023-08-09 06:14:27] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-08-09 06:14:27] INFO root fetch - processPackages [gnssanalysis]: Remove: archive file [/home/abi/fetcher/tmp/gnssanalysis-0.0.8.tar.gz]
+[2023-08-09 06:14:27] INFO root fetch - processPackages [gnssanalysis]: Remove: archive file [/home/abi/fetcher/tmp/gnssanalysis-0.0.9.tar.gz]
+[2023-08-09 06:14:27] INFO root fetch - main [MainThread]: End processing [gnssanalysis]: success
+[2023-08-09 06:14:27] INFO root fetch - main [MainThread]: Store serial: [19232576]
