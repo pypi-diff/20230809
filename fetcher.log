@@ -12514,3 +12514,129 @@
 [2023-08-09 07:33:22] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
 [2023-08-09 07:33:22] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-08-09 07:33:22] INFO root fetch - main [MainThread]: Store serial: [19233100]
+[2023-08-09 07:38:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19233100]
+[2023-08-09 07:38:31] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-09 07:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myipmacpackage
+[2023-08-09 07:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dicergirl
+[2023-08-09 07:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lubyrequests
+[2023-08-09 07:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-jx3
+[2023-08-09 07:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-survey-contact-generation
+[2023-08-09 07:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-survey
+[2023-08-09 07:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rraft-py
+[2023-08-09 07:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: extra-utils
+[2023-08-09 07:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dsds
+[2023-08-09 07:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-hr-timesheet-sheet
+[2023-08-09 07:38:32] INFO root fetch - processPackages [rraft-py]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-09 07:38:32] INFO root fetch - processPackages [nonebot-plugin-jx3]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-08-09 07:38:32] INFO root fetch - processPackages [odoo-addons-oca-survey]: New version: [15.0.20230808.0] Old Version: [15.0.20230727.0]
+[2023-08-09 07:38:32] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2023-08-09 07:38:32] WARNING root fetch - processPackages [lubyrequests]: Skipping, unable to determine old version
+[2023-08-09 07:38:32] INFO root fetch - processPackages [lubyrequests]: Start processing: raftify
+[2023-08-09 07:38:32] INFO root fetch - main [MainThread]: End processing [lubyrequests] error
+[2023-08-09 07:38:32] INFO root fetch - processPackages [myipmacpackage]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-09 07:38:32] WARNING root fetch - processPackages [extra-utils]: Skipping, unable to determine old version
+[2023-08-09 07:38:32] INFO root fetch - processPackages [extra-utils]: Start processing: odoo-addons-oca-timesheet
+[2023-08-09 07:38:32] INFO root fetch - main [MainThread]: End processing [extra-utils] error
+[2023-08-09 07:38:32] INFO root fetch - processPackages [dicergirl]: New version: [3.1.0] Old Version: [3.0.9]
+[2023-08-09 07:38:32] INFO root fetch - processPackages [odoo-addon-survey-contact-generation]: New version: [15.0.1.0.0.6] Old Version: [15.0.1.0.0.5]
+[2023-08-09 07:38:32] INFO root fetch - processPackages [dsds]: New version: [0.0.25] Old Version: [0.0.24]
+[2023-08-09 07:38:32] INFO root fetch - processPackages [rraft-py]: Downloading https://files.pythonhosted.org/packages/0e/9d/9ef69e1939f194a52a10744729c446f431ef3ec7a80f03be3b619af0d47d/rraft_py-0.1.2.tar.gz
+[2023-08-09 07:38:32] INFO root fetch - processPackages [nonebot-plugin-jx3]: Downloading https://files.pythonhosted.org/packages/af/76/18c51e4f9281228901fbdbd8dcf78b33d8f4664d60786a4b60a57b12b2df/nonebot_plugin_jx3-0.6.0.tar.gz
+[2023-08-09 07:38:32] INFO root fetch - processPackages [raftify]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-09 07:38:32] INFO root fetch - processPackages [odoo-addons-oca-survey]: Downloading https://files.pythonhosted.org/packages/31/9b/cb7d7ef25245c22e04eafe922a38c51b4bbba073b05d03d6dada97be5f34/odoo_addons_oca_survey-15.0.20230727.0-py3-none-any.whl
+[2023-08-09 07:38:32] INFO root fetch - processPackages [raftify]: Downloading https://files.pythonhosted.org/packages/9b/af/4067cf38fea978d616e9a6de20bea4cc7fe2b3d6576c4800f3f194b98d0d/raftify-0.0.8-py3-none-any.whl
+[2023-08-09 07:38:32] INFO root fetch - processPackages [myipmacpackage]: Downloading https://files.pythonhosted.org/packages/f5/d5/69c70b838e29f224238c1729137b0ed156ff902f3e253acb845ca0a1a5c9/myipmacpackage-1.0.2.tar.gz
+[2023-08-09 07:38:32] INFO root fetch - processPackages [dsds]: Downloading https://files.pythonhosted.org/packages/2b/6f/fba8042a2805556ad67642033a29b954d26a3625320232f47482e2cf46db/dsds-0.0.24.tar.gz
+[2023-08-09 07:38:32] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: New version: [16.0.20230808.0] Old Version: [16.0.20230705.0]
+[2023-08-09 07:38:32] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/2a/94/980476b22979b02467f6f4ddd6d01a87eaed454f7d8b8a73527999642a26/odoo_addon_hr_timesheet_sheet-16.0.1.0.0.7-py3-none-any.whl
+[2023-08-09 07:38:32] INFO root fetch - processPackages [dicergirl]: Downloading https://files.pythonhosted.org/packages/cc/2f/86394a6773784d7b675bced8d86f2838a1653b0cd960f19c21fedf5a8d2b/dicergirl-3.0.9.tar.gz
+[2023-08-09 07:38:32] INFO root fetch - processPackages [odoo-addon-survey-contact-generation]: Downloading https://files.pythonhosted.org/packages/c6/7d/7f8dd7697b52be3f15bdca83911a474aa04d64775e435cd86417283c4aab/odoo_addon_survey_contact_generation-15.0.1.0.0.5-py3-none-any.whl
+[2023-08-09 07:38:32] INFO root fetch - processPackages [nonebot-plugin-jx3]: Downloading https://files.pythonhosted.org/packages/03/5c/97a9ec23b26b9c3e774048c68bec92d8d7e829f99779a36cf9fe9502232b/nonebot_plugin_jx3-0.6.1.tar.gz
+[2023-08-09 07:38:32] INFO root fetch - processPackages [rraft-py]: Downloading https://files.pythonhosted.org/packages/05/cb/635e679243efa95ae4d02c0ad53030d0175a768d3d88fcc193746cb2f641/rraft_py-0.1.3.tar.gz
+[2023-08-09 07:38:32] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: Downloading https://files.pythonhosted.org/packages/4e/fd/2174050a8ab6c78c45c5ac083000fb514f11647473839423e0ede3e948a5/odoo_addons_oca_timesheet-16.0.20230705.0-py3-none-any.whl
+[2023-08-09 07:38:32] INFO root fetch - processPackages [raftify]: Downloading https://files.pythonhosted.org/packages/6f/02/c27b335ae153d3d210f56dfac6ecb3b1789141477d1424f4ac21b5386c27/raftify-0.0.9-py3-none-any.whl
+[2023-08-09 07:38:32] INFO root fetch - processPackages [odoo-addons-oca-survey]: Downloading https://files.pythonhosted.org/packages/32/e9/70606a9ff570474d09b5571d484eec78ef596adb5a0d6202ce4a100fc7f6/odoo_addons_oca_survey-15.0.20230808.0-py3-none-any.whl
+[2023-08-09 07:38:32] INFO root fetch - processPackages [myipmacpackage]: Downloading https://files.pythonhosted.org/packages/8b/36/568f49ed984b69cc87e8b50f981112532a51c491dd8a7557c25a0cedf908/myipmacpackage-1.0.3.tar.gz
+[2023-08-09 07:38:32] INFO root fetch - processPackages [nonebot-plugin-jx3]: executing diffoscope
+[2023-08-09 07:38:32] INFO root fetch - processPackages [nonebot-plugin-jx3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_jx3-0.6.0.tar.gz tmp/nonebot_plugin_jx3-0.6.1.tar.gz --markdown 20230809/n/nonebot-plugin-jx3/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-08-09 07:38:32] INFO root fetch - processPackages [dsds]: Downloading https://files.pythonhosted.org/packages/f0/c8/e0ad9c012dd362e41a517be457854313b6224c23db724ca414ec45209359/dsds-0.0.25.tar.gz
+[2023-08-09 07:38:32] INFO root fetch - processPackages [dicergirl]: Downloading https://files.pythonhosted.org/packages/ea/6b/cee63f2cebf1056a222b70f2916a481b420cccd44ecb7bd24c40b924f2a4/dicergirl-3.1.0.tar.gz
+[2023-08-09 07:38:32] INFO root fetch - processPackages [rraft-py]: executing diffoscope
+[2023-08-09 07:38:32] INFO root fetch - processPackages [rraft-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rraft_py-0.1.2.tar.gz tmp/rraft_py-0.1.3.tar.gz --markdown 20230809/r/rraft-py/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-09 07:38:32] INFO root fetch - processPackages [raftify]: executing diffoscope
+[2023-08-09 07:38:32] INFO root fetch - processPackages [raftify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raftify-0.0.8-py3-none-any.whl.zip tmp/raftify-0.0.9-py3-none-any.whl.zip --markdown 20230809/r/raftify/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-09 07:38:33] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/ff/06/5dfda15753fb845b42819c10b2c0bcc3ceafb31ca2ea3aeb597f7a9ae9d4/odoo_addon_hr_timesheet_sheet-16.0.1.0.0.8-py3-none-any.whl
+[2023-08-09 07:38:33] INFO root fetch - processPackages [odoo-addon-survey-contact-generation]: Downloading https://files.pythonhosted.org/packages/ea/20/3e145c9f58f38b70c6da865b4920180121a4b979215aa8c99f6679910c60/odoo_addon_survey_contact_generation-15.0.1.0.0.6-py3-none-any.whl
+[2023-08-09 07:38:33] INFO root fetch - processPackages [odoo-addons-oca-survey]: executing diffoscope
+[2023-08-09 07:38:33] INFO root fetch - processPackages [odoo-addons-oca-survey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_survey-15.0.20230727.0-py3-none-any.whl.zip tmp/odoo_addons_oca_survey-15.0.20230808.0-py3-none-any.whl.zip --markdown 20230809/o/odoo-addons-oca-survey/15.0.20230727.0-15.0.20230808.0/diff.md --exclude *.pyd
+[2023-08-09 07:38:33] INFO root fetch - processPackages [myipmacpackage]: executing diffoscope
+[2023-08-09 07:38:33] INFO root fetch - processPackages [myipmacpackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myipmacpackage-1.0.2.tar.gz tmp/myipmacpackage-1.0.3.tar.gz --markdown 20230809/m/myipmacpackage/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-09 07:38:33] INFO root fetch - processPackages [dicergirl]: executing diffoscope
+[2023-08-09 07:38:33] INFO root fetch - processPackages [dicergirl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicergirl-3.0.9.tar.gz tmp/dicergirl-3.1.0.tar.gz --markdown 20230809/d/dicergirl/3.0.9-3.1.0/diff.md --exclude *.pyd
+[2023-08-09 07:38:33] INFO root fetch - processPackages [dsds]: executing diffoscope
+[2023-08-09 07:38:33] INFO root fetch - processPackages [dsds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsds-0.0.24.tar.gz tmp/dsds-0.0.25.tar.gz --markdown 20230809/d/dsds/0.0.24-0.0.25/diff.md --exclude *.pyd
+[2023-08-09 07:38:33] INFO root fetch - processPackages [odoo-addon-survey-contact-generation]: executing diffoscope
+[2023-08-09 07:38:33] INFO root fetch - processPackages [odoo-addon-survey-contact-generation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_survey_contact_generation-15.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_survey_contact_generation-15.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230809/o/odoo-addon-survey-contact-generation/15.0.1.0.0.5-15.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-08-09 07:38:33] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: Downloading https://files.pythonhosted.org/packages/cd/db/369ffad419c4b071733301bc779da97ec988f4e59d6b127f42d24c5d1817/odoo_addons_oca_timesheet-16.0.20230808.0-py3-none-any.whl
+[2023-08-09 07:38:33] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: executing diffoscope
+[2023-08-09 07:38:33] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_timesheet_sheet-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_hr_timesheet_sheet-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230809/o/odoo-addon-hr-timesheet-sheet/16.0.1.0.0.7-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-08-09 07:38:33] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: executing diffoscope
+[2023-08-09 07:38:33] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_timesheet-16.0.20230705.0-py3-none-any.whl.zip tmp/odoo_addons_oca_timesheet-16.0.20230808.0-py3-none-any.whl.zip --markdown 20230809/o/odoo-addons-oca-timesheet/16.0.20230705.0-16.0.20230808.0/diff.md --exclude *.pyd
+[2023-08-09 07:38:34] INFO root fetch - processPackages [nonebot-plugin-jx3]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_jx3-0.6.0.tar.gz]
+[2023-08-09 07:38:34] INFO root fetch - processPackages [nonebot-plugin-jx3]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_jx3-0.6.1.tar.gz]
+[2023-08-09 07:38:34] INFO root fetch - processPackages [nonebot-plugin-jx3]: Start processing: sphractal
+[2023-08-09 07:38:34] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-jx3]: success
+[2023-08-09 07:38:34] INFO root fetch - processPackages [odoo-addons-oca-survey]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_survey-15.0.20230727.0-py3-none-any.whl.zip]
+[2023-08-09 07:38:34] INFO root fetch - processPackages [odoo-addons-oca-survey]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_survey-15.0.20230808.0-py3-none-any.whl.zip]
+[2023-08-09 07:38:34] INFO root fetch - processPackages [odoo-addons-oca-survey]: Start processing: pyimporters-obo
+[2023-08-09 07:38:34] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-survey]: success
+[2023-08-09 07:38:34] INFO root fetch - processPackages [sphractal]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-09 07:38:34] INFO root fetch - processPackages [myipmacpackage]: Remove: archive file [/home/abi/fetcher/tmp/myipmacpackage-1.0.2.tar.gz]
+[2023-08-09 07:38:34] INFO root fetch - processPackages [myipmacpackage]: Remove: archive file [/home/abi/fetcher/tmp/myipmacpackage-1.0.3.tar.gz]
+[2023-08-09 07:38:34] INFO root fetch - processPackages [myipmacpackage]: Start processing: whisper-mic
+[2023-08-09 07:38:34] INFO root fetch - main [MainThread]: End processing [myipmacpackage]: success
+[2023-08-09 07:38:34] INFO root fetch - processPackages [raftify]: Remove: archive file [/home/abi/fetcher/tmp/raftify-0.0.8-py3-none-any.whl.zip]
+[2023-08-09 07:38:34] INFO root fetch - processPackages [raftify]: Remove: archive file [/home/abi/fetcher/tmp/raftify-0.0.9-py3-none-any.whl.zip]
+[2023-08-09 07:38:34] INFO root fetch - main [MainThread]: End processing [raftify]: success
+[2023-08-09 07:38:34] INFO root fetch - processPackages [pyimporters-obo]: New version: [0.4.81] Old Version: [0.4.77]
+[2023-08-09 07:38:34] INFO root fetch - processPackages [whisper-mic]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-08-09 07:38:34] INFO root fetch - processPackages [whisper-mic]: Downloading https://files.pythonhosted.org/packages/6e/04/9a745da5c07aa45fa258ca48963bd412fde81cdbac3ec95f8fd4944b9474/whisper_mic-1.1.1.tar.gz
+[2023-08-09 07:38:34] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b1/6d/156256fa9e3fa7de2df2059d47e10f9622e16808846d88bf7a096397ad36/sphractal-0.9.0.tar.gz
+[2023-08-09 07:38:34] INFO root fetch - processPackages [pyimporters-obo]: Downloading https://files.pythonhosted.org/packages/d6/99/e467a93c58ed888a7a72df5be6ebce713c69e66a71c5769ae5eb6688dc76/pyimporters-obo-0.4.77.tar.gz
+[2023-08-09 07:38:34] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_timesheet-16.0.20230705.0-py3-none-any.whl.zip]
+[2023-08-09 07:38:34] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_timesheet-16.0.20230808.0-py3-none-any.whl.zip]
+[2023-08-09 07:38:34] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-timesheet]: success
+[2023-08-09 07:38:35] INFO root fetch - processPackages [dsds]: Remove: archive file [/home/abi/fetcher/tmp/dsds-0.0.24.tar.gz]
+[2023-08-09 07:38:35] INFO root fetch - processPackages [dsds]: Remove: archive file [/home/abi/fetcher/tmp/dsds-0.0.25.tar.gz]
+[2023-08-09 07:38:35] INFO root fetch - main [MainThread]: End processing [dsds]: success
+[2023-08-09 07:38:35] INFO root fetch - processPackages [dicergirl]: Remove: archive file [/home/abi/fetcher/tmp/dicergirl-3.0.9.tar.gz]
+[2023-08-09 07:38:35] INFO root fetch - processPackages [dicergirl]: Remove: archive file [/home/abi/fetcher/tmp/dicergirl-3.1.0.tar.gz]
+[2023-08-09 07:38:35] INFO root fetch - main [MainThread]: End processing [dicergirl]: success
+[2023-08-09 07:38:35] INFO root fetch - processPackages [odoo-addon-survey-contact-generation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_survey_contact_generation-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-08-09 07:38:35] INFO root fetch - processPackages [odoo-addon-survey-contact-generation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_survey_contact_generation-15.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-08-09 07:38:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-survey-contact-generation]: success
+[2023-08-09 07:38:35] INFO root fetch - processPackages [rraft-py]: Remove: archive file [/home/abi/fetcher/tmp/rraft_py-0.1.2.tar.gz]
+[2023-08-09 07:38:35] INFO root fetch - processPackages [rraft-py]: Remove: archive file [/home/abi/fetcher/tmp/rraft_py-0.1.3.tar.gz]
+[2023-08-09 07:38:35] INFO root fetch - main [MainThread]: End processing [rraft-py]: success
+[2023-08-09 07:38:35] INFO root fetch - processPackages [whisper-mic]: Downloading https://files.pythonhosted.org/packages/37/6d/106252115b2f7d4488492ae0f891de7929853603031be4acf60144670ae4/whisper_mic-1.2.0.tar.gz
+[2023-08-09 07:38:35] INFO root fetch - processPackages [whisper-mic]: executing diffoscope
+[2023-08-09 07:38:35] INFO root fetch - processPackages [whisper-mic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper_mic-1.1.1.tar.gz tmp/whisper_mic-1.2.0.tar.gz --markdown 20230809/w/whisper-mic/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-08-09 07:38:35] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b7/3c/357fa6f2eda84dc8aff5499145b341ad2d8a7162270a504b401c65b633a3/sphractal-0.9.1.tar.gz
+[2023-08-09 07:38:35] INFO root fetch - processPackages [pyimporters-obo]: Downloading https://files.pythonhosted.org/packages/16/47/47c367902a5c7055d91e6796fe0ea2e1938015230300266af0bc008da529/pyimporters_obo-0.4.81.tar.gz
+[2023-08-09 07:38:35] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_timesheet_sheet-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-08-09 07:38:35] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_timesheet_sheet-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-08-09 07:38:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-timesheet-sheet]: success
+[2023-08-09 07:38:35] INFO root fetch - processPackages [sphractal]: executing diffoscope
+[2023-08-09 07:38:35] INFO root fetch - processPackages [sphractal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphractal-0.9.0.tar.gz tmp/sphractal-0.9.1.tar.gz --markdown 20230809/s/sphractal/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-09 07:38:35] INFO root fetch - processPackages [pyimporters-obo]: executing diffoscope
+[2023-08-09 07:38:35] INFO root fetch - processPackages [pyimporters-obo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-obo-0.4.77.tar.gz tmp/pyimporters_obo-0.4.81.tar.gz --markdown 20230809/p/pyimporters-obo/0.4.77-0.4.81/diff.md --exclude *.pyd
+[2023-08-09 07:38:36] INFO root fetch - processPackages [whisper-mic]: Remove: archive file [/home/abi/fetcher/tmp/whisper_mic-1.1.1.tar.gz]
+[2023-08-09 07:38:36] INFO root fetch - processPackages [whisper-mic]: Remove: archive file [/home/abi/fetcher/tmp/whisper_mic-1.2.0.tar.gz]
+[2023-08-09 07:38:36] INFO root fetch - main [MainThread]: End processing [whisper-mic]: success
+[2023-08-09 07:38:36] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.0.tar.gz]
+[2023-08-09 07:38:36] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.1.tar.gz]
+[2023-08-09 07:38:36] INFO root fetch - main [MainThread]: End processing [sphractal]: success
+[2023-08-09 07:38:36] INFO root fetch - processPackages [pyimporters-obo]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-obo-0.4.77.tar.gz]
+[2023-08-09 07:38:36] INFO root fetch - processPackages [pyimporters-obo]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters_obo-0.4.81.tar.gz]
+[2023-08-09 07:38:36] INFO root fetch - main [MainThread]: End processing [pyimporters-obo]: success
+[2023-08-09 07:38:36] INFO root fetch - main [MainThread]: Store serial: [19233145]
