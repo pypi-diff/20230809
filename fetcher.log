@@ -9261,3 +9261,69 @@
 [2023-08-09 03:48:22] INFO root fetch - processPackages [flax]: Remove: archive file [/home/abi/fetcher/tmp/flax-0.7.2.tar.gz]
 [2023-08-09 03:48:22] INFO root fetch - main [MainThread]: End processing [flax]: success
 [2023-08-09 03:48:22] INFO root fetch - main [MainThread]: Store serial: [19231550]
+[2023-08-09 03:53:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19231550]
+[2023-08-09 03:53:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-09 03:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PySide2-Frameless-Window
+[2023-08-09 03:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cntracer
+[2023-08-09 03:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: argai
+[2023-08-09 03:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ai2-kit
+[2023-08-09 03:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyenphase
+[2023-08-09 03:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: swarms
+[2023-08-09 03:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: promptquality
+[2023-08-09 03:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: byquant
+[2023-08-09 03:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: us-congresstweets-nlp
+[2023-08-09 03:53:31] INFO root fetch - processPackages [swarms]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-08-09 03:53:31] INFO root fetch - processPackages [pyenphase]: New version: [1.2.0] Old Version: [1.1.4]
+[2023-08-09 03:53:31] WARNING root fetch - processPackages [argai]: Skipping, unable to determine old version
+[2023-08-09 03:53:31] INFO root fetch - main [MainThread]: End processing [argai] error
+[2023-08-09 03:53:31] INFO root fetch - processPackages [promptquality]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-08-09 03:53:31] WARNING root fetch - processPackages [us-congresstweets-nlp]: Skipping, unable to determine old version
+[2023-08-09 03:53:31] INFO root fetch - main [MainThread]: End processing [us-congresstweets-nlp] error
+[2023-08-09 03:53:31] WARNING root fetch - processPackages [byquant]: Skipping, unable to determine old version
+[2023-08-09 03:53:31] INFO root fetch - main [MainThread]: End processing [byquant] error
+[2023-08-09 03:53:31] INFO root fetch - processPackages [PySide2-Frameless-Window]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-09 03:53:31] INFO root fetch - processPackages [ai2-kit]: New version: [0.6.0] Old Version: [0.5.5]
+[2023-08-09 03:53:31] INFO root fetch - processPackages [cntracer]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-08-09 03:53:31] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/19/d3/fb3bd812587c25488c39c18f269026dca1e6612968325ec8ac0ffe44fcf7/swarms-1.1.4.tar.gz
+[2023-08-09 03:53:31] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/19/96/2105cbd539465fb67c82d58cbce172f2ca2989e53b354135c0da79962bd6/pyenphase-1.1.4.tar.gz
+[2023-08-09 03:53:31] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/ed/bd/00a59959d04f5a464f01f6297368f64b2721a026febbadca7b9a49ef318e/cntracer-0.6.2-cp39-cp39-win_amd64.whl
+[2023-08-09 03:53:31] INFO root fetch - processPackages [promptquality]: Downloading https://files.pythonhosted.org/packages/14/be/2e4bb5e33866040f54ad8e8af2275171eaf305ea30b44c0c8be974e41ad5/promptquality-0.2.3.tar.gz
+[2023-08-09 03:53:32] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/7f/e8/dbc1f0fced7c3aa14eab01de8f7b6602c6828af132a38b0a03a36e1a8255/ai2_kit-0.5.5.tar.gz
+[2023-08-09 03:53:32] INFO root fetch - processPackages [PySide2-Frameless-Window]: Downloading https://files.pythonhosted.org/packages/65/84/2cc5c34c5912dc1aace6e7038fda8b56975a95a089509e87278064440b13/PySide2-Frameless-Window-0.3.0.tar.gz
+[2023-08-09 03:53:32] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/c1/b7/061a234d1d9e3776fd21ab69c358291e2f33a56738ada77b7ebe5cefda65/swarms-1.1.5.tar.gz
+[2023-08-09 03:53:32] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/5b/04/895946d70c0d722f1561ea88cefafc6eb96d9d326313565d6e86c7f96991/pyenphase-1.2.0.tar.gz
+[2023-08-09 03:53:32] INFO root fetch - processPackages [pyenphase]: executing diffoscope
+[2023-08-09 03:53:32] INFO root fetch - processPackages [pyenphase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyenphase-1.1.4.tar.gz tmp/pyenphase-1.2.0.tar.gz --markdown 20230809/p/pyenphase/1.1.4-1.2.0/diff.md --exclude *.pyd
+[2023-08-09 03:53:32] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-08-09 03:53:32] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-1.1.4.tar.gz tmp/swarms-1.1.5.tar.gz --markdown 20230809/s/swarms/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-08-09 03:53:32] INFO root fetch - processPackages [promptquality]: Downloading https://files.pythonhosted.org/packages/90/0a/f03eb06d7b0febd712b4d6cab0ada5c47c8520bec6e074d6393263108b17/promptquality-0.3.0.tar.gz
+[2023-08-09 03:53:32] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/51/76/639d2c858ffb4b8049458e8f7a3d44fea10d86d8c4705c67312f59ed3e70/ai2_kit-0.6.0.tar.gz
+[2023-08-09 03:53:32] INFO root fetch - processPackages [PySide2-Frameless-Window]: Downloading https://files.pythonhosted.org/packages/51/bc/dc73eb020edab02c8793d995ba22525c042ae8e174c37e05d2f142d463d4/PySide2-Frameless-Window-0.3.1.tar.gz
+[2023-08-09 03:53:32] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/cf/ac/18ad65641e8692d1f1b9ddba1551e82cef57fb67013a84e35cb068b5dd60/cntracer-0.6.3-cp39-cp39-musllinux_1_1_x86_64.whl
+[2023-08-09 03:53:32] INFO root fetch - processPackages [promptquality]: executing diffoscope
+[2023-08-09 03:53:32] INFO root fetch - processPackages [promptquality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptquality-0.2.3.tar.gz tmp/promptquality-0.3.0.tar.gz --markdown 20230809/p/promptquality/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-08-09 03:53:32] INFO root fetch - processPackages [PySide2-Frameless-Window]: executing diffoscope
+[2023-08-09 03:53:32] INFO root fetch - processPackages [PySide2-Frameless-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide2-Frameless-Window-0.3.0.tar.gz tmp/PySide2-Frameless-Window-0.3.1.tar.gz --markdown 20230809/P/PySide2-Frameless-Window/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-09 03:53:32] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2023-08-09 03:53:32] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.5.5.tar.gz tmp/ai2_kit-0.6.0.tar.gz --markdown 20230809/a/ai2-kit/0.5.5-0.6.0/diff.md --exclude *.pyd
+[2023-08-09 03:53:33] INFO root fetch - processPackages [cntracer]: executing diffoscope
+[2023-08-09 03:53:33] INFO root fetch - processPackages [cntracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cntracer-0.6.2-cp39-cp39-win_amd64.whl.zip tmp/cntracer-0.6.3-cp39-cp39-musllinux_1_1_x86_64.whl.zip --markdown 20230809/c/cntracer/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-08-09 03:53:33] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-1.1.4.tar.gz]
+[2023-08-09 03:53:33] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-1.2.0.tar.gz]
+[2023-08-09 03:53:33] INFO root fetch - main [MainThread]: End processing [pyenphase]: success
+[2023-08-09 03:53:33] INFO root fetch - processPackages [promptquality]: Remove: archive file [/home/abi/fetcher/tmp/promptquality-0.2.3.tar.gz]
+[2023-08-09 03:53:33] INFO root fetch - processPackages [promptquality]: Remove: archive file [/home/abi/fetcher/tmp/promptquality-0.3.0.tar.gz]
+[2023-08-09 03:53:33] INFO root fetch - main [MainThread]: End processing [promptquality]: success
+[2023-08-09 03:53:33] INFO root fetch - processPackages [PySide2-Frameless-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Frameless-Window-0.3.0.tar.gz]
+[2023-08-09 03:53:33] INFO root fetch - processPackages [PySide2-Frameless-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Frameless-Window-0.3.1.tar.gz]
+[2023-08-09 03:53:33] INFO root fetch - main [MainThread]: End processing [PySide2-Frameless-Window]: success
+[2023-08-09 03:53:33] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.5.5.tar.gz]
+[2023-08-09 03:53:33] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.6.0.tar.gz]
+[2023-08-09 03:53:33] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2023-08-09 03:53:33] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-1.1.4.tar.gz]
+[2023-08-09 03:53:33] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-1.1.5.tar.gz]
+[2023-08-09 03:53:33] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-08-09 03:53:34] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-0.6.2-cp39-cp39-win_amd64.whl.zip]
+[2023-08-09 03:53:34] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-0.6.3-cp39-cp39-musllinux_1_1_x86_64.whl.zip]
+[2023-08-09 03:53:34] INFO root fetch - main [MainThread]: End processing [cntracer]: success
+[2023-08-09 03:53:34] INFO root fetch - main [MainThread]: Store serial: [19231622]
