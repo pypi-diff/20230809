@@ -10680,3 +10680,81 @@
 [2023-08-09 05:17:16] INFO root fetch - processPackages [pyatp]: Remove: archive file [/home/abi/fetcher/tmp/pyatp-1.2.1.tar.gz]
 [2023-08-09 05:17:16] INFO root fetch - main [MainThread]: End processing [pyatp]: success
 [2023-08-09 05:17:16] INFO root fetch - main [MainThread]: Store serial: [19232191]
+[2023-08-09 05:22:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19232191]
+[2023-08-09 05:22:24] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-09 05:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xmlai
+[2023-08-09 05:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thunder-ase
+[2023-08-09 05:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-e-commerce
+[2023-08-09 05:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RGAST
+[2023-08-09 05:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: waypaper
+[2023-08-09 05:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ryetest
+[2023-08-09 05:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: data-ecosystem-services
+[2023-08-09 05:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdktf-cdktf-provider-ionoscloud
+[2023-08-09 05:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quao
+[2023-08-09 05:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cncmark
+[2023-08-09 05:22:24] INFO root fetch - processPackages [quao]: New version: [0.4.0.9] Old Version: [0.4.0.8]
+[2023-08-09 05:22:24] INFO root fetch - processPackages [ryetest]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-09 05:22:25] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202308.0.2] Old Version: [202308.0.1]
+[2023-08-09 05:22:25] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/06/bf/f9aa0065003c9f548af0c94b1a2ff8fe5faa735debed7c20a624922b87af/quao-0.4.0.8-py3-none-any.whl
+[2023-08-09 05:22:25] WARNING root fetch - processPackages [xmlai]: Skipping, unable to determine old version
+[2023-08-09 05:22:25] INFO root fetch - processPackages [xmlai]: Start processing: pacoteeduardo
+[2023-08-09 05:22:25] INFO root fetch - main [MainThread]: End processing [xmlai] error
+[2023-08-09 05:22:25] INFO root fetch - processPackages [thunder-ase]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-08-09 05:22:25] INFO root fetch - processPackages [waypaper]: New version: [1.2] Old Version: [1.1]
+[2023-08-09 05:22:25] WARNING root fetch - processPackages [cncmark]: Skipping, unable to determine old version
+[2023-08-09 05:22:25] INFO root fetch - main [MainThread]: End processing [cncmark] error
+[2023-08-09 05:22:25] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: New version: [16.0.20230801.0] Old Version: [16.0.20230707.0]
+[2023-08-09 05:22:25] WARNING root fetch - processPackages [RGAST]: Skipping, unable to determine old version
+[2023-08-09 05:22:25] INFO root fetch - main [MainThread]: End processing [RGAST] error
+[2023-08-09 05:22:25] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/98/c7/1661485dfc665105e0dd2933bbfb98fc8294e1c915d5e6c2084178026267/data_ecosystem_services-202308.0.1.tar.gz
+[2023-08-09 05:22:25] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: New version: [8.0.4] Old Version: [8.0.3]
+[2023-08-09 05:22:25] WARNING root fetch - processPackages [pacoteeduardo]: Skipping, unable to determine old version
+[2023-08-09 05:22:25] INFO root fetch - main [MainThread]: End processing [pacoteeduardo] error
+[2023-08-09 05:22:25] INFO root fetch - processPackages [thunder-ase]: Downloading https://files.pythonhosted.org/packages/19/b6/d89fc328318ad8aeac0b3a0b7b7e540af373370ffa62d18a7b8138737a8a/thunder-ase-0.4.2.tar.gz
+[2023-08-09 05:22:25] INFO root fetch - processPackages [ryetest]: Downloading https://files.pythonhosted.org/packages/5e/06/0501df19579dd9322d9215a50bfdbd8e6e40c92445b70631f9f348d36a29/ryetest-0.1.0.tar.gz
+[2023-08-09 05:22:25] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/15/ce/fdedb65f96e76c805b9c649dfcde71a2c2fdca40b7ac8e1ae8ba09ab928f/quao-0.4.0.9-py3-none-any.whl
+[2023-08-09 05:22:25] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: Downloading https://files.pythonhosted.org/packages/80/d6/5a17121db99cad86fc2b2ab5d45309f9c8a861e42051d6ea8843520545bf/odoo_addons_oca_e_commerce-16.0.20230707.0-py3-none-any.whl
+[2023-08-09 05:22:25] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: Downloading https://files.pythonhosted.org/packages/85/3f/5000234786227f97d6dde394c4c5e9fe26e08f1521d16d8107c70a0bfd05/cdktf-cdktf-provider-ionoscloud-8.0.3.tar.gz
+[2023-08-09 05:22:25] INFO root fetch - processPackages [waypaper]: Downloading https://files.pythonhosted.org/packages/bd/0b/f7a309b6b4972c83de90f9276c6511be0e82b1785f7d55849316a1fae65d/waypaper-1.1.tar.gz
+[2023-08-09 05:22:25] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-08-09 05:22:25] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.4.0.8-py3-none-any.whl.zip tmp/quao-0.4.0.9-py3-none-any.whl.zip --markdown 20230809/q/quao/0.4.0.8-0.4.0.9/diff.md --exclude *.pyd
+[2023-08-09 05:22:25] INFO root fetch - processPackages [thunder-ase]: Downloading https://files.pythonhosted.org/packages/43/54/6f24de221331a5c4a2e69f83c01bab8d5189ade417417c721e5fff71dbd9/thunder-ase-0.4.3.tar.gz
+[2023-08-09 05:22:25] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/79/54/b40abcd252d5be0659f7888754e520c105dc9da5d4b14a035fc95e4ad24f/data_ecosystem_services-202308.0.2.tar.gz
+[2023-08-09 05:22:25] INFO root fetch - processPackages [thunder-ase]: executing diffoscope
+[2023-08-09 05:22:25] INFO root fetch - processPackages [thunder-ase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thunder-ase-0.4.2.tar.gz tmp/thunder-ase-0.4.3.tar.gz --markdown 20230809/t/thunder-ase/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-08-09 05:22:25] INFO root fetch - processPackages [ryetest]: Downloading https://files.pythonhosted.org/packages/8c/04/2c67d9934512a02b921f021f145f9947e360593c926986e1588e9a08425a/ryetest-0.2.0.tar.gz
+[2023-08-09 05:22:25] INFO root fetch - processPackages [waypaper]: Downloading https://files.pythonhosted.org/packages/20/3a/5a4ea916393e122c725a4bf46d899de807af7a47fcea0daba836ae0a9cd5/waypaper-1.2.tar.gz
+[2023-08-09 05:22:25] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: Downloading https://files.pythonhosted.org/packages/28/eb/2eb9cde15717072f96b72dda75c92d61d6c1ba2851174081ad9f6b090dfe/odoo_addons_oca_e_commerce-16.0.20230801.0-py3-none-any.whl
+[2023-08-09 05:22:25] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-08-09 05:22:25] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202308.0.1.tar.gz tmp/data_ecosystem_services-202308.0.2.tar.gz --markdown 20230809/d/data-ecosystem-services/202308.0.1-202308.0.2/diff.md --exclude *.pyd
+[2023-08-09 05:22:25] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: executing diffoscope
+[2023-08-09 05:22:25] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_e_commerce-16.0.20230707.0-py3-none-any.whl.zip tmp/odoo_addons_oca_e_commerce-16.0.20230801.0-py3-none-any.whl.zip --markdown 20230809/o/odoo-addons-oca-e-commerce/16.0.20230707.0-16.0.20230801.0/diff.md --exclude *.pyd
+[2023-08-09 05:22:25] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: Downloading https://files.pythonhosted.org/packages/87/47/e985f1cd3bcee8618e6eb6dc80dd6c9f8b0fa890eba626275cfd01ebadd7/cdktf-cdktf-provider-ionoscloud-8.0.4.tar.gz
+[2023-08-09 05:22:25] INFO root fetch - processPackages [ryetest]: executing diffoscope
+[2023-08-09 05:22:25] INFO root fetch - processPackages [ryetest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ryetest-0.1.0.tar.gz tmp/ryetest-0.2.0.tar.gz --markdown 20230809/r/ryetest/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-09 05:22:25] INFO root fetch - processPackages [waypaper]: executing diffoscope
+[2023-08-09 05:22:25] INFO root fetch - processPackages [waypaper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waypaper-1.1.tar.gz tmp/waypaper-1.2.tar.gz --markdown 20230809/w/waypaper/1.1-1.2/diff.md --exclude *.pyd
+[2023-08-09 05:22:26] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: executing diffoscope
+[2023-08-09 05:22:26] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-ionoscloud-8.0.3.tar.gz tmp/cdktf-cdktf-provider-ionoscloud-8.0.4.tar.gz --markdown 20230809/c/cdktf-cdktf-provider-ionoscloud/8.0.3-8.0.4/diff.md --exclude *.pyd
+[2023-08-09 05:22:26] INFO root fetch - processPackages [thunder-ase]: Remove: archive file [/home/abi/fetcher/tmp/thunder-ase-0.4.2.tar.gz]
+[2023-08-09 05:22:26] INFO root fetch - processPackages [thunder-ase]: Remove: archive file [/home/abi/fetcher/tmp/thunder-ase-0.4.3.tar.gz]
+[2023-08-09 05:22:26] INFO root fetch - main [MainThread]: End processing [thunder-ase]: success
+[2023-08-09 05:22:27] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_e_commerce-16.0.20230707.0-py3-none-any.whl.zip]
+[2023-08-09 05:22:27] INFO root fetch - processPackages [odoo-addons-oca-e-commerce]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_e_commerce-16.0.20230801.0-py3-none-any.whl.zip]
+[2023-08-09 05:22:27] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-e-commerce]: success
+[2023-08-09 05:22:27] INFO root fetch - processPackages [ryetest]: Remove: archive file [/home/abi/fetcher/tmp/ryetest-0.1.0.tar.gz]
+[2023-08-09 05:22:27] INFO root fetch - processPackages [ryetest]: Remove: archive file [/home/abi/fetcher/tmp/ryetest-0.2.0.tar.gz]
+[2023-08-09 05:22:27] INFO root fetch - main [MainThread]: End processing [ryetest]: success
+[2023-08-09 05:22:27] INFO root fetch - processPackages [waypaper]: Remove: archive file [/home/abi/fetcher/tmp/waypaper-1.1.tar.gz]
+[2023-08-09 05:22:27] INFO root fetch - processPackages [waypaper]: Remove: archive file [/home/abi/fetcher/tmp/waypaper-1.2.tar.gz]
+[2023-08-09 05:22:27] INFO root fetch - main [MainThread]: End processing [waypaper]: success
+[2023-08-09 05:22:27] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.4.0.8-py3-none-any.whl.zip]
+[2023-08-09 05:22:27] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.4.0.9-py3-none-any.whl.zip]
+[2023-08-09 05:22:27] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-08-09 05:22:27] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202308.0.1.tar.gz]
+[2023-08-09 05:22:27] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202308.0.2.tar.gz]
+[2023-08-09 05:22:27] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-08-09 05:22:29] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-ionoscloud-8.0.3.tar.gz]
+[2023-08-09 05:22:29] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-ionoscloud-8.0.4.tar.gz]
+[2023-08-09 05:22:29] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-ionoscloud]: success
+[2023-08-09 05:22:29] INFO root fetch - main [MainThread]: Store serial: [19232245]
