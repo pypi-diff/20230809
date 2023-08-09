@@ -11037,3 +11037,82 @@
 [2023-08-09 05:48:31] INFO root fetch - processPackages [aaz-dev]: Remove: archive file [/home/abi/fetcher/tmp/aaz-dev-1.6.1.tar.gz]
 [2023-08-09 05:48:31] INFO root fetch - main [MainThread]: End processing [aaz-dev]: success
 [2023-08-09 05:48:31] INFO root fetch - main [MainThread]: Store serial: [19232439]
+[2023-08-09 05:53:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19232439]
+[2023-08-09 05:53:39] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-09 05:53:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xlab-util
+[2023-08-09 05:53:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: roleft
+[2023-08-09 05:53:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: roleft
+[2023-08-09 05:53:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py3seed
+[2023-08-09 05:53:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: initial
+[2023-08-09 05:53:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: litellm
+[2023-08-09 05:53:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spice-agent
+[2023-08-09 05:53:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: query-rewritor
+[2023-08-09 05:53:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: query-rewritor
+[2023-08-09 05:53:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: skeleton-plot
+[2023-08-09 05:53:40] WARNING root fetch - processPackages [query-rewritor]: Skipping, unable to determine old version
+[2023-08-09 05:53:40] INFO root fetch - main [MainThread]: End processing [query-rewritor] error
+[2023-08-09 05:53:40] WARNING root fetch - processPackages [query-rewritor]: Skipping, unable to determine old version
+[2023-08-09 05:53:40] INFO root fetch - main [MainThread]: End processing [query-rewritor] error
+[2023-08-09 05:53:40] INFO root fetch - processPackages [spice-agent]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-09 05:53:40] INFO root fetch - processPackages [litellm]: New version: [0.1.365] Old Version: [0.1.364]
+[2023-08-09 05:53:40] INFO root fetch - processPackages [xlab-util]: New version: [0.9] Old Version: [0.8]
+[2023-08-09 05:53:40] INFO root fetch - processPackages [roleft]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-09 05:53:40] INFO root fetch - processPackages [roleft]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-09 05:53:40] INFO root fetch - processPackages [initial]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-09 05:53:40] INFO root fetch - processPackages [skeleton-plot]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-08-09 05:53:40] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/93/fe/396fef6843746c04a2dd430db16c024b3115a4866ea2dcd912eeb92eae56/litellm-0.1.364.tar.gz
+[2023-08-09 05:53:40] INFO root fetch - processPackages [py3seed]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-08-09 05:53:40] INFO root fetch - processPackages [spice-agent]: Downloading https://files.pythonhosted.org/packages/c8/f9/7d036574cf6a8d293091ab3b94845ffa6e2f3a3fd7f2816f30710bf5bfe9/spice_agent-0.1.8.tar.gz
+[2023-08-09 05:53:40] INFO root fetch - processPackages [initial]: Downloading https://files.pythonhosted.org/packages/79/86/fa9c85dd2182006169c3313819bbaf148d08f58f967c61554fef2d77ad21/initial-0.1.0-py3-none-any.whl
+[2023-08-09 05:53:40] INFO root fetch - processPackages [skeleton-plot]: Downloading https://files.pythonhosted.org/packages/5e/3c/7f8d3929b8728a20a9bdaf11504e27e0c53797f1e5b3bad081b606b0ffba/skeleton_plot-0.0.5.tar.gz
+[2023-08-09 05:53:40] INFO root fetch - processPackages [xlab-util]: Downloading https://files.pythonhosted.org/packages/0f/6a/19d43cf566a879e72a37ffed8026a2f406c68bcb2d954841914599b0721e/xlab-util-0.8.tar.gz
+[2023-08-09 05:53:40] INFO root fetch - processPackages [roleft]: Downloading https://files.pythonhosted.org/packages/50/22/d1215023c03901d9aab76ad553d7bd73b912ffeb54ad829beb047d572ca4/roleft-1.0.0.tar.gz
+[2023-08-09 05:53:40] INFO root fetch - processPackages [roleft]: Downloading https://files.pythonhosted.org/packages/50/22/d1215023c03901d9aab76ad553d7bd73b912ffeb54ad829beb047d572ca4/roleft-1.0.0.tar.gz
+[2023-08-09 05:53:40] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/01/ea/0bf5092845398cb666afd2034c33ed95211215d83d80f660f245b53fcf8e/py3seed-0.3.6.tar.gz
+[2023-08-09 05:53:40] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/5f/88/cbf0b516ba95d013d77e6e8f74629088aaae707dc0ed52cb31a51e6d556c/litellm-0.1.365.tar.gz
+[2023-08-09 05:53:40] INFO root fetch - processPackages [spice-agent]: Downloading https://files.pythonhosted.org/packages/1d/4b/9d266d8ae91512bde6b0874c6372335fd40f4af30c13f0287cf02e41bcac/spice_agent-0.1.9.tar.gz
+[2023-08-09 05:53:41] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-08-09 05:53:41] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.364.tar.gz tmp/litellm-0.1.365.tar.gz --markdown 20230809/l/litellm/0.1.364-0.1.365/diff.md --exclude *.pyd
+[2023-08-09 05:53:41] INFO root fetch - processPackages [spice-agent]: executing diffoscope
+[2023-08-09 05:53:41] INFO root fetch - processPackages [spice-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spice_agent-0.1.8.tar.gz tmp/spice_agent-0.1.9.tar.gz --markdown 20230809/s/spice-agent/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-09 05:53:41] INFO root fetch - processPackages [roleft]: Downloading https://files.pythonhosted.org/packages/49/5d/ea0620ba192bfdbf89aed7817a873d94e88449289c084908272039d237eb/roleft-1.0.1.tar.gz
+[2023-08-09 05:53:41] INFO root fetch - processPackages [roleft]: Downloading https://files.pythonhosted.org/packages/49/5d/ea0620ba192bfdbf89aed7817a873d94e88449289c084908272039d237eb/roleft-1.0.1.tar.gz
+[2023-08-09 05:53:41] INFO root fetch - processPackages [initial]: Downloading https://files.pythonhosted.org/packages/a2/d5/846a90bbeeebc80b0756add2f7ccb7997f5738c023fe493f22b87480a3b9/initial-0.2.0.tar.gz
+[2023-08-09 05:53:41] INFO root fetch - processPackages [xlab-util]: Downloading https://files.pythonhosted.org/packages/ae/bb/3e58b3692d2a6b802af4f60df472c5613916423e802ba25eaceb26381694/xlab-util-0.9.tar.gz
+[2023-08-09 05:53:41] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/80/bc/4bd68ef33e4855d768131df99c1fa52565dd5c69e2f46f16c317feaa9550/py3seed-0.3.7.tar.gz
+[2023-08-09 05:53:41] INFO root fetch - processPackages [skeleton-plot]: Downloading https://files.pythonhosted.org/packages/c2/71/63a0a1a839485421ebfd8660bd2f4c9472481d7731e4e2027da0f5ee28f2/skeleton_plot-0.0.7.tar.gz
+[2023-08-09 05:53:41] INFO root fetch - processPackages [roleft]: executing diffoscope
+[2023-08-09 05:53:41] INFO root fetch - processPackages [roleft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roleft-1.0.0.tar.gz tmp/roleft-1.0.1.tar.gz --markdown 20230809/r/roleft/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-09 05:53:41] INFO root fetch - processPackages [roleft]: executing diffoscope
+[2023-08-09 05:53:41] INFO root fetch - processPackages [roleft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roleft-1.0.0.tar.gz tmp/roleft-1.0.1.tar.gz --markdown 20230809/r/roleft/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-09 05:53:41] INFO root fetch - processPackages [xlab-util]: executing diffoscope
+[2023-08-09 05:53:41] INFO root fetch - processPackages [xlab-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlab-util-0.8.tar.gz tmp/xlab-util-0.9.tar.gz --markdown 20230809/x/xlab-util/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-09 05:53:41] INFO root fetch - processPackages [initial]: executing diffoscope
+[2023-08-09 05:53:41] INFO root fetch - processPackages [initial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/initial-0.1.0-py3-none-any.whl.zip tmp/initial-0.2.0.tar.gz --markdown 20230809/i/initial/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-09 05:53:41] INFO root fetch - processPackages [py3seed]: executing diffoscope
+[2023-08-09 05:53:41] INFO root fetch - processPackages [py3seed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3seed-0.3.6.tar.gz tmp/py3seed-0.3.7.tar.gz --markdown 20230809/p/py3seed/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-08-09 05:53:41] INFO root fetch - processPackages [skeleton-plot]: executing diffoscope
+[2023-08-09 05:53:41] INFO root fetch - processPackages [skeleton-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skeleton_plot-0.0.5.tar.gz tmp/skeleton_plot-0.0.7.tar.gz --markdown 20230809/s/skeleton-plot/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-08-09 05:53:42] INFO root fetch - processPackages [spice-agent]: Remove: archive file [/home/abi/fetcher/tmp/spice_agent-0.1.8.tar.gz]
+[2023-08-09 05:53:42] INFO root fetch - processPackages [spice-agent]: Remove: archive file [/home/abi/fetcher/tmp/spice_agent-0.1.9.tar.gz]
+[2023-08-09 05:53:42] INFO root fetch - main [MainThread]: End processing [spice-agent]: success
+[2023-08-09 05:53:42] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.364.tar.gz]
+[2023-08-09 05:53:42] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.365.tar.gz]
+[2023-08-09 05:53:42] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-08-09 05:53:42] INFO root fetch - processPackages [xlab-util]: Remove: archive file [/home/abi/fetcher/tmp/xlab-util-0.8.tar.gz]
+[2023-08-09 05:53:42] INFO root fetch - processPackages [roleft]: Remove: archive file [/home/abi/fetcher/tmp/roleft-1.0.0.tar.gz]
+[2023-08-09 05:53:42] INFO root fetch - processPackages [xlab-util]: Remove: archive file [/home/abi/fetcher/tmp/xlab-util-0.9.tar.gz]
+[2023-08-09 05:53:42] INFO root fetch - processPackages [roleft]: Remove: archive file [/home/abi/fetcher/tmp/roleft-1.0.1.tar.gz]
+[2023-08-09 05:53:42] INFO root fetch - main [MainThread]: End processing [xlab-util]: success
+[2023-08-09 05:53:42] INFO root fetch - main [MainThread]: End processing [roleft]: success
+[2023-08-09 05:53:42] INFO root fetch - processPackages [initial]: Remove: archive file [/home/abi/fetcher/tmp/initial-0.1.0-py3-none-any.whl.zip]
+[2023-08-09 05:53:42] INFO root fetch - processPackages [initial]: Remove: archive file [/home/abi/fetcher/tmp/initial-0.2.0.tar.gz]
+[2023-08-09 05:53:42] INFO root fetch - main [MainThread]: End processing [initial]: success
+[2023-08-09 05:53:42] INFO root fetch - main [MainThread]: End processing [roleft]: success
+[2023-08-09 05:53:42] INFO root fetch - processPackages [skeleton-plot]: Remove: archive file [/home/abi/fetcher/tmp/skeleton_plot-0.0.5.tar.gz]
+[2023-08-09 05:53:42] INFO root fetch - processPackages [skeleton-plot]: Remove: archive file [/home/abi/fetcher/tmp/skeleton_plot-0.0.7.tar.gz]
+[2023-08-09 05:53:42] INFO root fetch - main [MainThread]: End processing [skeleton-plot]: success
+[2023-08-09 05:53:42] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.3.6.tar.gz]
+[2023-08-09 05:53:42] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.3.7.tar.gz]
+[2023-08-09 05:53:42] INFO root fetch - main [MainThread]: End processing [py3seed]: success
+[2023-08-09 05:53:42] INFO root fetch - main [MainThread]: Store serial: [19232470]
