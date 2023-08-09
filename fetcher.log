@@ -9445,3 +9445,69 @@
 [2023-08-09 04:03:55] INFO root fetch - processPackages [halmos]: Remove: archive file [/home/abi/fetcher/tmp/halmos-0.1.2.tar.gz]
 [2023-08-09 04:03:55] INFO root fetch - main [MainThread]: End processing [halmos]: success
 [2023-08-09 04:03:55] INFO root fetch - main [MainThread]: Store serial: [19231695]
+[2023-08-09 04:09:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19231695]
+[2023-08-09 04:09:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-09 04:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cntracer
+[2023-08-09 04:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apicrud
+[2023-08-09 04:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-servicemesh20200111
+[2023-08-09 04:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: turboyaml
+[2023-08-09 04:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: protoletariat
+[2023-08-09 04:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: verysimplemodulevis
+[2023-08-09 04:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: waffle-hub
+[2023-08-09 04:09:06] INFO root fetch - processPackages [verysimplemodulevis]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-09 04:09:06] INFO root fetch - processPackages [turboyaml]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-09 04:09:06] INFO root fetch - processPackages [protoletariat]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-08-09 04:09:06] INFO root fetch - processPackages [waffle-hub]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-09 04:09:06] INFO root fetch - processPackages [alibabacloud-servicemesh20200111]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-08-09 04:09:06] INFO root fetch - processPackages [apicrud]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-08-09 04:09:06] INFO root fetch - processPackages [cntracer]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-08-09 04:09:06] INFO root fetch - processPackages [verysimplemodulevis]: Downloading https://files.pythonhosted.org/packages/36/8e/78050c959ec741607e3adc6c8367a9ec6e9c2dcebf69bb3e3262ec0e3161/verysimplemodulevis-0.0.1.tar.gz
+[2023-08-09 04:09:06] INFO root fetch - processPackages [turboyaml]: Downloading https://files.pythonhosted.org/packages/81/8e/00571d504f7ee26e8111066c9455ab2633229af3fa033e1a67d753e7ff4b/turboyaml-0.0.3.tar.gz
+[2023-08-09 04:09:06] INFO root fetch - processPackages [protoletariat]: Downloading https://files.pythonhosted.org/packages/3c/4c/d507b7e8533b71f281c3eacf73e3380d4de279088fc5e0f4af52704abec5/protoletariat-3.2.8.tar.gz
+[2023-08-09 04:09:06] INFO root fetch - processPackages [alibabacloud-servicemesh20200111]: Downloading https://files.pythonhosted.org/packages/87/09/b6da79b2d51f563f6a0d70e57c63728ea60626e0d2a72febd48b75cd7c1b/alibabacloud_servicemesh20200111-3.0.0.tar.gz
+[2023-08-09 04:09:06] INFO root fetch - processPackages [waffle-hub]: Downloading https://files.pythonhosted.org/packages/72/7e/42f36fdf174164429e4d32ecd3ef6ebdd662abb25b55899f797315a2cdb9/waffle_hub-0.2.8.tar.gz
+[2023-08-09 04:09:06] INFO root fetch - processPackages [apicrud]: Downloading https://files.pythonhosted.org/packages/a9/ba/e335dffca1476797433c9eb9b829b946db3e610faabe5768ac267938decc/apicrud-0.2.9.tar.gz
+[2023-08-09 04:09:06] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/67/27/6d7ad4e87e2c0b2cd0f36af554e3f3cd07fcdaef1ea8c0de2a46dc576911/cntracer-0.6.3-cp39-cp39-win_amd64.whl
+[2023-08-09 04:09:06] INFO root fetch - processPackages [verysimplemodulevis]: Downloading https://files.pythonhosted.org/packages/51/e4/e70728a63c5112c59e9e3e40ac473e29c0ae79245651b61fa7226d277c07/verysimplemodulevis-0.0.2.tar.gz
+[2023-08-09 04:09:06] INFO root fetch - processPackages [turboyaml]: Downloading https://files.pythonhosted.org/packages/aa/8e/fbbdb065670bb7bf7c0434ca0bf615fda1c17ccc16b3f98465cceb2d1d6d/turboyaml-0.0.4.tar.gz
+[2023-08-09 04:09:06] INFO root fetch - processPackages [protoletariat]: Downloading https://files.pythonhosted.org/packages/82/e9/8d4ccdda9f4ef2c3528285f9a792eedd538a2690ca7e808a885a3eb7116e/protoletariat-3.2.9.tar.gz
+[2023-08-09 04:09:06] INFO root fetch - processPackages [verysimplemodulevis]: executing diffoscope
+[2023-08-09 04:09:06] INFO root fetch - processPackages [verysimplemodulevis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verysimplemodulevis-0.0.1.tar.gz tmp/verysimplemodulevis-0.0.2.tar.gz --markdown 20230809/v/verysimplemodulevis/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-09 04:09:06] INFO root fetch - processPackages [alibabacloud-servicemesh20200111]: Downloading https://files.pythonhosted.org/packages/ae/2e/5aa0734bc3bfbceea6280ee6c2aa31711b5bd777164969bf6eeb1cd9a27b/alibabacloud_servicemesh20200111-3.0.1.tar.gz
+[2023-08-09 04:09:06] INFO root fetch - processPackages [turboyaml]: executing diffoscope
+[2023-08-09 04:09:06] INFO root fetch - processPackages [turboyaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turboyaml-0.0.3.tar.gz tmp/turboyaml-0.0.4.tar.gz --markdown 20230809/t/turboyaml/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-09 04:09:06] INFO root fetch - processPackages [apicrud]: Downloading https://files.pythonhosted.org/packages/14/81/10293acd1cd68eafd03a7654a084bbc2bb952f1043f5f56e87a73b660f9b/apicrud-0.3.0.tar.gz
+[2023-08-09 04:09:07] INFO root fetch - processPackages [waffle-hub]: Downloading https://files.pythonhosted.org/packages/78/be/5ace82ca1d45dd9e5aa62b53de3ffc7a6cc48e0b7ccdb2ae1a4c581357e0/waffle_hub-0.2.9.tar.gz
+[2023-08-09 04:09:07] INFO root fetch - processPackages [protoletariat]: executing diffoscope
+[2023-08-09 04:09:07] INFO root fetch - processPackages [protoletariat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protoletariat-3.2.8.tar.gz tmp/protoletariat-3.2.9.tar.gz --markdown 20230809/p/protoletariat/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-08-09 04:09:07] INFO root fetch - processPackages [apicrud]: executing diffoscope
+[2023-08-09 04:09:07] INFO root fetch - processPackages [apicrud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apicrud-0.2.9.tar.gz tmp/apicrud-0.3.0.tar.gz --markdown 20230809/a/apicrud/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-08-09 04:09:07] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/f0/4e/9d23878146113d2686962fb9bdd6b383c7dfc4366b922bc9f2b7aecf1eff/cntracer-0.6.4-cp39-cp39-win_amd64.whl
+[2023-08-09 04:09:07] INFO root fetch - processPackages [waffle-hub]: executing diffoscope
+[2023-08-09 04:09:07] INFO root fetch - processPackages [waffle-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waffle_hub-0.2.8.tar.gz tmp/waffle_hub-0.2.9.tar.gz --markdown 20230809/w/waffle-hub/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-09 04:09:07] INFO root fetch - processPackages [alibabacloud-servicemesh20200111]: executing diffoscope
+[2023-08-09 04:09:07] INFO root fetch - processPackages [alibabacloud-servicemesh20200111]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_servicemesh20200111-3.0.0.tar.gz tmp/alibabacloud_servicemesh20200111-3.0.1.tar.gz --markdown 20230809/a/alibabacloud-servicemesh20200111/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-08-09 04:09:07] INFO root fetch - processPackages [cntracer]: executing diffoscope
+[2023-08-09 04:09:07] INFO root fetch - processPackages [cntracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cntracer-0.6.3-cp39-cp39-win_amd64.whl.zip tmp/cntracer-0.6.4-cp39-cp39-win_amd64.whl.zip --markdown 20230809/c/cntracer/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-08-09 04:09:08] INFO root fetch - processPackages [verysimplemodulevis]: Remove: archive file [/home/abi/fetcher/tmp/verysimplemodulevis-0.0.1.tar.gz]
+[2023-08-09 04:09:08] INFO root fetch - processPackages [verysimplemodulevis]: Remove: archive file [/home/abi/fetcher/tmp/verysimplemodulevis-0.0.2.tar.gz]
+[2023-08-09 04:09:08] INFO root fetch - main [MainThread]: End processing [verysimplemodulevis]: success
+[2023-08-09 04:09:08] INFO root fetch - processPackages [turboyaml]: Remove: archive file [/home/abi/fetcher/tmp/turboyaml-0.0.3.tar.gz]
+[2023-08-09 04:09:08] INFO root fetch - processPackages [turboyaml]: Remove: archive file [/home/abi/fetcher/tmp/turboyaml-0.0.4.tar.gz]
+[2023-08-09 04:09:08] INFO root fetch - main [MainThread]: End processing [turboyaml]: success
+[2023-08-09 04:09:08] INFO root fetch - processPackages [protoletariat]: Remove: archive file [/home/abi/fetcher/tmp/protoletariat-3.2.8.tar.gz]
+[2023-08-09 04:09:08] INFO root fetch - processPackages [protoletariat]: Remove: archive file [/home/abi/fetcher/tmp/protoletariat-3.2.9.tar.gz]
+[2023-08-09 04:09:08] INFO root fetch - main [MainThread]: End processing [protoletariat]: success
+[2023-08-09 04:09:08] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-0.6.3-cp39-cp39-win_amd64.whl.zip]
+[2023-08-09 04:09:08] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-0.6.4-cp39-cp39-win_amd64.whl.zip]
+[2023-08-09 04:09:08] INFO root fetch - main [MainThread]: End processing [cntracer]: success
+[2023-08-09 04:09:08] INFO root fetch - processPackages [apicrud]: Remove: archive file [/home/abi/fetcher/tmp/apicrud-0.2.9.tar.gz]
+[2023-08-09 04:09:08] INFO root fetch - processPackages [apicrud]: Remove: archive file [/home/abi/fetcher/tmp/apicrud-0.3.0.tar.gz]
+[2023-08-09 04:09:08] INFO root fetch - main [MainThread]: End processing [apicrud]: success
+[2023-08-09 04:09:08] INFO root fetch - processPackages [waffle-hub]: Remove: archive file [/home/abi/fetcher/tmp/waffle_hub-0.2.8.tar.gz]
+[2023-08-09 04:09:08] INFO root fetch - processPackages [waffle-hub]: Remove: archive file [/home/abi/fetcher/tmp/waffle_hub-0.2.9.tar.gz]
+[2023-08-09 04:09:08] INFO root fetch - main [MainThread]: End processing [waffle-hub]: success
+[2023-08-09 04:09:08] INFO root fetch - processPackages [alibabacloud-servicemesh20200111]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_servicemesh20200111-3.0.0.tar.gz]
+[2023-08-09 04:09:08] INFO root fetch - processPackages [alibabacloud-servicemesh20200111]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_servicemesh20200111-3.0.1.tar.gz]
+[2023-08-09 04:09:08] INFO root fetch - main [MainThread]: End processing [alibabacloud-servicemesh20200111]: success
+[2023-08-09 04:09:08] INFO root fetch - main [MainThread]: Store serial: [19231767]
