@@ -2104,3 +2104,93 @@
 [2023-08-09 02:10:52] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.99.1.tar.gz]
 [2023-08-09 02:10:52] INFO root fetch - main [MainThread]: End processing [tccli]: success
 [2023-08-09 02:10:52] INFO root fetch - main [MainThread]: Store serial: [19228824]
+[2023-08-09 02:15:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19228824]
+[2023-08-09 02:16:01] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-09 02:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mct-quantizers-nightly
+[2023-08-09 02:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdklabs.codepipeline-extensions
+[2023-08-09 02:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-events-notify
+[2023-08-09 02:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-gitlab-runner
+[2023-08-09 02:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-events-notify
+[2023-08-09 02:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-common
+[2023-08-09 02:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytorch-ignite
+[2023-08-09 02:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pypercraft
+[2023-08-09 02:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchmultimodal-nightly
+[2023-08-09 02:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: np-workflows
+[2023-08-09 02:16:01] INFO root fetch - processPackages [pypercraft]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-09 02:16:01] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-09 02:16:01] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-09 02:16:01] INFO root fetch - processPackages [np-workflows]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-08-09 02:16:01] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-09 02:16:01] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.5.0.dev20230808] Old Version: [0.5.0.dev20230807]
+[2023-08-09 02:16:01] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-09 02:16:01] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.2.0.20230809.post1055] Old Version: [1.2.0.20230808.post1038]
+[2023-08-09 02:16:01] INFO root fetch - processPackages [pypercraft]: Downloading https://files.pythonhosted.org/packages/88/c3/cf61bb2f3822230669740969b99ea078ce4d719f81f6915b36ba3438db98/pypercraft-0.1.0.tar.gz
+[2023-08-09 02:16:01] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-08-09 02:16:01] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-09 02:16:01] INFO root fetch - processPackages [torchmultimodal-nightly]: New version: [2023.8.9] Old Version: [2023.8.7]
+[2023-08-09 02:16:01] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b0/d8/d2deadc998a01ba26de7ffd230a5224483b3d116e10e36cb05f79b441303/cdk-events-notify-2.0.98.tar.gz
+[2023-08-09 02:16:01] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/69/65/b81054180e529d82fd8207c93795b14019dd16190b7107b55dddd0790b06/pytorch-ignite-0.5.0.dev20230807.tar.gz
+[2023-08-09 02:16:01] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/79/f0/0fa25095ad07ad1bd48cf6fba3816492415511c013c514a468b3d474f59c/np_workflows-1.6.8.tar.gz
+[2023-08-09 02:16:01] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b0/d8/d2deadc998a01ba26de7ffd230a5224483b3d116e10e36cb05f79b441303/cdk-events-notify-2.0.98.tar.gz
+[2023-08-09 02:16:01] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Downloading https://files.pythonhosted.org/packages/df/6c/78f1bfa2ffc81709ec21b0077aff92b7460ad1f071d595e2d767653cedc0/cdklabs.codepipeline-extensions-0.0.98.tar.gz
+[2023-08-09 02:16:01] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2023-08-09 02:16:01] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/0f/66/960b0dbb1f8aa05bdce1e8e694ca730f3fb1df0fedea57bcabd472df4d6d/mct-quantizers-nightly-1.2.0.20230808.post1038.tar.gz
+[2023-08-09 02:16:02] WARNING root fetch - processPackages [cdklabs.codepipeline-extensions]: Skipping package: exceeds size limit 12637726>=10485760
+[2023-08-09 02:16:02] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Start processing: robson-package
+[2023-08-09 02:16:02] INFO root fetch - main [MainThread]: End processing [cdklabs.codepipeline-extensions] error
+[2023-08-09 02:16:02] INFO root fetch - processPackages [torchmultimodal-nightly]: Downloading https://files.pythonhosted.org/packages/35/63/d57f7280a323e05c6e6567b0f984c54d0a086719b8b51e20e78b0e1b683f/torchmultimodal_nightly-2023.8.7-py39-none-any.whl
+[2023-08-09 02:16:02] WARNING root fetch - processPackages [robson-package]: Skipping, unable to determine old version
+[2023-08-09 02:16:02] INFO root fetch - main [MainThread]: End processing [robson-package] error
+[2023-08-09 02:16:02] INFO root fetch - processPackages [pypercraft]: Downloading https://files.pythonhosted.org/packages/18/23/06c36939c89b37c37ad3c0e2296dc76bd012f25521699f8e011a9504d9fb/pypercraft-0.1.1.tar.gz
+[2023-08-09 02:16:02] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/3d/55/4372c391faf1ce75366fa988d26fee510d2d3c2b01a27ad4c21f14ace31c/cdk-events-notify-2.0.99.tar.gz
+[2023-08-09 02:16:02] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/3d/55/4372c391faf1ce75366fa988d26fee510d2d3c2b01a27ad4c21f14ace31c/cdk-events-notify-2.0.99.tar.gz
+[2023-08-09 02:16:02] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/22/99/1d9bd467267c7857762e4b9683759e82d21a0e8fc1b3850ae9710f4f7866/np_workflows-1.6.9.tar.gz
+[2023-08-09 02:16:02] INFO root fetch - processPackages [pypercraft]: executing diffoscope
+[2023-08-09 02:16:02] INFO root fetch - processPackages [pypercraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypercraft-0.1.0.tar.gz tmp/pypercraft-0.1.1.tar.gz --markdown 20230809/p/pypercraft/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-09 02:16:02] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2023-08-09 02:16:02] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/6d/5c/8559e9945e4b21b68b73e7b26485235840b7337ed564cc85dd6639ce080a/pytorch-ignite-0.5.0.dev20230808.tar.gz
+[2023-08-09 02:16:02] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-08-09 02:16:02] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/2b/f6/52c44a549b46e29c8dddc0099e829234cd47ea231be4d5137e48820f5b6d/mct-quantizers-nightly-1.2.0.20230809.post1055.tar.gz
+[2023-08-09 02:16:02] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-08-09 02:16:02] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230809/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-09 02:16:02] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-08-09 02:16:02] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230809/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-09 02:16:02] INFO root fetch - processPackages [np-workflows]: executing diffoscope
+[2023-08-09 02:16:02] INFO root fetch - processPackages [np-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_workflows-1.6.8.tar.gz tmp/np_workflows-1.6.9.tar.gz --markdown 20230809/n/np-workflows/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-08-09 02:16:02] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2023-08-09 02:16:02] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20230809/c/cdktf-gitlab-runner/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-09 02:16:02] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2023-08-09 02:16:02] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ignite-0.5.0.dev20230807.tar.gz tmp/pytorch-ignite-0.5.0.dev20230808.tar.gz --markdown 20230809/p/pytorch-ignite/0.5.0.dev20230807-0.5.0.dev20230808/diff.md --exclude *.pyd
+[2023-08-09 02:16:02] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2023-08-09 02:16:02] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.2.0.20230808.post1038.tar.gz tmp/mct-quantizers-nightly-1.2.0.20230809.post1055.tar.gz --markdown 20230809/m/mct-quantizers-nightly/1.2.0.20230808.post1038-1.2.0.20230809.post1055/diff.md --exclude *.pyd
+[2023-08-09 02:16:02] INFO root fetch - processPackages [torchmultimodal-nightly]: Downloading https://files.pythonhosted.org/packages/b5/05/407ba4d66b0de078957e00e11caab691ffb619666800b6fb4898af878b4c/torchmultimodal_nightly-2023.8.9-py39-none-any.whl
+[2023-08-09 02:16:02] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-08-09 02:16:02] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230809/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-09 02:16:02] INFO root fetch - processPackages [torchmultimodal-nightly]: executing diffoscope
+[2023-08-09 02:16:02] INFO root fetch - processPackages [torchmultimodal-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchmultimodal_nightly-2023.8.7-py39-none-any.whl.zip tmp/torchmultimodal_nightly-2023.8.9-py39-none-any.whl.zip --markdown 20230809/t/torchmultimodal-nightly/2023.8.7-2023.8.9/diff.md --exclude *.pyd
+[2023-08-09 02:16:03] INFO root fetch - processPackages [pypercraft]: Remove: archive file [/home/abi/fetcher/tmp/pypercraft-0.1.0.tar.gz]
+[2023-08-09 02:16:03] INFO root fetch - processPackages [pypercraft]: Remove: archive file [/home/abi/fetcher/tmp/pypercraft-0.1.1.tar.gz]
+[2023-08-09 02:16:03] INFO root fetch - main [MainThread]: End processing [pypercraft]: success
+[2023-08-09 02:16:03] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.98.tar.gz]
+[2023-08-09 02:16:03] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.99.tar.gz]
+[2023-08-09 02:16:03] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-08-09 02:16:04] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2023-08-09 02:16:04] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2023-08-09 02:16:04] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2023-08-09 02:16:04] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-08-09 02:16:04] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.8.tar.gz]
+[2023-08-09 02:16:04] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.9.tar.gz]
+[2023-08-09 02:16:04] INFO root fetch - main [MainThread]: End processing [np-workflows]: success
+[2023-08-09 02:16:04] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.2.0.20230808.post1038.tar.gz]
+[2023-08-09 02:16:04] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.2.0.20230809.post1055.tar.gz]
+[2023-08-09 02:16:04] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2023-08-09 02:16:04] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-08-09 02:16:04] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-08-09 02:16:04] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-08-09 02:16:04] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.5.0.dev20230807.tar.gz]
+[2023-08-09 02:16:04] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.5.0.dev20230808.tar.gz]
+[2023-08-09 02:16:04] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2023-08-09 02:16:04] INFO root fetch - processPackages [torchmultimodal-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchmultimodal_nightly-2023.8.7-py39-none-any.whl.zip]
+[2023-08-09 02:16:04] INFO root fetch - processPackages [torchmultimodal-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchmultimodal_nightly-2023.8.9-py39-none-any.whl.zip]
+[2023-08-09 02:16:04] INFO root fetch - main [MainThread]: End processing [torchmultimodal-nightly]: success
+[2023-08-09 02:16:04] INFO root fetch - main [MainThread]: Store serial: [19228858]
