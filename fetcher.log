@@ -5409,3 +5409,61 @@
 [2023-08-09 03:09:48] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.401.tar.gz]
 [2023-08-09 03:09:48] INFO root fetch - main [MainThread]: End processing [lazyinit]: success
 [2023-08-09 03:09:48] INFO root fetch - main [MainThread]: Store serial: [19230127]
+[2023-08-09 03:14:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19230127]
+[2023-08-09 03:14:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-09 03:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-hugo-deploy
+[2023-08-09 03:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robson-package
+[2023-08-09 03:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wordcel
+[2023-08-09 03:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: poxy
+[2023-08-09 03:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: overpassforge
+[2023-08-09 03:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-sops-secrets
+[2023-08-09 03:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wordcel
+[2023-08-09 03:14:56] INFO root fetch - processPackages [robson-package]: New version: [0.0.28] Old Version: [0.0.27]
+[2023-08-09 03:14:56] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-08-09 03:14:56] WARNING root fetch - processPackages [overpassforge]: Skipping, unable to determine old version
+[2023-08-09 03:14:56] INFO root fetch - main [MainThread]: End processing [overpassforge] error
+[2023-08-09 03:14:56] INFO root fetch - processPackages [robson-package]: Downloading https://files.pythonhosted.org/packages/6c/d3/5dca47a2ec17f67da60fd758ed9821a191ad6f45ff849ce044fd2e9849f0/robson_package-0.0.27.tar.gz
+[2023-08-09 03:14:56] INFO root fetch - processPackages [poxy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-09 03:14:56] INFO root fetch - processPackages [wordcel]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-09 03:14:56] INFO root fetch - processPackages [wordcel]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-09 03:14:57] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-09 03:14:57] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-08-09 03:14:57] INFO root fetch - processPackages [poxy]: Downloading https://files.pythonhosted.org/packages/dc/29/90051aacc14dfbeceb287b763143ffd65599d8f148340799c3e6453e40d5/poxy-0.9.0.tar.gz
+[2023-08-09 03:14:57] INFO root fetch - processPackages [wordcel]: Downloading https://files.pythonhosted.org/packages/de/6a/e20de61c60d2f9d0be02b7b6a3e81f596583bf03b6334188bec22828fe06/wordcel-0.0.8.tar.gz
+[2023-08-09 03:14:57] INFO root fetch - processPackages [wordcel]: Downloading https://files.pythonhosted.org/packages/de/6a/e20de61c60d2f9d0be02b7b6a3e81f596583bf03b6334188bec22828fe06/wordcel-0.0.8.tar.gz
+[2023-08-09 03:14:57] INFO root fetch - processPackages [robson-package]: Downloading https://files.pythonhosted.org/packages/ec/21/e243e41f7fb0c60bc34b3992e023e950cdc08c1f7dab222765c19286691a/robson_package-0.0.28.tar.gz
+[2023-08-09 03:14:57] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-08-09 03:14:57] INFO root fetch - processPackages [robson-package]: executing diffoscope
+[2023-08-09 03:14:57] INFO root fetch - processPackages [robson-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robson_package-0.0.27.tar.gz tmp/robson_package-0.0.28.tar.gz --markdown 20230809/r/robson-package/0.0.27-0.0.28/diff.md --exclude *.pyd
+[2023-08-09 03:14:57] INFO root fetch - processPackages [wordcel]: Downloading https://files.pythonhosted.org/packages/37/1b/efd0defcf1365657dd7be37fbd0f2c7a68355263d8b1d3f65b1ecf9e001c/wordcel-0.0.9.tar.gz
+[2023-08-09 03:14:57] INFO root fetch - processPackages [wordcel]: Downloading https://files.pythonhosted.org/packages/37/1b/efd0defcf1365657dd7be37fbd0f2c7a68355263d8b1d3f65b1ecf9e001c/wordcel-0.0.9.tar.gz
+[2023-08-09 03:14:57] INFO root fetch - processPackages [poxy]: Downloading https://files.pythonhosted.org/packages/2a/cd/8efe8291d94f43149c6217dff50dbe93a987fd984d03c903f46a7d47f7e4/poxy-0.9.1.tar.gz
+[2023-08-09 03:14:57] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-08-09 03:14:57] INFO root fetch - processPackages [wordcel]: executing diffoscope
+[2023-08-09 03:14:57] INFO root fetch - processPackages [wordcel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordcel-0.0.8.tar.gz tmp/wordcel-0.0.9.tar.gz --markdown 20230809/w/wordcel/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-09 03:14:57] INFO root fetch - processPackages [wordcel]: executing diffoscope
+[2023-08-09 03:14:57] INFO root fetch - processPackages [wordcel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordcel-0.0.8.tar.gz tmp/wordcel-0.0.9.tar.gz --markdown 20230809/w/wordcel/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-09 03:14:57] INFO root fetch - processPackages [poxy]: executing diffoscope
+[2023-08-09 03:14:57] INFO root fetch - processPackages [poxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poxy-0.9.0.tar.gz tmp/poxy-0.9.1.tar.gz --markdown 20230809/p/poxy/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-09 03:14:57] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-08-09 03:14:57] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230809/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-09 03:14:58] INFO root fetch - processPackages [robson-package]: Remove: archive file [/home/abi/fetcher/tmp/robson_package-0.0.27.tar.gz]
+[2023-08-09 03:14:58] INFO root fetch - processPackages [robson-package]: Remove: archive file [/home/abi/fetcher/tmp/robson_package-0.0.28.tar.gz]
+[2023-08-09 03:14:58] INFO root fetch - main [MainThread]: End processing [robson-package]: success
+[2023-08-09 03:14:58] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-08-09 03:14:58] INFO root fetch - processPackages [wordcel]: Remove: archive file [/home/abi/fetcher/tmp/wordcel-0.0.8.tar.gz]
+[2023-08-09 03:14:58] INFO root fetch - processPackages [wordcel]: Remove: archive file [/home/abi/fetcher/tmp/wordcel-0.0.9.tar.gz]
+[2023-08-09 03:14:58] INFO root fetch - main [MainThread]: End processing [wordcel]: success
+[2023-08-09 03:14:58] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-08-09 03:14:58] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-08-09 03:14:58] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-08-09 03:14:58] INFO root fetch - main [MainThread]: End processing [wordcel]: success
+[2023-08-09 03:14:59] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-08-09 03:14:59] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230809/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-08-09 03:15:00] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-08-09 03:15:00] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-08-09 03:15:00] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-08-09 03:15:01] INFO root fetch - processPackages [poxy]: Remove: archive file [/home/abi/fetcher/tmp/poxy-0.9.0.tar.gz]
+[2023-08-09 03:15:01] INFO root fetch - processPackages [poxy]: Remove: archive file [/home/abi/fetcher/tmp/poxy-0.9.1.tar.gz]
+[2023-08-09 03:15:01] INFO root fetch - main [MainThread]: End processing [poxy]: success
+[2023-08-09 03:15:01] INFO root fetch - main [MainThread]: Store serial: [19230157]
