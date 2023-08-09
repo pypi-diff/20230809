@@ -10140,3 +10140,106 @@
 [2023-08-09 04:51:05] INFO root fetch - processPackages [odoo13-addon-account-banking-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_account_banking_mandate-13.0.1.3.1.dev9-py3-none-any.whl.zip]
 [2023-08-09 04:51:05] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-banking-mandate]: success
 [2023-08-09 04:51:05] INFO root fetch - main [MainThread]: Store serial: [19231987]
+[2023-08-09 04:56:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19231987]
+[2023-08-09 04:56:14] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-09 04:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo13-addon-account-banking-mandate
+[2023-08-09 04:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-account-banking-mandate
+[2023-08-09 04:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-banking-mandate
+[2023-08-09 04:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-account-banking-mandate
+[2023-08-09 04:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-account-payment-order
+[2023-08-09 04:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gtauthclient
+[2023-08-09 04:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-account-banking-mandate
+[2023-08-09 04:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: denoising-diffusion-pytorch
+[2023-08-09 04:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aifactory
+[2023-08-09 04:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rraft-py
+[2023-08-09 04:56:14] INFO root fetch - processPackages [odoo13-addon-account-banking-mandate]: New version: [13.0.1.3.1.dev9] Old Version: [13.0.1.3.1.dev8]
+[2023-08-09 04:56:14] INFO root fetch - processPackages [aifactory]: New version: [1.8.6] Old Version: [1.8.5]
+[2023-08-09 04:56:14] INFO root fetch - processPackages [rraft-py]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-09 04:56:14] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: New version: [16.0.1.0.2.9] Old Version: [16.0.1.0.2.8]
+[2023-08-09 04:56:14] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: New version: [16.0.1.0.2.9] Old Version: [16.0.1.0.2.8]
+[2023-08-09 04:56:14] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: New version: [14.0.2.0.5.dev2] Old Version: [14.0.2.0.5.dev1]
+[2023-08-09 04:56:14] INFO root fetch - processPackages [odoo12-addon-account-banking-mandate]: New version: [12.0.2.0.3.99.dev8] Old Version: [12.0.2.0.3.99.dev7]
+[2023-08-09 04:56:14] INFO root fetch - processPackages [odoo14-addon-account-banking-mandate]: New version: [14.0.2.0.1.dev9] Old Version: [14.0.2.0.1.dev7]
+[2023-08-09 04:56:14] WARNING root fetch - processPackages [gtauthclient]: Skipping, unable to determine old version
+[2023-08-09 04:56:14] INFO root fetch - processPackages [gtauthclient]: Start processing: murmuration
+[2023-08-09 04:56:14] INFO root fetch - main [MainThread]: End processing [gtauthclient] error
+[2023-08-09 04:56:14] INFO root fetch - processPackages [denoising-diffusion-pytorch]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-08-09 04:56:14] INFO root fetch - processPackages [odoo13-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/6b/ef/e078194a09777a408482b0151215682e99fd098e08cc9154d4eaa1daca12/odoo13_addon_account_banking_mandate-13.0.1.3.1.dev8-py3-none-any.whl
+[2023-08-09 04:56:14] INFO root fetch - processPackages [aifactory]: Downloading https://files.pythonhosted.org/packages/f4/27/69b4a7094372588ff6f86da681bb4776bc6434ff1b128666a43525f41e4c/aifactory-1.8.5.tar.gz
+[2023-08-09 04:56:15] INFO root fetch - processPackages [murmuration]: New version: [1.1] Old Version: [0.8]
+[2023-08-09 04:56:15] INFO root fetch - processPackages [rraft-py]: Downloading https://files.pythonhosted.org/packages/64/26/94c005c69923aad0b350fb27b05f0c0c7470307aca2a0850f9d1a84339e4/rraft_py-0.1.0.tar.gz
+[2023-08-09 04:56:15] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/ee/c8/6f943f32624d131567e2560891cb1ab135f515c02dfce1a981529fe788aa/odoo_addon_account_banking_mandate-16.0.1.0.2.8-py3-none-any.whl
+[2023-08-09 04:56:15] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/ee/c8/6f943f32624d131567e2560891cb1ab135f515c02dfce1a981529fe788aa/odoo_addon_account_banking_mandate-16.0.1.0.2.8-py3-none-any.whl
+[2023-08-09 04:56:15] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/a1/4f/7f682abc0368d7e3e453f0423eef57cfc223bfb0cd5a2c2b2228b641389b/odoo14_addon_account_payment_order-14.0.2.0.5.dev1-py3-none-any.whl
+[2023-08-09 04:56:15] INFO root fetch - processPackages [odoo12-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/fd/c0/fa5c3ae8961ae26054dc4b83c91df012b22cdf1179b57d88302c25a409da/odoo12_addon_account_banking_mandate-12.0.2.0.3.99.dev7-py3-none-any.whl
+[2023-08-09 04:56:15] INFO root fetch - processPackages [odoo14-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/fd/de/a09415317cf89a467b36e4cb933ec7b35988be1e20b155d056af2dfbdf9b/odoo14_addon_account_banking_mandate-14.0.2.0.1.dev7-py3-none-any.whl
+[2023-08-09 04:56:15] INFO root fetch - processPackages [denoising-diffusion-pytorch]: Downloading https://files.pythonhosted.org/packages/23/d7/01653f397fde588333723def391ae597396a9471b9f0b5d70163ae10b79b/denoising-diffusion-pytorch-1.8.8.tar.gz
+[2023-08-09 04:56:15] INFO root fetch - processPackages [odoo13-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/7d/47/22986bfd8e5955731d053d5dfd1f7ef573b43c5e0275801d92a34660a559/odoo13_addon_account_banking_mandate-13.0.1.3.1.dev9-py3-none-any.whl
+[2023-08-09 04:56:15] INFO root fetch - processPackages [murmuration]: Downloading https://files.pythonhosted.org/packages/25/db/aab8e8b5c58acad4534538b3c25dc8d8c603487d3b88d304ebbd537129c0/murmuration-0.8.tar.gz
+[2023-08-09 04:56:15] INFO root fetch - processPackages [aifactory]: Downloading https://files.pythonhosted.org/packages/cc/71/f739a0461d8e9617af3226b7ac56c85ef299930efbf0b4d98350115b6ce6/aifactory-1.8.6.tar.gz
+[2023-08-09 04:56:15] INFO root fetch - processPackages [odoo13-addon-account-banking-mandate]: executing diffoscope
+[2023-08-09 04:56:15] INFO root fetch - processPackages [odoo13-addon-account-banking-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_account_banking_mandate-13.0.1.3.1.dev8-py3-none-any.whl.zip tmp/odoo13_addon_account_banking_mandate-13.0.1.3.1.dev9-py3-none-any.whl.zip --markdown 20230809/o/odoo13-addon-account-banking-mandate/13.0.1.3.1.dev8-13.0.1.3.1.dev9/diff.md --exclude *.pyd
+[2023-08-09 04:56:15] INFO root fetch - processPackages [aifactory]: executing diffoscope
+[2023-08-09 04:56:15] INFO root fetch - processPackages [aifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aifactory-1.8.5.tar.gz tmp/aifactory-1.8.6.tar.gz --markdown 20230809/a/aifactory/1.8.5-1.8.6/diff.md --exclude *.pyd
+[2023-08-09 04:56:15] INFO root fetch - processPackages [rraft-py]: Downloading https://files.pythonhosted.org/packages/c4/1b/25caaef1af00c339d8cb64cf383f91b4290d69fb1167a449c5708f31c780/rraft_py-0.1.1.tar.gz
+[2023-08-09 04:56:15] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/14/53/b006eb527d0e7a019768b38a5706188daf725fd24f1357c47b047fd43d10/odoo_addon_account_banking_mandate-16.0.1.0.2.9-py3-none-any.whl
+[2023-08-09 04:56:15] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/14/53/b006eb527d0e7a019768b38a5706188daf725fd24f1357c47b047fd43d10/odoo_addon_account_banking_mandate-16.0.1.0.2.9-py3-none-any.whl
+[2023-08-09 04:56:15] INFO root fetch - processPackages [denoising-diffusion-pytorch]: Downloading https://files.pythonhosted.org/packages/82/13/e3b6c2a199e4ef80f18e88edaf81a147fef663ea8e0e53aa603a18a7bc61/denoising-diffusion-pytorch-1.8.9.tar.gz
+[2023-08-09 04:56:15] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/1b/14/ed5800eb56e4bbc47e557cb2eaa388a96c6bfd6e36f4fc3642477ba2f853/odoo14_addon_account_payment_order-14.0.2.0.5.dev2-py3-none-any.whl
+[2023-08-09 04:56:15] INFO root fetch - processPackages [odoo14-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/ae/e7/fbd083e2c5404453a1dba7dafa24761c74693b4be3de5b5df57095257d79/odoo14_addon_account_banking_mandate-14.0.2.0.1.dev9-py3-none-any.whl
+[2023-08-09 04:56:15] INFO root fetch - processPackages [murmuration]: Downloading https://files.pythonhosted.org/packages/6f/b9/d8af404d482cb5828e64db5c4febd33e7a25094029778d4348e3f2ca532f/murmuration-1.1.tar.gz
+[2023-08-09 04:56:15] INFO root fetch - processPackages [rraft-py]: executing diffoscope
+[2023-08-09 04:56:15] INFO root fetch - processPackages [rraft-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rraft_py-0.1.0.tar.gz tmp/rraft_py-0.1.1.tar.gz --markdown 20230809/r/rraft-py/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-09 04:56:15] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: executing diffoscope
+[2023-08-09 04:56:15] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_mandate-16.0.1.0.2.8-py3-none-any.whl.zip tmp/odoo_addon_account_banking_mandate-16.0.1.0.2.9-py3-none-any.whl.zip --markdown 20230809/o/odoo-addon-account-banking-mandate/16.0.1.0.2.8-16.0.1.0.2.9/diff.md --exclude *.pyd
+[2023-08-09 04:56:15] INFO root fetch - processPackages [denoising-diffusion-pytorch]: executing diffoscope
+[2023-08-09 04:56:15] INFO root fetch - processPackages [denoising-diffusion-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/denoising-diffusion-pytorch-1.8.8.tar.gz tmp/denoising-diffusion-pytorch-1.8.9.tar.gz --markdown 20230809/d/denoising-diffusion-pytorch/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-08-09 04:56:15] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: executing diffoscope
+[2023-08-09 04:56:15] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_mandate-16.0.1.0.2.8-py3-none-any.whl.zip tmp/odoo_addon_account_banking_mandate-16.0.1.0.2.9-py3-none-any.whl.zip --markdown 20230809/o/odoo-addon-account-banking-mandate/16.0.1.0.2.8-16.0.1.0.2.9/diff.md --exclude *.pyd
+[2023-08-09 04:56:15] INFO root fetch - processPackages [murmuration]: executing diffoscope
+[2023-08-09 04:56:15] INFO root fetch - processPackages [murmuration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/murmuration-0.8.tar.gz tmp/murmuration-1.1.tar.gz --markdown 20230809/m/murmuration/0.8-1.1/diff.md --exclude *.pyd
+[2023-08-09 04:56:16] INFO root fetch - processPackages [odoo14-addon-account-banking-mandate]: executing diffoscope
+[2023-08-09 04:56:16] INFO root fetch - processPackages [odoo14-addon-account-banking-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_banking_mandate-14.0.2.0.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_account_banking_mandate-14.0.2.0.1.dev9-py3-none-any.whl.zip --markdown 20230809/o/odoo14-addon-account-banking-mandate/14.0.2.0.1.dev7-14.0.2.0.1.dev9/diff.md --exclude *.pyd
+[2023-08-09 04:56:16] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: executing diffoscope
+[2023-08-09 04:56:16] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_payment_order-14.0.2.0.5.dev1-py3-none-any.whl.zip tmp/odoo14_addon_account_payment_order-14.0.2.0.5.dev2-py3-none-any.whl.zip --markdown 20230809/o/odoo14-addon-account-payment-order/14.0.2.0.5.dev1-14.0.2.0.5.dev2/diff.md --exclude *.pyd
+[2023-08-09 04:56:16] INFO root fetch - processPackages [odoo12-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/b0/a4/39879a7fb490fc96bce98d61b5b4bdc973247c62c2d3a3cda4b67622ef8d/odoo12_addon_account_banking_mandate-12.0.2.0.3.99.dev8-py3-none-any.whl
+[2023-08-09 04:56:16] INFO root fetch - processPackages [odoo12-addon-account-banking-mandate]: executing diffoscope
+[2023-08-09 04:56:16] INFO root fetch - processPackages [odoo12-addon-account-banking-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_account_banking_mandate-12.0.2.0.3.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_account_banking_mandate-12.0.2.0.3.99.dev8-py3-none-any.whl.zip --markdown 20230809/o/odoo12-addon-account-banking-mandate/12.0.2.0.3.99.dev7-12.0.2.0.3.99.dev8/diff.md --exclude *.pyd
+[2023-08-09 04:56:16] INFO root fetch - processPackages [aifactory]: Remove: archive file [/home/abi/fetcher/tmp/aifactory-1.8.5.tar.gz]
+[2023-08-09 04:56:16] INFO root fetch - processPackages [aifactory]: Remove: archive file [/home/abi/fetcher/tmp/aifactory-1.8.6.tar.gz]
+[2023-08-09 04:56:16] INFO root fetch - processPackages [aifactory]: Start processing: lm-datahandler
+[2023-08-09 04:56:16] INFO root fetch - main [MainThread]: End processing [aifactory]: success
+[2023-08-09 04:56:17] INFO root fetch - processPackages [lm-datahandler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-09 04:56:17] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/d9/98/95c6dbde862088dda438ca6adc5a4960239cca0a315229c70d3bad832211/lm_datahandler-0.1.8.tar.gz
+[2023-08-09 04:56:17] INFO root fetch - processPackages [odoo13-addon-account-banking-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_account_banking_mandate-13.0.1.3.1.dev8-py3-none-any.whl.zip]
+[2023-08-09 04:56:17] INFO root fetch - processPackages [odoo13-addon-account-banking-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_account_banking_mandate-13.0.1.3.1.dev9-py3-none-any.whl.zip]
+[2023-08-09 04:56:17] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-banking-mandate]: success
+[2023-08-09 04:56:17] INFO root fetch - processPackages [denoising-diffusion-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/denoising-diffusion-pytorch-1.8.8.tar.gz]
+[2023-08-09 04:56:17] INFO root fetch - processPackages [denoising-diffusion-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/denoising-diffusion-pytorch-1.8.9.tar.gz]
+[2023-08-09 04:56:17] INFO root fetch - main [MainThread]: End processing [denoising-diffusion-pytorch]: success
+[2023-08-09 04:56:17] INFO root fetch - processPackages [murmuration]: Remove: archive file [/home/abi/fetcher/tmp/murmuration-0.8.tar.gz]
+[2023-08-09 04:56:17] INFO root fetch - processPackages [murmuration]: Remove: archive file [/home/abi/fetcher/tmp/murmuration-1.1.tar.gz]
+[2023-08-09 04:56:17] INFO root fetch - main [MainThread]: End processing [murmuration]: success
+[2023-08-09 04:56:17] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/b6/7b/c27a06878e585d9037a60649c26f1e7818a9ddfdac4d817718ab2b5a2f7e/lm_datahandler-0.1.9.tar.gz
+[2023-08-09 04:56:17] INFO root fetch - processPackages [lm-datahandler]: executing diffoscope
+[2023-08-09 04:56:17] INFO root fetch - processPackages [lm-datahandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lm_datahandler-0.1.8.tar.gz tmp/lm_datahandler-0.1.9.tar.gz --markdown 20230809/l/lm-datahandler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-09 04:56:17] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_mandate-16.0.1.0.2.8-py3-none-any.whl.zip]
+[2023-08-09 04:56:17] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_mandate-16.0.1.0.2.9-py3-none-any.whl.zip]
+[2023-08-09 04:56:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-mandate]: success
+[2023-08-09 04:56:18] INFO root fetch - processPackages [odoo14-addon-account-banking-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_banking_mandate-14.0.2.0.1.dev7-py3-none-any.whl.zip]
+[2023-08-09 04:56:18] INFO root fetch - processPackages [odoo14-addon-account-banking-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_banking_mandate-14.0.2.0.1.dev9-py3-none-any.whl.zip]
+[2023-08-09 04:56:18] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-banking-mandate]: success
+[2023-08-09 04:56:18] INFO root fetch - processPackages [rraft-py]: Remove: archive file [/home/abi/fetcher/tmp/rraft_py-0.1.0.tar.gz]
+[2023-08-09 04:56:18] INFO root fetch - processPackages [rraft-py]: Remove: archive file [/home/abi/fetcher/tmp/rraft_py-0.1.1.tar.gz]
+[2023-08-09 04:56:18] INFO root fetch - main [MainThread]: End processing [rraft-py]: success
+[2023-08-09 04:56:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-mandate]: success
+[2023-08-09 04:56:18] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_payment_order-14.0.2.0.5.dev1-py3-none-any.whl.zip]
+[2023-08-09 04:56:18] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_payment_order-14.0.2.0.5.dev2-py3-none-any.whl.zip]
+[2023-08-09 04:56:18] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-payment-order]: success
+[2023-08-09 04:56:18] INFO root fetch - processPackages [odoo12-addon-account-banking-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_banking_mandate-12.0.2.0.3.99.dev7-py3-none-any.whl.zip]
+[2023-08-09 04:56:18] INFO root fetch - processPackages [odoo12-addon-account-banking-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_banking_mandate-12.0.2.0.3.99.dev8-py3-none-any.whl.zip]
+[2023-08-09 04:56:18] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-banking-mandate]: success
+[2023-08-09 04:56:18] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.8.tar.gz]
+[2023-08-09 04:56:18] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.9.tar.gz]
+[2023-08-09 04:56:18] INFO root fetch - main [MainThread]: End processing [lm-datahandler]: success
+[2023-08-09 04:56:18] INFO root fetch - main [MainThread]: Store serial: [19232016]
