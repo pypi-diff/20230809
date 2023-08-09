@@ -1887,3 +1887,113 @@
 [2023-08-09 02:00:26] INFO root fetch - processPackages [micropub]: Remove: archive file [/home/abi/fetcher/tmp/micropub-0.1.3.tar.gz]
 [2023-08-09 02:00:26] INFO root fetch - main [MainThread]: End processing [micropub]: success
 [2023-08-09 02:00:26] INFO root fetch - main [MainThread]: Store serial: [19228742]
+[2023-08-09 02:05:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19228742]
+[2023-08-09 02:05:34] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-09 02:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robson-package
+[2023-08-09 02:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BatAnalysis
+[2023-08-09 02:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Carter-Offline
+[2023-08-09 02:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlglot
+[2023-08-09 02:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kolena
+[2023-08-09 02:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchdatasets-nightly
+[2023-08-09 02:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apit212
+[2023-08-09 02:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quivr
+[2023-08-09 02:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kolena-client
+[2023-08-09 02:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mct-nightly
+[2023-08-09 02:05:34] INFO root fetch - processPackages [quivr]: New version: [0.6.1] Old Version: [0.6.0rc2]
+[2023-08-09 02:05:34] INFO root fetch - processPackages [BatAnalysis]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-09 02:05:34] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230808.post358] Old Version: [1.9.0.20230807.post406]
+[2023-08-09 02:05:34] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2023-08-09 02:05:34] INFO root fetch - processPackages [Carter-Offline]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-09 02:05:34] INFO root fetch - processPackages [kolena]: New version: [0.81.0] Old Version: [0.80.1]
+[2023-08-09 02:05:34] WARNING root fetch - processPackages [robson-package]: Skipping, unable to determine old version
+[2023-08-09 02:05:34] INFO root fetch - processPackages [robson-package]: Start processing: SQLAlchemyExample
+[2023-08-09 02:05:34] INFO root fetch - main [MainThread]: End processing [robson-package] error
+[2023-08-09 02:05:34] INFO root fetch - processPackages [kolena-client]: New version: [0.81.0] Old Version: [0.80.1]
+[2023-08-09 02:05:34] INFO root fetch - processPackages [apit212]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-08-09 02:05:34] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1691539373] Old Version: [1691452981]
+[2023-08-09 02:05:34] INFO root fetch - processPackages [Carter-Offline]: Downloading https://files.pythonhosted.org/packages/65/89/3a3eedf3d237111aee07c77589cf8eb699a329c190f7346751f19575e940/Carter-Offline-2.0.8.tar.gz
+[2023-08-09 02:05:34] INFO root fetch - processPackages [quivr]: Downloading https://files.pythonhosted.org/packages/8b/93/2abe76f8b6b1da9114ae824e2b458e41499898c2c4c0dabf0977c8a098ed/quivr-0.6.0rc2.tar.gz
+[2023-08-09 02:05:34] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/20/6b/5034324cd2ac42831b5103037f6a14e518172128c4196b8d01b93dcc76c8/sqlglot-9.0.5.tar.gz
+[2023-08-09 02:05:35] INFO root fetch - processPackages [BatAnalysis]: Downloading https://files.pythonhosted.org/packages/81/f5/10d350cbf91647e907c00735d784d3ac0e8f9a2ae5edbb9c203beb826ea4/BatAnalysis-1.0.1.tar.gz
+[2023-08-09 02:05:35] INFO root fetch - processPackages [SQLAlchemyExample]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-09 02:05:35] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/4a/07/5f8dec944c25b7bc451fda4e89ae1a74614bcd0ba9e5cee1843847f68c1b/torchdatasets-nightly-1691452981.tar.gz
+[2023-08-09 02:05:35] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/2a/4b/cded85164a1c0b8be6fff1bf6fbaf227726aa5fe4f689dd4d665a26415c4/mct-nightly-1.9.0.20230807.post406.tar.gz
+[2023-08-09 02:05:35] INFO root fetch - processPackages [kolena]: Downloading https://files.pythonhosted.org/packages/84/04/dd4d697f96e0ae871a495231ef271c755d34c021786951d56e368399738a/kolena-0.80.1.tar.gz
+[2023-08-09 02:05:35] INFO root fetch - processPackages [apit212]: Downloading https://files.pythonhosted.org/packages/4b/fb/eed9504d0e203c866daa52c71831aced9a75add7914215ad66ae43cab9b1/apit212-1.0.4.tar.gz
+[2023-08-09 02:05:35] INFO root fetch - processPackages [kolena-client]: Downloading https://files.pythonhosted.org/packages/c3/f9/d9fc45e20938b215f96511bc69b7ff2bbe8fe709186ccc8d1e4798ad37da/kolena_client-0.80.1.tar.gz
+[2023-08-09 02:05:35] WARNING root fetch - processPackages [BatAnalysis]: Skipping package: exceeds size limit 49531341>=10485760
+[2023-08-09 02:05:35] INFO root fetch - processPackages [BatAnalysis]: Start processing: jaxkern-nightly
+[2023-08-09 02:05:35] INFO root fetch - main [MainThread]: End processing [BatAnalysis] error
+[2023-08-09 02:05:35] INFO root fetch - processPackages [Carter-Offline]: Downloading https://files.pythonhosted.org/packages/0d/46/517c017c3b166ba73aaff309d3073ec1dc0fddf4cfe42811dd260baa10c0/Carter-Offline-2.0.9.tar.gz
+[2023-08-09 02:05:35] INFO root fetch - processPackages [SQLAlchemyExample]: Downloading https://files.pythonhosted.org/packages/55/90/959c6696c1bd54325124c8ad66368a8ec75dc623cd59ccd7b87152420fdd/SQLAlchemyExample-0.1.8.tar.gz
+[2023-08-09 02:05:35] INFO root fetch - processPackages [quivr]: Downloading https://files.pythonhosted.org/packages/f8/f7/1c06c298b5348c1e5057a2028942d734f23d088bc4a84c212e956076c7c0/quivr-0.6.1.tar.gz
+[2023-08-09 02:05:35] INFO root fetch - processPackages [Carter-Offline]: executing diffoscope
+[2023-08-09 02:05:35] INFO root fetch - processPackages [Carter-Offline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Carter-Offline-2.0.8.tar.gz tmp/Carter-Offline-2.0.9.tar.gz --markdown 20230809/C/Carter-Offline/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-09 02:05:35] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-08-09 02:05:35] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/29/ee/77cf384578fbddcc57b4ff827c9cd298a226615d3d671962071c068a3554/torchdatasets-nightly-1691539373.tar.gz
+[2023-08-09 02:05:35] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/36/2a/e7389a112e1a7cfd1fcc7c7209a0f8f5ffe905ce8aad03f447367dc9b209/sqlglot-9.0.6.tar.gz
+[2023-08-09 02:05:35] INFO root fetch - processPackages [quivr]: executing diffoscope
+[2023-08-09 02:05:35] INFO root fetch - processPackages [quivr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quivr-0.6.0rc2.tar.gz tmp/quivr-0.6.1.tar.gz --markdown 20230809/q/quivr/0.6.0rc2-0.6.1/diff.md --exclude *.pyd
+[2023-08-09 02:05:35] INFO root fetch - processPackages [kolena]: Downloading https://files.pythonhosted.org/packages/81/55/5fa426160e6756ddf81ab924a7b2c5ff3c1b0411fd1e0acbae67b2309661/kolena-0.81.0.tar.gz
+[2023-08-09 02:05:35] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/b1/71/5ac1fb91967c7325bcfa8013ce3197197ca73e72a07659bf2bfb7c8be513/mct-nightly-1.9.0.20230808.post358.tar.gz
+[2023-08-09 02:05:35] INFO root fetch - processPackages [kolena-client]: Downloading https://files.pythonhosted.org/packages/e8/51/5526f3bca55991f72b432079fa418656e72cc6cdd09ed31fa61ce9bf3713/kolena_client-0.81.0.tar.gz
+[2023-08-09 02:05:35] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-08-09 02:05:35] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1691452981.tar.gz tmp/torchdatasets-nightly-1691539373.tar.gz --markdown 20230809/t/torchdatasets-nightly/1691452981-1691539373/diff.md --exclude *.pyd
+[2023-08-09 02:05:35] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2023-08-09 02:05:35] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20230809/s/sqlglot/9.0.5-9.0.6/diff.md --exclude *.pyd
+[2023-08-09 02:05:35] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-08-09 02:05:35] INFO root fetch - processPackages [SQLAlchemyExample]: Downloading https://files.pythonhosted.org/packages/99/86/69c08e1e10888eef50706dff5bb2ab77784d49f027fe33ee1245041e8e3f/SQLAlchemyExample-0.1.9.tar.gz
+[2023-08-09 02:05:35] INFO root fetch - processPackages [apit212]: Downloading https://files.pythonhosted.org/packages/ad/dc/8f1fa551979cac182ee69a74d116bb8a93d0f0e849d0fd57790e2654ec45/apit212-1.0.5.tar.gz
+[2023-08-09 02:05:35] INFO root fetch - processPackages [kolena]: executing diffoscope
+[2023-08-09 02:05:35] INFO root fetch - processPackages [kolena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolena-0.80.1.tar.gz tmp/kolena-0.81.0.tar.gz --markdown 20230809/k/kolena/0.80.1-0.81.0/diff.md --exclude *.pyd
+[2023-08-09 02:05:36] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-08-09 02:05:36] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230807.post406.tar.gz tmp/mct-nightly-1.9.0.20230808.post358.tar.gz --markdown 20230809/m/mct-nightly/1.9.0.20230807.post406-1.9.0.20230808.post358/diff.md --exclude *.pyd
+[2023-08-09 02:05:36] INFO root fetch - processPackages [SQLAlchemyExample]: executing diffoscope
+[2023-08-09 02:05:36] INFO root fetch - processPackages [SQLAlchemyExample]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SQLAlchemyExample-0.1.8.tar.gz tmp/SQLAlchemyExample-0.1.9.tar.gz --markdown 20230809/S/SQLAlchemyExample/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-09 02:05:36] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-08-09 02:05:36] INFO root fetch - processPackages [apit212]: executing diffoscope
+[2023-08-09 02:05:36] INFO root fetch - processPackages [apit212]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apit212-1.0.4.tar.gz tmp/apit212-1.0.5.tar.gz --markdown 20230809/a/apit212/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-08-09 02:05:36] INFO root fetch - processPackages [kolena-client]: executing diffoscope
+[2023-08-09 02:05:36] INFO root fetch - processPackages [kolena-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolena_client-0.80.1.tar.gz tmp/kolena_client-0.81.0.tar.gz --markdown 20230809/k/kolena-client/0.80.1-0.81.0/diff.md --exclude *.pyd
+[2023-08-09 02:05:36] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-08-09 02:05:36] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230809/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-08-09 02:05:36] INFO root fetch - processPackages [Carter-Offline]: Remove: archive file [/home/abi/fetcher/tmp/Carter-Offline-2.0.8.tar.gz]
+[2023-08-09 02:05:36] INFO root fetch - processPackages [Carter-Offline]: Remove: archive file [/home/abi/fetcher/tmp/Carter-Offline-2.0.9.tar.gz]
+[2023-08-09 02:05:36] INFO root fetch - processPackages [Carter-Offline]: Start processing: litellm
+[2023-08-09 02:05:36] INFO root fetch - main [MainThread]: End processing [Carter-Offline]: success
+[2023-08-09 02:05:36] INFO root fetch - processPackages [litellm]: New version: [0.1.363] Old Version: [0.1.362]
+[2023-08-09 02:05:37] INFO root fetch - processPackages [quivr]: Remove: archive file [/home/abi/fetcher/tmp/quivr-0.6.0rc2.tar.gz]
+[2023-08-09 02:05:37] INFO root fetch - processPackages [quivr]: Remove: archive file [/home/abi/fetcher/tmp/quivr-0.6.1.tar.gz]
+[2023-08-09 02:05:37] INFO root fetch - main [MainThread]: End processing [quivr]: success
+[2023-08-09 02:05:37] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/6f/90/cb6db03d7be02c727e91145c48a01df181217ad976bb7815332b736ff31e/litellm-0.1.362.tar.gz
+[2023-08-09 02:05:37] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/0a/03/ba9bc4532040b2782d5ba7d0d1a0733ab479ce214eaf1cb5ccf82a31bb67/litellm-0.1.363.tar.gz
+[2023-08-09 02:05:37] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1691452981.tar.gz]
+[2023-08-09 02:05:37] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1691539373.tar.gz]
+[2023-08-09 02:05:37] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-08-09 02:05:37] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-08-09 02:05:37] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.362.tar.gz tmp/litellm-0.1.363.tar.gz --markdown 20230809/l/litellm/0.1.362-0.1.363/diff.md --exclude *.pyd
+[2023-08-09 02:05:37] INFO root fetch - processPackages [apit212]: Remove: archive file [/home/abi/fetcher/tmp/apit212-1.0.4.tar.gz]
+[2023-08-09 02:05:37] INFO root fetch - processPackages [apit212]: Remove: archive file [/home/abi/fetcher/tmp/apit212-1.0.5.tar.gz]
+[2023-08-09 02:05:37] INFO root fetch - main [MainThread]: End processing [apit212]: success
+[2023-08-09 02:05:37] INFO root fetch - processPackages [SQLAlchemyExample]: Remove: archive file [/home/abi/fetcher/tmp/SQLAlchemyExample-0.1.8.tar.gz]
+[2023-08-09 02:05:37] INFO root fetch - processPackages [SQLAlchemyExample]: Remove: archive file [/home/abi/fetcher/tmp/SQLAlchemyExample-0.1.9.tar.gz]
+[2023-08-09 02:05:37] INFO root fetch - main [MainThread]: End processing [SQLAlchemyExample]: success
+[2023-08-09 02:05:37] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-08-09 02:05:37] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-08-09 02:05:37] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-08-09 02:05:37] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.5.tar.gz]
+[2023-08-09 02:05:37] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.6.tar.gz]
+[2023-08-09 02:05:37] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2023-08-09 02:05:38] INFO root fetch - processPackages [kolena]: Remove: archive file [/home/abi/fetcher/tmp/kolena-0.80.1.tar.gz]
+[2023-08-09 02:05:38] INFO root fetch - processPackages [kolena]: Remove: archive file [/home/abi/fetcher/tmp/kolena-0.81.0.tar.gz]
+[2023-08-09 02:05:38] INFO root fetch - main [MainThread]: End processing [kolena]: success
+[2023-08-09 02:05:38] INFO root fetch - processPackages [kolena-client]: Remove: archive file [/home/abi/fetcher/tmp/kolena_client-0.80.1.tar.gz]
+[2023-08-09 02:05:38] INFO root fetch - processPackages [kolena-client]: Remove: archive file [/home/abi/fetcher/tmp/kolena_client-0.81.0.tar.gz]
+[2023-08-09 02:05:38] INFO root fetch - main [MainThread]: End processing [kolena-client]: success
+[2023-08-09 02:05:38] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.362.tar.gz]
+[2023-08-09 02:05:38] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.363.tar.gz]
+[2023-08-09 02:05:38] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-08-09 02:05:39] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230807.post406.tar.gz]
+[2023-08-09 02:05:39] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230808.post358.tar.gz]
+[2023-08-09 02:05:39] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-08-09 02:05:39] INFO root fetch - main [MainThread]: Store serial: [19228780]
