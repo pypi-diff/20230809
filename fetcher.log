@@ -12265,3 +12265,54 @@
 [2023-08-09 07:12:10] INFO root fetch - main [MainThread]: End processing [myke]: success
 [2023-08-09 07:12:10] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
 [2023-08-09 07:12:10] INFO root fetch - main [MainThread]: Store serial: [19233000]
+[2023-08-09 07:17:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19233000]
+[2023-08-09 07:17:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-09 07:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rmrentryutils
+[2023-08-09 07:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tflite-runtime-nightly
+[2023-08-09 07:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fixreprod
+[2023-08-09 07:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chartsfigures
+[2023-08-09 07:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gdsfactory
+[2023-08-09 07:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: airtest-sd
+[2023-08-09 07:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vialink-utils-logs
+[2023-08-09 07:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cpptypes
+[2023-08-09 07:17:19] WARNING root fetch - processPackages [rmrentryutils]: Skipping, unable to determine old version
+[2023-08-09 07:17:19] INFO root fetch - main [MainThread]: End processing [rmrentryutils] error
+[2023-08-09 07:17:19] INFO root fetch - processPackages [fixreprod]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-09 07:17:19] INFO root fetch - processPackages [fixreprod]: Downloading https://files.pythonhosted.org/packages/b0/05/334f105fb605422bf9cae23ecb2e8bd8d0f42949cc0f9c9d6480dcfcc868/fixreprod-0.0.3.tar.gz
+[2023-08-09 07:17:19] INFO root fetch - processPackages [cpptypes]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-09 07:17:19] WARNING root fetch - processPackages [airtest-sd]: Skipping, unable to determine old version
+[2023-08-09 07:17:19] INFO root fetch - main [MainThread]: End processing [airtest-sd] error
+[2023-08-09 07:17:19] WARNING root fetch - processPackages [chartsfigures]: Skipping, unable to determine old version
+[2023-08-09 07:17:19] INFO root fetch - main [MainThread]: End processing [chartsfigures] error
+[2023-08-09 07:17:19] WARNING root fetch - processPackages [vialink-utils-logs]: Skipping, unable to determine old version
+[2023-08-09 07:17:19] INFO root fetch - main [MainThread]: End processing [vialink-utils-logs] error
+[2023-08-09 07:17:19] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.15.0.dev20230808] Old Version: [2.15.0.dev20230807]
+[2023-08-09 07:17:19] INFO root fetch - processPackages [gdsfactory]: New version: [7.1.4] Old Version: [7.1.3]
+[2023-08-09 07:17:19] INFO root fetch - processPackages [cpptypes]: Downloading https://files.pythonhosted.org/packages/84/9d/c8d08463cdc9bda6acc05131e4148817850e66b2d96ecc80b70c7929c8e9/cpptypes-0.0.2.tar.gz
+[2023-08-09 07:17:20] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/96/02/89043c71f53ccaafcfde4dc197c77b28b7883e27806bfd3100bc07173787/tflite_runtime_nightly-2.15.0.dev20230807-cp39-cp39-manylinux_2_34_armv7l.whl
+[2023-08-09 07:17:20] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/0f/c7/756b8fdeea82de15e1275f7dc8126cb8443c400a00ba9eacd3c4a9e000d4/gdsfactory-7.1.3.tar.gz
+[2023-08-09 07:17:20] INFO root fetch - processPackages [fixreprod]: Downloading https://files.pythonhosted.org/packages/8e/28/03fe7d764c88704b090796828f0c29d4ed49e198b72998daa660b653fb97/fixreprod-0.0.4.tar.gz
+[2023-08-09 07:17:20] INFO root fetch - processPackages [cpptypes]: Downloading https://files.pythonhosted.org/packages/27/cf/e5c0ea358a35485620278f56fc9795f241f10f8e52bc5cb8960428884ce1/cpptypes-0.0.3.tar.gz
+[2023-08-09 07:17:20] INFO root fetch - processPackages [fixreprod]: executing diffoscope
+[2023-08-09 07:17:20] INFO root fetch - processPackages [fixreprod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixreprod-0.0.3.tar.gz tmp/fixreprod-0.0.4.tar.gz --markdown 20230809/f/fixreprod/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-09 07:17:20] INFO root fetch - processPackages [cpptypes]: executing diffoscope
+[2023-08-09 07:17:20] INFO root fetch - processPackages [cpptypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpptypes-0.0.2.tar.gz tmp/cpptypes-0.0.3.tar.gz --markdown 20230809/c/cpptypes/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-09 07:17:20] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/f7/b4/3fcc828f6373ed56e232165339d346ad6b4aa7f5b43bd76e361f11f66118/gdsfactory-7.1.4.tar.gz
+[2023-08-09 07:17:20] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/1c/a7/4492028c3e10bbc1b177f4e62e1239cf5a9e2d08f1d6c7f279b126a15544/tflite_runtime_nightly-2.15.0.dev20230808-cp39-cp39-manylinux_2_34_armv7l.whl
+[2023-08-09 07:17:20] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2023-08-09 07:17:20] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-7.1.3.tar.gz tmp/gdsfactory-7.1.4.tar.gz --markdown 20230809/g/gdsfactory/7.1.3-7.1.4/diff.md --exclude *.pyd
+[2023-08-09 07:17:21] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-08-09 07:17:21] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230809:/home/abi/fetcher/20230809:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.15.0.dev20230807-cp39-cp39-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.15.0.dev20230808-cp39-cp39-manylinux_2_34_armv7l.whl.zip --markdown 20230809/t/tflite-runtime-nightly/2.15.0.dev20230807-2.15.0.dev20230808/diff.md --exclude *.pyd
+[2023-08-09 07:17:21] INFO root fetch - processPackages [fixreprod]: Remove: archive file [/home/abi/fetcher/tmp/fixreprod-0.0.3.tar.gz]
+[2023-08-09 07:17:21] INFO root fetch - processPackages [fixreprod]: Remove: archive file [/home/abi/fetcher/tmp/fixreprod-0.0.4.tar.gz]
+[2023-08-09 07:17:21] INFO root fetch - main [MainThread]: End processing [fixreprod]: success
+[2023-08-09 07:17:21] INFO root fetch - processPackages [cpptypes]: Remove: archive file [/home/abi/fetcher/tmp/cpptypes-0.0.2.tar.gz]
+[2023-08-09 07:17:21] INFO root fetch - processPackages [cpptypes]: Remove: archive file [/home/abi/fetcher/tmp/cpptypes-0.0.3.tar.gz]
+[2023-08-09 07:17:21] INFO root fetch - main [MainThread]: End processing [cpptypes]: success
+[2023-08-09 07:17:23] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-7.1.3.tar.gz]
+[2023-08-09 07:17:23] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-7.1.4.tar.gz]
+[2023-08-09 07:17:23] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2023-08-09 07:17:36] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.15.0.dev20230807-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2023-08-09 07:17:36] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.15.0.dev20230808-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2023-08-09 07:17:36] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-08-09 07:17:36] INFO root fetch - main [MainThread]: Store serial: [19233041]
